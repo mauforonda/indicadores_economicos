@@ -20,7 +20,7 @@ import pandas as pd
 DATASET = "andreschirinos/p2p-bob-exchange"
 ARCHIVO_FUENTE = "advice.parquet"
 PROPORCION_TRAMO_COMPETITIVO = 0.10
-DIAS_SPARKLINE = 7
+DIAS_SPARKLINE = 90
 RUTA_BASE = Path(__file__).resolve().parent
 DIRECTORIO_SALIDA = RUTA_BASE / "datos"
 COLUMNAS = [
