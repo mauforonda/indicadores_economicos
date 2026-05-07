@@ -157,9 +157,7 @@ def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
         )
 
     resultado = pd.DataFrame(filas)
-    dias_cerrados = resultado.loc[~resultado["es_dia_actual"]].tail(
-        DIAS_SPARKLINE - 1
-    )
+    dias_cerrados = resultado.loc[~resultado["es_dia_actual"]].tail(DIAS_SPARKLINE - 1)
     dia_en_curso = resultado.loc[resultado["es_dia_actual"]].copy()
     if not dia_en_curso.empty:
         dia_en_curso.loc[:, "fecha"] = dia_en_curso["timestamp_reciente"]
@@ -172,16 +170,14 @@ def exportar_metrica(tabla: pd.DataFrame, lado: str, metrica: str) -> Path:
     salida = tabla[["fecha", metrica]].rename(columns={metrica: "valor"}).copy()
     salida["fecha"] = pd.to_datetime(salida["fecha"]).dt.strftime("%Y-%m-%dT%H:%M:%S")
     ruta = DIRECTORIO_SALIDA / f"binance_{lado}_{metrica}.csv"
-    salida.to_csv(ruta, index=False)
+    salida.to_csv(ruta, float_format="%.3f", index=False)
     return ruta
 
 
 def main() -> None:
     """Ejecuta la actualizacion completa de tablas base y CSV compactos."""
     ruta_parquet = descargar_parquet_fuente()
-    tablas = {
-        lado: cargar_tabla_lado(ruta_parquet, lado) for lado in ("buy", "sell")
-    }
+    tablas = {lado: cargar_tabla_lado(ruta_parquet, lado) for lado in ("buy", "sell")}
     guardar_tablas_base(tablas)
 
     rutas_exportadas: list[Path] = []
