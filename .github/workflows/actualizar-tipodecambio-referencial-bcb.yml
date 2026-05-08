@@ -1,0 +1,44 @@
+name: Actualizar Tipo De Cambio Referencial BCB
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,14,16,18,20,22 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-referencial-bcb:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: python -m pip install --upgrade pip && pip install pandas
+
+      - name: Actualizar datos referenciales del BCB
+        run: python tipodecambio/actualizar_referencial.py
+
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit y push de CSV
+        run: |
+          git add tipodecambio/datos/referencial_bcb_*.csv
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los CSV"
+            exit 0
+          fi
+          git commit -m "Actualizar tipo de cambio: referencial BCB"
+          git push
