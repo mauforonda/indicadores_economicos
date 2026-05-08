@@ -38,12 +38,12 @@ def obtener_fecha_inicio_binance() -> pd.Timestamp:
     """Lee la fecha mas temprana disponible en una serie local de Binance."""
     tabla = pd.read_csv(RUTA_SERIE_BINANCE_REFERENCIA)
     tabla["fecha"] = pd.to_datetime(tabla["fecha"])
-    return tabla["fecha"].min().normalize()
+    return tabla["fecha"].dt.tz_localize(None).min().normalize()
 
 
 def construir_serie_corta(tabla: pd.DataFrame, fecha_inicio: pd.Timestamp) -> pd.DataFrame:
     """Filtra la serie desde la fecha inicial de Binance y normaliza columnas."""
-    serie = tabla.loc[tabla["timestamp"] >= fecha_inicio].copy()
+    serie = tabla.loc[tabla["timestamp"].dt.normalize() >= fecha_inicio].copy()
     serie["timestamp"] = serie["timestamp"].dt.strftime("%Y-%m-%d")
     return serie.rename(columns={"timestamp": "fecha", "value": "valor"})[
         ["fecha", "valor"]
