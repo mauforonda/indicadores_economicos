@@ -6,7 +6,8 @@ El flujo es:
 1. Descarga la ultima version de ``advice.parquet`` desde Kaggle.
 2. Filtra USDT/BOB y corrige la inversion BUY/SELL del dataset original.
 3. Guarda tablas base en parquet para inspeccion local.
-4. Exporta seis CSV compactos ``fecha,valor`` para dashboard.
+4. Agrega a resolucion diaria usando hora Bolivia.
+5. Exporta series de precios y estructura para dashboard.
 """
 
 from __future__ import annotations
@@ -21,6 +22,7 @@ DATASET = "andreschirinos/p2p-bob-exchange"
 ARCHIVO_FUENTE = "advice.parquet"
 PROPORCION_TRAMO_COMPETITIVO = 0.10
 DIAS_SPARKLINE = 90
+ZONA_HORARIA_BOLIVIA = "America/La_Paz"
 RUTA_BASE = Path(__file__).resolve().parent
 DIRECTORIO_SALIDA = RUTA_BASE / "datos"
 COLUMNAS = [
@@ -40,7 +42,7 @@ MAPEO_LADOS = {
     "buy": "SELL",
     "sell": "BUY",
 }
-METRICAS = [
+METRICAS_PRECIO = [
     "precio_competitivo",
     "precio_profundidad",
     "precio_transado_estimado",
@@ -75,9 +77,32 @@ def guardar_tablas_base(tablas: dict[str, pd.DataFrame]) -> None:
     tablas["sell"].to_parquet(DIRECTORIO_SALIDA / "sell.parquet", index=False)
 
 
-def calcular_vwap(tabla: pd.DataFrame) -> float | None:
-    """Calcula el precio promedio ponderado por monto ofertado."""
-    pesos = tabla["tradablequantity"]
+def agregar_fecha_bolivia(tabla: pd.DataFrame) -> pd.DataFrame:
+    """Anota el timestamp en hora Bolivia y la fecha local correspondiente."""
+    tabla = tabla.copy()
+    tabla["timestamp_bolivia"] = (
+        tabla["timestamp"].dt.tz_localize("UTC").dt.tz_convert(ZONA_HORARIA_BOLIVIA)
+    )
+    tabla["fecha_bolivia"] = tabla["timestamp_bolivia"].dt.normalize().dt.tz_localize(
+        None
+    )
+    return tabla
+
+
+def recortar_a_ventana_reciente(tabla: pd.DataFrame, columna_fecha: str) -> pd.DataFrame:
+    """Reduce la tabla a los ultimos 90 dias con datos."""
+    dias = (
+        tabla[columna_fecha]
+        .drop_duplicates()
+        .sort_values()
+        .tail(DIAS_SPARKLINE)
+    )
+    return tabla[tabla[columna_fecha].isin(dias)].copy()
+
+
+def calcular_vwap(tabla: pd.DataFrame, columna_monto: str) -> float | None:
+    """Calcula el precio promedio ponderado por monto."""
+    pesos = tabla[columna_monto]
     total = pesos.sum()
     if total == 0:
         return None
@@ -100,8 +125,8 @@ def obtener_tramo_competitivo(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
     return tabla[tabla["price"] >= cuantila]
 
 
-def calcular_vwap_transado(tabla: pd.DataFrame) -> float | None:
-    """Estima precio transado a partir de caidas en montos entre snapshots."""
+def construir_eventos_transados(tabla: pd.DataFrame) -> pd.DataFrame:
+    """Construye eventos de monto probablemente tranzado por snapshot."""
     montos = tabla.pivot_table(
         index="timestamp",
         columns="advertiser_userno",
@@ -115,61 +140,123 @@ def calcular_vwap_transado(tabla: pd.DataFrame) -> float | None:
         aggfunc="last",
     ).sort_index()
     pesos = (-montos.diff()).clip(lower=0)
-    total = pesos.sum().sum()
-    if total == 0:
-        return None
-    return float((pesos * precios).sum().sum() / total)
-
-
-def recortar_a_ventana_reciente(tabla: pd.DataFrame) -> pd.DataFrame:
-    """Reduce el calculo a los ultimos siete dias con datos."""
-    dias = (
-        tabla["timestamp"]
-        .dt.normalize()
-        .drop_duplicates()
-        .sort_values()
-        .tail(DIAS_SPARKLINE)
+    eventos = (
+        pesos.stack()
+        .rename("monto_probablemente_tranzado")
+        .reset_index()
+        .query("monto_probablemente_tranzado > 0")
     )
-    return tabla[tabla["timestamp"].dt.normalize().isin(dias)].copy()
+    precios_largos = precios.stack().rename("price").reset_index()
+    eventos = eventos.merge(precios_largos, on=["timestamp", "advertiser_userno"])
+    return agregar_fecha_bolivia(eventos)
 
 
 def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
-    """Construye las tres metricas diarias para el sparkline.
+    """Construye las tres metricas diarias de precios en hora Bolivia."""
+    tabla = agregar_fecha_bolivia(tabla)
+    eventos_transados = construir_eventos_transados(tabla)
 
-    Los dias cerrados usan agregacion diaria completa.
-    El ultimo punto usa el timestamp mas reciente del dia en curso.
-    """
-    tabla = recortar_a_ventana_reciente(tabla)
-    dia_actual = tabla["timestamp"].max().date()
+    tabla = recortar_a_ventana_reciente(tabla, "fecha_bolivia")
+    eventos_transados = recortar_a_ventana_reciente(
+        eventos_transados, "fecha_bolivia"
+    )
+
     filas = []
-
-    for dia, grupo in tabla.groupby(tabla["timestamp"].dt.date):
+    for fecha, grupo in tabla.groupby("fecha_bolivia"):
         tramo_competitivo = obtener_tramo_competitivo(grupo, lado)
+        grupo_transado = eventos_transados.loc[eventos_transados["fecha_bolivia"] == fecha]
+        precio_transado = None
+        if not grupo_transado.empty:
+            precio_transado = calcular_vwap(
+                grupo_transado, "monto_probablemente_tranzado"
+            )
         filas.append(
             {
-                "fecha": pd.Timestamp(dia),
-                "precio_competitivo": calcular_vwap(tramo_competitivo),
-                "precio_profundidad": calcular_vwap(grupo),
-                "precio_transado_estimado": calcular_vwap_transado(grupo),
-                "es_dia_actual": dia == dia_actual,
-                "timestamp_reciente": grupo["timestamp"].max(),
+                "fecha": fecha,
+                "precio_competitivo": calcular_vwap(
+                    tramo_competitivo, "tradablequantity"
+                ),
+                "precio_profundidad": calcular_vwap(grupo, "tradablequantity"),
+                "precio_transado_estimado": precio_transado,
             }
         )
 
-    resultado = pd.DataFrame(filas)
-    dias_cerrados = resultado.loc[~resultado["es_dia_actual"]].tail(DIAS_SPARKLINE - 1)
-    dia_en_curso = resultado.loc[resultado["es_dia_actual"]].copy()
-    if not dia_en_curso.empty:
-        dia_en_curso.loc[:, "fecha"] = dia_en_curso["timestamp_reciente"]
-    serie_compacta = pd.concat([dias_cerrados, dia_en_curso], ignore_index=True)
-    return serie_compacta[["fecha", *METRICAS]]
+    return pd.DataFrame(filas)[["fecha", *METRICAS_PRECIO]]
 
 
-def exportar_metrica(tabla: pd.DataFrame, lado: str, metrica: str) -> Path:
-    """Exporta una metrica a CSV con formato estricto ``fecha,valor``."""
+def resumir_estructura_oferta(tabla: pd.DataFrame) -> pd.DataFrame:
+    """Resume liquidez y concentracion diaria del total de ofertas."""
+    snapshots = (
+        tabla.groupby(["timestamp", "advertiser_userno"], as_index=False)["tradablequantity"]
+        .last()
+    )
+    snapshots = agregar_fecha_bolivia(snapshots)
+    snapshots = recortar_a_ventana_reciente(snapshots, "fecha_bolivia")
+
+    filas = []
+    for _, grupo in snapshots.groupby("timestamp"):
+        grupo = grupo.sort_values("tradablequantity", ascending=False)
+        total = grupo["tradablequantity"].sum()
+        top_5 = float(grupo["tradablequantity"].head(5).sum())
+        filas.append(
+            {
+                "fecha": grupo["fecha_bolivia"].iloc[0],
+                "total": total,
+                "top_5": top_5,
+            }
+        )
+
+    estructura = pd.DataFrame(filas)
+    return (
+        estructura.groupby("fecha", as_index=False)
+        .agg(total=("total", "mean"), top_5=("top_5", "mean"))
+        .sort_values("fecha")
+        .reset_index(drop=True)
+    )
+
+
+def resumir_estructura_tranzado(tabla: pd.DataFrame) -> pd.DataFrame:
+    """Resume liquidez y concentracion diaria del tranzado estimado."""
+    eventos = recortar_a_ventana_reciente(
+        construir_eventos_transados(tabla), "fecha_bolivia"
+    )
+
+    filas = []
+    for _, grupo in eventos.groupby("timestamp"):
+        grupo = grupo.sort_values("monto_probablemente_tranzado", ascending=False)
+        total = grupo["monto_probablemente_tranzado"].sum()
+        top_5 = float(grupo["monto_probablemente_tranzado"].head(5).sum())
+        filas.append(
+            {
+                "fecha": grupo["fecha_bolivia"].iloc[0],
+                "total": total,
+                "top_5": top_5,
+            }
+        )
+
+    estructura = pd.DataFrame(filas)
+    return (
+        estructura.groupby("fecha", as_index=False)
+        .agg(total=("total", "mean"), top_5=("top_5", "mean"))
+        .sort_values("fecha")
+        .reset_index(drop=True)
+    )
+
+
+def exportar_metrica_precio(tabla: pd.DataFrame, lado: str, metrica: str) -> Path:
+    """Exporta una metrica de precio a CSV con formato ``fecha,valor``."""
     salida = tabla[["fecha", metrica]].rename(columns={metrica: "valor"}).copy()
-    salida["fecha"] = pd.to_datetime(salida["fecha"]).dt.strftime("%Y-%m-%dT%H:%M:%S")
+    salida["fecha"] = pd.to_datetime(salida["fecha"]).dt.strftime("%Y-%m-%d")
     ruta = DIRECTORIO_SALIDA / f"binance_{lado}_{metrica}.csv"
+    salida.to_csv(ruta, float_format="%.3f", index=False)
+    return ruta
+
+
+def exportar_estructura(tabla: pd.DataFrame, tipo: str, lado: str) -> Path:
+    """Exporta una serie diaria de estructura con columnas fecha,total,top_5."""
+    salida = tabla.copy()
+    salida["fecha"] = pd.to_datetime(salida["fecha"]).dt.strftime("%Y-%m-%d")
+    ruta = DIRECTORIO_SALIDA / f"binance_estructura_{tipo}_{lado}.csv"
     salida.to_csv(ruta, float_format="%.3f", index=False)
     return ruta
 
@@ -177,14 +264,22 @@ def exportar_metrica(tabla: pd.DataFrame, lado: str, metrica: str) -> Path:
 def main() -> None:
     """Ejecuta la actualizacion completa de tablas base y CSV compactos."""
     ruta_parquet = descargar_parquet_fuente()
-    tablas = {lado: cargar_tabla_lado(ruta_parquet, lado) for lado in ("buy", "sell")}
+    tablas = {
+        lado: cargar_tabla_lado(ruta_parquet, lado) for lado in ("buy", "sell")
+    }
     guardar_tablas_base(tablas)
 
     rutas_exportadas: list[Path] = []
     for lado, tabla in tablas.items():
         serie_compacta = construir_metricas_diarias(tabla, lado)
-        for metrica in METRICAS:
-            rutas_exportadas.append(exportar_metrica(serie_compacta, lado, metrica))
+        for metrica in METRICAS_PRECIO:
+            rutas_exportadas.append(exportar_metrica_precio(serie_compacta, lado, metrica))
+        rutas_exportadas.append(
+            exportar_estructura(resumir_estructura_oferta(tabla), "oferta", lado)
+        )
+        rutas_exportadas.append(
+            exportar_estructura(resumir_estructura_tranzado(tabla), "tranzado", lado)
+        )
 
     for ruta in rutas_exportadas:
         print(ruta)
