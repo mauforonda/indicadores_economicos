@@ -89,6 +89,15 @@ def agregar_fecha_bolivia(tabla: pd.DataFrame) -> pd.DataFrame:
     return tabla
 
 
+def formatear_fecha_salida(serie: pd.Series) -> pd.Series:
+    """Formatea timestamps timezone-aware en ISO 8601 para consumo en JS."""
+    return pd.to_datetime(serie).dt.strftime("%Y-%m-%dT%H:%M:%S%z").str.replace(
+        r"([+-]\d{2})(\d{2})$",
+        r"\1:\2",
+        regex=True,
+    )
+
+
 def recortar_a_ventana_reciente(tabla: pd.DataFrame, columna_fecha: str) -> pd.DataFrame:
     """Reduce la tabla a los ultimos 90 dias con datos."""
     dias = (
@@ -162,9 +171,19 @@ def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
     )
 
     filas = []
+    fecha_actual = tabla["fecha_bolivia"].max()
+    ultimo_timestamp = tabla["timestamp_bolivia"].max()
     for fecha, grupo in tabla.groupby("fecha_bolivia"):
+        es_dia_actual = fecha == fecha_actual
+        if es_dia_actual:
+            timestamp_final = grupo["timestamp_bolivia"].max()
+            grupo = grupo.loc[grupo["timestamp_bolivia"] == timestamp_final].copy()
         tramo_competitivo = obtener_tramo_competitivo(grupo, lado)
         grupo_transado = eventos_transados.loc[eventos_transados["fecha_bolivia"] == fecha]
+        if es_dia_actual and not grupo_transado.empty:
+            grupo_transado = grupo_transado.loc[
+                grupo_transado["timestamp_bolivia"] == grupo_transado["timestamp_bolivia"].max()
+            ].copy()
         precio_transado = None
         if not grupo_transado.empty:
             precio_transado = calcular_vwap(
@@ -172,7 +191,7 @@ def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
             )
         filas.append(
             {
-                "fecha": fecha,
+                "fecha": ultimo_timestamp if es_dia_actual else fecha.tz_localize(ZONA_HORARIA_BOLIVIA),
                 "precio_competitivo": calcular_vwap(
                     tramo_competitivo, "tradablequantity"
                 ),
@@ -201,18 +220,29 @@ def resumir_estructura_oferta(tabla: pd.DataFrame) -> pd.DataFrame:
         filas.append(
             {
                 "fecha": grupo["fecha_bolivia"].iloc[0],
+                "timestamp_bolivia": grupo["timestamp_bolivia"].iloc[0],
                 "total": total,
                 "top_5": top_5,
             }
         )
 
     estructura = pd.DataFrame(filas)
-    return (
-        estructura.groupby("fecha", as_index=False)
-        .agg(total=("total", "mean"), top_5=("top_5", "mean"))
-        .sort_values("fecha")
-        .reset_index(drop=True)
-    )
+    fecha_actual = estructura["fecha"].max()
+    filas_diarias = []
+    for fecha, grupo in estructura.groupby("fecha"):
+        es_dia_actual = fecha == fecha_actual
+        if es_dia_actual:
+            grupo = grupo.loc[grupo["timestamp_bolivia"] == grupo["timestamp_bolivia"].max()].copy()
+        filas_diarias.append(
+            {
+                "fecha": grupo["timestamp_bolivia"].iloc[0]
+                if es_dia_actual
+                else fecha.tz_localize(ZONA_HORARIA_BOLIVIA),
+                "total": grupo["total"].mean(),
+                "top_5": grupo["top_5"].mean(),
+            }
+        )
+    return pd.DataFrame(filas_diarias).sort_values("fecha").reset_index(drop=True)
 
 
 def resumir_estructura_tranzado(tabla: pd.DataFrame) -> pd.DataFrame:
@@ -229,24 +259,35 @@ def resumir_estructura_tranzado(tabla: pd.DataFrame) -> pd.DataFrame:
         filas.append(
             {
                 "fecha": grupo["fecha_bolivia"].iloc[0],
+                "timestamp_bolivia": grupo["timestamp_bolivia"].iloc[0],
                 "total": total,
                 "top_5": top_5,
             }
         )
 
     estructura = pd.DataFrame(filas)
-    return (
-        estructura.groupby("fecha", as_index=False)
-        .agg(total=("total", "mean"), top_5=("top_5", "mean"))
-        .sort_values("fecha")
-        .reset_index(drop=True)
-    )
+    fecha_actual = estructura["fecha"].max()
+    filas_diarias = []
+    for fecha, grupo in estructura.groupby("fecha"):
+        es_dia_actual = fecha == fecha_actual
+        if es_dia_actual:
+            grupo = grupo.loc[grupo["timestamp_bolivia"] == grupo["timestamp_bolivia"].max()].copy()
+        filas_diarias.append(
+            {
+                "fecha": grupo["timestamp_bolivia"].iloc[0]
+                if es_dia_actual
+                else fecha.tz_localize(ZONA_HORARIA_BOLIVIA),
+                "total": grupo["total"].mean(),
+                "top_5": grupo["top_5"].mean(),
+            }
+        )
+    return pd.DataFrame(filas_diarias).sort_values("fecha").reset_index(drop=True)
 
 
 def exportar_metrica_precio(tabla: pd.DataFrame, lado: str, metrica: str) -> Path:
     """Exporta una metrica de precio a CSV con formato ``fecha,valor``."""
     salida = tabla[["fecha", metrica]].rename(columns={metrica: "valor"}).copy()
-    salida["fecha"] = pd.to_datetime(salida["fecha"]).dt.strftime("%Y-%m-%d")
+    salida["fecha"] = formatear_fecha_salida(salida["fecha"])
     ruta = DIRECTORIO_SALIDA / f"binance_{lado}_{metrica}.csv"
     salida.to_csv(ruta, float_format="%.3f", index=False)
     return ruta
@@ -255,7 +296,7 @@ def exportar_metrica_precio(tabla: pd.DataFrame, lado: str, metrica: str) -> Pat
 def exportar_estructura(tabla: pd.DataFrame, tipo: str, lado: str) -> Path:
     """Exporta una serie diaria de estructura con columnas fecha,total,top_5."""
     salida = tabla.copy()
-    salida["fecha"] = pd.to_datetime(salida["fecha"]).dt.strftime("%Y-%m-%d")
+    salida["fecha"] = formatear_fecha_salida(salida["fecha"])
     ruta = DIRECTORIO_SALIDA / f"binance_estructura_{tipo}_{lado}.csv"
     salida.to_csv(ruta, float_format="%.3f", index=False)
     return ruta
