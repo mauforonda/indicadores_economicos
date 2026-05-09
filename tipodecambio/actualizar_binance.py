@@ -6,7 +6,7 @@ El flujo es:
 1. Descarga la ultima version de ``advice.parquet`` desde Kaggle.
 2. Filtra USDT/BOB y corrige la inversion BUY/SELL del dataset original.
 3. Guarda tablas base en parquet para inspeccion local.
-4. Agrega a resolucion diaria usando hora Bolivia.
+4. Agrega a resolucion de 6 horas usando hora Bolivia.
 5. Exporta series de precios y estructura para dashboard.
 """
 
@@ -22,6 +22,7 @@ DATASET = "andreschirinos/p2p-bob-exchange"
 ARCHIVO_FUENTE = "advice.parquet"
 PROPORCION_TRAMO_COMPETITIVO = 0.10
 DIAS_SPARKLINE = 90
+HORAS_BLOQUE = 6
 ZONA_HORARIA_BOLIVIA = "America/La_Paz"
 RUTA_BASE = Path(__file__).resolve().parent
 DIRECTORIO_SALIDA = RUTA_BASE / "datos"
@@ -29,6 +30,7 @@ COLUMNAS = [
     "timestamp",
     "asset",
     "tradetype",
+    "advno",
     "fiatunit",
     "price",
     "tradablequantity",
@@ -86,6 +88,7 @@ def agregar_fecha_bolivia(tabla: pd.DataFrame) -> pd.DataFrame:
     tabla["fecha_bolivia"] = tabla["timestamp_bolivia"].dt.normalize().dt.tz_localize(
         None
     )
+    tabla["bloque_6h_bolivia"] = tabla["timestamp_bolivia"].dt.floor(f"{HORAS_BLOQUE}h")
     return tabla
 
 
@@ -138,13 +141,13 @@ def construir_eventos_transados(tabla: pd.DataFrame) -> pd.DataFrame:
     """Construye eventos de monto probablemente tranzado por snapshot."""
     montos = tabla.pivot_table(
         index="timestamp",
-        columns="advertiser_userno",
+        columns="advno",
         values="tradablequantity",
         aggfunc="last",
     ).sort_index()
     precios = tabla.pivot_table(
         index="timestamp",
-        columns="advertiser_userno",
+        columns="advno",
         values="price",
         aggfunc="last",
     ).sort_index()
@@ -156,12 +159,12 @@ def construir_eventos_transados(tabla: pd.DataFrame) -> pd.DataFrame:
         .query("monto_probablemente_tranzado > 0")
     )
     precios_largos = precios.stack().rename("price").reset_index()
-    eventos = eventos.merge(precios_largos, on=["timestamp", "advertiser_userno"])
+    eventos = eventos.merge(precios_largos, on=["timestamp", "advno"])
     return agregar_fecha_bolivia(eventos)
 
 
 def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
-    """Construye las tres metricas diarias de precios en hora Bolivia."""
+    """Construye las tres metricas de precios por bloque de 6 horas."""
     tabla = agregar_fecha_bolivia(tabla)
     eventos_transados = construir_eventos_transados(tabla)
 
@@ -171,16 +174,17 @@ def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
     )
 
     filas = []
-    fecha_actual = tabla["fecha_bolivia"].max()
-    ultimo_timestamp = tabla["timestamp_bolivia"].max()
-    for fecha, grupo in tabla.groupby("fecha_bolivia"):
-        es_dia_actual = fecha == fecha_actual
-        if es_dia_actual:
+    bloque_actual = tabla["bloque_6h_bolivia"].max()
+    for bloque, grupo in tabla.groupby("bloque_6h_bolivia"):
+        es_bloque_actual = bloque == bloque_actual
+        if es_bloque_actual:
             timestamp_final = grupo["timestamp_bolivia"].max()
             grupo = grupo.loc[grupo["timestamp_bolivia"] == timestamp_final].copy()
         tramo_competitivo = obtener_tramo_competitivo(grupo, lado)
-        grupo_transado = eventos_transados.loc[eventos_transados["fecha_bolivia"] == fecha]
-        if es_dia_actual and not grupo_transado.empty:
+        grupo_transado = eventos_transados.loc[
+            eventos_transados["bloque_6h_bolivia"] == bloque
+        ]
+        if es_bloque_actual and not grupo_transado.empty:
             grupo_transado = grupo_transado.loc[
                 grupo_transado["timestamp_bolivia"] == grupo_transado["timestamp_bolivia"].max()
             ].copy()
@@ -191,7 +195,7 @@ def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
             )
         filas.append(
             {
-                "fecha": ultimo_timestamp if es_dia_actual else fecha.tz_localize(ZONA_HORARIA_BOLIVIA),
+                "fecha": timestamp_final if es_bloque_actual else bloque,
                 "precio_competitivo": calcular_vwap(
                     tramo_competitivo, "tradablequantity"
                 ),
@@ -204,9 +208,9 @@ def construir_metricas_diarias(tabla: pd.DataFrame, lado: str) -> pd.DataFrame:
 
 
 def resumir_estructura_oferta(tabla: pd.DataFrame) -> pd.DataFrame:
-    """Resume liquidez y concentracion diaria del total de ofertas."""
+    """Resume liquidez y concentracion por bloque de 6 horas del total de ofertas."""
     snapshots = (
-        tabla.groupby(["timestamp", "advertiser_userno"], as_index=False)["tradablequantity"]
+        tabla.groupby(["timestamp", "advno"], as_index=False)["tradablequantity"]
         .last()
     )
     snapshots = agregar_fecha_bolivia(snapshots)
@@ -219,7 +223,7 @@ def resumir_estructura_oferta(tabla: pd.DataFrame) -> pd.DataFrame:
         top_5 = float(grupo["tradablequantity"].head(5).sum())
         filas.append(
             {
-                "fecha": grupo["fecha_bolivia"].iloc[0],
+                "bloque_6h_bolivia": grupo["bloque_6h_bolivia"].iloc[0],
                 "timestamp_bolivia": grupo["timestamp_bolivia"].iloc[0],
                 "total": total,
                 "top_5": top_5,
@@ -227,17 +231,17 @@ def resumir_estructura_oferta(tabla: pd.DataFrame) -> pd.DataFrame:
         )
 
     estructura = pd.DataFrame(filas)
-    fecha_actual = estructura["fecha"].max()
+    bloque_actual = estructura["bloque_6h_bolivia"].max()
     filas_diarias = []
-    for fecha, grupo in estructura.groupby("fecha"):
-        es_dia_actual = fecha == fecha_actual
-        if es_dia_actual:
+    for bloque, grupo in estructura.groupby("bloque_6h_bolivia"):
+        es_bloque_actual = bloque == bloque_actual
+        if es_bloque_actual:
             grupo = grupo.loc[grupo["timestamp_bolivia"] == grupo["timestamp_bolivia"].max()].copy()
         filas_diarias.append(
             {
                 "fecha": grupo["timestamp_bolivia"].iloc[0]
-                if es_dia_actual
-                else fecha.tz_localize(ZONA_HORARIA_BOLIVIA),
+                if es_bloque_actual
+                else bloque,
                 "total": grupo["total"].mean(),
                 "top_5": grupo["top_5"].mean(),
             }
@@ -246,7 +250,7 @@ def resumir_estructura_oferta(tabla: pd.DataFrame) -> pd.DataFrame:
 
 
 def resumir_estructura_tranzado(tabla: pd.DataFrame) -> pd.DataFrame:
-    """Resume liquidez y concentracion diaria del tranzado estimado."""
+    """Resume liquidez y concentracion por bloque de 6 horas del tranzado estimado."""
     eventos = recortar_a_ventana_reciente(
         construir_eventos_transados(tabla), "fecha_bolivia"
     )
@@ -258,7 +262,7 @@ def resumir_estructura_tranzado(tabla: pd.DataFrame) -> pd.DataFrame:
         top_5 = float(grupo["monto_probablemente_tranzado"].head(5).sum())
         filas.append(
             {
-                "fecha": grupo["fecha_bolivia"].iloc[0],
+                "bloque_6h_bolivia": grupo["bloque_6h_bolivia"].iloc[0],
                 "timestamp_bolivia": grupo["timestamp_bolivia"].iloc[0],
                 "total": total,
                 "top_5": top_5,
@@ -266,17 +270,17 @@ def resumir_estructura_tranzado(tabla: pd.DataFrame) -> pd.DataFrame:
         )
 
     estructura = pd.DataFrame(filas)
-    fecha_actual = estructura["fecha"].max()
+    bloque_actual = estructura["bloque_6h_bolivia"].max()
     filas_diarias = []
-    for fecha, grupo in estructura.groupby("fecha"):
-        es_dia_actual = fecha == fecha_actual
-        if es_dia_actual:
+    for bloque, grupo in estructura.groupby("bloque_6h_bolivia"):
+        es_bloque_actual = bloque == bloque_actual
+        if es_bloque_actual:
             grupo = grupo.loc[grupo["timestamp_bolivia"] == grupo["timestamp_bolivia"].max()].copy()
         filas_diarias.append(
             {
                 "fecha": grupo["timestamp_bolivia"].iloc[0]
-                if es_dia_actual
-                else fecha.tz_localize(ZONA_HORARIA_BOLIVIA),
+                if es_bloque_actual
+                else bloque,
                 "total": grupo["total"].mean(),
                 "top_5": grupo["top_5"].mean(),
             }
