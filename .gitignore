@@ -1,2 +1,9 @@
 tipodecambio/*.parquet
 tipodecambio/datos/*.parquet
+__pycache__/
+tipodecambio/__pycache__/
+*.log
+tipodecambio/datos/*.log
+tipodecambio/datos/binance_csv_*/
+tipodecambio/datos/binance_zip_*/
+tipodecambio/datos/binance_historico_muestras
