@@ -1,19 +1,27 @@
-name: Actualizar Tipo De Cambio Binance
+name: Actualizar Inflacion INE IPC
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 16 * * 1-5"
 
 permissions:
   contents: write
 
 jobs:
-  actualizar-binance:
+  actualizar-ine-ipc:
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
+      - name: Validar ventana de actualizacion
+        run: |
+          dia_mes="$(date -u +%d)"
+          if [ "$dia_mes" -lt 1 ] || [ "$dia_mes" -gt 14 ]; then
+            echo "Fuera de la ventana 1-14 del mes; no se actualiza."
+            exit 0
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -22,13 +30,13 @@ jobs:
         with:
           python-version: "3.12"
           cache: "pip"
-          cache-dependency-path: tipodecambio/requirements.txt
+          cache-dependency-path: inflacion/requirements.txt
 
       - name: Instalar dependencias
-        run: python -m pip install --upgrade pip && pip install -r tipodecambio/requirements.txt
+        run: python -m pip install --upgrade pip && pip install -r inflacion/requirements.txt
 
-      - name: Actualizar datos de Binance
-        run: python tipodecambio/actualizar_binance.py
+      - name: Actualizar indicadores IPC
+        run: python inflacion/ine_ipc.py
 
       - name: Configurar Git
         run: |
@@ -37,10 +45,10 @@ jobs:
 
       - name: Commit y push de CSV
         run: |
-          git add tipodecambio/datos/binance_*.csv
+          git add inflacion/datos/ine_ipc_general.csv inflacion/datos/ine_ipc_divisiones.csv
           if git diff --cached --quiet; then
             echo "Sin cambios en los CSV"
             exit 0
           fi
-          git commit -m "Actualizar tipo de cambio: Binance"
+          git commit -m "Actualizar inflacion: INE IPC"
           git push
