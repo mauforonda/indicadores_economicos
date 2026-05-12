@@ -3,7 +3,7 @@ name: Actualizar Tipo De Cambio Referencial BCB
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0,14,16,18,20,22 * * *"
+    - cron: "0 0,2,4,6,8,10,12,14,16,18,20 * * *"
 
 permissions:
   contents: write
@@ -28,7 +28,9 @@ jobs:
         run: python -m pip install --upgrade pip && pip install -r tipodecambio/requirements.txt
 
       - name: Actualizar datos referenciales del BCB
-        run: python tipodecambio/actualizar_referencial.py
+        run: |
+          python tipodecambio/actualizar_referencial.py
+          python tipodecambio/actualizar_referencial_compra_desagregado.py
 
       - name: Configurar Git
         run: |
@@ -37,7 +39,9 @@ jobs:
 
       - name: Commit y push de CSV
         run: |
-          git add tipodecambio/datos/referencial_bcb_*.csv
+          git add \
+            tipodecambio/datos/referencial_bcb_*.csv \
+            tipodecambio/datos/referencial_bcb_compra_desagregado.csv
           if git diff --cached --quiet; then
             echo "Sin cambios en los CSV"
             exit 0
