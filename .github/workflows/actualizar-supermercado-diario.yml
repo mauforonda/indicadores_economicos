@@ -3,7 +3,7 @@ name: Actualizar Inflacion Supermercados Diario
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 6 * * *"
+    - cron: "30 6,8,10,12 * * *"
 
 permissions:
   contents: write
@@ -17,7 +17,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Verificar si super_diario.csv ya está al día
+        id: freshness
+        run: |
+          fecha_actual="$(TZ=America/La_Paz date +%F)"
+          if [ ! -f inflacion/datos/super_diario.csv ]; then
+            echo "latest_date=" >> "$GITHUB_OUTPUT"
+            echo "up_to_date=false" >> "$GITHUB_OUTPUT"
+            echo "No existe inflacion/datos/super_diario.csv; se actualizará."
+            exit 0
+          fi
+
+          latest_date="$(
+            tail -n +2 inflacion/datos/super_diario.csv \
+            | cut -d, -f2 \
+            | sort \
+            | tail -n 1
+          )"
+          echo "latest_date=$latest_date" >> "$GITHUB_OUTPUT"
+
+          if [ "$latest_date" = "$fecha_actual" ]; then
+            echo "up_to_date=true" >> "$GITHUB_OUTPUT"
+            echo "super_diario.csv ya está al día para $fecha_actual."
+          else
+            echo "up_to_date=false" >> "$GITHUB_OUTPUT"
+            echo "super_diario.csv llega hasta $latest_date; hoy es $fecha_actual. Se actualizará."
+          fi
+
       - name: Configurar Python
+        if: steps.freshness.outputs.up_to_date != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -25,22 +53,34 @@ jobs:
           cache-dependency-path: inflacion/requirements.txt
 
       - name: Instalar dependencias
+        if: steps.freshness.outputs.up_to_date != 'true'
         run: python -m pip install --upgrade pip && pip install -r inflacion/requirements.txt
 
       - name: Clone precios
+        if: steps.freshness.outputs.up_to_date != 'true'
         run: git clone --depth=1 https://github.com/mauforonda/precios/ /tmp/precios/
 
-      - name: Actualizar indicadores diarios del INE
+      - name: Actualizar indicador diario de supermercados
+        if: steps.freshness.outputs.up_to_date != 'true'
         run: python inflacion/super_diario.py
 
+      - name: Procesar versión compacta
+        if: steps.freshness.outputs.up_to_date != 'true'
+        run: python inflacion/procesar_super_diario.py
+
       - name: Configurar Git
+        if: steps.freshness.outputs.up_to_date != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Commit y push de CSV
+        if: steps.freshness.outputs.up_to_date != 'true'
         run: |
-          git add inflacion/datos/super_diario.csv
+          git add \
+            inflacion/datos/super_diario.csv \
+            inflacion/datos/super_diario_compacto.csv \
+            inflacion/datos/super_diario_compacto_diccionario.csv
           if git diff --cached --quiet; then
             echo "Sin cambios en los CSV"
             exit 0

@@ -1,0 +1,20 @@
+tipo,id,valor
+departamento,1,La Paz
+departamento,2,Cochabamba
+departamento,3,Santa Cruz
+componente,1,Compuesto
+componente,2,Abarrotes
+componente,3,Bazar
+componente,4,Bebidas
+componente,5,Carnes
+componente,6,Congelados
+componente,7,Cuidado Personal
+componente,8,Cuidado del Bebé
+componente,9,Cuidado del Hogar
+componente,10,Farmacia Otc
+componente,11,Fiambres
+componente,12,Frutas y Verduras
+componente,13,Granos y Hortalizas
+componente,14,Lácteos y Derivados
+componente,15,Panadería
+componente,16,Pastelería y Masas Típicas
