@@ -68,8 +68,8 @@ def extraer_indice(xl: pd.ExcelFile, sheet_query: str, nombre: str) -> pd.Series
         df.apply(lambda fila: dt.date(int(fila["año"]), meses[fila["mes"]], 1), axis=1)
     )
     df = df[["fecha", nombre]]
-    df = df[~df[nombre].apply(lambda valor: isinstance(valor, str))]
-    df[nombre] = df[nombre].astype(float)
+    df[nombre] = pd.to_numeric(df[nombre], errors="coerce")
+    df = df.dropna(subset=[nombre]).copy()
     return df.set_index("fecha")[nombre].sort_index()
 
 
@@ -207,6 +207,7 @@ def construir_serie_general(tabla: pd.DataFrame) -> pd.DataFrame:
             "variacion_12_meses": "12_m",
         }
     )
+    salida = salida.dropna(subset=["mensual", "12_m"], how="all").copy()
     salida[["mensual", "12_m"]] = salida[["mensual", "12_m"]].round(DECIMALES)
     return salida.sort_values("fecha").reset_index(drop=True)
 
@@ -221,6 +222,7 @@ def construir_serie_divisiones(tabla: pd.DataFrame) -> pd.DataFrame:
             "variacion_12_meses": "12_m",
         }
     )
+    salida = salida.dropna(subset=["mensual", "12_m"], how="all").copy()
     salida[["mensual", "12_m"]] = salida[["mensual", "12_m"]].round(DECIMALES)
     return salida.sort_values(["fecha", "division"]).reset_index(drop=True)
 
