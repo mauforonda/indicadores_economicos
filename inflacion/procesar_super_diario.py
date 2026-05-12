@@ -65,6 +65,25 @@ def construir_serie_compacta(tabla: pd.DataFrame) -> pd.DataFrame:
     return salida.rename(columns={"inflacion_28d": "valor"}).reset_index(drop=True)
 
 
+def filtrar_componentes_validos(tabla: pd.DataFrame) -> pd.DataFrame:
+    """Conserva solo componentes presentes en los 3 departamentos y no nulos en valor."""
+
+    cobertura = (
+        tabla.groupby("componente")
+        .agg(
+            departamentos=("departamento", "nunique"),
+            suma_abs=("valor", lambda serie: serie.abs().sum()),
+        )
+        .reset_index()
+    )
+    validos = cobertura.loc[
+        (cobertura["departamentos"] == len(MAPEO_DEPARTAMENTOS))
+        & (cobertura["suma_abs"] > 0),
+        "componente",
+    ]
+    return tabla.loc[tabla["componente"].isin(validos)].copy()
+
+
 def construir_diccionarios(
     tabla: pd.DataFrame,
 ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
@@ -145,6 +164,7 @@ def main() -> None:
     """Genera el CSV compacto desde la serie diaria de supermercado."""
 
     base = construir_serie_compacta(cargar_fuente(RUTA_FUENTE))
+    base = filtrar_componentes_validos(base)
     departamentos, componentes, diccionario = construir_diccionarios(base)
     serie = asignar_ids(base, departamentos, componentes)
     DIRECTORIO_DATOS.mkdir(parents=True, exist_ok=True)
