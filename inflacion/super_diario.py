@@ -102,12 +102,29 @@ def extract_inflation_index(df, n_factors=5):
 
 
 def extract_component_indexes(df_prices, product_categories):
+    if df_prices.empty:
+        return pd.DataFrame()
+
+    categories = pd.Series(product_categories, index=df_prices.index, copy=False)
+    valid = categories.notna()
+    if not valid.any():
+        return pd.DataFrame()
+
+    # Group on an in-frame column to avoid pandas reindexing a duplicated axis.
+    grouped_prices = df_prices.loc[valid].copy()
+    grouped_prices.insert(0, "_categoria", categories.loc[valid].to_numpy())
+
     component_map = {}
-    for category, group in df_prices.groupby(product_categories, sort=True):
+    for category, group in grouped_prices.groupby("_categoria", sort=True):
         if category in DROP_CATEGORIES:
             continue
 
-        prices = group.stack().rename("price").reset_index()
+        prices = (
+            group.drop(columns="_categoria")
+            .stack()
+            .rename("price")
+            .reset_index()
+        )
         index_s = extract_inflation_index(prices, n_factors=5)
         if not index_s.empty:
             component_map[category] = index_s
@@ -156,9 +173,14 @@ def build_department_index(df, df_mask, products_df):
     df = df.sort_index(axis=1)
 
     df = df.reindex(df_mask.index).loc[df_mask]
-    product_categories = products_df.set_index('id_producto').reindex(
-        df.index
-    )['categoria'].dropna()
+    product_categories = (
+        products_df.loc[:, ["id_producto", "categoria"]]
+        .dropna(subset=["id_producto", "categoria"])
+        .drop_duplicates(subset="id_producto", keep="first")
+        .set_index("id_producto")
+        .reindex(df.index)["categoria"]
+        .dropna()
+    )
     df = df.loc[product_categories.index]
 
     df_components = extract_component_indexes(df, product_categories)
