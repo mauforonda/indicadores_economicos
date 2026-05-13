@@ -2,6 +2,3 @@ pandas
 requests
 beautifulsoup4
 openpyxl
-scikit-learn
-unidecode
-fastparquet
