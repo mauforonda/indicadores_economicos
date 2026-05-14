@@ -54,7 +54,7 @@ jobs:
 
       - name: Instalar dependencias
         if: steps.freshness.outputs.up_to_date != 'true'
-        run: python -m pip install --upgrade pip && pip install -r inflacion/requirements.txt
+        run: python -m pip install --upgrade pip && pip install -r inflacion/requirements_super.txt
 
       - name: Clone precios
         if: steps.freshness.outputs.up_to_date != 'true'
