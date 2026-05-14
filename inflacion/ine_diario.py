@@ -64,6 +64,50 @@ def construir_base(tabla: pd.DataFrame) -> pd.DataFrame:
     )
 
 
+def cargar_serie_existente(ruta: Path) -> pd.DataFrame:
+    """Carga la serie existente si ya fue generada previamente."""
+
+    if not ruta.exists() or not RUTA_DICCIONARIO.exists():
+        return pd.DataFrame(
+            columns=["fecha", "departamento", "producto", "unidad", "cantidad", "precio"]
+        )
+
+    serie = pd.read_csv(ruta)
+    diccionario = pd.read_csv(RUTA_DICCIONARIO)
+    serie["fecha"] = pd.to_datetime(serie["fecha"], errors="coerce")
+    serie["precio"] = pd.to_numeric(serie["precio"], errors="coerce")
+    serie["departamento"] = serie["departamento"].astype(str).str.strip()
+
+    diccionario["producto_id"] = pd.to_numeric(diccionario["producto_id"], errors="coerce")
+    diccionario["cantidad"] = pd.to_numeric(diccionario["cantidad"], errors="coerce")
+    diccionario["unidad"] = diccionario["unidad"].astype(str).str.strip().str.lower()
+    diccionario["producto"] = diccionario["producto"].astype(str).str.strip().str.lower()
+
+    tabla = serie.merge(
+        diccionario,
+        left_on="id_producto",
+        right_on="producto_id",
+        how="left",
+        validate="many_to_one",
+    )
+    return tabla[
+        ["fecha", "departamento", "producto", "unidad", "cantidad", "precio"]
+    ].copy()
+
+
+def consolidar_base_existente(tabla_existente: pd.DataFrame, tabla_nueva: pd.DataFrame) -> pd.DataFrame:
+    """Combina serie existente con descarga nueva, priorizando la observación reciente."""
+
+    consolidada = pd.concat([tabla_existente, tabla_nueva], ignore_index=True)
+    consolidada = consolidada.drop_duplicates(
+        subset=["fecha", "departamento", "producto", "unidad", "cantidad"],
+        keep="last",
+    )
+    return consolidada.sort_values(
+        ["producto", "unidad", "cantidad", "departamento", "fecha"]
+    ).reset_index(drop=True)
+
+
 def filtrar_por_cobertura(tabla: pd.DataFrame) -> pd.DataFrame:
     """Conserva solo productos con presencia en más del 50% de los días."""
 
@@ -117,7 +161,9 @@ def construir_serie(tabla: pd.DataFrame, diccionario: pd.DataFrame) -> pd.DataFr
 def main() -> None:
     """Genera la serie compacta y el diccionario de productos."""
 
-    base = construir_base(descargar_fuente(URL))
+    base_nueva = construir_base(descargar_fuente(URL))
+    base_existente = cargar_serie_existente(RUTA_SERIE)
+    base = consolidar_base_existente(base_existente, base_nueva)
     base = filtrar_por_cobertura(base)
     diccionario = construir_diccionario(base)
     serie = construir_serie(base, diccionario)
