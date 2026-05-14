@@ -20,8 +20,10 @@ VENTANA_DIAS = 90
 RUTA_BASE = Path(__file__).resolve().parent
 DIRECTORIO_DATOS = RUTA_BASE / "datos"
 RUTA_BLOQUEOS_DIARIOS = DIRECTORIO_DATOS / "bloqueos_diarios.csv"
+RUTA_BLOQUEOS_MENSUALES = DIRECTORIO_DATOS / "bloqueos_mensuales.csv"
 RUTA_BLOQUEOS_PUNTOS = DIRECTORIO_DATOS / "bloqueos_puntos.csv"
 COLUMNAS_FECHA = ["fecha_consulta", "fecha_reporte", "fecha_fin"]
+FECHA_INICIO_MENSUAL = pd.Timestamp("2020-09-01", tz=TZ_BOLIVIA)
 
 
 def descargar_fuente(url: str) -> pd.DataFrame:
@@ -111,6 +113,34 @@ def construir_bloqueos_diarios(
     return pd.DataFrame(filas)
 
 
+def construir_bloqueos_mensuales(
+    tabla: pd.DataFrame,
+    ahora: pd.Timestamp,
+) -> pd.DataFrame:
+    """Construye el conteo mensual de conflictos activos en algún momento del mes."""
+
+    meses = pd.date_range(
+        start=FECHA_INICIO_MENSUAL,
+        end=ahora.normalize(),
+        freq="MS",
+        tz=TZ_BOLIVIA,
+    )
+
+    filas = []
+    for inicio_mes in meses:
+        siguiente_mes = inicio_mes + pd.offsets.MonthBegin(1)
+        fin_mes = min(siguiente_mes - pd.Timedelta(seconds=1), ahora)
+        activos = conflictos_activos_en_ventana(tabla, inicio_mes, fin_mes)
+        filas.append(
+            {
+                "fecha": inicio_mes.isoformat(),
+                "bloqueos": int(len(activos)),
+            }
+        )
+
+    return pd.DataFrame(filas)
+
+
 def construir_bloqueos_puntos(
     tabla: pd.DataFrame,
     ahora: pd.Timestamp,
@@ -164,13 +194,16 @@ def main() -> None:
     ahora = pd.Timestamp.now(tz=TZ_BOLIVIA).floor("s")
     conflictos = filtrar_conflictos(descargar_fuente(URL_FUENTE))
     bloqueos_diarios = construir_bloqueos_diarios(conflictos, ahora)
+    bloqueos_mensuales = construir_bloqueos_mensuales(conflictos, ahora)
     bloqueos_puntos = construir_bloqueos_puntos(conflictos, ahora)
 
     DIRECTORIO_DATOS.mkdir(parents=True, exist_ok=True)
     bloqueos_diarios.to_csv(RUTA_BLOQUEOS_DIARIOS, index=False)
+    bloqueos_mensuales.to_csv(RUTA_BLOQUEOS_MENSUALES, index=False)
     bloqueos_puntos.to_csv(RUTA_BLOQUEOS_PUNTOS, index=False, float_format="%.5f")
 
     print(RUTA_BLOQUEOS_DIARIOS)
+    print(RUTA_BLOQUEOS_MENSUALES)
     print(RUTA_BLOQUEOS_PUNTOS)
 
 

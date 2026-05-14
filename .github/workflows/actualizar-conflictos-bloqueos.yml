@@ -1,0 +1,49 @@
+name: Actualizar Conflictos Bloqueos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-conflictos-bloqueos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: conflictos/requirements.txt
+
+      - name: Instalar dependencias
+        run: python -m pip install --upgrade pip && pip install -r conflictos/requirements.txt
+
+      - name: Actualizar indicadores de conflictos
+        run: python conflictos/bloqueos.py
+
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit y push de CSV
+        run: |
+          git add \
+            conflictos/datos/bloqueos_diarios.csv \
+            conflictos/datos/bloqueos_mensuales.csv \
+            conflictos/datos/bloqueos_puntos.csv
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los CSV"
+            exit 0
+          fi
+          git commit -m "Actualizar conflictos: bloqueos"
+          git push
