@@ -7,6 +7,7 @@ import pandas as pd
 # Parametros principales
 ffill_horas = 12
 departamentos = [2, 7]
+horas_resolucion_horaria = 6
 
 
 # Parametros fijos del indicador
@@ -135,6 +136,7 @@ def build_hourly_window(station_hourly):
     max_ts = station_hourly["ts_hour"].max()
     min_ts = max_ts - pd.DateOffset(months=meses_cobertura_horaria)
     hourly = station_hourly[station_hourly["ts_hour"] >= min_ts].copy()
+    hourly = hourly[hourly["ts_hour"].dt.hour % horas_resolucion_horaria == 0].copy()
     return hourly
 
 
