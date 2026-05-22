@@ -45,5 +45,6 @@ jobs:
             echo "No data changes to commit"
             exit 0
           fi
-          git commit -m "Update combustibles critical stations data"
+          git commit -m "Actualizar combustibles"
+          git pull --rebase origin main
           git push
