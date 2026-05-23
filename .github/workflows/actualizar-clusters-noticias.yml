@@ -1,0 +1,35 @@
+name: Update Clusters de noticias
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-clusters:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download clusters_noticias.csv
+        run: curl -fsSL https://raw.githubusercontent.com/pr0nstar/bo-ts/refs/heads/master/data/clusters_noticias.csv -o otros/clusters_noticias.csv
+
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit y push de CSV
+        run: |
+          git add otros/clusters_noticias.csv
+          if git diff --cached --quiet; then
+            echo "Sin cambios en el CSV"
+            exit 0
+          fi
+          git commit -m "Actualizar clusters de noticias"
+          git push
