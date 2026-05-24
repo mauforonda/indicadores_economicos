@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Verificar si super_diario.csv ya está al día
         id: freshness
@@ -86,5 +88,12 @@ jobs:
             exit 0
           fi
           git commit -m "Actualizar inflacion: Supermercados diario"
-          git pull --rebase origin main
-          git push
+          for intento in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((intento * 5))
+          done
+          echo "No se pudo sincronizar y publicar tras varios intentos."
+          exit 1

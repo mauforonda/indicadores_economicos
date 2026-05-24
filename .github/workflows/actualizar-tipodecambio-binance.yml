@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -43,4 +45,12 @@ jobs:
             exit 0
           fi
           git commit -m "Actualizar tipo de cambio: Binance"
-          git push
+          for intento in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((intento * 5))
+          done
+          echo "No se pudo sincronizar y publicar tras varios intentos."
+          exit 1

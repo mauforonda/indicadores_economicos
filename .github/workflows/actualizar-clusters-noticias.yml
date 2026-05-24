@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download clusters_noticias.csv
         run: curl -fsSL https://raw.githubusercontent.com/pr0nstar/bo-ts/refs/heads/master/data/clusters_noticias.csv -o otros/clusters_noticias.csv
@@ -32,4 +34,12 @@ jobs:
             exit 0
           fi
           git commit -m "Actualizar clusters de noticias"
-          git push
+          for intento in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((intento * 5))
+          done
+          echo "No se pudo sincronizar y publicar tras varios intentos."
+          exit 1
