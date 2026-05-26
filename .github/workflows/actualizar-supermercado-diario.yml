@@ -82,7 +82,8 @@ jobs:
           git add \
             inflacion/datos/super_diario.csv \
             inflacion/datos/super_diario_compacto.csv \
-            inflacion/datos/super_diario_compacto_diccionario.csv
+            inflacion/datos/super_diario_compacto_diccionario.csv \
+            inflacion/datos/super_diario_confianza.csv
           if git diff --cached --quiet; then
             echo "Sin cambios en los CSV"
             exit 0
