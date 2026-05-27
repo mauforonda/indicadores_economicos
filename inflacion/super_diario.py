@@ -43,11 +43,20 @@ OUTPUT_CSV = Path("./inflacion/datos/super_diario.csv")
 CONFIDENCE_CSV = Path("./inflacion/datos/super_diario_confianza.csv")
 STATE_FILE = Path("./inflacion/update_data/super_diario_state.pkl")
 REFIT_FILTERS = False
+ROLLING_WINDOW = 7 * 4
+START_DATE = "2024-09-01"
+OUTPUT_KEY_COLUMNS = ["departamento", "fecha", "componente"]
+OUTPUT_VALUE_COLUMNS = ["inflacion_28d", "inflacion_28d_q05", "inflacion_28d_q95"]
+OUTPUT_COLUMNS = OUTPUT_KEY_COLUMNS + OUTPUT_VALUE_COLUMNS
 CONFIDENCE_KEY_COLUMNS = ["departamento", "fecha", "componente"]
 CONFIDENCE_SORT_COLUMNS = ["fecha", "departamento", "componente"]
-BAND_QUANTILES = (.05, .50, .95)
-BAND_COLUMNS = [f"band_q{int(100 * q):02d}" for q in BAND_QUANTILES]
-CONFIDENCE_VALUE_COLUMNS = ["missing"] + BAND_COLUMNS
+BAND_QUANTILES = (.05, .95)
+BAND_COLUMNS = [f"q{int(100 * q):02d}" for q in BAND_QUANTILES]
+OUTPUT_BAND_COLUMNS = {
+    "q05": "inflacion_28d_q05",
+    "q95": "inflacion_28d_q95",
+}
+CONFIDENCE_VALUE_COLUMNS = ["missing"]
 CONFIDENCE_COLUMNS = CONFIDENCE_KEY_COLUMNS + CONFIDENCE_VALUE_COLUMNS
 
 
@@ -95,7 +104,12 @@ def empty_index_result():
     return {
         "index": pd.Series(dtype=float),
         "confidence": empty_confidence_frame(indexed=True),
+        "log_band": empty_log_band_frame(),
     }
+
+
+def empty_log_band_frame():
+    return pd.DataFrame(columns=BAND_COLUMNS)
 
 
 def empty_confidence_frame(indexed=False):
@@ -104,6 +118,23 @@ def empty_confidence_frame(indexed=False):
         columns = ["componente", "fecha"] + CONFIDENCE_VALUE_COLUMNS
 
     return pd.DataFrame(columns=columns)
+
+
+def empty_band_component_frames():
+    return {column: pd.DataFrame() for column in BAND_COLUMNS}
+
+
+def banded_index_frame(index_s, log_band):
+    bands = {}
+    log_band = log_band.reindex(columns=BAND_COLUMNS)
+    valid = log_band.notna().reindex(index_s.index, fill_value=False)
+
+    for column in BAND_COLUMNS:
+        band_s = np.exp(log_band[column]).mul(index_s, axis=0)
+        band_s = pd.to_numeric(band_s.reindex(index_s.index), errors="coerce")
+        bands[column] = band_s.where(band_s.notna(), index_s)
+
+    return pd.DataFrame(bands, index=index_s.index), valid
 
 
 def gap_returns(pivot):
@@ -197,10 +228,10 @@ def uniform_weights(columns):
     return pd.Series(1.0, index=columns)
 
 
-def confidence_from_pivot(pivot, weights):
+def diagnostics_from_pivot(pivot, weights):
     pivot = pivot.asfreq("D").sort_index()
     if pivot.empty or len(pivot.columns) == 0:
-        return empty_confidence_frame(indexed=True)
+        return empty_confidence_frame(indexed=True), empty_log_band_frame()
 
     weights = pd.Series(weights, index=pivot.columns).reindex(pivot.columns).fillna(0.0)
     weights_abs = weights.abs()
@@ -209,21 +240,11 @@ def confidence_from_pivot(pivot, weights):
 
     missing = 100 * pivot.isna().mul(weights_abs, axis=1).sum(axis=1) / weights_abs.sum()
 
-    log_band = missingness_log_band(pivot, weights)
-    log_band = log_band.rename(columns=lambda c: f"band_{c}")
-
     confidence = pd.DataFrame({"missing": missing.round(4)}, index=pivot.index)
-    confidence = confidence.join(log_band, how="left")
-    for column in BAND_COLUMNS:
-        if column not in confidence:
-            confidence[column] = np.nan
-        confidence[column] = np.exp(
-            pd.to_numeric(
-                confidence[column], errors="coerce"
-            )
-        ).round(4)
+    log_band = missingness_log_band(pivot, weights)
+    log_band = log_band.reindex(columns=BAND_COLUMNS)
 
-    return confidence[CONFIDENCE_VALUE_COLUMNS]
+    return confidence[CONFIDENCE_VALUE_COLUMNS], log_band
 
 
 def extract_inflation_index(df, filter_state, n_factors=5):
@@ -245,9 +266,13 @@ def extract_inflation_index(df, filter_state, n_factors=5):
 
     if filter_state.get("kind") == "mean":
         index_s = np.exp(logr.mean(axis=1).cumsum()) * 100
+        confidence, log_band = diagnostics_from_pivot(
+            pivot_daily, uniform_weights(pivot.columns)
+        )
         return {
             "index": index_s,
-            "confidence": confidence_from_pivot(pivot_daily, uniform_weights(pivot.columns)),
+            "confidence": confidence,
+            "log_band": log_band,
         }
 
     X = logr.values
@@ -263,19 +288,25 @@ def extract_inflation_index(df, filter_state, n_factors=5):
 
         logr_rec = X_rec.mean(axis=1)
         index_s = pd.Series(np.exp(np.cumsum(logr_rec)) * 100.0, index=logr.index)
+        confidence, log_band = diagnostics_from_pivot(
+            pivot_daily, svd_weights(Vt, X_sg, pivot.columns)
+        )
         return {
             "index": index_s,
-            "confidence": confidence_from_pivot(
-                pivot_daily, svd_weights(Vt, X_sg, pivot.columns)
-            ),
+            "confidence": confidence,
+            "log_band": log_band,
         }
 
     if (logr.shape[1] < (n_factors * 2)) or (logr.mean(axis=1).std() == 0):
         filter_state["kind"] = "mean"
         index_s = np.exp(logr.mean(axis=1).cumsum()) * 100
+        confidence, log_band = diagnostics_from_pivot(
+            pivot_daily, uniform_weights(pivot.columns)
+        )
         return {
             "index": index_s,
-            "confidence": confidence_from_pivot(pivot_daily, uniform_weights(pivot.columns)),
+            "confidence": confidence,
+            "log_band": log_band,
         }
 
     X_mu = X.mean(axis=0)
@@ -301,28 +332,33 @@ def extract_inflation_index(df, filter_state, n_factors=5):
         index=logr.index
     )
 
+    confidence, log_band = diagnostics_from_pivot(
+        pivot_daily, svd_weights(Vt[:s_factors, :], X_sg, pivot.columns)
+    )
+
     return {
         "index": index_s,
-        "confidence": confidence_from_pivot(
-            pivot_daily, svd_weights(Vt[:s_factors, :], X_sg, pivot.columns)
-        ),
+        "confidence": confidence,
+        "log_band": log_band,
     }
 
 
 def extract_component_indexes(df_prices, product_categories, filter_state):
     if df_prices.empty:
-        return pd.DataFrame(), empty_confidence_frame()
+        return pd.DataFrame(), empty_band_component_frames(), empty_confidence_frame()
 
     categories = pd.Series(product_categories, index=df_prices.index, copy=False)
     valid = categories.notna()
     if not valid.any():
-        return pd.DataFrame(), empty_confidence_frame()
+        return pd.DataFrame(), empty_band_component_frames(), empty_confidence_frame()
 
     # Group on an in-frame column to avoid pandas reindexing a duplicated axis.
     grouped_prices = df_prices.loc[valid].copy()
     grouped_prices.insert(0, "_categoria", categories.loc[valid].to_numpy())
 
     component_map = {}
+    band_component_maps = {column: {} for column in BAND_COLUMNS}
+    band_valid_maps = {column: {} for column in BAND_COLUMNS}
     confidence_frames = []
     for category, group in grouped_prices.groupby("_categoria", sort=True):
         if category in DROP_CATEGORIES:
@@ -334,11 +370,18 @@ def extract_component_indexes(df_prices, product_categories, filter_state):
             .rename("price")
             .reset_index()
         )
+        prices = prices.rename(
+            columns={prices.columns[0]: "id_producto", prices.columns[1]: "fecha"}
+        )
         category_state = filter_state.setdefault(category, {})
         result = extract_inflation_index(prices, category_state, n_factors=5)
         index_s = result["index"]
         if not index_s.empty:
             component_map[category] = index_s
+            band_indexes, band_valid = banded_index_frame(index_s, result["log_band"])
+            for column in BAND_COLUMNS:
+                band_component_maps[column][category] = band_indexes[column]
+                band_valid_maps[column][category] = band_valid[column]
 
         confidence = result["confidence"]
         if not confidence.empty:
@@ -355,7 +398,21 @@ def extract_component_indexes(df_prices, product_categories, filter_state):
     else:
         df_confidence = empty_confidence_frame()
 
-    return df_components, df_confidence
+    df_band_components = {}
+    for column, band_map in band_component_maps.items():
+        frame = pd.DataFrame(band_map).T
+        frame.index.name = "categoria"
+        frame.columns.name = "fecha"
+        df_band_components[column] = frame
+
+    df_band_valid = {}
+    for column, valid_map in band_valid_maps.items():
+        frame = pd.DataFrame(valid_map).T
+        frame.index.name = "categoria"
+        frame.columns.name = "fecha"
+        df_band_valid[column] = frame
+
+    return df_components, df_band_components, df_band_valid, df_confidence
 
 
 def aggregate_components(df_components, filter_state, n_components=3):
@@ -430,6 +487,40 @@ def aggregate_components(df_components, filter_state, n_components=3):
     return X_rec.mean(axis=1).rename("Compuesto")
 
 
+def aggregate_component_returns(X, filter_state, horizon=ROLLING_WINDOW):
+    X = X.replace([np.inf, -np.inf], np.nan).dropna(axis=1, how="all")
+    if X.empty:
+        return pd.Series(dtype=float, name="Compuesto")
+
+    columns = filter_state.get("columns", X.columns.to_list())
+    X = X.reindex(columns=columns)
+
+    if filter_state.get("kind") == "mean":
+        X_mu = pd.Series(filter_state["X_mu"], index=columns)
+        X_st = pd.Series(filter_state["X_st"], index=columns)
+        X = (X - horizon * X_mu) / X_st
+        X = X.fillna(0)
+        return X.mean(axis=1).rename("Compuesto")
+
+    if filter_state.get("kind") == "pca":
+        X_mu = pd.Series(filter_state["X_mu"], index=columns)
+        X_st = pd.Series(filter_state["X_st"], index=columns)
+        pca_mean = np.asarray(filter_state["pca_mean"])
+        components = np.asarray(filter_state["components"])
+
+        X = (X - horizon * X_mu) / X_st
+        X = X.fillna(0)
+
+        X_pca = (X.values - horizon * pca_mean) @ components.T
+        X_rec = (X_pca @ components) + horizon * pca_mean
+        X_rec = (pd.DataFrame(X_rec, index=X.index, columns=X.columns) * X_st)
+        X_rec = X_rec + (horizon * X_mu)
+
+        return X_rec.mean(axis=1).rename("Compuesto")
+
+    return X.mean(axis=1).rename("Compuesto")
+
+
 def build_department_index(df, df_mask, products_df, filter_state, dept):
     df = df.groupby(['fecha', 'id_producto'])['precio'].mean()
     df = df.unstack(level=0)
@@ -451,25 +542,64 @@ def build_department_index(df, df_mask, products_df, filter_state, dept):
     svd_state = filter_state["svd"].setdefault(dept, {})
     pca_state = filter_state["pca"].setdefault(dept, {})
 
-    df_components, df_confidence = extract_component_indexes(
-        df, product_categories, svd_state
-    )
+    (
+        df_components,
+        df_band_components,
+        df_band_valid,
+        df_confidence,
+    ) = extract_component_indexes(df, product_categories, svd_state)
     df_index = aggregate_components(df_components, pca_state)
 
+    component_log_returns = np.log(df_components.T).diff().rolling(
+        window=ROLLING_WINDOW
+    ).sum()
     dept_index = pd.concat([
-        df_index.rolling(window=7 * 4).sum(),
-        np.log(df_components.T).diff().rolling(window=7 * 4).sum()
-    ], axis=1).loc['2024/09/01':]
+        df_index.rolling(window=ROLLING_WINDOW).sum(),
+        component_log_returns
+    ], axis=1).loc[START_DATE:]
+
+    dept_inflation = 100 * np.exp(dept_index) - 100
+    category_inflation = dept_inflation.drop(columns="Compuesto", errors="ignore")
+
+    band_inflation = {}
+    for band_column, output_column in OUTPUT_BAND_COLUMNS.items():
+        band_components = df_band_components.get(band_column, pd.DataFrame())
+        if band_components.empty:
+            band_inflation[output_column] = pd.DataFrame()
+            continue
+
+        band_log_returns = np.log(band_components.T).diff().rolling(
+            window=ROLLING_WINDOW
+        ).sum()
+        band_values = 100 * np.exp(band_log_returns.loc[START_DATE:]) - 100
+
+        valid = df_band_valid.get(band_column, pd.DataFrame())
+        valid = valid.T.reindex_like(band_values).eq(True)
+        band_values = band_values.where(valid)
+
+        valid_dates = valid.any(axis=1)
+        if valid_dates.any():
+            aggregate_input = band_values.where(
+                valid, category_inflation.reindex_like(band_values)
+            )
+            aggregate_log_returns = np.log1p(aggregate_input / 100)
+            band_values["Compuesto"] = 100 * np.exp(
+                aggregate_component_returns(
+                    aggregate_log_returns.loc[valid_dates], pca_state
+                )
+            ) - 100
+
+        band_inflation[output_column] = band_values
 
     if not df_confidence.empty:
         df_confidence = df_confidence.loc[
-            pd.to_datetime(df_confidence["fecha"]) >= pd.Timestamp("2024-09-01")
+            pd.to_datetime(df_confidence["fecha"]) >= pd.Timestamp(START_DATE)
         ]
 
-    return (100 * np.exp(dept_index) - 100), df_confidence
+    return dept_inflation, band_inflation, df_confidence
 
 
-def flatten_inflation_map(infl_map):
+def flatten_inflation_map(infl_map, band_map):
     frames = []
     for department, df in infl_map.items():
         frame = (
@@ -478,14 +608,26 @@ def flatten_inflation_map(infl_map):
             .melt(id_vars="fecha", var_name="componente", value_name="inflacion_28d")
         )
         frame.insert(0, "departamento", department)
+
+        for column in OUTPUT_BAND_COLUMNS.values():
+            band_df = band_map.get(department, {}).get(column, pd.DataFrame())
+            if band_df.empty:
+                frame[column] = np.nan
+                continue
+
+            band_frame = (
+                band_df.rename_axis("fecha")
+                .reset_index()
+                .melt(id_vars="fecha", var_name="componente", value_name=column)
+            )
+            frame = frame.merge(band_frame, on=["fecha", "componente"], how="left")
+
         frames.append(frame)
 
     if not frames:
-        return pd.DataFrame(
-            columns=["departamento", "fecha", "componente", "inflacion_28d"]
-        )
+        return pd.DataFrame(columns=OUTPUT_COLUMNS)
 
-    return pd.concat(frames, ignore_index=True)
+    return pd.concat(frames, ignore_index=True).loc[:, OUTPUT_COLUMNS]
 
 
 def flatten_confidence_map(confidence_map):
@@ -506,22 +648,51 @@ def flatten_confidence_map(confidence_map):
 
 def write_output(output_df):
     output_df = output_df.copy()
+    output_df = output_df.reindex(columns=OUTPUT_COLUMNS)
     output_df["fecha"] = pd.to_datetime(output_df["fecha"])
-    output_df["inflacion_28d"] = output_df["inflacion_28d"].round(3)
+    for column in OUTPUT_VALUE_COLUMNS:
+        output_df[column] = output_df[column].round(3)
     output_df = output_df.sort_values(["fecha", "departamento", "componente"])
 
     if OUTPUT_CSV.exists() and not REFIT_FILTERS:
-        old_dates = pd.read_csv(OUTPUT_CSV, usecols=["fecha"])
-        if not old_dates.empty:
-            last_date = pd.to_datetime(old_dates["fecha"]).max()
-            output_df = output_df.loc[output_df["fecha"] > last_date]
-
-        if output_df.empty:
+        old_columns = pd.read_csv(OUTPUT_CSV, nrows=0).columns
+        if not set(OUTPUT_COLUMNS).issubset(old_columns):
+            output_df.to_csv(OUTPUT_CSV, index=False, float_format="%.3f")
             return
 
-        output_df.to_csv(
-            OUTPUT_CSV, mode="a", header=False, index=False, float_format="%.3f"
-        )
+        old_df = pd.read_csv(OUTPUT_CSV)
+        old_df = old_df.reindex(columns=OUTPUT_COLUMNS)
+        old_df["fecha"] = pd.to_datetime(old_df["fecha"])
+        for column in OUTPUT_VALUE_COLUMNS:
+            old_df[column] = pd.to_numeric(old_df[column], errors="coerce")
+
+        old_keys = pd.MultiIndex.from_frame(old_df[OUTPUT_KEY_COLUMNS])
+        new_keys = pd.MultiIndex.from_frame(output_df[OUTPUT_KEY_COLUMNS])
+        q_columns = list(OUTPUT_BAND_COLUMNS.values())
+
+        append_rows = output_df.loc[~new_keys.isin(old_keys)]
+        update_rows = output_df.loc[
+            new_keys.isin(old_keys) & output_df[q_columns].notna().any(axis=1)
+        ]
+
+        if update_rows.empty and append_rows.empty:
+            return
+
+        old_indexed = old_df.set_index(OUTPUT_KEY_COLUMNS)
+        if not update_rows.empty:
+            update_indexed = update_rows.set_index(OUTPUT_KEY_COLUMNS)
+            old_indexed.loc[update_indexed.index, q_columns] = update_indexed[q_columns]
+
+        if append_rows.empty:
+            output_df = old_indexed.reset_index()
+        else:
+            output_df = pd.concat(
+                [old_indexed.reset_index(), append_rows],
+                ignore_index=True,
+            )
+
+        output_df = output_df.sort_values(["fecha", "departamento", "componente"])
+        output_df.to_csv(OUTPUT_CSV, index=False, float_format="%.3f")
         return
 
     output_df.to_csv(OUTPUT_CSV, index=False, float_format="%.3f")
@@ -534,8 +705,6 @@ def write_confidence_output(output_df):
     if not output_df.empty:
         output_df["fecha"] = pd.to_datetime(output_df["fecha"])
         output_df["missing"] = output_df["missing"].round(4)
-        for column in BAND_COLUMNS:
-            output_df[column] = output_df[column].round(4)
 
     if not CONFIDENCE_CSV.exists() or REFIT_FILTERS:
         output_df = output_df.sort_values(CONFIDENCE_SORT_COLUMNS)
@@ -560,26 +729,17 @@ def write_confidence_output(output_df):
 
     old_keys = pd.MultiIndex.from_frame(old_df[CONFIDENCE_KEY_COLUMNS])
     new_keys = pd.MultiIndex.from_frame(output_df[CONFIDENCE_KEY_COLUMNS])
-    band_keys = pd.MultiIndex.from_frame(
-        output_df.loc[output_df[BAND_COLUMNS].notna().any(axis=1), CONFIDENCE_KEY_COLUMNS]
-    )
 
     append_rows = output_df.loc[~new_keys.isin(old_keys)]
-    update_rows = output_df.loc[new_keys.isin(old_keys) & new_keys.isin(band_keys)]
 
-    if update_rows.empty and append_rows.empty:
+    if append_rows.empty:
         old_df = old_df.sort_values(CONFIDENCE_SORT_COLUMNS)
         old_df.to_csv(CONFIDENCE_CSV, index=False)
         return
 
-    update_keys = pd.MultiIndex.from_frame(update_rows[CONFIDENCE_KEY_COLUMNS])
-    keep_old = old_df.loc[~old_keys.isin(update_keys)]
-
-    output_df = pd.concat([keep_old, update_rows, append_rows], ignore_index=True)
+    output_df = pd.concat([old_df, append_rows], ignore_index=True)
     output_df["fecha"] = pd.to_datetime(output_df["fecha"])
     output_df["missing"] = output_df["missing"].round(4)
-    for column in BAND_COLUMNS:
-        output_df[column] = output_df[column].round(4)
 
     output_df = output_df.sort_values(CONFIDENCE_SORT_COLUMNS)
     output_df.to_csv(CONFIDENCE_CSV, index=False)
@@ -597,14 +757,15 @@ def main():
     df_mask_f = pd.read_parquet(MASK_PARQUET)
 
     infl_map = {}
+    band_map = {}
     confidence_map = {}
     for dept, df in dept_price_frames.items():
         df_mask = df_mask_f[dept]
-        infl_map[dept], confidence_map[dept] = build_department_index(
+        infl_map[dept], band_map[dept], confidence_map[dept] = build_department_index(
             df, df_mask, products_df, filter_state, dept
         )
 
-    output_df = flatten_inflation_map(infl_map)
+    output_df = flatten_inflation_map(infl_map, band_map)
     write_output(output_df)
     confidence_df = flatten_confidence_map(confidence_map)
     write_confidence_output(confidence_df)
