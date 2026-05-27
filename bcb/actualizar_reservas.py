@@ -23,7 +23,12 @@ REPORTS_DIR = ROOT / "reportes"
 DATA_DIR = ROOT / "datos"
 DEFAULT_EXTRACT_OUTPUT = DATA_DIR / "ultima_reservas.csv"
 DEFAULT_SERIES_PATH = DATA_DIR / "reservas.csv"
+DEFAULT_RECENT_SERIES_PATH = DATA_DIR / "reservas_reciente.csv"
+DEFAULT_HISTORICAL_SERIES_PATH = DATA_DIR / "reservas_historico.csv"
+DEFAULT_DICTIONARY_PATH = DATA_DIR / "reservas_diccionario.csv"
 DEFAULT_BOOTSTRAP_PATH = Path("/home/m/Projects/economia/bcb/reservas.csv")
+RECENT_SERIES_START_DATE = "2023-10-01"
+HISTORICAL_SERIES_START_DATE = "2014-11-01"
 
 DATE_REGEX = re.compile(r"(\w+)(?:, )(\d{2})(?: )(\w+)(?:, )(\d{4})")
 SPANISH_MONTHS = {
@@ -356,6 +361,27 @@ def update_series(
     return series, processed_reports, added_rows
 
 
+def build_derivative_outputs(series: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    recent_base = series[pd.to_datetime(series["fecha"]) >= pd.Timestamp(RECENT_SERIES_START_DATE)].copy()
+    historical_base = series[pd.to_datetime(series["fecha"]) >= pd.Timestamp(HISTORICAL_SERIES_START_DATE)].copy()
+    dictionary = (
+        pd.DataFrame({"tipo": sorted(recent_base["tipo"].dropna().unique())})
+        .reset_index(names="codigo")
+    )
+    dictionary["codigo"] = dictionary["codigo"] + 1
+    recent_series = recent_base.merge(dictionary, on="tipo", how="left")
+    recent_series = recent_series[["codigo", "fecha", "valor"]].copy()
+    recent_series["codigo"] = recent_series["codigo"].astype(int)
+    recent_series["valor"] = recent_series["valor"].round(2)
+    recent_series = recent_series.sort_values(["fecha", "codigo"]).reset_index(drop=True)
+    historical_series = (
+        historical_base.groupby("fecha", as_index=False)["valor"].sum().sort_values("fecha").reset_index(drop=True)
+    )
+    historical_series["valor"] = historical_series["valor"].round(2)
+    dictionary = dictionary[["codigo", "tipo"]]
+    return recent_series, historical_series, dictionary
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Descarga reportes semanales del BCB y mantiene una serie plana de reservas."
@@ -397,6 +423,33 @@ def build_parser() -> argparse.ArgumentParser:
             f"Por defecto: {DEFAULT_BOOTSTRAP_PATH}"
         ),
     )
+    parser.add_argument(
+        "--recent-series-path",
+        type=Path,
+        default=DEFAULT_RECENT_SERIES_PATH,
+        help=(
+            "Ruta del CSV derivado reciente en modo update. "
+            f"Por defecto: {DEFAULT_RECENT_SERIES_PATH}"
+        ),
+    )
+    parser.add_argument(
+        "--historical-series-path",
+        type=Path,
+        default=DEFAULT_HISTORICAL_SERIES_PATH,
+        help=(
+            "Ruta del CSV agregado histórico en modo update. "
+            f"Por defecto: {DEFAULT_HISTORICAL_SERIES_PATH}"
+        ),
+    )
+    parser.add_argument(
+        "--dictionary-path",
+        type=Path,
+        default=DEFAULT_DICTIONARY_PATH,
+        help=(
+            "Ruta del diccionario de tipos en modo update. "
+            f"Por defecto: {DEFAULT_DICTIONARY_PATH}"
+        ),
+    )
     return parser
 
 
@@ -425,11 +478,21 @@ def main() -> None:
         reports_dir=args.reports_dir,
         bootstrap_path=args.bootstrap_from,
     )
+    recent_series, historical_series, dictionary = build_derivative_outputs(series)
     args.series_path.parent.mkdir(parents=True, exist_ok=True)
+    args.recent_series_path.parent.mkdir(parents=True, exist_ok=True)
+    args.historical_series_path.parent.mkdir(parents=True, exist_ok=True)
+    args.dictionary_path.parent.mkdir(parents=True, exist_ok=True)
     series.to_csv(args.series_path, index=False)
+    recent_series.to_csv(args.recent_series_path, index=False)
+    historical_series.to_csv(args.historical_series_path, index=False)
+    dictionary.to_csv(args.dictionary_path, index=False)
 
     print("Modo: update")
     print(f"CSV maestro: {args.series_path}")
+    print(f"CSV reciente: {args.recent_series_path}")
+    print(f"CSV histórico: {args.historical_series_path}")
+    print(f"CSV diccionario: {args.dictionary_path}")
     print(f"Filas totales: {len(series)}")
     print(f"Fechas: {series['fecha'].min()} -> {series['fecha'].max()}")
     print(f"Reportes procesados con datos nuevos: {len(processed_reports)}")
