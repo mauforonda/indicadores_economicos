@@ -4,11 +4,11 @@
 
 Entradas:
 - `inflacion/datos/super_diario.csv` con columnas
-  `departamento,fecha,componente,inflacion_28d`.
+  `departamento,fecha,componente,inflacion_28d,inflacion_28d_q05,inflacion_28d_q95`.
 
 Salidas:
 - `inflacion/datos/super_diario_compacto.csv` con columnas
-  `departamento,fecha,componente,valor`.
+  `departamento,fecha,componente,valor,q05,q95`.
 - `inflacion/datos/super_diario_compacto_diccionario.csv` con el mapeo de ids.
 
 Compresión aplicada:
@@ -34,6 +34,10 @@ DIRECTORIO_DATOS = RUTA_BASE / "datos"
 RUTA_FUENTE = DIRECTORIO_DATOS / "super_diario.csv"
 RUTA_SALIDA = DIRECTORIO_DATOS / "super_diario_compacto.csv"
 RUTA_DICCIONARIO = DIRECTORIO_DATOS / "super_diario_compacto_diccionario.csv"
+COLUMNAS_BANDA_FUENTE = {
+    "inflacion_28d_q05": "q05",
+    "inflacion_28d_q95": "q95",
+}
 MAPEO_DEPARTAMENTOS = {
     "la_paz": "La Paz",
     "cochabamba": "Cochabamba",
@@ -47,6 +51,8 @@ def cargar_fuente(ruta: Path) -> pd.DataFrame:
     tabla = pd.read_csv(ruta)
     tabla["fecha"] = pd.to_datetime(tabla["fecha"], errors="coerce")
     tabla["inflacion_28d"] = pd.to_numeric(tabla["inflacion_28d"], errors="coerce")
+    for columna in COLUMNAS_BANDA_FUENTE:
+        tabla[columna] = pd.to_numeric(tabla[columna], errors="coerce")
     tabla["departamento"] = tabla["departamento"].astype(str).str.strip()
     tabla["componente"] = tabla["componente"].astype(str).str.strip()
     return tabla
@@ -59,10 +65,18 @@ def construir_serie_compacta(tabla: pd.DataFrame) -> pd.DataFrame:
         tabla["fecha"].notna()
         & (tabla["fecha"] >= FECHA_INICIO)
         & tabla["departamento"].isin(MAPEO_DEPARTAMENTOS),
-        ["departamento", "fecha", "componente", "inflacion_28d"],
+        [
+            "departamento",
+            "fecha",
+            "componente",
+            "inflacion_28d",
+            *COLUMNAS_BANDA_FUENTE,
+        ],
     ].copy()
     salida["departamento"] = salida["departamento"].map(MAPEO_DEPARTAMENTOS)
-    return salida.rename(columns={"inflacion_28d": "valor"}).reset_index(drop=True)
+    return salida.rename(
+        columns={"inflacion_28d": "valor", **COLUMNAS_BANDA_FUENTE}
+    ).reset_index(drop=True)
 
 
 def filtrar_componentes_validos(tabla: pd.DataFrame) -> pd.DataFrame:
@@ -143,12 +157,13 @@ def asignar_ids(
         how="left",
         validate="many_to_one",
     ).drop(columns="componente_nombre")
-    salida["valor"] = salida["valor"].round(DECIMALES)
+    for columna in ["valor", "q05", "q95"]:
+        salida[columna] = salida[columna].round(DECIMALES)
     salida["fecha"] = (
         salida["fecha"].dt.normalize().sub(FECHA_INICIO).dt.days.astype(int)
     )
     salida = salida[
-        ["departamento_id", "fecha", "componente_id", "valor"]
+        ["departamento_id", "fecha", "componente_id", "valor", "q05", "q95"]
     ].rename(
         columns={
             "departamento_id": "departamento",
