@@ -10376,7 +10376,7 @@ fecha,departamento,id_producto,precio
 2026-05-30,Cochabamba,8,5.530
 2026-05-30,Cochabamba,10,57.330
 2026-05-30,Cochabamba,11,30.670
-2026-05-30,Cochabamba,12,70.000
+2026-05-30,Cochabamba,12,46.670
 2026-05-30,Cochabamba,13,13.230
 2026-05-30,Cochabamba,14,8.000
 2026-05-30,Cochabamba,15,26.330
@@ -10432,3 +10432,8 @@ fecha,departamento,id_producto,precio
 2026-05-30,Santa Cruz,23,3.100
 2026-05-30,Santa Cruz,24,25.670
 2026-05-30,Santa Cruz,25,5.330
+2026-06-01,La Paz,1,20.000
+2026-06-01,La Paz,6,55.000
+2026-06-01,La Paz,7,126.670
+2026-06-01,La Paz,10,86.670
+2026-06-01,La Paz,19,86.670
