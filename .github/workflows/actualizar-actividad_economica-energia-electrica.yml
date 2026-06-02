@@ -1,0 +1,57 @@
+name: Actualizar Demanda Energia Electrica
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-combustibles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: actividad_economica/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r actividad_economica/requirements.txt
+
+      - name: Clone bo-combustible source
+        run: git clone --depth 1 https://github.com/pr0nstar/despacho_de_carga.git /tmp/despacho_de_carga
+
+      - name: Rebuild indicadores
+        run: python actividad_economica/demanda_energia_electrica.py
+
+      - name: Commit updated CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add actividad_economica/datos/demada_energia_electrica.csv
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          git commit -m "Actualizar actividad economica: Demanda energia electrica"
+          for intento in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((intento * 5))
+          done
+          echo "No se pudo sincronizar y publicar tras varios intentos."
+          exit 1
