@@ -27940,12 +27940,12 @@ la_paz,2026-05-01,Abarrotes,0.268,0.268,0.278
 la_paz,2026-05-01,Bazar,0.254,0.254,0.312
 la_paz,2026-05-01,Bebidas,0.409,0.409,0.414
 la_paz,2026-05-01,Carnes,0.148,,
-la_paz,2026-05-01,Compuesto,0.404,0.402,0.421
-la_paz,2026-05-01,Congelados,0.244,0.244,0.253
+la_paz,2026-05-01,Compuesto,0.404,0.402,0.420
+la_paz,2026-05-01,Congelados,0.244,0.244,0.252
 la_paz,2026-05-01,Cuidado Personal,-0.027,-0.035,-0.006
 la_paz,2026-05-01,Cuidado del Bebé,-0.289,-0.337,-0.246
 la_paz,2026-05-01,Cuidado del Hogar,0.005,0.005,0.026
-la_paz,2026-05-01,Fiambres,-0.111,-0.111,-0.062
+la_paz,2026-05-01,Fiambres,-0.111,-0.111,-0.084
 la_paz,2026-05-01,Frutas y Verduras,1.813,1.813,1.828
 la_paz,2026-05-01,Granos y Hortalizas,0.566,0.566,0.631
 la_paz,2026-05-01,Lácteos y Derivados,1.579,1.579,1.585
@@ -27986,12 +27986,12 @@ la_paz,2026-05-02,Abarrotes,0.266,0.261,0.266
 la_paz,2026-05-02,Bazar,0.254,0.254,0.370
 la_paz,2026-05-02,Bebidas,0.408,0.408,0.417
 la_paz,2026-05-02,Carnes,0.148,0.141,0.211
-la_paz,2026-05-02,Compuesto,0.406,0.401,0.441
-la_paz,2026-05-02,Congelados,0.244,0.244,0.262
+la_paz,2026-05-02,Compuesto,0.406,0.401,0.438
+la_paz,2026-05-02,Congelados,0.244,0.244,0.261
 la_paz,2026-05-02,Cuidado Personal,-0.027,-0.043,0.016
 la_paz,2026-05-02,Cuidado del Bebé,-0.289,-0.386,-0.203
 la_paz,2026-05-02,Cuidado del Hogar,0.023,0.023,0.067
-la_paz,2026-05-02,Fiambres,-0.111,-0.111,-0.014
+la_paz,2026-05-02,Fiambres,-0.111,-0.111,-0.056
 la_paz,2026-05-02,Frutas y Verduras,1.813,1.813,1.842
 la_paz,2026-05-02,Granos y Hortalizas,0.566,0.566,0.696
 la_paz,2026-05-02,Lácteos y Derivados,1.579,1.579,1.591
@@ -28032,12 +28032,12 @@ la_paz,2026-05-03,Abarrotes,0.275,0.256,0.275
 la_paz,2026-05-03,Bazar,0.254,0.254,0.428
 la_paz,2026-05-03,Bebidas,0.409,0.409,0.424
 la_paz,2026-05-03,Carnes,0.148,0.131,0.302
-la_paz,2026-05-03,Compuesto,0.424,0.414,0.480
-la_paz,2026-05-03,Congelados,0.448,0.448,0.474
+la_paz,2026-05-03,Compuesto,0.424,0.414,0.476
+la_paz,2026-05-03,Congelados,0.448,0.448,0.473
 la_paz,2026-05-03,Cuidado Personal,-0.027,-0.051,0.038
 la_paz,2026-05-03,Cuidado del Bebé,-0.289,-0.435,-0.161
 la_paz,2026-05-03,Cuidado del Hogar,0.023,0.023,0.089
-la_paz,2026-05-03,Fiambres,-0.058,-0.058,0.088
+la_paz,2026-05-03,Fiambres,-0.058,-0.058,0.024
 la_paz,2026-05-03,Frutas y Verduras,1.723,1.723,1.767
 la_paz,2026-05-03,Granos y Hortalizas,0.566,0.566,0.761
 la_paz,2026-05-03,Lácteos y Derivados,1.706,1.706,1.723
@@ -28078,12 +28078,12 @@ la_paz,2026-05-04,Abarrotes,-0.028,-0.061,-0.028
 la_paz,2026-05-04,Bazar,0.254,0.254,0.488
 la_paz,2026-05-04,Bebidas,0.199,0.199,0.219
 la_paz,2026-05-04,Carnes,0.148,0.118,0.413
-la_paz,2026-05-04,Compuesto,0.356,0.342,0.436
-la_paz,2026-05-04,Congelados,0.448,0.448,0.483
+la_paz,2026-05-04,Compuesto,0.356,0.342,0.430
+la_paz,2026-05-04,Congelados,0.448,0.448,0.481
 la_paz,2026-05-04,Cuidado Personal,-0.027,-0.060,0.062
 la_paz,2026-05-04,Cuidado del Bebé,-0.289,-0.484,-0.118
 la_paz,2026-05-04,Cuidado del Hogar,0.053,0.053,0.141
-la_paz,2026-05-04,Fiambres,-0.058,-0.058,0.143
+la_paz,2026-05-04,Fiambres,-0.058,-0.058,0.055
 la_paz,2026-05-04,Frutas y Verduras,1.723,1.723,1.781
 la_paz,2026-05-04,Granos y Hortalizas,0.566,0.566,0.826
 la_paz,2026-05-04,Lácteos y Derivados,1.684,1.684,1.708
@@ -28124,16 +28124,16 @@ la_paz,2026-05-05,Abarrotes,-0.028,-0.075,-0.028
 la_paz,2026-05-05,Bazar,0.254,0.254,0.547
 la_paz,2026-05-05,Bebidas,0.199,0.199,0.224
 la_paz,2026-05-05,Carnes,0.148,0.106,0.525
-la_paz,2026-05-05,Compuesto,0.356,0.337,0.459
-la_paz,2026-05-05,Congelados,0.448,0.448,0.492
+la_paz,2026-05-05,Compuesto,0.356,0.337,0.452
+la_paz,2026-05-05,Congelados,0.448,0.448,0.489
 la_paz,2026-05-05,Cuidado Personal,-0.027,-0.069,0.087
 la_paz,2026-05-05,Cuidado del Bebé,-0.289,-0.532,-0.075
 la_paz,2026-05-05,Cuidado del Hogar,0.053,0.053,0.163
-la_paz,2026-05-05,Fiambres,-0.058,-0.058,0.198
+la_paz,2026-05-05,Fiambres,-0.058,-0.058,0.086
 la_paz,2026-05-05,Frutas y Verduras,1.723,1.723,1.796
 la_paz,2026-05-05,Granos y Hortalizas,0.566,0.566,0.891
 la_paz,2026-05-05,Lácteos y Derivados,1.684,1.684,1.714
-la_paz,2026-05-05,Panadería,0.235,0.235,0.236
+la_paz,2026-05-05,Panadería,0.235,0.235,0.235
 la_paz,2026-05-05,Pastelería y Masas Típicas,0.407,0.406,0.422
 santa_cruz,2026-05-05,Abarrotes,-0.013,-0.013,0.005
 santa_cruz,2026-05-05,Bazar,0.652,0.652,1.066
@@ -28170,16 +28170,16 @@ la_paz,2026-05-06,Abarrotes,0.076,0.015,0.076
 la_paz,2026-05-06,Bazar,0.254,0.254,0.607
 la_paz,2026-05-06,Bebidas,-0.068,-0.068,-0.039
 la_paz,2026-05-06,Carnes,0.500,0.438,1.040
-la_paz,2026-05-06,Compuesto,0.259,0.234,0.388
-la_paz,2026-05-06,Congelados,0.375,0.375,0.427
+la_paz,2026-05-06,Compuesto,0.259,0.234,0.380
+la_paz,2026-05-06,Congelados,0.375,0.375,0.424
 la_paz,2026-05-06,Cuidado Personal,-0.104,-0.154,0.036
 la_paz,2026-05-06,Cuidado del Bebé,-0.248,-0.540,0.008
 la_paz,2026-05-06,Cuidado del Hogar,0.053,0.053,0.189
-la_paz,2026-05-06,Fiambres,-0.052,-0.052,0.259
+la_paz,2026-05-06,Fiambres,-0.052,-0.052,0.122
 la_paz,2026-05-06,Frutas y Verduras,1.424,1.424,1.510
 la_paz,2026-05-06,Granos y Hortalizas,0.791,0.791,1.181
 la_paz,2026-05-06,Lácteos y Derivados,0.130,0.130,0.165
-la_paz,2026-05-06,Panadería,0.235,0.235,0.236
+la_paz,2026-05-06,Panadería,0.235,0.235,0.235
 la_paz,2026-05-06,Pastelería y Masas Típicas,0.407,0.406,0.424
 santa_cruz,2026-05-06,Abarrotes,-0.010,-0.010,0.013
 santa_cruz,2026-05-06,Bazar,0.628,0.628,1.125
@@ -28216,12 +28216,12 @@ la_paz,2026-05-07,Abarrotes,-0.616,-0.690,-0.616
 la_paz,2026-05-07,Bazar,-0.812,-0.812,-0.404
 la_paz,2026-05-07,Bebidas,-0.091,-0.091,-0.057
 la_paz,2026-05-07,Carnes,1.009,0.926,1.735
-la_paz,2026-05-07,Compuesto,0.025,-0.005,0.183
-la_paz,2026-05-07,Congelados,0.423,0.423,0.485
+la_paz,2026-05-07,Compuesto,0.025,-0.005,0.173
+la_paz,2026-05-07,Congelados,0.423,0.423,0.481
 la_paz,2026-05-07,Cuidado Personal,-0.213,-0.273,-0.048
 la_paz,2026-05-07,Cuidado del Bebé,0.705,0.347,1.019
 la_paz,2026-05-07,Cuidado del Hogar,-1.057,-1.057,-0.897
-la_paz,2026-05-07,Fiambres,-0.062,-0.062,0.304
+la_paz,2026-05-07,Fiambres,-0.062,-0.062,0.143
 la_paz,2026-05-07,Frutas y Verduras,1.156,1.156,1.256
 la_paz,2026-05-07,Granos y Hortalizas,0.791,0.791,1.247
 la_paz,2026-05-07,Lácteos y Derivados,0.149,0.149,0.190
@@ -28262,12 +28262,12 @@ la_paz,2026-05-08,Abarrotes,-0.632,-0.719,-0.632
 la_paz,2026-05-08,Bazar,-0.812,-0.812,-0.345
 la_paz,2026-05-08,Bebidas,-0.262,-0.262,-0.223
 la_paz,2026-05-08,Carnes,1.111,1.002,2.069
-la_paz,2026-05-08,Compuesto,0.096,0.059,0.287
-la_paz,2026-05-08,Congelados,0.456,0.456,0.526
+la_paz,2026-05-08,Compuesto,0.096,0.059,0.276
+la_paz,2026-05-08,Congelados,0.456,0.456,0.522
 la_paz,2026-05-08,Cuidado Personal,-0.151,-0.222,0.043
 la_paz,2026-05-08,Cuidado del Bebé,1.562,1.137,1.934
 la_paz,2026-05-08,Cuidado del Hogar,-1.258,-1.258,-1.072
-la_paz,2026-05-08,Fiambres,0.122,0.122,0.544
+la_paz,2026-05-08,Fiambres,0.122,0.122,0.358
 la_paz,2026-05-08,Frutas y Verduras,2.077,2.077,2.193
 la_paz,2026-05-08,Granos y Hortalizas,0.791,0.791,1.312
 la_paz,2026-05-08,Lácteos y Derivados,0.182,0.182,0.229
@@ -28308,16 +28308,16 @@ la_paz,2026-05-09,Abarrotes,-0.637,-0.736,-0.637
 la_paz,2026-05-09,Bazar,-0.812,-0.812,-0.286
 la_paz,2026-05-09,Bebidas,-0.279,-0.279,-0.235
 la_paz,2026-05-09,Carnes,1.111,0.976,2.301
-la_paz,2026-05-09,Compuesto,0.065,0.022,0.290
-la_paz,2026-05-09,Congelados,0.456,0.456,0.536
+la_paz,2026-05-09,Compuesto,0.065,0.022,0.278
+la_paz,2026-05-09,Congelados,0.456,0.456,0.531
 la_paz,2026-05-09,Cuidado Personal,-0.172,-0.254,0.050
 la_paz,2026-05-09,Cuidado del Bebé,1.086,0.600,1.512
 la_paz,2026-05-09,Cuidado del Hogar,-1.254,-1.254,-1.043
-la_paz,2026-05-09,Fiambres,0.122,0.122,0.602
+la_paz,2026-05-09,Fiambres,0.122,0.122,0.391
 la_paz,2026-05-09,Frutas y Verduras,1.860,1.860,2.010
 la_paz,2026-05-09,Granos y Hortalizas,0.791,0.791,1.377
 la_paz,2026-05-09,Lácteos y Derivados,0.192,0.192,0.244
-la_paz,2026-05-09,Panadería,0.263,0.263,0.264
+la_paz,2026-05-09,Panadería,0.263,0.263,0.263
 la_paz,2026-05-09,Pastelería y Masas Típicas,0.411,0.406,0.458
 santa_cruz,2026-05-09,Abarrotes,0.109,0.109,0.148
 santa_cruz,2026-05-09,Bazar,-0.278,-0.278,0.462
@@ -28354,16 +28354,16 @@ la_paz,2026-05-10,Abarrotes,-0.637,-0.748,-0.637
 la_paz,2026-05-10,Bazar,-0.812,-0.812,-0.227
 la_paz,2026-05-10,Bebidas,-0.290,-0.290,-0.241
 la_paz,2026-05-10,Carnes,1.111,0.941,2.616
-la_paz,2026-05-10,Compuesto,0.233,0.183,0.500
-la_paz,2026-05-10,Congelados,0.456,0.456,0.546
+la_paz,2026-05-10,Compuesto,0.233,0.183,0.485
+la_paz,2026-05-10,Congelados,0.456,0.456,0.540
 la_paz,2026-05-10,Cuidado Personal,-0.172,-0.264,0.079
 la_paz,2026-05-10,Cuidado del Bebé,1.086,0.537,1.568
 la_paz,2026-05-10,Cuidado del Hogar,-1.250,-1.250,-1.012
-la_paz,2026-05-10,Fiambres,0.122,0.122,0.660
+la_paz,2026-05-10,Fiambres,0.122,0.122,0.423
 la_paz,2026-05-10,Frutas y Verduras,4.313,4.313,4.500
 la_paz,2026-05-10,Granos y Hortalizas,0.791,0.791,1.443
 la_paz,2026-05-10,Lácteos y Derivados,0.198,0.198,0.259
-la_paz,2026-05-10,Panadería,0.263,0.263,0.264
+la_paz,2026-05-10,Panadería,0.263,0.263,0.263
 la_paz,2026-05-10,Pastelería y Masas Típicas,0.411,0.405,0.476
 santa_cruz,2026-05-10,Abarrotes,0.078,0.078,0.123
 santa_cruz,2026-05-10,Bazar,-0.278,-0.278,0.545
@@ -28400,16 +28400,16 @@ la_paz,2026-05-11,Abarrotes,-0.637,-0.759,-0.637
 la_paz,2026-05-11,Bazar,-0.812,-0.812,-0.168
 la_paz,2026-05-11,Bebidas,-0.290,-0.290,-0.236
 la_paz,2026-05-11,Carnes,1.111,0.906,2.931
-la_paz,2026-05-11,Compuesto,0.231,0.175,0.542
-la_paz,2026-05-11,Congelados,0.456,0.456,0.561
+la_paz,2026-05-11,Compuesto,0.231,0.175,0.526
+la_paz,2026-05-11,Congelados,0.456,0.456,0.555
 la_paz,2026-05-11,Cuidado Personal,-0.163,-0.266,0.118
 la_paz,2026-05-11,Cuidado del Bebé,1.086,0.465,1.632
 la_paz,2026-05-11,Cuidado del Hogar,-1.276,-1.276,-1.006
-la_paz,2026-05-11,Fiambres,0.122,0.122,0.740
+la_paz,2026-05-11,Fiambres,0.122,0.122,0.468
 la_paz,2026-05-11,Frutas y Verduras,4.313,4.313,4.534
 la_paz,2026-05-11,Granos y Hortalizas,0.791,0.791,1.508
 la_paz,2026-05-11,Lácteos y Derivados,0.198,0.198,0.269
-la_paz,2026-05-11,Panadería,0.263,0.263,0.264
+la_paz,2026-05-11,Panadería,0.263,0.263,0.263
 la_paz,2026-05-11,Pastelería y Masas Típicas,0.411,0.403,0.498
 santa_cruz,2026-05-11,Abarrotes,0.078,0.078,0.130
 santa_cruz,2026-05-11,Bazar,-0.278,-0.278,0.628
@@ -28446,16 +28446,16 @@ la_paz,2026-05-12,Abarrotes,-0.497,-0.630,-0.497
 la_paz,2026-05-12,Bazar,-0.812,-0.812,-0.109
 la_paz,2026-05-12,Bebidas,-0.770,-0.770,-0.710
 la_paz,2026-05-12,Carnes,1.740,1.498,3.891
-la_paz,2026-05-12,Compuesto,0.249,0.186,0.607
-la_paz,2026-05-12,Congelados,0.456,0.456,0.586
+la_paz,2026-05-12,Compuesto,0.249,0.186,0.588
+la_paz,2026-05-12,Congelados,0.456,0.456,0.578
 la_paz,2026-05-12,Cuidado Personal,-0.166,-0.281,0.149
 la_paz,2026-05-12,Cuidado del Bebé,1.086,0.393,1.695
 la_paz,2026-05-12,Cuidado del Hogar,-1.295,-1.295,-0.994
-la_paz,2026-05-12,Fiambres,0.122,0.122,0.830
+la_paz,2026-05-12,Fiambres,0.122,0.122,0.518
 la_paz,2026-05-12,Frutas y Verduras,4.616,4.616,4.871
 la_paz,2026-05-12,Granos y Hortalizas,0.791,0.791,1.574
 la_paz,2026-05-12,Lácteos y Derivados,0.234,0.234,0.315
-la_paz,2026-05-12,Panadería,0.263,0.263,0.264
+la_paz,2026-05-12,Panadería,0.263,0.263,0.263
 la_paz,2026-05-12,Pastelería y Masas Típicas,0.411,0.401,0.521
 santa_cruz,2026-05-12,Abarrotes,0.271,0.271,0.331
 santa_cruz,2026-05-12,Bazar,-0.526,-0.526,0.460
@@ -28492,16 +28492,16 @@ la_paz,2026-05-13,Abarrotes,-0.398,-0.541,-0.398
 la_paz,2026-05-13,Bazar,-0.812,-0.812,-0.049
 la_paz,2026-05-13,Bebidas,-0.770,-0.770,-0.704
 la_paz,2026-05-13,Carnes,2.577,2.297,5.068
-la_paz,2026-05-13,Compuesto,0.342,0.272,0.750
-la_paz,2026-05-13,Congelados,0.498,0.498,0.652
+la_paz,2026-05-13,Compuesto,0.342,0.272,0.729
+la_paz,2026-05-13,Congelados,0.498,0.498,0.643
 la_paz,2026-05-13,Cuidado Personal,-0.166,-0.294,0.184
 la_paz,2026-05-13,Cuidado del Bebé,1.086,0.321,1.759
 la_paz,2026-05-13,Cuidado del Hogar,-1.265,-1.265,-0.931
-la_paz,2026-05-13,Fiambres,0.122,0.122,0.920
+la_paz,2026-05-13,Fiambres,0.122,0.122,0.569
 la_paz,2026-05-13,Frutas y Verduras,4.591,4.591,4.949
 la_paz,2026-05-13,Granos y Hortalizas,0.791,0.791,1.639
 la_paz,2026-05-13,Lácteos y Derivados,0.707,0.707,0.799
-la_paz,2026-05-13,Panadería,0.263,0.263,0.264
+la_paz,2026-05-13,Panadería,0.263,0.263,0.263
 la_paz,2026-05-13,Pastelería y Masas Típicas,0.411,0.399,0.543
 santa_cruz,2026-05-13,Abarrotes,0.271,0.271,0.339
 santa_cruz,2026-05-13,Bazar,-0.526,-0.526,0.542
@@ -28538,16 +28538,16 @@ la_paz,2026-05-14,Abarrotes,-0.825,-0.974,-0.825
 la_paz,2026-05-14,Bazar,-0.812,-0.812,0.012
 la_paz,2026-05-14,Bebidas,-0.770,-0.770,-0.698
 la_paz,2026-05-14,Carnes,1.834,1.521,4.628
-la_paz,2026-05-14,Compuesto,0.315,0.238,0.782
-la_paz,2026-05-14,Congelados,0.498,0.498,0.689
+la_paz,2026-05-14,Compuesto,0.315,0.238,0.756
+la_paz,2026-05-14,Congelados,0.498,0.498,0.678
 la_paz,2026-05-14,Cuidado Personal,-0.160,-0.300,0.225
 la_paz,2026-05-14,Cuidado del Bebé,1.086,0.249,1.823
 la_paz,2026-05-14,Cuidado del Hogar,-1.274,-1.274,-0.902
-la_paz,2026-05-14,Fiambres,0.122,0.122,1.091
+la_paz,2026-05-14,Fiambres,0.122,0.122,0.664
 la_paz,2026-05-14,Frutas y Verduras,5.640,5.640,6.103
 la_paz,2026-05-14,Granos y Hortalizas,1.145,1.145,2.062
 la_paz,2026-05-14,Lácteos y Derivados,0.759,0.759,0.878
-la_paz,2026-05-14,Panadería,0.263,0.263,0.264
+la_paz,2026-05-14,Panadería,0.263,0.263,0.263
 la_paz,2026-05-14,Pastelería y Masas Típicas,0.411,0.396,0.570
 santa_cruz,2026-05-14,Abarrotes,0.258,0.258,0.338
 santa_cruz,2026-05-14,Bazar,-0.526,-0.526,0.625
@@ -28584,16 +28584,16 @@ la_paz,2026-05-15,Abarrotes,-0.828,-0.984,-0.828
 la_paz,2026-05-15,Bazar,-0.812,-0.812,0.073
 la_paz,2026-05-15,Bebidas,-0.770,-0.770,-0.693
 la_paz,2026-05-15,Carnes,1.834,1.485,4.950
-la_paz,2026-05-15,Compuesto,0.384,0.301,0.914
-la_paz,2026-05-15,Congelados,0.498,0.498,0.746
+la_paz,2026-05-15,Compuesto,0.384,0.301,0.882
+la_paz,2026-05-15,Congelados,0.498,0.498,0.732
 la_paz,2026-05-15,Cuidado Personal,-0.159,-0.313,0.264
 la_paz,2026-05-15,Cuidado del Bebé,1.086,0.177,1.887
 la_paz,2026-05-15,Cuidado del Hogar,-1.274,-1.274,-0.863
-la_paz,2026-05-15,Fiambres,0.122,0.122,1.300
+la_paz,2026-05-15,Fiambres,0.122,0.122,0.780
 la_paz,2026-05-15,Frutas y Verduras,6.678,6.678,7.250
 la_paz,2026-05-15,Granos y Hortalizas,1.145,1.145,2.128
 la_paz,2026-05-15,Lácteos y Derivados,0.759,0.759,0.907
-la_paz,2026-05-15,Panadería,0.263,0.263,0.265
+la_paz,2026-05-15,Panadería,0.263,0.263,0.263
 la_paz,2026-05-15,Pastelería y Masas Típicas,0.411,0.394,0.598
 santa_cruz,2026-05-15,Abarrotes,0.252,0.252,0.343
 santa_cruz,2026-05-15,Bazar,-0.526,-0.526,0.708
@@ -28630,16 +28630,16 @@ la_paz,2026-05-16,Abarrotes,-0.768,-0.931,-0.768
 la_paz,2026-05-16,Bazar,-0.812,-0.812,0.135
 la_paz,2026-05-16,Bebidas,-0.770,-0.770,-0.687
 la_paz,2026-05-16,Carnes,1.998,1.613,5.443
-la_paz,2026-05-16,Compuesto,0.385,0.295,0.977
-la_paz,2026-05-16,Congelados,0.498,0.498,0.803
+la_paz,2026-05-16,Compuesto,0.385,0.295,0.940
+la_paz,2026-05-16,Congelados,0.498,0.498,0.785
 la_paz,2026-05-16,Cuidado Personal,-0.876,-1.043,-0.418
 la_paz,2026-05-16,Cuidado del Bebé,1.086,0.105,1.951
 la_paz,2026-05-16,Cuidado del Hogar,-1.274,-1.274,-0.823
-la_paz,2026-05-16,Fiambres,0.122,0.122,1.508
+la_paz,2026-05-16,Fiambres,0.122,0.122,0.896
 la_paz,2026-05-16,Frutas y Verduras,7.424,7.424,8.105
 la_paz,2026-05-16,Granos y Hortalizas,0.606,0.606,1.649
 la_paz,2026-05-16,Lácteos y Derivados,0.759,0.759,0.935
-la_paz,2026-05-16,Panadería,0.263,0.263,0.265
+la_paz,2026-05-16,Panadería,0.263,0.263,0.263
 la_paz,2026-05-16,Pastelería y Masas Típicas,0.411,0.392,0.625
 santa_cruz,2026-05-16,Abarrotes,0.275,0.275,0.377
 santa_cruz,2026-05-16,Bazar,-0.526,-0.526,0.790
@@ -28676,16 +28676,16 @@ la_paz,2026-05-17,Abarrotes,-0.768,-0.936,-0.768
 la_paz,2026-05-17,Bazar,-0.812,-0.812,0.196
 la_paz,2026-05-17,Bebidas,-0.770,-0.770,-0.681
 la_paz,2026-05-17,Carnes,1.998,1.578,5.767
-la_paz,2026-05-17,Compuesto,0.388,0.292,1.046
-la_paz,2026-05-17,Congelados,0.502,0.502,0.870
+la_paz,2026-05-17,Compuesto,0.388,0.292,1.003
+la_paz,2026-05-17,Congelados,0.502,0.502,0.848
 la_paz,2026-05-17,Cuidado Personal,-0.897,-1.079,-0.399
 la_paz,2026-05-17,Cuidado del Bebé,1.077,0.024,2.005
 la_paz,2026-05-17,Cuidado del Hogar,-1.293,-1.293,-0.797
-la_paz,2026-05-17,Fiambres,0.122,0.122,1.751
+la_paz,2026-05-17,Fiambres,0.122,0.122,1.031
 la_paz,2026-05-17,Frutas y Verduras,7.518,7.518,8.305
 la_paz,2026-05-17,Granos y Hortalizas,0.606,0.606,1.715
 la_paz,2026-05-17,Lácteos y Derivados,0.774,0.774,0.985
-la_paz,2026-05-17,Panadería,0.263,0.263,0.265
+la_paz,2026-05-17,Panadería,0.263,0.263,0.263
 la_paz,2026-05-17,Pastelería y Masas Típicas,0.411,0.389,0.653
 santa_cruz,2026-05-17,Abarrotes,0.257,0.257,0.370
 santa_cruz,2026-05-17,Bazar,-0.526,-0.526,0.873
@@ -28722,16 +28722,16 @@ la_paz,2026-05-18,Abarrotes,-0.768,-0.941,-0.768
 la_paz,2026-05-18,Bazar,-0.812,-0.812,0.258
 la_paz,2026-05-18,Bebidas,-0.770,-0.770,-0.676
 la_paz,2026-05-18,Carnes,2.366,1.909,6.475
-la_paz,2026-05-18,Compuesto,0.434,0.331,1.160
-la_paz,2026-05-18,Congelados,0.502,0.502,0.942
+la_paz,2026-05-18,Compuesto,0.434,0.331,1.110
+la_paz,2026-05-18,Congelados,0.502,0.502,0.917
 la_paz,2026-05-18,Cuidado Personal,-0.896,-1.092,-0.357
 la_paz,2026-05-18,Cuidado del Bebé,1.077,-0.048,2.069
 la_paz,2026-05-18,Cuidado del Hogar,-2.309,-2.309,-1.773
-la_paz,2026-05-18,Fiambres,0.122,0.122,2.006
+la_paz,2026-05-18,Fiambres,0.122,0.122,1.173
 la_paz,2026-05-18,Frutas y Verduras,9.313,9.313,10.220
 la_paz,2026-05-18,Granos y Hortalizas,0.606,0.606,1.781
 la_paz,2026-05-18,Lácteos y Derivados,0.774,0.774,1.022
-la_paz,2026-05-18,Panadería,0.263,0.263,0.265
+la_paz,2026-05-18,Panadería,0.263,0.263,0.263
 la_paz,2026-05-18,Pastelería y Masas Típicas,0.411,0.387,0.680
 santa_cruz,2026-05-18,Abarrotes,0.257,0.257,0.384
 santa_cruz,2026-05-18,Bazar,-0.526,-0.526,0.956
@@ -28768,16 +28768,16 @@ la_paz,2026-05-19,Abarrotes,-0.726,-0.900,-0.726
 la_paz,2026-05-19,Bazar,-0.812,-0.812,0.319
 la_paz,2026-05-19,Bebidas,-0.768,-0.768,-0.668
 la_paz,2026-05-19,Carnes,2.314,1.822,6.749
-la_paz,2026-05-19,Compuesto,0.502,0.393,1.305
-la_paz,2026-05-19,Congelados,0.499,0.499,1.025
+la_paz,2026-05-19,Compuesto,0.502,0.393,1.246
+la_paz,2026-05-19,Congelados,0.499,0.499,0.995
 la_paz,2026-05-19,Cuidado Personal,-0.896,-1.108,-0.313
 la_paz,2026-05-19,Cuidado del Bebé,1.077,-0.120,2.133
 la_paz,2026-05-19,Cuidado del Hogar,-2.194,-2.194,-1.608
-la_paz,2026-05-19,Fiambres,0.122,0.122,2.356
+la_paz,2026-05-19,Fiambres,0.122,0.122,1.367
 la_paz,2026-05-19,Frutas y Verduras,10.183,10.183,11.205
 la_paz,2026-05-19,Granos y Hortalizas,0.606,0.606,1.922
 la_paz,2026-05-19,Lácteos y Derivados,0.736,0.736,1.034
-la_paz,2026-05-19,Panadería,0.263,0.263,0.266
+la_paz,2026-05-19,Panadería,0.263,0.263,0.263
 la_paz,2026-05-19,Pastelería y Masas Típicas,0.411,0.384,0.708
 santa_cruz,2026-05-19,Abarrotes,0.260,0.260,0.405
 santa_cruz,2026-05-19,Bazar,-0.526,-0.526,1.039
@@ -28814,16 +28814,16 @@ la_paz,2026-05-20,Abarrotes,-0.770,-0.946,-0.770
 la_paz,2026-05-20,Bazar,-0.812,-0.812,0.381
 la_paz,2026-05-20,Bebidas,-0.768,-0.768,-0.669
 la_paz,2026-05-20,Carnes,2.314,1.786,7.078
-la_paz,2026-05-20,Compuesto,0.677,0.562,1.558
-la_paz,2026-05-20,Congelados,0.499,0.499,1.112
+la_paz,2026-05-20,Compuesto,0.677,0.562,1.490
+la_paz,2026-05-20,Congelados,0.499,0.499,1.076
 la_paz,2026-05-20,Cuidado Personal,-0.896,-1.125,-0.267
 la_paz,2026-05-20,Cuidado del Bebé,1.077,-0.192,2.197
 la_paz,2026-05-20,Cuidado del Hogar,-2.194,-2.194,-1.558
-la_paz,2026-05-20,Fiambres,0.122,0.122,2.717
+la_paz,2026-05-20,Fiambres,0.122,0.122,1.567
 la_paz,2026-05-20,Frutas y Verduras,12.911,12.911,14.068
 la_paz,2026-05-20,Granos y Hortalizas,0.606,0.606,2.063
 la_paz,2026-05-20,Lácteos y Derivados,0.851,0.851,1.203
-la_paz,2026-05-20,Panadería,0.314,0.314,0.317
+la_paz,2026-05-20,Panadería,0.314,0.314,0.314
 la_paz,2026-05-20,Pastelería y Masas Típicas,0.411,0.382,0.735
 santa_cruz,2026-05-20,Abarrotes,0.262,0.262,0.425
 santa_cruz,2026-05-20,Bazar,-0.526,-0.526,1.122
@@ -28860,16 +28860,16 @@ la_paz,2026-05-21,Abarrotes,-0.711,-0.888,-0.711
 la_paz,2026-05-21,Bazar,-0.812,-0.812,0.442
 la_paz,2026-05-21,Bebidas,-0.732,-0.732,-0.635
 la_paz,2026-05-21,Carnes,3.446,2.876,8.595
-la_paz,2026-05-21,Compuesto,0.982,0.860,1.944
-la_paz,2026-05-21,Congelados,0.499,0.499,1.199
+la_paz,2026-05-21,Compuesto,0.982,0.860,1.865
+la_paz,2026-05-21,Congelados,0.499,0.499,1.158
 la_paz,2026-05-21,Cuidado Personal,-0.896,-1.142,-0.221
 la_paz,2026-05-21,Cuidado del Bebé,1.077,-0.263,2.261
 la_paz,2026-05-21,Cuidado del Hogar,-2.159,-2.159,-1.473
-la_paz,2026-05-21,Fiambres,0.156,0.156,3.114
+la_paz,2026-05-21,Fiambres,0.156,0.156,1.802
 la_paz,2026-05-21,Frutas y Verduras,16.378,16.378,17.685
 la_paz,2026-05-21,Granos y Hortalizas,0.606,0.606,2.205
 la_paz,2026-05-21,Lácteos y Derivados,0.893,0.893,1.299
-la_paz,2026-05-21,Panadería,0.311,0.311,0.315
+la_paz,2026-05-21,Panadería,0.311,0.311,0.311
 la_paz,2026-05-21,Pastelería y Masas Típicas,0.411,0.379,0.763
 santa_cruz,2026-05-21,Abarrotes,0.262,0.262,0.443
 santa_cruz,2026-05-21,Bazar,-0.526,-0.526,1.205
@@ -28906,16 +28906,16 @@ la_paz,2026-05-22,Abarrotes,-0.715,-0.890,-0.715
 la_paz,2026-05-22,Bazar,-0.812,-0.812,0.504
 la_paz,2026-05-22,Bebidas,-0.710,-0.710,-0.613
 la_paz,2026-05-22,Carnes,3.446,2.840,8.929
-la_paz,2026-05-22,Compuesto,1.098,0.970,2.143
-la_paz,2026-05-22,Congelados,0.499,0.499,1.287
+la_paz,2026-05-22,Compuesto,1.098,0.970,2.054
+la_paz,2026-05-22,Congelados,0.499,0.499,1.241
 la_paz,2026-05-22,Cuidado Personal,-0.896,-1.159,-0.174
 la_paz,2026-05-22,Cuidado del Bebé,1.077,-0.348,2.337
 la_paz,2026-05-22,Cuidado del Hogar,-2.065,-2.065,-1.323
-la_paz,2026-05-22,Fiambres,0.156,0.156,3.508
+la_paz,2026-05-22,Fiambres,0.156,0.156,2.018
 la_paz,2026-05-22,Frutas y Verduras,18.105,18.105,19.569
 la_paz,2026-05-22,Granos y Hortalizas,0.606,0.606,2.346
 la_paz,2026-05-22,Lácteos y Derivados,0.874,0.874,1.364
-la_paz,2026-05-22,Panadería,0.311,0.311,0.316
+la_paz,2026-05-22,Panadería,0.311,0.311,0.311
 la_paz,2026-05-22,Pastelería y Masas Típicas,0.409,0.375,0.788
 santa_cruz,2026-05-22,Abarrotes,0.196,0.196,0.396
 santa_cruz,2026-05-22,Bazar,-0.526,-0.526,1.288
@@ -28952,16 +28952,16 @@ la_paz,2026-05-23,Abarrotes,-0.732,-0.906,-0.732
 la_paz,2026-05-23,Bazar,-0.812,-0.812,0.566
 la_paz,2026-05-23,Bebidas,-0.678,-0.678,-0.582
 la_paz,2026-05-23,Carnes,3.446,2.804,9.265
-la_paz,2026-05-23,Compuesto,1.332,1.197,2.463
-la_paz,2026-05-23,Congelados,0.495,0.495,1.371
+la_paz,2026-05-23,Compuesto,1.332,1.197,2.363
+la_paz,2026-05-23,Congelados,0.495,0.495,1.320
 la_paz,2026-05-23,Cuidado Personal,-0.893,-1.173,-0.125
 la_paz,2026-05-23,Cuidado del Bebé,1.077,-0.432,2.412
 la_paz,2026-05-23,Cuidado del Hogar,-2.065,-2.065,-1.269
-la_paz,2026-05-23,Fiambres,0.131,0.131,3.878
+la_paz,2026-05-23,Fiambres,0.131,0.131,2.209
 la_paz,2026-05-23,Frutas y Verduras,22.019,22.019,23.674
 la_paz,2026-05-23,Granos y Hortalizas,0.606,0.606,2.488
 la_paz,2026-05-23,Lácteos y Derivados,0.873,0.873,1.447
-la_paz,2026-05-23,Panadería,0.336,0.336,0.342
+la_paz,2026-05-23,Panadería,0.336,0.336,0.336
 la_paz,2026-05-23,Pastelería y Masas Típicas,0.409,0.373,0.815
 santa_cruz,2026-05-23,Abarrotes,0.108,0.108,0.326
 santa_cruz,2026-05-23,Bazar,-0.526,-0.526,1.371
@@ -28998,16 +28998,16 @@ la_paz,2026-05-24,Abarrotes,-0.732,-0.901,-0.732
 la_paz,2026-05-24,Bazar,-0.812,-0.812,0.646
 la_paz,2026-05-24,Bebidas,-0.676,-0.676,-0.580
 la_paz,2026-05-24,Carnes,3.446,2.768,9.598
-la_paz,2026-05-24,Compuesto,1.406,1.266,2.628
-la_paz,2026-05-24,Congelados,0.495,0.495,1.460
+la_paz,2026-05-24,Compuesto,1.406,1.266,2.516
+la_paz,2026-05-24,Congelados,0.495,0.495,1.404
 la_paz,2026-05-24,Cuidado Personal,-0.890,-1.187,-0.073
 la_paz,2026-05-24,Cuidado del Bebé,1.077,-0.516,2.488
 la_paz,2026-05-24,Cuidado del Hogar,-2.065,-2.065,-1.210
-la_paz,2026-05-24,Fiambres,0.131,0.131,4.316
+la_paz,2026-05-24,Fiambres,0.131,0.131,2.441
 la_paz,2026-05-24,Frutas y Verduras,23.276,23.276,25.092
 la_paz,2026-05-24,Granos y Hortalizas,0.606,0.606,2.631
 la_paz,2026-05-24,Lácteos y Derivados,0.875,0.875,1.561
-la_paz,2026-05-24,Panadería,0.336,0.336,0.343
+la_paz,2026-05-24,Panadería,0.336,0.336,0.336
 la_paz,2026-05-24,Pastelería y Masas Típicas,0.409,0.370,0.850
 santa_cruz,2026-05-24,Abarrotes,0.108,0.108,0.352
 santa_cruz,2026-05-24,Bazar,-0.526,-0.526,1.478
@@ -29044,16 +29044,16 @@ la_paz,2026-05-25,Abarrotes,-0.732,-0.895,-0.732
 la_paz,2026-05-25,Bazar,-0.812,-0.812,0.726
 la_paz,2026-05-25,Bebidas,-0.676,-0.676,-0.580
 la_paz,2026-05-25,Carnes,3.446,2.733,9.933
-la_paz,2026-05-25,Compuesto,1.407,1.261,2.722
-la_paz,2026-05-25,Congelados,0.495,0.495,1.550
+la_paz,2026-05-25,Compuesto,1.407,1.261,2.598
+la_paz,2026-05-25,Congelados,0.495,0.495,1.488
 la_paz,2026-05-25,Cuidado Personal,-0.890,-1.205,-0.024
 la_paz,2026-05-25,Cuidado del Bebé,1.077,-0.601,2.564
 la_paz,2026-05-25,Cuidado del Hogar,-2.065,-2.065,-1.142
-la_paz,2026-05-25,Fiambres,0.153,0.153,4.783
+la_paz,2026-05-25,Fiambres,0.153,0.153,2.699
 la_paz,2026-05-25,Frutas y Verduras,23.276,23.276,25.236
 la_paz,2026-05-25,Granos y Hortalizas,0.606,0.606,2.773
 la_paz,2026-05-25,Lácteos y Derivados,0.875,0.875,1.677
-la_paz,2026-05-25,Panadería,0.336,0.336,0.344
+la_paz,2026-05-25,Panadería,0.336,0.336,0.336
 la_paz,2026-05-25,Pastelería y Masas Típicas,0.409,0.366,0.894
 santa_cruz,2026-05-25,Abarrotes,0.108,0.108,0.379
 santa_cruz,2026-05-25,Bazar,-0.526,-0.526,1.592
@@ -29090,16 +29090,16 @@ la_paz,2026-05-26,Abarrotes,-0.732,-0.888,-0.732
 la_paz,2026-05-26,Bazar,-0.812,-0.812,0.807
 la_paz,2026-05-26,Bebidas,-0.681,-0.681,-0.583
 la_paz,2026-05-26,Carnes,3.446,2.697,10.269
-la_paz,2026-05-26,Compuesto,1.426,1.274,2.838
-la_paz,2026-05-26,Congelados,0.495,0.495,1.639
+la_paz,2026-05-26,Compuesto,1.426,1.274,2.701
+la_paz,2026-05-26,Congelados,0.495,0.495,1.572
 la_paz,2026-05-26,Cuidado Personal,-0.908,-1.241,0.009
 la_paz,2026-05-26,Cuidado del Bebé,1.077,-0.685,2.640
 la_paz,2026-05-26,Cuidado del Hogar,-2.090,-2.090,-1.097
-la_paz,2026-05-26,Fiambres,0.153,0.153,5.246
+la_paz,2026-05-26,Fiambres,0.153,0.153,2.944
 la_paz,2026-05-26,Frutas y Verduras,23.671,23.671,25.782
 la_paz,2026-05-26,Granos y Hortalizas,0.606,0.606,2.915
 la_paz,2026-05-26,Lácteos y Derivados,0.873,0.873,1.814
-la_paz,2026-05-26,Panadería,0.336,0.336,0.345
+la_paz,2026-05-26,Panadería,0.336,0.336,0.336
 la_paz,2026-05-26,Pastelería y Masas Típicas,0.409,0.361,0.946
 santa_cruz,2026-05-26,Abarrotes,0.155,0.155,0.454
 santa_cruz,2026-05-26,Bazar,-0.628,-0.628,1.602
@@ -29136,16 +29136,16 @@ la_paz,2026-05-27,Abarrotes,-0.915,-1.062,-0.915
 la_paz,2026-05-27,Bazar,-0.812,-0.812,0.887
 la_paz,2026-05-27,Bebidas,-0.683,-0.683,-0.585
 la_paz,2026-05-27,Carnes,3.266,2.483,10.413
-la_paz,2026-05-27,Compuesto,1.557,1.399,3.085
-la_paz,2026-05-27,Congelados,0.496,0.496,1.736
+la_paz,2026-05-27,Compuesto,1.557,1.399,2.932
+la_paz,2026-05-27,Congelados,0.496,0.496,1.663
 la_paz,2026-05-27,Cuidado Personal,-0.908,-1.261,0.064
 la_paz,2026-05-27,Cuidado del Bebé,1.077,-0.769,2.716
 la_paz,2026-05-27,Cuidado del Hogar,-2.090,-2.090,-1.028
-la_paz,2026-05-27,Fiambres,0.153,0.153,5.859
+la_paz,2026-05-27,Fiambres,0.153,0.153,3.270
 la_paz,2026-05-27,Frutas y Verduras,26.514,26.514,28.844
 la_paz,2026-05-27,Granos y Hortalizas,0.879,0.879,3.380
 la_paz,2026-05-27,Lácteos y Derivados,0.875,0.875,1.997
-la_paz,2026-05-27,Panadería,0.336,0.336,0.346
+la_paz,2026-05-27,Panadería,0.336,0.336,0.336
 la_paz,2026-05-27,Pastelería y Masas Típicas,0.409,0.355,1.020
 santa_cruz,2026-05-27,Abarrotes,0.197,0.197,0.524
 santa_cruz,2026-05-27,Bazar,-0.855,-0.855,1.484
@@ -29182,16 +29182,16 @@ la_paz,2026-05-28,Abarrotes,-0.902,-1.037,-0.902
 la_paz,2026-05-28,Bazar,-0.812,-0.812,0.968
 la_paz,2026-05-28,Bebidas,-0.688,-0.688,-0.589
 la_paz,2026-05-28,Carnes,2.872,2.057,10.329
-la_paz,2026-05-28,Compuesto,1.670,1.506,3.318
-la_paz,2026-05-28,Congelados,0.511,0.511,1.848
+la_paz,2026-05-28,Compuesto,1.670,1.506,3.148
+la_paz,2026-05-28,Congelados,0.511,0.511,1.769
 la_paz,2026-05-28,Cuidado Personal,-0.927,-1.301,0.101
 la_paz,2026-05-28,Cuidado del Bebé,1.077,-0.853,2.792
 la_paz,2026-05-28,Cuidado del Hogar,-2.092,-2.092,-0.959
-la_paz,2026-05-28,Fiambres,0.145,0.145,6.478
+la_paz,2026-05-28,Fiambres,0.145,0.145,3.595
 la_paz,2026-05-28,Frutas y Verduras,28.947,28.947,31.497
 la_paz,2026-05-28,Granos y Hortalizas,0.879,0.879,3.565
 la_paz,2026-05-28,Lácteos y Derivados,0.880,0.880,2.220
-la_paz,2026-05-28,Panadería,0.336,0.336,0.348
+la_paz,2026-05-28,Panadería,0.336,0.336,0.336
 la_paz,2026-05-28,Pastelería y Masas Típicas,0.409,0.348,1.100
 santa_cruz,2026-05-28,Abarrotes,0.165,0.165,0.523
 santa_cruz,2026-05-28,Bazar,-0.855,-0.855,1.599
@@ -29228,16 +29228,16 @@ la_paz,2026-05-29,Abarrotes,-1.197,-1.319,-1.207
 la_paz,2026-05-29,Bazar,-0.812,-0.812,0.990
 la_paz,2026-05-29,Bebidas,-0.716,-0.716,-0.619
 la_paz,2026-05-29,Carnes,2.864,2.013,10.657
-la_paz,2026-05-29,Compuesto,1.547,1.380,3.296
-la_paz,2026-05-29,Congelados,0.438,0.438,1.861
+la_paz,2026-05-29,Compuesto,1.547,1.380,3.110
+la_paz,2026-05-29,Congelados,0.438,0.438,1.778
 la_paz,2026-05-29,Cuidado Personal,-1.038,-1.424,0.027
 la_paz,2026-05-29,Cuidado del Bebé,-1.219,-3.146,0.494
 la_paz,2026-05-29,Cuidado del Hogar,-2.684,-2.684,-1.509
-la_paz,2026-05-29,Fiambres,0.140,0.140,7.068
+la_paz,2026-05-29,Fiambres,0.140,0.140,3.905
 la_paz,2026-05-29,Frutas y Verduras,30.038,30.038,32.764
 la_paz,2026-05-29,Granos y Hortalizas,0.879,0.879,3.685
 la_paz,2026-05-29,Lácteos y Derivados,0.835,0.835,2.392
-la_paz,2026-05-29,Panadería,0.316,0.316,0.329
+la_paz,2026-05-29,Panadería,0.316,0.316,0.316
 la_paz,2026-05-29,Pastelería y Masas Típicas,0.409,0.341,1.176
 santa_cruz,2026-05-29,Abarrotes,0.276,0.276,0.664
 santa_cruz,2026-05-29,Bazar,-0.855,-0.855,1.630
@@ -29274,16 +29274,16 @@ la_paz,2026-05-30,Abarrotes,-1.195,-1.300,-1.195
 la_paz,2026-05-30,Bazar,-0.812,-0.812,1.012
 la_paz,2026-05-30,Bebidas,-0.714,-0.714,-0.620
 la_paz,2026-05-30,Carnes,2.864,1.985,10.926
-la_paz,2026-05-30,Compuesto,1.541,1.371,3.391
-la_paz,2026-05-30,Congelados,0.438,0.438,1.949
+la_paz,2026-05-30,Compuesto,1.541,1.371,3.189
+la_paz,2026-05-30,Congelados,0.438,0.438,1.860
 la_paz,2026-05-30,Cuidado Personal,-1.024,-1.423,0.076
 la_paz,2026-05-30,Cuidado del Bebé,-1.219,-3.186,0.531
 la_paz,2026-05-30,Cuidado del Hogar,-2.514,-2.514,-1.287
-la_paz,2026-05-30,Fiambres,0.140,0.140,7.666
+la_paz,2026-05-30,Fiambres,0.140,0.140,4.221
 la_paz,2026-05-30,Frutas y Verduras,29.542,29.542,32.410
 la_paz,2026-05-30,Granos y Hortalizas,0.879,0.879,3.804
 la_paz,2026-05-30,Lácteos y Derivados,0.909,0.909,2.688
-la_paz,2026-05-30,Panadería,0.316,0.316,0.331
+la_paz,2026-05-30,Panadería,0.316,0.316,0.316
 la_paz,2026-05-30,Pastelería y Masas Típicas,0.409,0.334,1.253
 santa_cruz,2026-05-30,Abarrotes,0.278,0.278,0.695
 santa_cruz,2026-05-30,Bazar,-0.855,-0.855,1.674
@@ -29320,16 +29320,16 @@ la_paz,2026-05-31,Abarrotes,-1.192,-1.266,-1.192
 la_paz,2026-05-31,Bazar,-0.812,-0.812,1.051
 la_paz,2026-05-31,Bebidas,-0.714,-0.714,-0.620
 la_paz,2026-05-31,Carnes,2.864,1.949,11.270
-la_paz,2026-05-31,Compuesto,1.736,1.565,3.702
-la_paz,2026-05-31,Congelados,0.509,0.509,2.112
+la_paz,2026-05-31,Compuesto,1.736,1.565,3.482
+la_paz,2026-05-31,Congelados,0.509,0.509,2.018
 la_paz,2026-05-31,Cuidado Personal,-0.849,-1.264,0.296
 la_paz,2026-05-31,Cuidado del Bebé,-0.495,-2.518,1.305
 la_paz,2026-05-31,Cuidado del Hogar,-1.994,-1.994,-0.692
-la_paz,2026-05-31,Fiambres,0.239,0.239,8.425
+la_paz,2026-05-31,Fiambres,0.239,0.239,4.659
 la_paz,2026-05-31,Frutas y Verduras,31.280,31.280,34.409
 la_paz,2026-05-31,Granos y Hortalizas,0.879,0.879,3.729
 la_paz,2026-05-31,Lácteos y Derivados,1.011,1.011,3.025
-la_paz,2026-05-31,Panadería,0.319,0.319,0.336
+la_paz,2026-05-31,Panadería,0.319,0.319,0.319
 la_paz,2026-05-31,Pastelería y Masas Típicas,0.409,0.327,1.333
 santa_cruz,2026-05-31,Abarrotes,0.299,0.299,0.750
 santa_cruz,2026-05-31,Bazar,-0.855,-0.855,1.719
@@ -29366,16 +29366,16 @@ la_paz,2026-06-01,Abarrotes,-1.192,-1.232,-1.192
 la_paz,2026-06-01,Bazar,-0.812,-0.812,1.087
 la_paz,2026-06-01,Bebidas,-0.714,-0.714,-0.617
 la_paz,2026-06-01,Carnes,2.864,1.916,11.593
-la_paz,2026-06-01,Compuesto,1.736,1.564,3.815
-la_paz,2026-06-01,Congelados,0.509,0.509,2.205
+la_paz,2026-06-01,Compuesto,1.736,1.564,3.577
+la_paz,2026-06-01,Congelados,0.509,0.509,2.106
 la_paz,2026-06-01,Cuidado Personal,-0.849,-1.281,0.342
 la_paz,2026-06-01,Cuidado del Bebé,-0.495,-2.564,1.346
 la_paz,2026-06-01,Cuidado del Hogar,-1.994,-1.994,-0.620
-la_paz,2026-06-01,Fiambres,0.239,0.239,9.104
+la_paz,2026-06-01,Fiambres,0.239,0.239,4.997
 la_paz,2026-06-01,Frutas y Verduras,31.280,31.280,34.632
 la_paz,2026-06-01,Granos y Hortalizas,0.879,0.879,3.653
 la_paz,2026-06-01,Lácteos y Derivados,1.011,1.011,3.262
-la_paz,2026-06-01,Panadería,0.319,0.319,0.337
+la_paz,2026-06-01,Panadería,0.319,0.319,0.319
 la_paz,2026-06-01,Pastelería y Masas Típicas,0.409,0.320,1.413
 santa_cruz,2026-06-01,Abarrotes,0.299,0.299,0.787
 santa_cruz,2026-06-01,Bazar,-0.855,-0.855,1.763
@@ -29412,16 +29412,16 @@ la_paz,2026-06-02,Abarrotes,-0.944,-0.949,-0.944
 la_paz,2026-06-02,Bazar,-0.356,-0.356,1.633
 la_paz,2026-06-02,Bebidas,-0.520,-0.520,-0.419
 la_paz,2026-06-02,Carnes,2.864,1.882,11.917
-la_paz,2026-06-02,Compuesto,1.921,1.748,4.121
-la_paz,2026-06-02,Congelados,0.509,0.509,2.298
+la_paz,2026-06-02,Compuesto,1.921,1.748,3.862
+la_paz,2026-06-02,Congelados,0.509,0.509,2.193
 la_paz,2026-06-02,Cuidado Personal,-0.257,-0.708,0.987
 la_paz,2026-06-02,Cuidado del Bebé,-0.512,-2.626,1.372
 la_paz,2026-06-02,Cuidado del Hogar,-2.001,-2.001,-0.557
-la_paz,2026-06-02,Fiambres,0.239,0.239,9.787
+la_paz,2026-06-02,Fiambres,0.239,0.239,5.335
 la_paz,2026-06-02,Frutas y Verduras,32.178,32.178,35.777
 la_paz,2026-06-02,Granos y Hortalizas,0.879,0.879,3.578
 la_paz,2026-06-02,Lácteos y Derivados,1.011,1.011,3.499
-la_paz,2026-06-02,Panadería,0.319,0.319,0.339
+la_paz,2026-06-02,Panadería,0.319,0.319,0.319
 la_paz,2026-06-02,Pastelería y Masas Típicas,0.409,0.313,1.492
 santa_cruz,2026-06-02,Abarrotes,0.299,0.299,0.824
 santa_cruz,2026-06-02,Bazar,-0.855,-0.855,1.807
@@ -29439,3 +29439,49 @@ santa_cruz,2026-06-02,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-06-02,Lácteos y Derivados,0.708,0.708,1.616
 santa_cruz,2026-06-02,Panadería,0.373,0.373,0.373
 santa_cruz,2026-06-02,Pastelería y Masas Típicas,0.515,0.504,0.515
+cochabamba,2026-06-03,Abarrotes,-0.985,-0.985,-0.479
+cochabamba,2026-06-03,Bazar,-0.586,-0.586,0.489
+cochabamba,2026-06-03,Bebidas,-0.476,-0.476,-0.204
+cochabamba,2026-06-03,Carnes,3.124,1.712,6.051
+cochabamba,2026-06-03,Compuesto,0.238,0.168,1.116
+cochabamba,2026-06-03,Congelados,0.606,0.606,0.914
+cochabamba,2026-06-03,Cuidado Personal,0.009,0.009,0.950
+cochabamba,2026-06-03,Cuidado del Bebé,-0.455,-1.666,1.340
+cochabamba,2026-06-03,Cuidado del Hogar,-1.222,-1.222,-0.585
+cochabamba,2026-06-03,Fiambres,0.277,0.277,1.227
+cochabamba,2026-06-03,Frutas y Verduras,10.847,,
+cochabamba,2026-06-03,Granos y Hortalizas,0.150,0.150,1.787
+cochabamba,2026-06-03,Lácteos y Derivados,0.786,0.786,2.031
+cochabamba,2026-06-03,Panadería,0.360,0.360,0.477
+cochabamba,2026-06-03,Pastelería y Masas Típicas,0.418,0.420,0.926
+la_paz,2026-06-03,Abarrotes,-0.821,-0.791,-0.821
+la_paz,2026-06-03,Bazar,-0.637,-0.637,1.428
+la_paz,2026-06-03,Bebidas,-0.204,-0.204,-0.100
+la_paz,2026-06-03,Carnes,2.864,1.854,12.186
+la_paz,2026-06-03,Compuesto,1.900,1.726,3.935
+la_paz,2026-06-03,Congelados,0.509,0.509,2.280
+la_paz,2026-06-03,Cuidado Personal,-0.166,-0.634,1.123
+la_paz,2026-06-03,Cuidado del Bebé,-0.502,-2.663,1.423
+la_paz,2026-06-03,Cuidado del Hogar,-2.001,-2.001,-0.489
+la_paz,2026-06-03,Fiambres,0.233,0.233,5.669
+la_paz,2026-06-03,Frutas y Verduras,30.933,30.933,34.721
+la_paz,2026-06-03,Granos y Hortalizas,0.879,0.879,3.502
+la_paz,2026-06-03,Lácteos y Derivados,0.991,0.991,3.716
+la_paz,2026-06-03,Panadería,0.319,0.319,0.319
+la_paz,2026-06-03,Pastelería y Masas Típicas,0.409,0.305,1.573
+santa_cruz,2026-06-03,Abarrotes,0.300,0.300,0.863
+santa_cruz,2026-06-03,Bazar,0.061,0.061,2.793
+santa_cruz,2026-06-03,Bebidas,0.027,0.027,0.190
+santa_cruz,2026-06-03,Carnes,-5.283,,
+santa_cruz,2026-06-03,Compuesto,0.238,0.225,0.840
+santa_cruz,2026-06-03,Congelados,0.535,0.535,0.784
+santa_cruz,2026-06-03,Cuidado Personal,0.133,0.083,0.750
+santa_cruz,2026-06-03,Cuidado del Bebé,-2.358,-2.539,-1.552
+santa_cruz,2026-06-03,Cuidado del Hogar,0.424,0.424,1.358
+santa_cruz,2026-06-03,Farmacia Otc,,,
+santa_cruz,2026-06-03,Fiambres,0.029,0.029,0.969
+santa_cruz,2026-06-03,Frutas y Verduras,2.915,2.915,2.931
+santa_cruz,2026-06-03,Granos y Hortalizas,0.072,0.072,0.072
+santa_cruz,2026-06-03,Lácteos y Derivados,0.772,0.772,1.769
+santa_cruz,2026-06-03,Panadería,0.373,0.373,0.373
+santa_cruz,2026-06-03,Pastelería y Masas Típicas,0.555,0.543,0.555
