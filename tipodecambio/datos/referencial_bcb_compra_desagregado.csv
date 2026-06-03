@@ -1,16 +1,4 @@
 fecha,banco,monto,valor
-2026-03-05,Banco BISA,1427956,8.35
-2026-03-05,Banco Económico,330971,8.61
-2026-03-05,Banco FIE,14983,7.80
-2026-03-05,Banco Fortaleza,6829268,6.86
-2026-03-05,Banco Ganadero,6691719,8.49
-2026-03-05,Banco Mercantil Santa Cruz,1638214,8.04
-2026-03-05,Banco Nacional de Bolivia,379516,8.07
-2026-03-05,Banco PYME de la Comunidad,7200,7.17
-2026-03-05,Banco Solidario,10798934,9.02
-2026-03-05,Banco Unión,45087709,9.24
-2026-03-05,Banco de Crédito,1170395,8.03
-2026-03-05,Banco de la Nación Argentina,246747,7.58
 2026-03-06,Banco BISA,7197664,8.61
 2026-03-06,Banco Económico,5805971,8.85
 2026-03-06,Banco FIE,46444,8.93
@@ -664,3 +652,13 @@ fecha,banco,monto,valor
 2026-06-02,Banco Unión,7561,9.89
 2026-06-02,Banco de Crédito,2195943,9.74
 2026-06-02,Banco de la Nación Argentina,105000,9.81
+2026-06-03,Banco BISA,2883485,9.24
+2026-06-03,Banco Económico,1514059,9.94
+2026-06-03,Banco FIE,173590,9.66
+2026-06-03,Banco Fortaleza,143775,9.88
+2026-06-03,Banco Ganadero,3830019,9.82
+2026-06-03,Banco Mercantil Santa Cruz,6409197,10.03
+2026-06-03,Banco Nacional de Bolivia,3505576,9.39
+2026-06-03,Banco Solidario,1062952,9.92
+2026-06-03,Banco Unión,59627,9.86
+2026-06-03,Banco de Crédito,445173,8.74
