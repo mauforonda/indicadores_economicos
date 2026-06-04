@@ -77,4 +77,4 @@ sts.loc['2023-06-25':'2024-07-14', 'fixed'] = np.nan
 sts['fixed'] = sts['fixed'].fillna(sts['nacional_sin_scz'])
 
 sts.index.name = 'fecha'
-sts.round(4).to_csv('./datos/demada_energia_electrica.csv')
+sts.round(4).to_csv('./actividad_economica/datos/demada_energia_electrica.csv')
