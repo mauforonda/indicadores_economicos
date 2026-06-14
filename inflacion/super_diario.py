@@ -769,7 +769,7 @@ def main():
     write_output(output_df)
     confidence_df = flatten_confidence_map(confidence_map)
     write_confidence_output(confidence_df)
-    save_filter_state(filter_state)
+    # save_filter_state(filter_state)
 
 
 if __name__ == "__main__":
