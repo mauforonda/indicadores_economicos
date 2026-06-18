@@ -75,7 +75,7 @@ MONTH_NAME_TO_NUMBER = {
 TYPE_PATTERNS = [
     ("Divisas", re.compile(r"^(ii\.\s*)?divisas")),
     ("DEG", re.compile(r"^(iii\.\s*)?deg$")),
-    ("Oro", re.compile(r"^(i\.\s*)?oro")),
+    ("Oro", re.compile(r"^(?!.*tonelada)(i\.\s*)?oro")),
     ("Posición con el FMI", re.compile(r"^(iv\.\s*)?posicion con el fmi")),
     ("Otros", re.compile(r"^otros")),
 ]
