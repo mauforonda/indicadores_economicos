@@ -73,10 +73,10 @@ MONTH_NAME_TO_NUMBER = {
     "adr": 4,
 }
 TYPE_PATTERNS = [
-    ("Divisas", re.compile(r"^divisas")),
-    ("DEG", re.compile(r"^deg$")),
-    ("Oro", re.compile(r"^oro")),
-    ("Posición con el FMI", re.compile(r"^posicion con el fmi")),
+    ("Divisas", re.compile(r"^(ii\.\s*)?divisas")),
+    ("DEG", re.compile(r"^(iii\.\s*)?deg$")),
+    ("Oro", re.compile(r"^(i\.\s*)?oro")),
+    ("Posición con el FMI", re.compile(r"^(iv\.\s*)?posicion con el fmi")),
     ("Otros", re.compile(r"^otros")),
 ]
 REQUIRED_TYPES = {"Divisas", "DEG", "Oro", "Posición con el FMI"}
@@ -258,7 +258,7 @@ def find_section_row(df: pd.DataFrame, pattern: str) -> tuple[int, int]:
 
 def find_type_rows(df: pd.DataFrame, start_row: int, label_col: int) -> dict[str, int]:
     rows: dict[str, int] = {}
-    for row_idx in range(start_row + 1, min(start_row + 12, df.shape[0])):
+    for row_idx in range(start_row + 1, min(start_row + 18, df.shape[0])):
         raw_value = df.iat[row_idx, label_col]
         text = normalize_text(raw_value)
         if not text:
@@ -279,7 +279,7 @@ def find_type_rows(df: pd.DataFrame, start_row: int, label_col: int) -> dict[str
 def extract_reserves(report_path: Path) -> pd.DataFrame:
     df = pd.read_excel(report_path, sheet_name=0, header=None)
     _, category_col = find_section_row(df, r"operaciones con el exterior")
-    reserves_row, reserves_col = find_section_row(df, r"reservas internacionales brutas del bcb")
+    reserves_row, reserves_col = find_section_row(df, r"reservas internacionales brutas")
     label_col = max(category_col, reserves_col)
     column_dates = resolve_column_dates(df, label_col)
     type_rows = find_type_rows(df, reserves_row, label_col)
