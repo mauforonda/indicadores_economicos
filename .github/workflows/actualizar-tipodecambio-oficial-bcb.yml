@@ -1,4 +1,4 @@
-name: Actualizar Tipo De Cambio Referencial BCB
+name: Actualizar Tipo De Cambio Oficial BCB
 
 on:
   workflow_dispatch:
@@ -31,8 +31,7 @@ jobs:
 
       - name: Actualizar datos referenciales del BCB
         run: |
-          python tipodecambio/actualizar_referencial.py
-          python tipodecambio/actualizar_referencial_compra_desagregado.py
+          python tipodecambio/actualizar_oficial.py
 
       - name: Configurar Git
         run: |
@@ -42,13 +41,12 @@ jobs:
       - name: Commit y push de CSV
         run: |
           git add \
-            tipodecambio/datos/referencial_bcb_*.csv \
-            tipodecambio/datos/referencial_bcb_compra_desagregado.csv
+            tipodecambio/datos/oficial_bcb*.csv
           if git diff --cached --quiet; then
             echo "Sin cambios en los CSV"
             exit 0
           fi
-          git commit -m "Actualizar tipo de cambio: referencial BCB"
+          git commit -m "Actualizar tipo de cambio: oficial BCB"
           for intento in 1 2 3; do
             if git pull --rebase origin main && git push origin HEAD:main; then
               exit 0

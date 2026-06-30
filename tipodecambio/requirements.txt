@@ -1,3 +1,5 @@
 kagglehub==0.3.13
 pandas
 pyarrow
+Unidecode
+requests
