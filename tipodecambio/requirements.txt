@@ -3,3 +3,4 @@ pandas
 pyarrow
 Unidecode
 requests
+beautifulsoup4
