@@ -29985,1413 +29985,1460 @@ santa_cruz,2026-05-31,Granos y Hortalizas,0.072,0.072,0.381
 santa_cruz,2026-05-31,Lácteos y Derivados,0.699,0.699,1.194
 santa_cruz,2026-05-31,Panadería,0.373,0.373,0.373
 santa_cruz,2026-05-31,Pastelería y Masas Típicas,0.518,0.514,0.518
-cochabamba,2026-06-01,Abarrotes,-1.312,-1.312,-0.809
-cochabamba,2026-06-01,Bazar,-0.758,-0.758,0.187
-cochabamba,2026-06-01,Bebidas,-1.017,-1.017,-0.762
-cochabamba,2026-06-01,Carnes,2.938,2.751,3.269
-cochabamba,2026-06-01,Compuesto,0.075,0.041,0.671
-cochabamba,2026-06-01,Congelados,0.606,0.606,0.719
-cochabamba,2026-06-01,Cuidado Personal,-0.215,-0.341,0.537
-cochabamba,2026-06-01,Cuidado del Bebé,-0.521,-1.709,1.003
-cochabamba,2026-06-01,Cuidado del Hogar,-1.202,-1.202,-0.657
-cochabamba,2026-06-01,Fiambres,0.277,0.277,0.959
+cochabamba,2026-06-01,Abarrotes,-1.312,-1.312,-1.285
+cochabamba,2026-06-01,Bazar,-0.758,-0.758,-0.674
+cochabamba,2026-06-01,Bebidas,-1.017,-1.017,-1.002
+cochabamba,2026-06-01,Carnes,2.938,2.916,2.976
+cochabamba,2026-06-01,Compuesto,0.075,0.073,0.113
+cochabamba,2026-06-01,Congelados,0.606,0.606,0.612
+cochabamba,2026-06-01,Cuidado Personal,-0.215,-0.221,-0.178
+cochabamba,2026-06-01,Cuidado del Bebé,-0.521,-0.581,-0.445
+cochabamba,2026-06-01,Cuidado del Hogar,-1.202,-1.202,-1.178
+cochabamba,2026-06-01,Fiambres,0.277,0.277,0.337
 cochabamba,2026-06-01,Frutas y Verduras,8.294,,
-cochabamba,2026-06-01,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-01,Lácteos y Derivados,0.755,0.755,1.692
-cochabamba,2026-06-01,Panadería,0.360,0.360,0.416
-cochabamba,2026-06-01,Pastelería y Masas Típicas,0.494,0.495,0.864
-la_paz,2026-06-01,Abarrotes,-1.192,-1.345,-1.192
-la_paz,2026-06-01,Bazar,-0.812,-0.812,1.065
-la_paz,2026-06-01,Bebidas,-0.714,-0.714,-0.642
-la_paz,2026-06-01,Carnes,2.864,1.924,11.145
-la_paz,2026-06-01,Compuesto,1.736,1.558,3.321
-la_paz,2026-06-01,Congelados,0.509,0.509,2.269
-la_paz,2026-06-01,Cuidado Personal,-0.849,-1.195,-0.287
-la_paz,2026-06-01,Cuidado del Bebé,-0.495,-2.396,1.236
-la_paz,2026-06-01,Cuidado del Hogar,-1.994,-1.994,-1.073
-la_paz,2026-06-01,Fiambres,0.239,0.239,8.330
-la_paz,2026-06-01,Frutas y Verduras,31.280,31.280,31.743
-la_paz,2026-06-01,Granos y Hortalizas,0.879,0.879,3.548
-la_paz,2026-06-01,Lácteos y Derivados,1.011,1.011,3.286
-la_paz,2026-06-01,Panadería,0.319,0.319,0.494
-la_paz,2026-06-01,Pastelería y Masas Típicas,0.409,0.315,0.419
-santa_cruz,2026-06-01,Abarrotes,0.299,0.299,0.666
-santa_cruz,2026-06-01,Bazar,-0.855,-0.855,1.763
-santa_cruz,2026-06-01,Bebidas,0.021,0.021,0.153
+cochabamba,2026-06-01,Granos y Hortalizas,0.150,0.150,0.208
+cochabamba,2026-06-01,Lácteos y Derivados,0.755,0.755,0.794
+cochabamba,2026-06-01,Panadería,0.360,0.360,0.364
+cochabamba,2026-06-01,Pastelería y Masas Típicas,0.494,0.494,0.532
+la_paz,2026-06-01,Abarrotes,-1.192,-1.192,-1.186
+la_paz,2026-06-01,Bazar,-0.812,-0.812,-0.719
+la_paz,2026-06-01,Bebidas,-0.714,-0.714,-0.710
+la_paz,2026-06-01,Carnes,2.864,2.820,2.975
+la_paz,2026-06-01,Compuesto,1.736,1.730,1.792
+la_paz,2026-06-01,Congelados,0.509,0.509,0.646
+la_paz,2026-06-01,Cuidado Personal,-0.849,-0.849,-0.823
+la_paz,2026-06-01,Cuidado del Bebé,-0.495,-0.567,-0.431
+la_paz,2026-06-01,Cuidado del Hogar,-1.994,-1.994,-1.947
+la_paz,2026-06-01,Fiambres,0.239,0.239,0.437
+la_paz,2026-06-01,Frutas y Verduras,31.280,31.280,31.293
+la_paz,2026-06-01,Granos y Hortalizas,0.879,0.853,0.879
+la_paz,2026-06-01,Lácteos y Derivados,1.011,1.011,1.249
+la_paz,2026-06-01,Panadería,0.319,0.319,0.319
+la_paz,2026-06-01,Pastelería y Masas Típicas,0.409,0.405,0.410
+santa_cruz,2026-06-01,Abarrotes,0.299,0.299,0.324
+santa_cruz,2026-06-01,Bazar,-0.855,-0.855,-0.730
+santa_cruz,2026-06-01,Bebidas,0.021,0.021,0.027
 santa_cruz,2026-06-01,CUDADOS OTC,-1.207,,
 santa_cruz,2026-06-01,Carnes,-5.035,,
-santa_cruz,2026-06-01,Compuesto,0.143,0.125,0.651
-santa_cruz,2026-06-01,Congelados,0.461,0.461,0.606
-santa_cruz,2026-06-01,Cuidado Personal,0.087,0.049,0.680
-santa_cruz,2026-06-01,Cuidado del Bebé,-3.006,-3.179,-2.277
-santa_cruz,2026-06-01,Cuidado del Hogar,0.398,0.336,1.348
+santa_cruz,2026-06-01,Compuesto,0.143,0.141,0.171
+santa_cruz,2026-06-01,Congelados,0.461,0.461,0.466
+santa_cruz,2026-06-01,Cuidado Personal,0.087,0.075,0.115
+santa_cruz,2026-06-01,Cuidado del Bebé,-3.006,-3.014,-2.972
+santa_cruz,2026-06-01,Cuidado del Hogar,0.398,0.394,0.444
 santa_cruz,2026-06-01,Farmacia Otc,,,
-santa_cruz,2026-06-01,Fiambres,-0.019,-0.019,0.981
-santa_cruz,2026-06-01,Frutas y Verduras,2.915,2.915,2.922
-santa_cruz,2026-06-01,Granos y Hortalizas,0.072,0.072,0.394
-santa_cruz,2026-06-01,Lácteos y Derivados,0.699,0.699,1.238
+santa_cruz,2026-06-01,Fiambres,-0.019,-0.019,0.020
+santa_cruz,2026-06-01,Frutas y Verduras,2.915,2.914,2.919
+santa_cruz,2026-06-01,Granos y Hortalizas,0.072,0.072,0.085
+santa_cruz,2026-06-01,Lácteos y Derivados,0.699,0.699,0.751
 santa_cruz,2026-06-01,Panadería,0.373,0.373,0.373
-santa_cruz,2026-06-01,Pastelería y Masas Típicas,0.518,0.514,0.518
-cochabamba,2026-06-02,Abarrotes,-1.029,-1.029,-0.508
-cochabamba,2026-06-02,Bazar,-0.365,-0.365,0.648
-cochabamba,2026-06-02,Bebidas,-0.805,-0.805,-0.542
-cochabamba,2026-06-02,Carnes,3.092,2.884,3.460
-cochabamba,2026-06-02,Compuesto,0.164,0.128,0.797
-cochabamba,2026-06-02,Congelados,0.606,0.606,0.725
-cochabamba,2026-06-02,Cuidado Personal,-0.011,-0.141,0.764
-cochabamba,2026-06-02,Cuidado del Bebé,-0.454,-1.676,1.113
-cochabamba,2026-06-02,Cuidado del Hogar,-1.247,-1.247,-0.693
-cochabamba,2026-06-02,Fiambres,0.277,0.277,1.044
+santa_cruz,2026-06-01,Pastelería y Masas Típicas,0.518,0.517,0.518
+cochabamba,2026-06-02,Abarrotes,-1.029,-1.029,-0.976
+cochabamba,2026-06-02,Bazar,-0.365,-0.365,-0.197
+cochabamba,2026-06-02,Bebidas,-0.805,-0.805,-0.775
+cochabamba,2026-06-02,Carnes,3.092,3.049,3.169
+cochabamba,2026-06-02,Compuesto,0.164,0.160,0.239
+cochabamba,2026-06-02,Congelados,0.606,0.606,0.618
+cochabamba,2026-06-02,Cuidado Personal,-0.011,-0.023,0.063
+cochabamba,2026-06-02,Cuidado del Bebé,-0.454,-0.574,-0.303
+cochabamba,2026-06-02,Cuidado del Hogar,-1.247,-1.247,-1.200
+cochabamba,2026-06-02,Fiambres,0.277,0.277,0.396
 cochabamba,2026-06-02,Frutas y Verduras,8.749,,
-cochabamba,2026-06-02,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-02,Lácteos y Derivados,0.755,0.755,1.730
-cochabamba,2026-06-02,Panadería,0.360,0.360,0.420
-cochabamba,2026-06-02,Pastelería y Masas Típicas,0.494,0.496,0.902
-la_paz,2026-06-02,Abarrotes,-0.944,-1.070,-0.944
-la_paz,2026-06-02,Bazar,-0.356,-0.356,1.610
-la_paz,2026-06-02,Bebidas,-0.520,-0.520,-0.448
-la_paz,2026-06-02,Carnes,2.864,1.894,11.417
-la_paz,2026-06-02,Compuesto,1.921,1.743,3.580
-la_paz,2026-06-02,Congelados,0.509,0.509,2.361
-la_paz,2026-06-02,Cuidado Personal,-0.257,-0.614,0.321
-la_paz,2026-06-02,Cuidado del Bebé,-0.512,-2.434,1.240
-la_paz,2026-06-02,Cuidado del Hogar,-2.001,-2.001,-1.053
-la_paz,2026-06-02,Fiambres,0.239,0.239,8.882
-la_paz,2026-06-02,Frutas y Verduras,32.178,32.178,32.640
-la_paz,2026-06-02,Granos y Hortalizas,0.879,0.879,3.455
-la_paz,2026-06-02,Lácteos y Derivados,1.011,1.011,3.506
-la_paz,2026-06-02,Panadería,0.319,0.319,0.501
-la_paz,2026-06-02,Pastelería y Masas Típicas,0.409,0.312,0.419
-santa_cruz,2026-06-02,Abarrotes,0.299,0.299,0.689
-santa_cruz,2026-06-02,Bazar,-0.855,-0.855,1.807
-santa_cruz,2026-06-02,Bebidas,0.023,0.023,0.158
+cochabamba,2026-06-02,Granos y Hortalizas,0.150,0.150,0.266
+cochabamba,2026-06-02,Lácteos y Derivados,0.755,0.755,0.832
+cochabamba,2026-06-02,Panadería,0.360,0.360,0.368
+cochabamba,2026-06-02,Pastelería y Masas Típicas,0.494,0.494,0.570
+la_paz,2026-06-02,Abarrotes,-0.944,-0.944,-0.932
+la_paz,2026-06-02,Bazar,-0.356,-0.356,-0.125
+la_paz,2026-06-02,Bebidas,-0.520,-0.520,-0.512
+la_paz,2026-06-02,Carnes,2.864,2.775,3.087
+la_paz,2026-06-02,Compuesto,1.921,1.909,2.036
+la_paz,2026-06-02,Congelados,0.509,0.509,0.783
+la_paz,2026-06-02,Cuidado Personal,-0.257,-0.257,-0.206
+la_paz,2026-06-02,Cuidado del Bebé,-0.512,-0.654,-0.384
+la_paz,2026-06-02,Cuidado del Hogar,-2.001,-2.001,-1.908
+la_paz,2026-06-02,Fiambres,0.239,0.239,0.635
+la_paz,2026-06-02,Frutas y Verduras,32.178,32.178,32.205
+la_paz,2026-06-02,Granos y Hortalizas,0.879,0.828,0.879
+la_paz,2026-06-02,Lácteos y Derivados,1.011,1.011,1.488
+la_paz,2026-06-02,Panadería,0.319,0.319,0.319
+la_paz,2026-06-02,Pastelería y Masas Típicas,0.409,0.400,0.410
+santa_cruz,2026-06-02,Abarrotes,0.299,0.299,0.349
+santa_cruz,2026-06-02,Bazar,-0.855,-0.855,-0.605
+santa_cruz,2026-06-02,Bebidas,0.023,0.023,0.035
 santa_cruz,2026-06-02,CUDADOS OTC,-1.207,,
 santa_cruz,2026-06-02,Carnes,-4.857,,
-santa_cruz,2026-06-02,Compuesto,0.196,0.178,0.725
-santa_cruz,2026-06-02,Congelados,0.538,0.538,0.685
-santa_cruz,2026-06-02,Cuidado Personal,0.120,0.081,0.739
-santa_cruz,2026-06-02,Cuidado del Bebé,-2.142,-2.319,-1.398
-santa_cruz,2026-06-02,Cuidado del Hogar,0.398,0.334,1.374
+santa_cruz,2026-06-02,Compuesto,0.196,0.194,0.254
+santa_cruz,2026-06-02,Congelados,0.538,0.538,0.550
+santa_cruz,2026-06-02,Cuidado Personal,0.120,0.106,0.187
+santa_cruz,2026-06-02,Cuidado del Bebé,-2.142,-2.158,-2.074
+santa_cruz,2026-06-02,Cuidado del Hogar,0.398,0.392,0.491
 santa_cruz,2026-06-02,Farmacia Otc,,,
-santa_cruz,2026-06-02,Fiambres,-0.019,-0.019,1.024
-santa_cruz,2026-06-02,Frutas y Verduras,2.915,2.915,2.927
-santa_cruz,2026-06-02,Granos y Hortalizas,0.072,0.072,0.406
-santa_cruz,2026-06-02,Lácteos y Derivados,0.708,0.708,1.295
+santa_cruz,2026-06-02,Fiambres,-0.019,-0.019,0.061
+santa_cruz,2026-06-02,Frutas y Verduras,2.915,2.912,2.922
+santa_cruz,2026-06-02,Granos y Hortalizas,0.072,0.072,0.097
+santa_cruz,2026-06-02,Lácteos y Derivados,0.708,0.708,0.815
 santa_cruz,2026-06-02,Panadería,0.373,0.373,0.373
-santa_cruz,2026-06-02,Pastelería y Masas Típicas,0.515,0.512,0.515
-cochabamba,2026-06-03,Abarrotes,-0.985,-0.985,-0.447
-cochabamba,2026-06-03,Bazar,-0.586,-0.586,0.489
-cochabamba,2026-06-03,Bebidas,-0.476,-0.476,-0.204
-cochabamba,2026-06-03,Carnes,3.124,2.895,3.529
-cochabamba,2026-06-03,Compuesto,0.238,0.200,0.907
-cochabamba,2026-06-03,Congelados,0.606,0.606,0.732
-cochabamba,2026-06-03,Cuidado Personal,0.009,-0.124,0.803
-cochabamba,2026-06-03,Cuidado del Bebé,-0.455,-1.710,1.156
-cochabamba,2026-06-03,Cuidado del Hogar,-1.222,-1.222,-0.658
-cochabamba,2026-06-03,Fiambres,0.277,0.277,1.125
+santa_cruz,2026-06-02,Pastelería y Masas Típicas,0.515,0.515,0.515
+cochabamba,2026-06-03,Abarrotes,-0.985,-0.985,-0.906
+cochabamba,2026-06-03,Bazar,-0.586,-0.586,-0.334
+cochabamba,2026-06-03,Bebidas,-0.476,-0.476,-0.431
+cochabamba,2026-06-03,Carnes,3.124,3.059,3.239
+cochabamba,2026-06-03,Compuesto,0.238,0.232,0.350
+cochabamba,2026-06-03,Congelados,0.606,0.606,0.624
+cochabamba,2026-06-03,Cuidado Personal,0.009,-0.010,0.119
+cochabamba,2026-06-03,Cuidado del Bebé,-0.455,-0.634,-0.228
+cochabamba,2026-06-03,Cuidado del Hogar,-1.222,-1.222,-1.151
+cochabamba,2026-06-03,Fiambres,0.277,0.277,0.456
 cochabamba,2026-06-03,Frutas y Verduras,10.847,,
-cochabamba,2026-06-03,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-03,Lácteos y Derivados,0.786,0.786,1.797
-cochabamba,2026-06-03,Panadería,0.360,0.360,0.425
-cochabamba,2026-06-03,Pastelería y Masas Típicas,0.418,0.420,0.864
-la_paz,2026-06-03,Abarrotes,-0.821,-0.921,-0.821
-la_paz,2026-06-03,Bazar,-0.637,-0.637,1.403
-la_paz,2026-06-03,Bebidas,-0.204,-0.204,-0.133
-la_paz,2026-06-03,Carnes,2.864,1.871,11.635
-la_paz,2026-06-03,Compuesto,1.900,1.723,3.626
-la_paz,2026-06-03,Congelados,0.509,0.509,2.453
-la_paz,2026-06-03,Cuidado Personal,-0.166,-0.532,0.426
-la_paz,2026-06-03,Cuidado del Bebé,-0.502,-2.447,1.270
-la_paz,2026-06-03,Cuidado del Hogar,-2.001,-2.001,-1.028
-la_paz,2026-06-03,Fiambres,0.233,0.233,9.431
-la_paz,2026-06-03,Frutas y Verduras,30.933,30.933,31.386
-la_paz,2026-06-03,Granos y Hortalizas,0.879,0.879,3.362
-la_paz,2026-06-03,Lácteos y Derivados,0.991,0.991,3.706
-la_paz,2026-06-03,Panadería,0.319,0.319,0.508
-la_paz,2026-06-03,Pastelería y Masas Típicas,0.409,0.310,0.419
-santa_cruz,2026-06-03,Abarrotes,0.300,0.300,0.713
-santa_cruz,2026-06-03,Bazar,0.061,0.061,2.793
-santa_cruz,2026-06-03,Bebidas,0.027,0.027,0.168
+cochabamba,2026-06-03,Granos y Hortalizas,0.150,0.150,0.324
+cochabamba,2026-06-03,Lácteos y Derivados,0.786,0.786,0.901
+cochabamba,2026-06-03,Panadería,0.360,0.360,0.372
+cochabamba,2026-06-03,Pastelería y Masas Típicas,0.418,0.418,0.532
+la_paz,2026-06-03,Abarrotes,-0.821,-0.821,-0.803
+la_paz,2026-06-03,Bazar,-0.637,-0.637,-0.269
+la_paz,2026-06-03,Bebidas,-0.204,-0.204,-0.193
+la_paz,2026-06-03,Carnes,2.864,2.730,3.198
+la_paz,2026-06-03,Compuesto,1.900,1.882,2.073
+la_paz,2026-06-03,Congelados,0.509,0.509,0.921
+la_paz,2026-06-03,Cuidado Personal,-0.166,-0.166,-0.090
+la_paz,2026-06-03,Cuidado del Bebé,-0.502,-0.716,-0.311
+la_paz,2026-06-03,Cuidado del Hogar,-2.001,-2.001,-1.861
+la_paz,2026-06-03,Fiambres,0.233,0.233,0.829
+la_paz,2026-06-03,Frutas y Verduras,30.933,30.933,30.972
+la_paz,2026-06-03,Granos y Hortalizas,0.879,0.802,0.879
+la_paz,2026-06-03,Lácteos y Derivados,0.991,0.991,1.708
+la_paz,2026-06-03,Panadería,0.319,0.319,0.319
+la_paz,2026-06-03,Pastelería y Masas Típicas,0.409,0.395,0.411
+santa_cruz,2026-06-03,Abarrotes,0.300,0.300,0.376
+santa_cruz,2026-06-03,Bazar,0.061,0.061,0.440
+santa_cruz,2026-06-03,Bebidas,0.027,0.027,0.046
 santa_cruz,2026-06-03,CUDADOS OTC,-1.207,,
 santa_cruz,2026-06-03,Carnes,-5.283,,
-santa_cruz,2026-06-03,Compuesto,0.238,0.219,0.786
-santa_cruz,2026-06-03,Congelados,0.535,0.535,0.684
-santa_cruz,2026-06-03,Cuidado Personal,0.133,0.093,0.778
-santa_cruz,2026-06-03,Cuidado del Bebé,-2.358,-2.537,-1.607
-santa_cruz,2026-06-03,Cuidado del Hogar,0.424,0.359,1.426
+santa_cruz,2026-06-03,Compuesto,0.238,0.234,0.324
+santa_cruz,2026-06-03,Congelados,0.535,0.535,0.554
+santa_cruz,2026-06-03,Cuidado Personal,0.133,0.117,0.239
+santa_cruz,2026-06-03,Cuidado del Bebé,-2.358,-2.382,-2.256
+santa_cruz,2026-06-03,Cuidado del Hogar,0.424,0.415,0.564
 santa_cruz,2026-06-03,Farmacia Otc,,,
-santa_cruz,2026-06-03,Fiambres,0.029,0.029,1.116
-santa_cruz,2026-06-03,Frutas y Verduras,2.915,2.915,2.931
-santa_cruz,2026-06-03,Granos y Hortalizas,0.072,0.072,0.418
-santa_cruz,2026-06-03,Lácteos y Derivados,0.772,0.772,1.408
+santa_cruz,2026-06-03,Fiambres,0.029,0.029,0.150
+santa_cruz,2026-06-03,Frutas y Verduras,2.915,2.911,2.926
+santa_cruz,2026-06-03,Granos y Hortalizas,0.072,0.072,0.109
+santa_cruz,2026-06-03,Lácteos y Derivados,0.772,0.772,0.934
 santa_cruz,2026-06-03,Panadería,0.373,0.373,0.373
-santa_cruz,2026-06-03,Pastelería y Masas Típicas,0.555,0.551,0.555
-cochabamba,2026-06-04,Abarrotes,-0.119,-0.119,0.442
-cochabamba,2026-06-04,Bazar,0.423,0.423,1.574
-cochabamba,2026-06-04,Bebidas,-0.386,-0.386,-0.104
-cochabamba,2026-06-04,Carnes,3.124,2.875,3.565
-cochabamba,2026-06-04,Compuesto,0.447,0.408,1.156
-cochabamba,2026-06-04,Congelados,0.606,0.606,0.735
-cochabamba,2026-06-04,Cuidado Personal,0.052,-0.085,0.870
-cochabamba,2026-06-04,Cuidado del Bebé,-0.279,-1.600,1.417
-cochabamba,2026-06-04,Cuidado del Hogar,0.086,0.086,0.665
-cochabamba,2026-06-04,Fiambres,0.279,0.279,1.217
+santa_cruz,2026-06-03,Pastelería y Masas Típicas,0.555,0.554,0.555
+cochabamba,2026-06-04,Abarrotes,-0.119,-0.119,-0.011
+cochabamba,2026-06-04,Bazar,0.423,0.423,0.762
+cochabamba,2026-06-04,Bebidas,-0.386,-0.386,-0.325
+cochabamba,2026-06-04,Carnes,3.124,3.037,3.277
+cochabamba,2026-06-04,Compuesto,0.447,0.438,0.600
+cochabamba,2026-06-04,Congelados,0.606,0.606,0.630
+cochabamba,2026-06-04,Cuidado Personal,0.052,0.027,0.203
+cochabamba,2026-06-04,Cuidado del Bebé,-0.279,-0.549,0.064
+cochabamba,2026-06-04,Cuidado del Hogar,0.086,0.086,0.181
+cochabamba,2026-06-04,Fiambres,0.279,0.279,0.523
 cochabamba,2026-06-04,Frutas y Verduras,10.847,,
-cochabamba,2026-06-04,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-04,Lácteos y Derivados,0.787,0.787,1.839
-cochabamba,2026-06-04,Panadería,0.272,0.272,0.341
-cochabamba,2026-06-04,Pastelería y Masas Típicas,0.418,0.420,0.904
-la_paz,2026-06-04,Abarrotes,-0.141,-0.213,-0.141
-la_paz,2026-06-04,Bazar,0.431,0.431,2.575
-la_paz,2026-06-04,Bebidas,-0.181,-0.181,-0.110
-la_paz,2026-06-04,Carnes,2.346,1.336,11.271
-la_paz,2026-06-04,Compuesto,2.188,2.012,3.987
-la_paz,2026-06-04,Congelados,0.509,0.509,2.546
-la_paz,2026-06-04,Cuidado Personal,-0.055,-0.430,0.553
-la_paz,2026-06-04,Cuidado del Bebé,-0.441,-2.396,1.341
-la_paz,2026-06-04,Cuidado del Hogar,-0.901,-0.901,0.108
-la_paz,2026-06-04,Fiambres,0.233,0.233,10.011
-la_paz,2026-06-04,Frutas y Verduras,31.031,31.031,31.481
-la_paz,2026-06-04,Granos y Hortalizas,0.879,0.879,3.303
-la_paz,2026-06-04,Lácteos y Derivados,1.029,1.029,3.984
-la_paz,2026-06-04,Panadería,0.317,0.317,0.512
-la_paz,2026-06-04,Pastelería y Masas Típicas,0.584,0.482,0.594
-santa_cruz,2026-06-04,Abarrotes,0.300,0.300,0.736
-santa_cruz,2026-06-04,Bazar,0.985,0.985,3.792
-santa_cruz,2026-06-04,Bebidas,0.018,0.018,0.164
+cochabamba,2026-06-04,Granos y Hortalizas,0.150,0.150,0.382
+cochabamba,2026-06-04,Lácteos y Derivados,0.787,0.787,0.943
+cochabamba,2026-06-04,Panadería,0.272,0.272,0.289
+cochabamba,2026-06-04,Pastelería y Masas Típicas,0.418,0.418,0.572
+la_paz,2026-06-04,Abarrotes,-0.141,-0.141,-0.114
+la_paz,2026-06-04,Bazar,0.431,0.431,0.942
+la_paz,2026-06-04,Bebidas,-0.181,-0.181,-0.166
+la_paz,2026-06-04,Carnes,2.346,2.168,2.789
+la_paz,2026-06-04,Compuesto,2.188,2.164,2.422
+la_paz,2026-06-04,Congelados,0.509,0.509,1.058
+la_paz,2026-06-04,Cuidado Personal,-0.055,-0.055,0.049
+la_paz,2026-06-04,Cuidado del Bebé,-0.441,-0.726,-0.185
+la_paz,2026-06-04,Cuidado del Hogar,-0.901,-0.901,-0.712
+la_paz,2026-06-04,Fiambres,0.233,0.233,1.034
+la_paz,2026-06-04,Frutas y Verduras,31.031,31.031,31.084
+la_paz,2026-06-04,Granos y Hortalizas,0.879,0.809,0.879
+la_paz,2026-06-04,Lácteos y Derivados,1.029,1.029,2.004
+la_paz,2026-06-04,Panadería,0.317,0.317,0.317
+la_paz,2026-06-04,Pastelería y Masas Típicas,0.584,0.565,0.586
+santa_cruz,2026-06-04,Abarrotes,0.300,0.300,0.402
+santa_cruz,2026-06-04,Bazar,0.985,0.985,1.499
+santa_cruz,2026-06-04,Bebidas,0.018,0.018,0.043
 santa_cruz,2026-06-04,CUDADOS OTC,-1.207,,
 santa_cruz,2026-06-04,Carnes,-3.733,-3.775,-3.715
-santa_cruz,2026-06-04,Compuesto,0.317,0.298,0.888
-santa_cruz,2026-06-04,Congelados,0.644,0.644,0.795
-santa_cruz,2026-06-04,Cuidado Personal,0.132,0.091,0.805
-santa_cruz,2026-06-04,Cuidado del Bebé,-2.573,-2.754,-1.815
-santa_cruz,2026-06-04,Cuidado del Hogar,0.551,0.484,1.581
+santa_cruz,2026-06-04,Compuesto,0.317,0.313,0.436
+santa_cruz,2026-06-04,Congelados,0.644,0.644,0.670
+santa_cruz,2026-06-04,Cuidado Personal,0.132,0.114,0.278
+santa_cruz,2026-06-04,Cuidado del Bebé,-2.573,-2.605,-2.438
+santa_cruz,2026-06-04,Cuidado del Hogar,0.551,0.539,0.739
 santa_cruz,2026-06-04,Farmacia Otc,,,
-santa_cruz,2026-06-04,Fiambres,0.003,0.003,1.143
-santa_cruz,2026-06-04,Frutas y Verduras,2.915,2.915,2.935
-santa_cruz,2026-06-04,Granos y Hortalizas,0.072,0.072,0.418
-santa_cruz,2026-06-04,Lácteos y Derivados,0.769,0.769,1.461
+santa_cruz,2026-06-04,Fiambres,0.003,0.003,0.173
+santa_cruz,2026-06-04,Frutas y Verduras,2.915,2.910,2.930
+santa_cruz,2026-06-04,Granos y Hortalizas,0.072,0.072,0.122
+santa_cruz,2026-06-04,Lácteos y Derivados,0.769,0.769,0.995
 santa_cruz,2026-06-04,Panadería,0.373,0.373,0.373
-santa_cruz,2026-06-04,Pastelería y Masas Típicas,0.555,0.551,0.555
-cochabamba,2026-06-05,Abarrotes,0.153,0.153,0.735
-cochabamba,2026-06-05,Bazar,0.423,0.423,1.639
-cochabamba,2026-06-05,Bebidas,-0.072,-0.072,0.220
-cochabamba,2026-06-05,Carnes,3.124,2.854,3.602
-cochabamba,2026-06-05,Compuesto,0.571,0.529,1.320
-cochabamba,2026-06-05,Congelados,0.606,0.606,0.739
-cochabamba,2026-06-05,Cuidado Personal,0.279,0.137,1.123
-cochabamba,2026-06-05,Cuidado del Bebé,0.327,-1.067,2.117
-cochabamba,2026-06-05,Cuidado del Hogar,0.841,0.841,1.435
-cochabamba,2026-06-05,Fiambres,0.279,0.279,1.308
+santa_cruz,2026-06-04,Pastelería y Masas Típicas,0.555,0.554,0.555
+cochabamba,2026-06-05,Abarrotes,0.153,0.153,0.291
+cochabamba,2026-06-05,Bazar,0.423,0.423,0.847
+cochabamba,2026-06-05,Bebidas,-0.072,-0.072,0.005
+cochabamba,2026-06-05,Carnes,3.124,3.015,3.316
+cochabamba,2026-06-05,Compuesto,0.571,0.559,0.764
+cochabamba,2026-06-05,Congelados,0.606,0.606,0.636
+cochabamba,2026-06-05,Cuidado Personal,0.279,0.246,0.472
+cochabamba,2026-06-05,Cuidado del Bebé,0.327,-0.037,0.788
+cochabamba,2026-06-05,Cuidado del Hogar,0.841,0.841,0.963
+cochabamba,2026-06-05,Fiambres,0.279,0.279,0.589
 cochabamba,2026-06-05,Frutas y Verduras,11.237,,
-cochabamba,2026-06-05,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-05,Lácteos y Derivados,0.736,0.736,1.829
-cochabamba,2026-06-05,Panadería,0.272,0.272,0.345
-cochabamba,2026-06-05,Pastelería y Masas Típicas,0.418,0.421,0.944
-la_paz,2026-06-05,Abarrotes,0.158,0.117,0.158
-la_paz,2026-06-05,Bazar,0.431,0.431,2.655
-la_paz,2026-06-05,Bebidas,0.087,0.087,0.159
-la_paz,2026-06-05,Carnes,1.919,0.898,10.954
-la_paz,2026-06-05,Compuesto,2.278,2.104,4.145
-la_paz,2026-06-05,Congelados,0.513,0.513,2.642
-la_paz,2026-06-05,Cuidado Personal,0.150,-0.235,0.774
-la_paz,2026-06-05,Cuidado del Bebé,0.209,-1.767,2.011
-la_paz,2026-06-05,Cuidado del Hogar,-0.146,-0.146,0.897
-la_paz,2026-06-05,Fiambres,0.233,0.233,10.595
-la_paz,2026-06-05,Frutas y Verduras,29.866,29.866,30.308
-la_paz,2026-06-05,Granos y Hortalizas,0.879,0.879,3.243
-la_paz,2026-06-05,Lácteos y Derivados,0.993,0.993,4.185
-la_paz,2026-06-05,Panadería,0.317,0.317,0.519
-la_paz,2026-06-05,Pastelería y Masas Típicas,0.584,0.479,0.595
-santa_cruz,2026-06-05,Abarrotes,0.299,0.299,0.757
-santa_cruz,2026-06-05,Bazar,0.970,0.970,3.827
-santa_cruz,2026-06-05,Bebidas,0.009,0.009,0.159
+cochabamba,2026-06-05,Granos y Hortalizas,0.150,0.150,0.440
+cochabamba,2026-06-05,Lácteos y Derivados,0.736,0.736,0.932
+cochabamba,2026-06-05,Panadería,0.272,0.272,0.293
+cochabamba,2026-06-05,Pastelería y Masas Típicas,0.418,0.418,0.612
+la_paz,2026-06-05,Abarrotes,0.158,0.158,0.196
+la_paz,2026-06-05,Bazar,0.431,0.431,1.081
+la_paz,2026-06-05,Bebidas,0.087,0.087,0.107
+la_paz,2026-06-05,Carnes,1.919,1.698,2.471
+la_paz,2026-06-05,Compuesto,2.278,2.249,2.573
+la_paz,2026-06-05,Congelados,0.513,0.513,1.200
+la_paz,2026-06-05,Cuidado Personal,0.150,0.150,0.283
+la_paz,2026-06-05,Cuidado del Bebé,0.209,-0.150,0.532
+la_paz,2026-06-05,Cuidado del Hogar,-0.146,-0.146,0.093
+la_paz,2026-06-05,Fiambres,0.233,0.233,1.241
+la_paz,2026-06-05,Frutas y Verduras,29.866,29.866,29.932
+la_paz,2026-06-05,Granos y Hortalizas,0.879,0.816,0.879
+la_paz,2026-06-05,Lácteos y Derivados,0.993,0.993,2.225
+la_paz,2026-06-05,Panadería,0.317,0.317,0.317
+la_paz,2026-06-05,Pastelería y Masas Típicas,0.584,0.560,0.587
+santa_cruz,2026-06-05,Abarrotes,0.299,0.299,0.428
+santa_cruz,2026-06-05,Bazar,0.970,0.970,1.617
+santa_cruz,2026-06-05,Bebidas,0.009,0.009,0.041
 santa_cruz,2026-06-05,CUDADOS OTC,-1.207,,
 santa_cruz,2026-06-05,Carnes,-3.502,-3.587,-3.466
-santa_cruz,2026-06-05,Compuesto,0.317,0.298,0.910
-santa_cruz,2026-06-05,Congelados,0.644,0.644,0.797
-santa_cruz,2026-06-05,Cuidado Personal,0.130,0.088,0.831
-santa_cruz,2026-06-05,Cuidado del Bebé,-2.573,-2.756,-1.806
-santa_cruz,2026-06-05,Cuidado del Hogar,0.525,0.457,1.580
+santa_cruz,2026-06-05,Compuesto,0.317,0.312,0.468
+santa_cruz,2026-06-05,Congelados,0.644,0.644,0.677
+santa_cruz,2026-06-05,Cuidado Personal,0.130,0.111,0.318
+santa_cruz,2026-06-05,Cuidado del Bebé,-2.573,-2.613,-2.404
+santa_cruz,2026-06-05,Cuidado del Hogar,0.525,0.510,0.763
 santa_cruz,2026-06-05,Farmacia Otc,0.000,,
-santa_cruz,2026-06-05,Fiambres,0.003,0.003,1.198
-santa_cruz,2026-06-05,Frutas y Verduras,2.915,2.915,2.940
-santa_cruz,2026-06-05,Granos y Hortalizas,0.072,0.072,0.418
-santa_cruz,2026-06-05,Lácteos y Derivados,0.769,0.769,1.518
+santa_cruz,2026-06-05,Fiambres,0.003,0.003,0.223
+santa_cruz,2026-06-05,Frutas y Verduras,2.915,2.909,2.934
+santa_cruz,2026-06-05,Granos y Hortalizas,0.072,0.072,0.134
+santa_cruz,2026-06-05,Lácteos y Derivados,0.769,0.769,1.060
 santa_cruz,2026-06-05,Panadería,0.372,0.372,0.372
-santa_cruz,2026-06-05,Pastelería y Masas Típicas,0.555,0.551,0.555
-cochabamba,2026-06-06,Abarrotes,0.153,0.153,0.754
-cochabamba,2026-06-06,Bazar,0.423,0.423,1.704
-cochabamba,2026-06-06,Bebidas,-0.072,-0.072,0.229
-cochabamba,2026-06-06,Carnes,3.124,2.758,3.772
-cochabamba,2026-06-06,Compuesto,0.639,0.593,1.432
-cochabamba,2026-06-06,Congelados,0.606,0.606,0.743
-cochabamba,2026-06-06,Cuidado Personal,0.279,0.133,1.147
-cochabamba,2026-06-06,Cuidado del Bebé,0.327,-1.131,2.200
-cochabamba,2026-06-06,Cuidado del Hogar,1.002,1.002,1.608
-cochabamba,2026-06-06,Fiambres,0.279,0.279,1.396
+santa_cruz,2026-06-05,Pastelería y Masas Típicas,0.555,0.554,0.555
+cochabamba,2026-06-06,Abarrotes,0.153,0.153,0.321
+cochabamba,2026-06-06,Bazar,0.423,0.423,0.932
+cochabamba,2026-06-06,Bebidas,-0.072,-0.072,0.021
+cochabamba,2026-06-06,Carnes,3.124,2.918,3.488
+cochabamba,2026-06-06,Compuesto,0.639,0.622,0.878
+cochabamba,2026-06-06,Congelados,0.606,0.606,0.642
+cochabamba,2026-06-06,Cuidado Personal,0.279,0.239,0.514
+cochabamba,2026-06-06,Cuidado del Bebé,0.327,-0.128,0.904
+cochabamba,2026-06-06,Cuidado del Hogar,1.002,1.002,1.151
+cochabamba,2026-06-06,Fiambres,0.279,0.279,0.656
 cochabamba,2026-06-06,Frutas y Verduras,13.724,,
-cochabamba,2026-06-06,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-06,Lácteos y Derivados,0.736,0.736,1.870
-cochabamba,2026-06-06,Panadería,0.272,0.272,0.350
-cochabamba,2026-06-06,Pastelería y Masas Típicas,0.418,0.420,0.985
-la_paz,2026-06-06,Abarrotes,0.175,0.163,0.175
-la_paz,2026-06-06,Bazar,0.431,0.431,2.736
-la_paz,2026-06-06,Bebidas,0.105,0.105,0.177
-la_paz,2026-06-06,Carnes,1.919,0.841,11.483
-la_paz,2026-06-06,Compuesto,2.304,2.129,4.260
-la_paz,2026-06-06,Congelados,0.513,0.513,2.733
-la_paz,2026-06-06,Cuidado Personal,0.170,-0.224,0.810
-la_paz,2026-06-06,Cuidado del Bebé,0.681,-1.313,2.500
-la_paz,2026-06-06,Cuidado del Hogar,-0.146,-0.146,0.923
-la_paz,2026-06-06,Fiambres,0.233,0.233,11.179
-la_paz,2026-06-06,Frutas y Verduras,29.986,29.986,30.424
-la_paz,2026-06-06,Granos y Hortalizas,0.879,0.879,3.183
-la_paz,2026-06-06,Lácteos y Derivados,0.993,0.993,4.424
-la_paz,2026-06-06,Panadería,0.317,0.317,0.526
-la_paz,2026-06-06,Pastelería y Masas Típicas,0.584,0.477,0.595
-santa_cruz,2026-06-06,Abarrotes,0.340,0.340,0.820
-santa_cruz,2026-06-06,Bazar,0.970,0.970,3.877
-santa_cruz,2026-06-06,Bebidas,0.009,0.009,0.162
+cochabamba,2026-06-06,Granos y Hortalizas,0.150,0.150,0.499
+cochabamba,2026-06-06,Lácteos y Derivados,0.736,0.736,0.973
+cochabamba,2026-06-06,Panadería,0.272,0.272,0.297
+cochabamba,2026-06-06,Pastelería y Masas Típicas,0.418,0.418,0.652
+la_paz,2026-06-06,Abarrotes,0.175,0.175,0.223
+la_paz,2026-06-06,Bazar,0.431,0.431,1.220
+la_paz,2026-06-06,Bebidas,0.105,0.105,0.129
+la_paz,2026-06-06,Carnes,1.919,1.576,2.779
+la_paz,2026-06-06,Compuesto,2.304,2.264,2.673
+la_paz,2026-06-06,Congelados,0.513,0.513,1.338
+la_paz,2026-06-06,Cuidado Personal,0.170,0.170,0.332
+la_paz,2026-06-06,Cuidado del Bebé,0.681,0.249,1.070
+la_paz,2026-06-06,Cuidado del Hogar,-0.146,-0.146,0.141
+la_paz,2026-06-06,Fiambres,0.233,0.233,1.447
+la_paz,2026-06-06,Frutas y Verduras,29.986,29.986,30.064
+la_paz,2026-06-06,Granos y Hortalizas,0.879,0.823,0.879
+la_paz,2026-06-06,Lácteos y Derivados,0.993,0.993,2.483
+la_paz,2026-06-06,Panadería,0.317,0.317,0.317
+la_paz,2026-06-06,Pastelería y Masas Típicas,0.584,0.554,0.587
+santa_cruz,2026-06-06,Abarrotes,0.340,0.340,0.496
+santa_cruz,2026-06-06,Bazar,0.970,0.970,1.749
+santa_cruz,2026-06-06,Bebidas,0.009,0.009,0.048
 santa_cruz,2026-06-06,CUDADOS OTC,-1.207,,
 santa_cruz,2026-06-06,Carnes,-3.006,-3.483,-2.800
-santa_cruz,2026-06-06,Compuesto,0.339,0.319,0.952
-santa_cruz,2026-06-06,Congelados,0.644,0.644,0.798
-santa_cruz,2026-06-06,Cuidado Personal,0.149,0.106,0.878
-santa_cruz,2026-06-06,Cuidado del Bebé,-2.440,-2.625,-1.664
-santa_cruz,2026-06-06,Cuidado del Hogar,0.540,0.470,1.618
+santa_cruz,2026-06-06,Compuesto,0.339,0.333,0.523
+santa_cruz,2026-06-06,Congelados,0.644,0.644,0.683
+santa_cruz,2026-06-06,Cuidado Personal,0.149,0.128,0.378
+santa_cruz,2026-06-06,Cuidado del Bebé,-2.440,-2.489,-2.237
+santa_cruz,2026-06-06,Cuidado del Hogar,0.540,0.521,0.828
 santa_cruz,2026-06-06,Farmacia Otc,0.000,,
-santa_cruz,2026-06-06,Fiambres,0.003,0.003,1.238
-santa_cruz,2026-06-06,Frutas y Verduras,2.915,2.915,2.944
-santa_cruz,2026-06-06,Granos y Hortalizas,0.072,0.072,0.418
-santa_cruz,2026-06-06,Lácteos y Derivados,0.769,0.769,1.573
+santa_cruz,2026-06-06,Fiambres,0.003,0.003,0.273
+santa_cruz,2026-06-06,Frutas y Verduras,2.915,2.908,2.938
+santa_cruz,2026-06-06,Granos y Hortalizas,0.072,0.072,0.146
+santa_cruz,2026-06-06,Lácteos y Derivados,0.769,0.769,1.125
 santa_cruz,2026-06-06,Panadería,0.372,0.372,0.372
-santa_cruz,2026-06-06,Pastelería y Masas Típicas,0.555,0.551,0.555
-cochabamba,2026-06-07,Abarrotes,0.152,0.152,0.775
-cochabamba,2026-06-07,Bazar,0.423,0.423,1.769
-cochabamba,2026-06-07,Bebidas,-0.071,-0.071,0.240
-cochabamba,2026-06-07,Carnes,3.124,2.659,3.950
-cochabamba,2026-06-07,Compuesto,0.709,0.658,1.548
-cochabamba,2026-06-07,Congelados,0.620,0.620,0.760
-cochabamba,2026-06-07,Cuidado Personal,0.280,0.130,1.175
-cochabamba,2026-06-07,Cuidado del Bebé,0.327,-1.201,2.293
-cochabamba,2026-06-07,Cuidado del Hogar,1.002,1.002,1.622
-cochabamba,2026-06-07,Fiambres,0.279,0.279,1.488
+santa_cruz,2026-06-06,Pastelería y Masas Típicas,0.555,0.554,0.555
+cochabamba,2026-06-07,Abarrotes,0.152,0.152,0.355
+cochabamba,2026-06-07,Bazar,0.423,0.423,1.017
+cochabamba,2026-06-07,Bebidas,-0.071,-0.071,0.040
+cochabamba,2026-06-07,Carnes,3.124,2.817,3.667
+cochabamba,2026-06-07,Compuesto,0.709,0.686,0.996
+cochabamba,2026-06-07,Congelados,0.620,0.620,0.662
+cochabamba,2026-06-07,Cuidado Personal,0.280,0.233,0.559
+cochabamba,2026-06-07,Cuidado del Bebé,0.327,-0.226,1.030
+cochabamba,2026-06-07,Cuidado del Hogar,1.002,1.002,1.181
+cochabamba,2026-06-07,Fiambres,0.279,0.279,0.726
 cochabamba,2026-06-07,Frutas y Verduras,16.551,,
-cochabamba,2026-06-07,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-07,Lácteos y Derivados,0.749,0.749,1.924
-cochabamba,2026-06-07,Panadería,0.272,0.272,0.354
-cochabamba,2026-06-07,Pastelería y Masas Típicas,0.418,0.419,1.025
-la_paz,2026-06-07,Abarrotes,0.204,0.225,0.204
-la_paz,2026-06-07,Bazar,0.431,0.431,2.817
-la_paz,2026-06-07,Bebidas,0.105,0.105,0.177
-la_paz,2026-06-07,Carnes,1.825,0.698,11.839
-la_paz,2026-06-07,Compuesto,1.897,1.722,3.929
-la_paz,2026-06-07,Congelados,0.521,0.521,2.833
-la_paz,2026-06-07,Cuidado Personal,0.170,-0.234,0.825
-la_paz,2026-06-07,Cuidado del Bebé,0.681,-1.322,2.508
-la_paz,2026-06-07,Cuidado del Hogar,-0.146,-0.146,0.950
-la_paz,2026-06-07,Fiambres,0.233,0.233,11.770
-la_paz,2026-06-07,Frutas y Verduras,22.879,22.879,23.290
-la_paz,2026-06-07,Granos y Hortalizas,0.879,0.879,3.124
-la_paz,2026-06-07,Lácteos y Derivados,0.996,0.996,4.663
-la_paz,2026-06-07,Panadería,0.317,0.317,0.533
-la_paz,2026-06-07,Pastelería y Masas Típicas,0.584,0.474,0.595
-santa_cruz,2026-06-07,Abarrotes,0.374,0.374,0.877
-santa_cruz,2026-06-07,Bazar,0.970,0.970,3.927
-santa_cruz,2026-06-07,Bebidas,0.139,0.139,0.295
+cochabamba,2026-06-07,Granos y Hortalizas,0.150,0.150,0.557
+cochabamba,2026-06-07,Lácteos y Derivados,0.749,0.749,1.027
+cochabamba,2026-06-07,Panadería,0.272,0.272,0.301
+cochabamba,2026-06-07,Pastelería y Masas Típicas,0.418,0.418,0.692
+la_paz,2026-06-07,Abarrotes,0.204,0.204,0.265
+la_paz,2026-06-07,Bazar,0.431,0.431,1.359
+la_paz,2026-06-07,Bebidas,0.105,0.105,0.133
+la_paz,2026-06-07,Carnes,1.825,1.355,3.004
+la_paz,2026-06-07,Compuesto,1.897,1.846,2.339
+la_paz,2026-06-07,Congelados,0.521,0.521,1.485
+la_paz,2026-06-07,Cuidado Personal,0.170,0.170,0.361
+la_paz,2026-06-07,Cuidado del Bebé,0.681,0.177,1.135
+la_paz,2026-06-07,Cuidado del Hogar,-0.146,-0.146,0.191
+la_paz,2026-06-07,Fiambres,0.233,0.233,1.656
+la_paz,2026-06-07,Frutas y Verduras,22.879,22.879,22.966
+la_paz,2026-06-07,Granos y Hortalizas,0.879,0.830,0.879
+la_paz,2026-06-07,Lácteos y Derivados,0.996,0.996,2.745
+la_paz,2026-06-07,Panadería,0.317,0.317,0.317
+la_paz,2026-06-07,Pastelería y Masas Típicas,0.584,0.549,0.588
+santa_cruz,2026-06-07,Abarrotes,0.374,0.374,0.558
+santa_cruz,2026-06-07,Bazar,0.970,0.970,1.882
+santa_cruz,2026-06-07,Bebidas,0.139,0.139,0.186
 santa_cruz,2026-06-07,CUDADOS OTC,-1.345,,
 santa_cruz,2026-06-07,Carnes,-3.010,-3.063,-2.972
-santa_cruz,2026-06-07,Compuesto,0.439,0.418,1.075
-santa_cruz,2026-06-07,Congelados,0.662,0.662,0.814
-santa_cruz,2026-06-07,Cuidado Personal,0.116,0.074,0.877
-santa_cruz,2026-06-07,Cuidado del Bebé,-0.315,-0.507,0.487
-santa_cruz,2026-06-07,Cuidado del Hogar,0.512,0.440,1.612
+santa_cruz,2026-06-07,Compuesto,0.439,0.431,0.657
+santa_cruz,2026-06-07,Congelados,0.662,0.662,0.705
+santa_cruz,2026-06-07,Cuidado Personal,0.116,0.095,0.392
+santa_cruz,2026-06-07,Cuidado del Bebé,-0.315,-0.373,-0.073
+santa_cruz,2026-06-07,Cuidado del Hogar,0.512,0.490,0.849
 santa_cruz,2026-06-07,Farmacia Otc,0.000,,
-santa_cruz,2026-06-07,Fiambres,0.053,0.053,1.330
-santa_cruz,2026-06-07,Frutas y Verduras,2.915,2.915,2.948
-santa_cruz,2026-06-07,Granos y Hortalizas,0.072,0.072,0.418
-santa_cruz,2026-06-07,Lácteos y Derivados,0.716,0.716,1.583
+santa_cruz,2026-06-07,Fiambres,0.053,0.053,0.373
+santa_cruz,2026-06-07,Frutas y Verduras,2.915,2.906,2.942
+santa_cruz,2026-06-07,Granos y Hortalizas,0.072,0.072,0.159
+santa_cruz,2026-06-07,Lácteos y Derivados,0.716,0.716,1.146
 santa_cruz,2026-06-07,Panadería,0.344,0.344,0.344
-santa_cruz,2026-06-07,Pastelería y Masas Típicas,0.557,0.553,0.557
-cochabamba,2026-06-08,Abarrotes,0.152,0.152,0.798
-cochabamba,2026-06-08,Bazar,0.423,0.423,1.834
-cochabamba,2026-06-08,Bebidas,-0.071,-0.071,0.251
-cochabamba,2026-06-08,Carnes,3.124,2.559,4.128
-cochabamba,2026-06-08,Compuesto,0.709,0.653,1.593
-cochabamba,2026-06-08,Congelados,0.620,0.620,0.766
-cochabamba,2026-06-08,Cuidado Personal,0.280,0.125,1.200
-cochabamba,2026-06-08,Cuidado del Bebé,0.327,-1.281,2.398
-cochabamba,2026-06-08,Cuidado del Hogar,1.002,1.002,1.634
-cochabamba,2026-06-08,Fiambres,0.279,0.279,1.581
+santa_cruz,2026-06-07,Pastelería y Masas Típicas,0.557,0.555,0.557
+cochabamba,2026-06-08,Abarrotes,0.152,0.152,0.390
+cochabamba,2026-06-08,Bazar,0.423,0.423,1.102
+cochabamba,2026-06-08,Bebidas,-0.071,-0.071,0.058
+cochabamba,2026-06-08,Carnes,3.124,2.716,3.847
+cochabamba,2026-06-08,Compuesto,0.709,0.681,1.044
+cochabamba,2026-06-08,Congelados,0.620,0.620,0.670
+cochabamba,2026-06-08,Cuidado Personal,0.280,0.225,0.603
+cochabamba,2026-06-08,Cuidado del Bebé,0.327,-0.335,1.170
+cochabamba,2026-06-08,Cuidado del Hogar,1.002,1.002,1.211
+cochabamba,2026-06-08,Fiambres,0.279,0.279,0.796
 cochabamba,2026-06-08,Frutas y Verduras,16.551,,
-cochabamba,2026-06-08,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-08,Lácteos y Derivados,0.749,0.749,1.966
-cochabamba,2026-06-08,Panadería,0.272,0.272,0.358
-cochabamba,2026-06-08,Pastelería y Masas Típicas,0.418,0.418,1.062
-la_paz,2026-06-08,Abarrotes,0.204,0.259,0.204
-la_paz,2026-06-08,Bazar,0.431,0.431,2.898
-la_paz,2026-06-08,Bebidas,0.105,0.105,0.178
-la_paz,2026-06-08,Carnes,1.825,0.649,12.300
-la_paz,2026-06-08,Compuesto,1.900,1.726,4.015
-la_paz,2026-06-08,Congelados,0.521,0.521,2.917
-la_paz,2026-06-08,Cuidado Personal,0.170,-0.243,0.840
-la_paz,2026-06-08,Cuidado del Bebé,0.681,-1.322,2.508
-la_paz,2026-06-08,Cuidado del Hogar,-0.114,-0.114,1.010
-la_paz,2026-06-08,Fiambres,0.233,0.233,12.343
-la_paz,2026-06-08,Frutas y Verduras,22.879,22.879,23.286
-la_paz,2026-06-08,Granos y Hortalizas,0.879,0.879,3.064
-la_paz,2026-06-08,Lácteos y Derivados,0.996,0.996,4.907
-la_paz,2026-06-08,Panadería,0.317,0.317,0.540
-la_paz,2026-06-08,Pastelería y Masas Típicas,0.584,0.472,0.595
-santa_cruz,2026-06-08,Abarrotes,0.374,0.374,0.902
-santa_cruz,2026-06-08,Bazar,0.970,0.970,3.977
-santa_cruz,2026-06-08,Bebidas,0.141,0.141,0.299
+cochabamba,2026-06-08,Granos y Hortalizas,0.150,0.150,0.615
+cochabamba,2026-06-08,Lácteos y Derivados,0.749,0.749,1.070
+cochabamba,2026-06-08,Panadería,0.272,0.272,0.305
+cochabamba,2026-06-08,Pastelería y Masas Típicas,0.418,0.418,0.733
+la_paz,2026-06-08,Abarrotes,0.204,0.204,0.280
+la_paz,2026-06-08,Bazar,0.431,0.431,1.498
+la_paz,2026-06-08,Bebidas,0.105,0.105,0.138
+la_paz,2026-06-08,Carnes,1.825,1.228,3.325
+la_paz,2026-06-08,Compuesto,1.900,1.839,2.418
+la_paz,2026-06-08,Congelados,0.521,0.521,1.623
+la_paz,2026-06-08,Cuidado Personal,0.170,0.170,0.390
+la_paz,2026-06-08,Cuidado del Bebé,0.681,0.105,1.200
+la_paz,2026-06-08,Cuidado del Hogar,-0.114,-0.114,0.274
+la_paz,2026-06-08,Fiambres,0.233,0.233,1.867
+la_paz,2026-06-08,Frutas y Verduras,22.879,22.879,22.978
+la_paz,2026-06-08,Granos y Hortalizas,0.879,0.837,0.879
+la_paz,2026-06-08,Lácteos y Derivados,0.996,0.996,3.012
+la_paz,2026-06-08,Panadería,0.317,0.317,0.317
+la_paz,2026-06-08,Pastelería y Masas Típicas,0.584,0.544,0.588
+santa_cruz,2026-06-08,Abarrotes,0.374,0.374,0.587
+santa_cruz,2026-06-08,Bazar,0.970,0.970,2.015
+santa_cruz,2026-06-08,Bebidas,0.141,0.141,0.195
 santa_cruz,2026-06-08,CUDADOS OTC,-1.345,,
 santa_cruz,2026-06-08,Carnes,-2.964,-3.070,-2.888
-santa_cruz,2026-06-08,Compuesto,0.440,0.418,1.098
-santa_cruz,2026-06-08,Congelados,0.662,0.662,0.812
-santa_cruz,2026-06-08,Cuidado Personal,0.116,0.072,0.909
-santa_cruz,2026-06-08,Cuidado del Bebé,-0.315,-0.511,0.504
-santa_cruz,2026-06-08,Cuidado del Hogar,0.512,0.439,1.635
+santa_cruz,2026-06-08,Compuesto,0.440,0.430,0.693
+santa_cruz,2026-06-08,Congelados,0.662,0.662,0.708
+santa_cruz,2026-06-08,Cuidado Personal,0.116,0.093,0.437
+santa_cruz,2026-06-08,Cuidado del Bebé,-0.315,-0.384,-0.030
+santa_cruz,2026-06-08,Cuidado del Hogar,0.512,0.486,0.900
 santa_cruz,2026-06-08,Farmacia Otc,0.000,,
-santa_cruz,2026-06-08,Fiambres,0.053,0.053,1.363
-santa_cruz,2026-06-08,Frutas y Verduras,2.915,2.915,2.953
-santa_cruz,2026-06-08,Granos y Hortalizas,0.072,0.072,0.418
-santa_cruz,2026-06-08,Lácteos y Derivados,0.716,0.716,1.648
+santa_cruz,2026-06-08,Fiambres,0.053,0.053,0.423
+santa_cruz,2026-06-08,Frutas y Verduras,2.915,2.905,2.945
+santa_cruz,2026-06-08,Granos y Hortalizas,0.072,0.072,0.171
+santa_cruz,2026-06-08,Lácteos y Derivados,0.716,0.716,1.221
 santa_cruz,2026-06-08,Panadería,0.344,0.344,0.344
-santa_cruz,2026-06-08,Pastelería y Masas Típicas,0.557,0.553,0.557
-cochabamba,2026-06-09,Abarrotes,0.141,0.141,0.809
-cochabamba,2026-06-09,Bazar,0.423,0.423,1.899
-cochabamba,2026-06-09,Bebidas,0.567,0.567,0.902
-cochabamba,2026-06-09,Carnes,3.174,2.509,4.356
-cochabamba,2026-06-09,Compuesto,0.822,0.760,1.753
-cochabamba,2026-06-09,Congelados,0.620,0.620,0.772
-cochabamba,2026-06-09,Cuidado Personal,0.296,0.137,1.240
-cochabamba,2026-06-09,Cuidado del Bebé,0.834,-0.862,3.021
-cochabamba,2026-06-09,Cuidado del Hogar,1.102,1.102,1.746
-cochabamba,2026-06-09,Fiambres,0.279,0.279,1.684
+santa_cruz,2026-06-08,Pastelería y Masas Típicas,0.557,0.555,0.557
+cochabamba,2026-06-09,Abarrotes,0.141,0.141,0.414
+cochabamba,2026-06-09,Bazar,0.423,0.423,1.187
+cochabamba,2026-06-09,Bebidas,0.567,0.567,0.715
+cochabamba,2026-06-09,Carnes,3.174,2.665,4.077
+cochabamba,2026-06-09,Compuesto,0.822,0.788,1.207
+cochabamba,2026-06-09,Congelados,0.620,0.620,0.678
+cochabamba,2026-06-09,Cuidado Personal,0.296,0.234,0.664
+cochabamba,2026-06-09,Cuidado del Bebé,0.834,0.059,1.823
+cochabamba,2026-06-09,Cuidado del Hogar,1.102,1.102,1.343
+cochabamba,2026-06-09,Fiambres,0.279,0.279,0.869
 cochabamba,2026-06-09,Frutas y Verduras,18.688,,
-cochabamba,2026-06-09,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-09,Lácteos y Derivados,0.743,0.743,2.003
-cochabamba,2026-06-09,Panadería,0.272,0.272,0.362
-cochabamba,2026-06-09,Pastelería y Masas Típicas,0.418,0.418,1.088
-la_paz,2026-06-09,Abarrotes,0.198,0.287,0.198
-la_paz,2026-06-09,Bazar,0.431,0.431,2.980
-la_paz,2026-06-09,Bebidas,0.587,0.587,0.660
-la_paz,2026-06-09,Carnes,1.950,0.723,12.902
-la_paz,2026-06-09,Compuesto,1.765,1.592,3.961
-la_paz,2026-06-09,Congelados,0.544,0.544,3.016
-la_paz,2026-06-09,Cuidado Personal,0.176,-0.246,0.859
-la_paz,2026-06-09,Cuidado del Bebé,0.644,-1.359,2.470
-la_paz,2026-06-09,Cuidado del Hogar,-0.028,-0.028,1.125
-la_paz,2026-06-09,Fiambres,0.233,0.233,12.936
-la_paz,2026-06-09,Frutas y Verduras,19.024,19.024,19.415
-la_paz,2026-06-09,Granos y Hortalizas,0.879,0.879,3.005
-la_paz,2026-06-09,Lácteos y Derivados,0.946,0.946,5.101
-la_paz,2026-06-09,Panadería,0.376,0.376,0.608
-la_paz,2026-06-09,Pastelería y Masas Típicas,0.692,0.576,0.703
-santa_cruz,2026-06-09,Abarrotes,0.354,0.354,0.906
-santa_cruz,2026-06-09,Bazar,0.830,0.830,3.883
-santa_cruz,2026-06-09,Bebidas,0.140,0.140,0.306
+cochabamba,2026-06-09,Granos y Hortalizas,0.150,0.150,0.673
+cochabamba,2026-06-09,Lácteos y Derivados,0.743,0.743,1.106
+cochabamba,2026-06-09,Panadería,0.272,0.272,0.310
+cochabamba,2026-06-09,Pastelería y Masas Típicas,0.418,0.418,0.773
+la_paz,2026-06-09,Abarrotes,0.198,0.198,0.290
+la_paz,2026-06-09,Bazar,0.431,0.431,1.638
+la_paz,2026-06-09,Bebidas,0.587,0.587,0.624
+la_paz,2026-06-09,Carnes,1.950,1.225,3.775
+la_paz,2026-06-09,Compuesto,1.765,1.693,2.359
+la_paz,2026-06-09,Congelados,0.544,0.544,1.786
+la_paz,2026-06-09,Cuidado Personal,0.176,0.176,0.425
+la_paz,2026-06-09,Cuidado del Bebé,0.644,-0.004,1.228
+la_paz,2026-06-09,Cuidado del Hogar,-0.028,-0.028,0.412
+la_paz,2026-06-09,Fiambres,0.233,0.233,2.089
+la_paz,2026-06-09,Frutas y Verduras,19.024,19.024,19.132
+la_paz,2026-06-09,Granos y Hortalizas,0.879,0.843,0.879
+la_paz,2026-06-09,Lácteos y Derivados,0.946,0.946,3.230
+la_paz,2026-06-09,Panadería,0.376,0.376,0.376
+la_paz,2026-06-09,Pastelería y Masas Típicas,0.692,0.645,0.696
+santa_cruz,2026-06-09,Abarrotes,0.354,0.354,0.596
+santa_cruz,2026-06-09,Bazar,0.830,0.830,2.006
+santa_cruz,2026-06-09,Bebidas,0.140,0.140,0.206
 santa_cruz,2026-06-09,CUDADOS OTC,-1.345,,
 santa_cruz,2026-06-09,Carnes,-1.794,-1.954,-1.678
-santa_cruz,2026-06-09,Compuesto,0.478,0.455,1.160
-santa_cruz,2026-06-09,Congelados,0.647,0.647,0.794
-santa_cruz,2026-06-09,Cuidado Personal,0.163,0.117,0.988
-santa_cruz,2026-06-09,Cuidado del Bebé,0.251,0.050,1.093
-santa_cruz,2026-06-09,Cuidado del Hogar,0.529,0.454,1.675
+santa_cruz,2026-06-09,Compuesto,0.478,0.466,0.768
+santa_cruz,2026-06-09,Congelados,0.647,0.647,0.695
+santa_cruz,2026-06-09,Cuidado Personal,0.163,0.138,0.530
+santa_cruz,2026-06-09,Cuidado del Bebé,0.251,0.172,0.581
+santa_cruz,2026-06-09,Cuidado del Hogar,0.529,0.500,0.968
 santa_cruz,2026-06-09,Farmacia Otc,0.000,,
-santa_cruz,2026-06-09,Fiambres,0.059,0.059,1.403
-santa_cruz,2026-06-09,Frutas y Verduras,2.915,2.915,2.957
-santa_cruz,2026-06-09,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-09,Lácteos y Derivados,0.715,0.715,1.720
+santa_cruz,2026-06-09,Fiambres,0.059,0.059,0.479
+santa_cruz,2026-06-09,Frutas y Verduras,2.915,2.904,2.949
+santa_cruz,2026-06-09,Granos y Hortalizas,0.063,0.063,0.174
+santa_cruz,2026-06-09,Lácteos y Derivados,0.715,0.715,1.304
 santa_cruz,2026-06-09,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-09,Pastelería y Masas Típicas,0.557,0.553,0.557
-cochabamba,2026-06-10,Abarrotes,0.131,0.131,0.822
-cochabamba,2026-06-10,Bazar,0.423,0.423,1.964
-cochabamba,2026-06-10,Bebidas,0.540,0.540,0.886
-cochabamba,2026-06-10,Carnes,,2.403,4.547
-cochabamba,2026-06-10,Compuesto,0.780,0.712,1.760
-cochabamba,2026-06-10,Congelados,0.602,0.602,0.762
-cochabamba,2026-06-10,Cuidado Personal,0.270,0.108,1.240
-cochabamba,2026-06-10,Cuidado del Bebé,0.834,-0.942,3.127
-cochabamba,2026-06-10,Cuidado del Hogar,0.961,0.961,1.621
-cochabamba,2026-06-10,Fiambres,0.279,0.279,1.808
+santa_cruz,2026-06-09,Pastelería y Masas Típicas,0.557,0.555,0.557
+cochabamba,2026-06-10,Abarrotes,0.131,0.131,0.440
+cochabamba,2026-06-10,Bazar,0.423,0.423,1.272
+cochabamba,2026-06-10,Bebidas,0.540,0.540,0.706
+cochabamba,2026-06-10,Carnes,,2.558,4.268
+cochabamba,2026-06-10,Compuesto,0.780,0.738,1.216
+cochabamba,2026-06-10,Congelados,0.602,0.602,0.671
+cochabamba,2026-06-10,Cuidado Personal,0.270,0.200,0.684
+cochabamba,2026-06-10,Cuidado del Bebé,0.834,-0.051,1.965
+cochabamba,2026-06-10,Cuidado del Hogar,0.961,0.961,1.237
+cochabamba,2026-06-10,Fiambres,0.279,0.279,0.954
 cochabamba,2026-06-10,Frutas y Verduras,17.498,,
-cochabamba,2026-06-10,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-10,Lácteos y Derivados,0.743,0.743,2.038
-cochabamba,2026-06-10,Panadería,0.272,0.272,0.365
-cochabamba,2026-06-10,Pastelería y Masas Típicas,0.418,0.418,1.113
-la_paz,2026-06-10,Abarrotes,0.196,0.322,0.196
-la_paz,2026-06-10,Bazar,0.431,0.431,3.101
-la_paz,2026-06-10,Bebidas,0.556,0.556,0.630
-la_paz,2026-06-10,Carnes,0.510,-0.748,11.766
-la_paz,2026-06-10,Compuesto,1.363,1.192,3.635
-la_paz,2026-06-10,Congelados,0.503,0.503,3.051
-la_paz,2026-06-10,Cuidado Personal,0.090,-0.339,0.786
-la_paz,2026-06-10,Cuidado del Bebé,0.644,-1.359,2.470
-la_paz,2026-06-10,Cuidado del Hogar,-0.197,-0.197,0.981
-la_paz,2026-06-10,Fiambres,0.233,0.233,13.534
-la_paz,2026-06-10,Frutas y Verduras,14.409,14.409,14.781
-la_paz,2026-06-10,Granos y Hortalizas,0.879,0.879,2.946
-la_paz,2026-06-10,Lácteos y Derivados,0.946,0.946,5.347
-la_paz,2026-06-10,Panadería,0.425,0.425,0.666
-la_paz,2026-06-10,Pastelería y Masas Típicas,0.692,0.575,0.703
-santa_cruz,2026-06-10,Abarrotes,0.385,0.385,0.962
-santa_cruz,2026-06-10,Bazar,0.830,0.830,3.933
-santa_cruz,2026-06-10,Bebidas,0.145,0.145,0.324
+cochabamba,2026-06-10,Granos y Hortalizas,0.150,0.150,0.732
+cochabamba,2026-06-10,Lácteos y Derivados,0.743,0.743,1.148
+cochabamba,2026-06-10,Panadería,0.272,0.272,0.314
+cochabamba,2026-06-10,Pastelería y Masas Típicas,0.418,0.418,0.813
+la_paz,2026-06-10,Abarrotes,0.196,0.196,0.307
+la_paz,2026-06-10,Bazar,0.431,0.431,1.818
+la_paz,2026-06-10,Bebidas,0.556,0.556,0.599
+la_paz,2026-06-10,Carnes,0.510,-0.329,2.629
+la_paz,2026-06-10,Compuesto,1.363,1.281,2.033
+la_paz,2026-06-10,Congelados,0.503,0.503,1.885
+la_paz,2026-06-10,Cuidado Personal,0.090,0.090,0.369
+la_paz,2026-06-10,Cuidado del Bebé,0.644,-0.076,1.293
+la_paz,2026-06-10,Cuidado del Hogar,-0.197,-0.197,0.294
+la_paz,2026-06-10,Fiambres,0.233,0.233,2.313
+la_paz,2026-06-10,Frutas y Verduras,14.409,14.409,14.524
+la_paz,2026-06-10,Granos y Hortalizas,0.879,0.850,0.879
+la_paz,2026-06-10,Lácteos y Derivados,0.946,0.946,3.500
+la_paz,2026-06-10,Panadería,0.425,0.425,0.425
+la_paz,2026-06-10,Pastelería y Masas Típicas,0.692,0.641,0.697
+santa_cruz,2026-06-10,Abarrotes,0.385,0.385,0.657
+santa_cruz,2026-06-10,Bazar,0.830,0.830,2.139
+santa_cruz,2026-06-10,Bebidas,0.145,0.145,0.230
 santa_cruz,2026-06-10,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-10,Carnes,-1.915,-2.127,-1.760
-santa_cruz,2026-06-10,Compuesto,0.375,0.351,1.082
-santa_cruz,2026-06-10,Congelados,0.610,0.610,0.755
-santa_cruz,2026-06-10,Cuidado Personal,-0.006,-0.045,0.859
-santa_cruz,2026-06-10,Cuidado del Bebé,0.251,0.046,1.110
-santa_cruz,2026-06-10,Cuidado del Hogar,0.086,0.010,1.250
+santa_cruz,2026-06-10,Compuesto,0.375,0.362,0.703
+santa_cruz,2026-06-10,Congelados,0.610,0.610,0.661
+santa_cruz,2026-06-10,Cuidado Personal,-0.006,-0.025,0.416
+santa_cruz,2026-06-10,Cuidado del Bebé,0.251,0.161,0.624
+santa_cruz,2026-06-10,Cuidado del Hogar,0.086,0.054,0.574
 santa_cruz,2026-06-10,Farmacia Otc,0.000,,
-santa_cruz,2026-06-10,Fiambres,0.059,0.059,1.436
-santa_cruz,2026-06-10,Frutas y Verduras,2.915,2.915,2.961
-santa_cruz,2026-06-10,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-10,Lácteos y Derivados,0.407,0.407,1.485
+santa_cruz,2026-06-10,Fiambres,0.059,0.059,0.529
+santa_cruz,2026-06-10,Frutas y Verduras,2.915,2.903,2.953
+santa_cruz,2026-06-10,Granos y Hortalizas,0.063,0.063,0.187
+santa_cruz,2026-06-10,Lácteos y Derivados,0.407,0.407,1.080
 santa_cruz,2026-06-10,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-10,Pastelería y Masas Típicas,0.557,0.552,0.557
-cochabamba,2026-06-11,Abarrotes,0.362,0.362,1.074
-cochabamba,2026-06-11,Bazar,0.423,0.423,2.030
-cochabamba,2026-06-11,Bebidas,0.245,0.245,0.598
-cochabamba,2026-06-11,Carnes,,2.339,4.779
-cochabamba,2026-06-11,Compuesto,0.823,0.748,1.852
-cochabamba,2026-06-11,Congelados,0.602,0.602,0.771
-cochabamba,2026-06-11,Cuidado Personal,0.078,-0.089,1.073
-cochabamba,2026-06-11,Cuidado del Bebé,0.912,-0.937,3.299
-cochabamba,2026-06-11,Cuidado del Hogar,0.964,0.964,1.640
-cochabamba,2026-06-11,Fiambres,0.302,0.302,1.956
+santa_cruz,2026-06-10,Pastelería y Masas Típicas,0.557,0.555,0.557
+cochabamba,2026-06-11,Abarrotes,0.362,0.362,0.707
+cochabamba,2026-06-11,Bazar,0.423,0.423,1.359
+cochabamba,2026-06-11,Bebidas,0.245,0.245,0.425
+cochabamba,2026-06-11,Carnes,,2.492,4.502
+cochabamba,2026-06-11,Compuesto,0.823,0.773,1.312
+cochabamba,2026-06-11,Congelados,0.602,0.602,0.682
+cochabamba,2026-06-11,Cuidado Personal,0.078,0.000,0.540
+cochabamba,2026-06-11,Cuidado del Bebé,0.912,-0.084,2.185
+cochabamba,2026-06-11,Cuidado del Hogar,0.964,0.964,1.276
+cochabamba,2026-06-11,Fiambres,0.302,0.302,1.065
 cochabamba,2026-06-11,Frutas y Verduras,19.326,,
-cochabamba,2026-06-11,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-11,Lácteos y Derivados,0.731,0.731,2.069
-cochabamba,2026-06-11,Panadería,0.272,0.272,0.367
-cochabamba,2026-06-11,Pastelería y Masas Típicas,0.418,0.418,1.138
-la_paz,2026-06-11,Abarrotes,0.520,0.686,0.520
-la_paz,2026-06-11,Bazar,0.431,0.431,3.221
-la_paz,2026-06-11,Bebidas,0.419,0.419,0.494
-la_paz,2026-06-11,Carnes,1.756,0.434,13.619
-la_paz,2026-06-11,Compuesto,1.281,1.112,3.632
-la_paz,2026-06-11,Congelados,0.554,0.554,3.168
-la_paz,2026-06-11,Cuidado Personal,-0.273,-0.709,0.435
-la_paz,2026-06-11,Cuidado del Bebé,0.644,-1.359,2.470
-la_paz,2026-06-11,Cuidado del Hogar,-0.191,-0.191,1.011
-la_paz,2026-06-11,Fiambres,0.233,0.233,14.070
-la_paz,2026-06-11,Frutas y Verduras,11.970,11.970,12.332
-la_paz,2026-06-11,Granos y Hortalizas,0.526,0.526,2.526
-la_paz,2026-06-11,Lácteos y Derivados,0.897,0.897,5.532
-la_paz,2026-06-11,Panadería,0.425,0.425,0.677
-la_paz,2026-06-11,Pastelería y Masas Típicas,0.692,0.573,0.703
-santa_cruz,2026-06-11,Abarrotes,0.340,0.340,0.941
-santa_cruz,2026-06-11,Bazar,0.830,0.830,3.983
-santa_cruz,2026-06-11,Bebidas,-0.167,-0.167,0.024
+cochabamba,2026-06-11,Granos y Hortalizas,0.150,0.150,0.790
+cochabamba,2026-06-11,Lácteos y Derivados,0.731,0.731,1.186
+cochabamba,2026-06-11,Panadería,0.272,0.272,0.318
+cochabamba,2026-06-11,Pastelería y Masas Típicas,0.418,0.418,0.854
+la_paz,2026-06-11,Abarrotes,0.520,0.520,0.654
+la_paz,2026-06-11,Bazar,0.431,0.431,1.998
+la_paz,2026-06-11,Bebidas,0.419,0.419,0.468
+la_paz,2026-06-11,Carnes,1.756,0.781,4.225
+la_paz,2026-06-11,Compuesto,1.281,1.188,2.032
+la_paz,2026-06-11,Congelados,0.554,0.554,2.076
+la_paz,2026-06-11,Cuidado Personal,-0.273,-0.273,0.035
+la_paz,2026-06-11,Cuidado del Bebé,0.644,-0.147,1.358
+la_paz,2026-06-11,Cuidado del Hogar,-0.191,-0.191,0.351
+la_paz,2026-06-11,Fiambres,0.233,0.233,2.547
+la_paz,2026-06-11,Frutas y Verduras,11.970,11.970,12.095
+la_paz,2026-06-11,Granos y Hortalizas,0.526,0.504,0.526
+la_paz,2026-06-11,Lácteos y Derivados,0.897,0.897,3.726
+la_paz,2026-06-11,Panadería,0.425,0.425,0.425
+la_paz,2026-06-11,Pastelería y Masas Típicas,0.692,0.636,0.697
+santa_cruz,2026-06-11,Abarrotes,0.340,0.340,0.644
+santa_cruz,2026-06-11,Bazar,0.830,0.830,2.272
+santa_cruz,2026-06-11,Bebidas,-0.167,-0.167,-0.064
 santa_cruz,2026-06-11,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-11,Carnes,-2.603,-2.867,-2.410
-santa_cruz,2026-06-11,Compuesto,0.313,0.287,1.046
-santa_cruz,2026-06-11,Congelados,0.599,0.599,0.744
-santa_cruz,2026-06-11,Cuidado Personal,-0.008,-0.048,0.893
-santa_cruz,2026-06-11,Cuidado del Bebé,-0.067,-0.276,0.807
-santa_cruz,2026-06-11,Cuidado del Hogar,0.052,-0.025,1.240
+santa_cruz,2026-06-11,Compuesto,0.313,0.298,0.681
+santa_cruz,2026-06-11,Congelados,0.599,0.599,0.655
+santa_cruz,2026-06-11,Cuidado Personal,-0.008,-0.029,0.463
+santa_cruz,2026-06-11,Cuidado del Bebé,-0.067,-0.167,0.349
+santa_cruz,2026-06-11,Cuidado del Hogar,0.052,0.016,0.594
 santa_cruz,2026-06-11,Farmacia Otc,0.000,,
-santa_cruz,2026-06-11,Fiambres,0.058,0.058,1.474
-santa_cruz,2026-06-11,Frutas y Verduras,2.915,2.915,2.966
-santa_cruz,2026-06-11,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-11,Lácteos y Derivados,0.364,0.364,1.527
+santa_cruz,2026-06-11,Fiambres,0.058,0.058,0.582
+santa_cruz,2026-06-11,Frutas y Verduras,2.915,2.902,2.957
+santa_cruz,2026-06-11,Granos y Hortalizas,0.063,0.063,0.199
+santa_cruz,2026-06-11,Lácteos y Derivados,0.364,0.364,1.132
 santa_cruz,2026-06-11,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-11,Pastelería y Masas Típicas,0.557,0.552,0.557
-cochabamba,2026-06-12,Abarrotes,0.344,0.344,1.076
-cochabamba,2026-06-12,Bazar,0.423,0.423,2.097
-cochabamba,2026-06-12,Bebidas,0.254,0.254,0.616
-cochabamba,2026-06-12,Carnes,6.334,5.323,8.143
-cochabamba,2026-06-12,Compuesto,0.649,0.566,1.739
-cochabamba,2026-06-12,Congelados,0.586,0.586,0.764
-cochabamba,2026-06-12,Cuidado Personal,-0.069,-0.240,0.951
-cochabamba,2026-06-12,Cuidado del Bebé,0.578,-1.339,3.057
-cochabamba,2026-06-12,Cuidado del Hogar,-0.026,-0.026,0.660
-cochabamba,2026-06-12,Fiambres,,0.302,2.165
+santa_cruz,2026-06-11,Pastelería y Masas Típicas,0.557,0.554,0.557
+cochabamba,2026-06-12,Abarrotes,0.344,0.344,0.727
+cochabamba,2026-06-12,Bazar,0.423,0.423,1.446
+cochabamba,2026-06-12,Bebidas,0.254,0.254,0.450
+cochabamba,2026-06-12,Carnes,6.334,5.480,7.859
+cochabamba,2026-06-12,Compuesto,0.649,0.591,1.198
+cochabamba,2026-06-12,Congelados,0.586,0.586,0.677
+cochabamba,2026-06-12,Cuidado Personal,-0.069,-0.155,0.442
+cochabamba,2026-06-12,Cuidado del Bebé,0.578,-0.528,1.995
+cochabamba,2026-06-12,Cuidado del Hogar,-0.026,-0.026,0.319
+cochabamba,2026-06-12,Fiambres,,0.302,1.201
 cochabamba,2026-06-12,Frutas y Verduras,18.348,,
-cochabamba,2026-06-12,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-12,Lácteos y Derivados,-0.318,-0.318,1.048
-cochabamba,2026-06-12,Panadería,0.258,0.258,0.356
-cochabamba,2026-06-12,Pastelería y Masas Típicas,0.418,0.418,1.164
-la_paz,2026-06-12,Abarrotes,0.520,0.724,0.522
-la_paz,2026-06-12,Bazar,0.431,0.431,3.341
-la_paz,2026-06-12,Bebidas,0.413,0.413,0.490
-la_paz,2026-06-12,Carnes,1.756,0.385,14.087
-la_paz,2026-06-12,Compuesto,0.985,0.815,3.405
-la_paz,2026-06-12,Congelados,0.554,0.554,3.210
-la_paz,2026-06-12,Cuidado Personal,-0.474,-0.916,0.244
-la_paz,2026-06-12,Cuidado del Bebé,0.383,-1.615,2.204
-la_paz,2026-06-12,Cuidado del Hogar,-1.118,-1.118,0.096
-la_paz,2026-06-12,Fiambres,,0.233,14.598
-la_paz,2026-06-12,Frutas y Verduras,9.052,9.052,9.400
-la_paz,2026-06-12,Granos y Hortalizas,0.526,0.526,2.467
-la_paz,2026-06-12,Lácteos y Derivados,0.899,0.899,5.771
-la_paz,2026-06-12,Panadería,0.423,0.423,0.685
-la_paz,2026-06-12,Pastelería y Masas Típicas,0.692,0.571,0.703
-santa_cruz,2026-06-12,Abarrotes,0.255,0.255,0.882
-santa_cruz,2026-06-12,Bazar,0.830,0.830,4.033
-santa_cruz,2026-06-12,Bebidas,-0.143,-0.143,0.062
+cochabamba,2026-06-12,Granos y Hortalizas,0.150,0.150,0.848
+cochabamba,2026-06-12,Lácteos y Derivados,-0.318,-0.318,0.180
+cochabamba,2026-06-12,Panadería,0.258,0.258,0.308
+cochabamba,2026-06-12,Pastelería y Masas Típicas,0.418,0.418,0.894
+la_paz,2026-06-12,Abarrotes,0.520,0.520,0.678
+la_paz,2026-06-12,Bazar,0.431,0.431,2.178
+la_paz,2026-06-12,Bebidas,0.413,0.413,0.468
+la_paz,2026-06-12,Carnes,1.756,0.655,4.550
+la_paz,2026-06-12,Compuesto,0.985,0.879,1.813
+la_paz,2026-06-12,Congelados,0.554,0.554,2.218
+la_paz,2026-06-12,Cuidado Personal,-0.474,-0.474,-0.136
+la_paz,2026-06-12,Cuidado del Bebé,0.383,-0.478,1.159
+la_paz,2026-06-12,Cuidado del Hogar,-1.118,-1.118,-0.530
+la_paz,2026-06-12,Fiambres,,0.233,2.792
+la_paz,2026-06-12,Frutas y Verduras,9.052,9.052,9.184
+la_paz,2026-06-12,Granos y Hortalizas,0.526,0.511,0.526
+la_paz,2026-06-12,Lácteos y Derivados,0.899,0.899,4.008
+la_paz,2026-06-12,Panadería,0.423,0.423,0.423
+la_paz,2026-06-12,Pastelería y Masas Típicas,0.692,0.631,0.698
+santa_cruz,2026-06-12,Abarrotes,0.255,0.255,0.592
+santa_cruz,2026-06-12,Bazar,0.830,0.830,2.405
+santa_cruz,2026-06-12,Bebidas,-0.143,-0.143,-0.022
 santa_cruz,2026-06-12,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-12,Carnes,-2.506,-2.823,-2.274
-santa_cruz,2026-06-12,Compuesto,0.289,0.262,1.048
-santa_cruz,2026-06-12,Congelados,0.599,0.599,0.743
-santa_cruz,2026-06-12,Cuidado Personal,-0.023,-0.065,0.913
-santa_cruz,2026-06-12,Cuidado del Bebé,-0.203,-0.415,0.688
-santa_cruz,2026-06-12,Cuidado del Hogar,-0.100,-0.178,1.110
+santa_cruz,2026-06-12,Compuesto,0.289,0.272,0.697
+santa_cruz,2026-06-12,Congelados,0.599,0.599,0.659
+santa_cruz,2026-06-12,Cuidado Personal,-0.023,-0.047,0.498
+santa_cruz,2026-06-12,Cuidado del Bebé,-0.203,-0.312,0.256
+santa_cruz,2026-06-12,Cuidado del Hogar,-0.100,-0.139,0.497
 santa_cruz,2026-06-12,Farmacia Otc,0.000,,
-santa_cruz,2026-06-12,Fiambres,0.130,0.130,1.586
-santa_cruz,2026-06-12,Frutas y Verduras,2.915,2.915,2.970
-santa_cruz,2026-06-12,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-12,Lácteos y Derivados,0.365,0.365,1.613
+santa_cruz,2026-06-12,Fiambres,0.130,0.130,0.709
+santa_cruz,2026-06-12,Frutas y Verduras,2.915,2.901,2.961
+santa_cruz,2026-06-12,Granos y Hortalizas,0.063,0.063,0.211
+santa_cruz,2026-06-12,Lácteos y Derivados,0.365,0.365,1.229
 santa_cruz,2026-06-12,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-12,Pastelería y Masas Típicas,0.555,0.550,0.555
-cochabamba,2026-06-13,Abarrotes,0.344,0.344,1.096
-cochabamba,2026-06-13,Bazar,0.423,0.423,2.163
-cochabamba,2026-06-13,Bebidas,0.254,0.254,0.625
-cochabamba,2026-06-13,Carnes,6.994,5.866,9.012
-cochabamba,2026-06-13,Compuesto,0.692,0.599,1.844
-cochabamba,2026-06-13,Congelados,0.586,0.586,0.773
-cochabamba,2026-06-13,Cuidado Personal,0.282,0.106,1.332
-cochabamba,2026-06-13,Cuidado del Bebé,0.578,-1.415,3.156
-cochabamba,2026-06-13,Cuidado del Hogar,-0.026,-0.026,0.676
-cochabamba,2026-06-13,Fiambres,,0.302,2.374
+santa_cruz,2026-06-12,Pastelería y Masas Típicas,0.555,0.552,0.555
+cochabamba,2026-06-13,Abarrotes,0.344,0.344,0.765
+cochabamba,2026-06-13,Bazar,0.423,0.423,1.533
+cochabamba,2026-06-13,Bebidas,0.254,0.254,0.466
+cochabamba,2026-06-13,Carnes,6.994,6.023,8.728
+cochabamba,2026-06-13,Compuesto,0.692,0.623,1.300
+cochabamba,2026-06-13,Congelados,0.586,0.586,0.688
+cochabamba,2026-06-13,Cuidado Personal,0.282,0.187,0.844
+cochabamba,2026-06-13,Cuidado del Bebé,0.578,-0.642,2.143
+cochabamba,2026-06-13,Cuidado del Hogar,-0.026,-0.026,0.356
+cochabamba,2026-06-13,Fiambres,,0.302,1.337
 cochabamba,2026-06-13,Frutas y Verduras,18.348,,
-cochabamba,2026-06-13,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-13,Lácteos y Derivados,-0.318,-0.318,1.090
-cochabamba,2026-06-13,Panadería,0.258,0.258,0.359
-cochabamba,2026-06-13,Pastelería y Masas Típicas,0.418,0.418,1.189
-la_paz,2026-06-13,Abarrotes,0.520,0.735,0.551
-la_paz,2026-06-13,Bazar,0.431,0.431,3.460
-la_paz,2026-06-13,Bebidas,0.413,0.413,0.492
-la_paz,2026-06-13,Carnes,,0.336,14.558
-la_paz,2026-06-13,Compuesto,1.030,0.851,3.527
-la_paz,2026-06-13,Congelados,0.554,0.554,3.253
-la_paz,2026-06-13,Cuidado Personal,0.237,-0.216,0.972
-la_paz,2026-06-13,Cuidado del Bebé,0.383,-1.615,2.204
-la_paz,2026-06-13,Cuidado del Hogar,-1.118,-1.118,0.119
-la_paz,2026-06-13,Fiambres,,0.233,15.128
-la_paz,2026-06-13,Frutas y Verduras,8.775,8.775,9.120
-la_paz,2026-06-13,Granos y Hortalizas,0.526,0.526,2.408
-la_paz,2026-06-13,Lácteos y Derivados,0.899,0.899,6.013
-la_paz,2026-06-13,Panadería,0.423,0.423,0.696
-la_paz,2026-06-13,Pastelería y Masas Típicas,0.692,0.569,0.704
-santa_cruz,2026-06-13,Abarrotes,0.254,0.254,0.906
-santa_cruz,2026-06-13,Bazar,0.830,0.830,4.083
-santa_cruz,2026-06-13,Bebidas,-0.064,-0.064,0.155
+cochabamba,2026-06-13,Granos y Hortalizas,0.150,0.150,0.907
+cochabamba,2026-06-13,Lácteos y Derivados,-0.318,-0.318,0.229
+cochabamba,2026-06-13,Panadería,0.258,0.258,0.312
+cochabamba,2026-06-13,Pastelería y Masas Típicas,0.418,0.418,0.934
+la_paz,2026-06-13,Abarrotes,0.520,0.520,0.701
+la_paz,2026-06-13,Bazar,0.431,0.431,2.358
+la_paz,2026-06-13,Bebidas,0.413,0.413,0.474
+la_paz,2026-06-13,Carnes,,0.529,4.877
+la_paz,2026-06-13,Compuesto,1.030,0.907,1.933
+la_paz,2026-06-13,Congelados,0.554,0.554,2.360
+la_paz,2026-06-13,Cuidado Personal,0.237,0.237,0.608
+la_paz,2026-06-13,Cuidado del Bebé,0.383,-0.550,1.224
+la_paz,2026-06-13,Cuidado del Hogar,-1.118,-1.118,-0.479
+la_paz,2026-06-13,Fiambres,,0.233,3.038
+la_paz,2026-06-13,Frutas y Verduras,8.775,8.775,8.918
+la_paz,2026-06-13,Granos y Hortalizas,0.526,0.518,0.526
+la_paz,2026-06-13,Lácteos y Derivados,0.899,0.899,4.293
+la_paz,2026-06-13,Panadería,0.423,0.423,0.423
+la_paz,2026-06-13,Pastelería y Masas Típicas,0.692,0.627,0.698
+santa_cruz,2026-06-13,Abarrotes,0.254,0.254,0.625
+santa_cruz,2026-06-13,Bazar,0.830,0.830,2.539
+santa_cruz,2026-06-13,Bebidas,-0.064,-0.064,0.076
 santa_cruz,2026-06-13,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-13,Carnes,-2.506,-2.875,-2.236
-santa_cruz,2026-06-13,Compuesto,0.340,0.312,1.126
-santa_cruz,2026-06-13,Congelados,0.599,0.599,0.743
-santa_cruz,2026-06-13,Cuidado Personal,0.149,0.106,1.123
-santa_cruz,2026-06-13,Cuidado del Bebé,0.530,0.312,1.444
-santa_cruz,2026-06-13,Cuidado del Hogar,-0.100,-0.180,1.133
+santa_cruz,2026-06-13,Compuesto,0.340,0.321,0.789
+santa_cruz,2026-06-13,Congelados,0.599,0.599,0.664
+santa_cruz,2026-06-13,Cuidado Personal,0.149,0.124,0.722
+santa_cruz,2026-06-13,Cuidado del Bebé,0.530,0.409,1.035
+santa_cruz,2026-06-13,Cuidado del Hogar,-0.100,-0.142,0.551
 santa_cruz,2026-06-13,Farmacia Otc,0.000,,
-santa_cruz,2026-06-13,Fiambres,0.133,0.133,1.628
-santa_cruz,2026-06-13,Frutas y Verduras,2.915,2.915,2.974
-santa_cruz,2026-06-13,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-13,Lácteos y Derivados,0.365,0.365,1.698
+santa_cruz,2026-06-13,Fiambres,0.133,0.133,0.765
+santa_cruz,2026-06-13,Frutas y Verduras,2.915,2.899,2.965
+santa_cruz,2026-06-13,Granos y Hortalizas,0.063,0.063,0.224
+santa_cruz,2026-06-13,Lácteos y Derivados,0.365,0.365,1.325
 santa_cruz,2026-06-13,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-13,Pastelería y Masas Típicas,0.555,0.550,0.555
-cochabamba,2026-06-14,Abarrotes,0.344,0.344,1.117
-cochabamba,2026-06-14,Bazar,0.423,0.423,2.230
-cochabamba,2026-06-14,Bebidas,0.254,0.254,0.634
-cochabamba,2026-06-14,Carnes,6.994,5.757,9.211
-cochabamba,2026-06-14,Compuesto,0.673,0.569,1.885
-cochabamba,2026-06-14,Congelados,0.586,0.586,0.781
-cochabamba,2026-06-14,Cuidado Personal,0.287,0.107,1.363
-cochabamba,2026-06-14,Cuidado del Bebé,0.614,-1.454,3.292
-cochabamba,2026-06-14,Cuidado del Hogar,-0.024,-0.024,0.696
-cochabamba,2026-06-14,Fiambres,,0.302,2.584
+santa_cruz,2026-06-13,Pastelería y Masas Típicas,0.555,0.551,0.555
+cochabamba,2026-06-14,Abarrotes,0.344,0.344,0.803
+cochabamba,2026-06-14,Bazar,0.423,0.423,1.620
+cochabamba,2026-06-14,Bebidas,0.254,0.254,0.482
+cochabamba,2026-06-14,Carnes,6.994,5.912,8.928
+cochabamba,2026-06-14,Compuesto,0.673,0.592,1.338
+cochabamba,2026-06-14,Congelados,0.586,0.586,0.700
+cochabamba,2026-06-14,Cuidado Personal,0.287,0.184,0.898
+cochabamba,2026-06-14,Cuidado del Bebé,0.614,-0.720,2.328
+cochabamba,2026-06-14,Cuidado del Hogar,-0.024,-0.024,0.395
+cochabamba,2026-06-14,Fiambres,,0.302,1.473
 cochabamba,2026-06-14,Frutas y Verduras,18.348,,
-cochabamba,2026-06-14,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-14,Lácteos y Derivados,-0.472,-0.472,0.976
-cochabamba,2026-06-14,Panadería,0.258,0.258,0.362
-cochabamba,2026-06-14,Pastelería y Masas Típicas,0.418,0.418,1.214
-la_paz,2026-06-14,Abarrotes,0.520,0.744,0.579
-la_paz,2026-06-14,Bazar,0.431,0.431,3.580
-la_paz,2026-06-14,Bebidas,0.413,0.413,0.494
-la_paz,2026-06-14,Carnes,,0.287,15.030
-la_paz,2026-06-14,Compuesto,1.035,0.845,3.603
-la_paz,2026-06-14,Congelados,0.554,0.554,3.292
-la_paz,2026-06-14,Cuidado Personal,0.259,-0.201,1.005
-la_paz,2026-06-14,Cuidado del Bebé,0.392,-1.606,2.214
-la_paz,2026-06-14,Cuidado del Hogar,-1.100,-1.100,0.155
-la_paz,2026-06-14,Fiambres,,0.233,15.629
-la_paz,2026-06-14,Frutas y Verduras,8.680,8.680,9.021
-la_paz,2026-06-14,Granos y Hortalizas,0.526,0.526,2.349
-la_paz,2026-06-14,Lácteos y Derivados,0.894,0.894,6.243
-la_paz,2026-06-14,Panadería,0.423,0.423,0.706
-la_paz,2026-06-14,Pastelería y Masas Típicas,0.692,0.568,0.704
-santa_cruz,2026-06-14,Abarrotes,0.272,0.272,0.949
-santa_cruz,2026-06-14,Bazar,0.830,0.830,4.133
-santa_cruz,2026-06-14,Bebidas,-0.064,-0.064,0.169
+cochabamba,2026-06-14,Granos y Hortalizas,0.150,0.150,0.965
+cochabamba,2026-06-14,Lácteos y Derivados,-0.472,-0.472,0.122
+cochabamba,2026-06-14,Panadería,0.258,0.258,0.316
+cochabamba,2026-06-14,Pastelería y Masas Típicas,0.418,0.418,0.974
+la_paz,2026-06-14,Abarrotes,0.520,0.520,0.724
+la_paz,2026-06-14,Bazar,0.431,0.431,2.539
+la_paz,2026-06-14,Bebidas,0.413,0.413,0.480
+la_paz,2026-06-14,Carnes,,0.403,5.204
+la_paz,2026-06-14,Compuesto,1.035,0.894,2.012
+la_paz,2026-06-14,Congelados,0.554,0.554,2.502
+la_paz,2026-06-14,Cuidado Personal,0.259,0.259,0.660
+la_paz,2026-06-14,Cuidado del Bebé,0.392,-0.612,1.299
+la_paz,2026-06-14,Cuidado del Hogar,-1.100,-1.100,-0.410
+la_paz,2026-06-14,Fiambres,,0.233,3.285
+la_paz,2026-06-14,Frutas y Verduras,8.680,8.680,8.833
+la_paz,2026-06-14,Granos y Hortalizas,0.526,0.524,0.526
+la_paz,2026-06-14,Lácteos y Derivados,0.894,0.894,4.574
+la_paz,2026-06-14,Panadería,0.423,0.423,0.423
+la_paz,2026-06-14,Pastelería y Masas Típicas,0.692,0.622,0.698
+santa_cruz,2026-06-14,Abarrotes,0.272,0.272,0.676
+santa_cruz,2026-06-14,Bazar,0.830,0.830,2.672
+santa_cruz,2026-06-14,Bebidas,-0.064,-0.064,0.095
 santa_cruz,2026-06-14,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-14,Carnes,-2.414,-2.837,-2.105
-santa_cruz,2026-06-14,Compuesto,0.305,0.275,1.117
-santa_cruz,2026-06-14,Congelados,0.599,0.599,0.742
-santa_cruz,2026-06-14,Cuidado Personal,0.149,0.104,1.159
-santa_cruz,2026-06-14,Cuidado del Bebé,0.530,0.307,1.462
-santa_cruz,2026-06-14,Cuidado del Hogar,-0.100,-0.181,1.156
+santa_cruz,2026-06-14,Compuesto,0.305,0.284,0.793
+santa_cruz,2026-06-14,Congelados,0.599,0.599,0.668
+santa_cruz,2026-06-14,Cuidado Personal,0.149,0.122,0.773
+santa_cruz,2026-06-14,Cuidado del Bebé,0.530,0.398,1.079
+santa_cruz,2026-06-14,Cuidado del Hogar,-0.100,-0.146,0.606
 santa_cruz,2026-06-14,Farmacia Otc,0.000,,
-santa_cruz,2026-06-14,Fiambres,0.133,0.133,1.667
-santa_cruz,2026-06-14,Frutas y Verduras,1.490,1.490,1.553
-santa_cruz,2026-06-14,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-14,Lácteos y Derivados,0.373,0.373,1.788
+santa_cruz,2026-06-14,Fiambres,0.133,0.133,0.819
+santa_cruz,2026-06-14,Frutas y Verduras,1.490,1.474,1.543
+santa_cruz,2026-06-14,Granos y Hortalizas,0.063,0.063,0.236
+santa_cruz,2026-06-14,Lácteos y Derivados,0.373,0.373,1.429
 santa_cruz,2026-06-14,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-14,Pastelería y Masas Típicas,0.555,0.549,0.555
-cochabamba,2026-06-15,Abarrotes,0.351,0.351,1.143
-cochabamba,2026-06-15,Bazar,0.423,0.423,2.297
-cochabamba,2026-06-15,Bebidas,0.254,0.254,0.642
-cochabamba,2026-06-15,Carnes,6.994,5.648,9.410
-cochabamba,2026-06-15,Compuesto,0.689,0.574,1.961
-cochabamba,2026-06-15,Congelados,0.586,0.586,0.790
-cochabamba,2026-06-15,Cuidado Personal,0.363,0.178,1.463
-cochabamba,2026-06-15,Cuidado del Bebé,0.631,-1.513,3.409
-cochabamba,2026-06-15,Cuidado del Hogar,0.072,0.072,0.809
-cochabamba,2026-06-15,Fiambres,,0.302,2.793
+santa_cruz,2026-06-14,Pastelería y Masas Típicas,0.555,0.551,0.555
+cochabamba,2026-06-15,Abarrotes,0.351,0.351,0.848
+cochabamba,2026-06-15,Bazar,0.423,0.423,1.706
+cochabamba,2026-06-15,Bebidas,0.254,0.254,0.498
+cochabamba,2026-06-15,Carnes,6.994,5.802,9.129
+cochabamba,2026-06-15,Compuesto,0.689,0.596,1.413
+cochabamba,2026-06-15,Congelados,0.586,0.586,0.711
+cochabamba,2026-06-15,Cuidado Personal,0.363,0.252,1.024
+cochabamba,2026-06-15,Cuidado del Bebé,0.631,-0.818,2.493
+cochabamba,2026-06-15,Cuidado del Hogar,0.072,0.072,0.529
+cochabamba,2026-06-15,Fiambres,,0.302,1.610
 cochabamba,2026-06-15,Frutas y Verduras,18.348,,
-cochabamba,2026-06-15,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-15,Lácteos y Derivados,-0.472,-0.472,1.018
-cochabamba,2026-06-15,Panadería,0.258,0.258,0.364
-cochabamba,2026-06-15,Pastelería y Masas Típicas,0.418,0.418,1.239
-la_paz,2026-06-15,Abarrotes,0.520,0.752,0.608
-la_paz,2026-06-15,Bazar,0.431,0.431,3.701
-la_paz,2026-06-15,Bebidas,0.413,0.413,0.495
-la_paz,2026-06-15,Carnes,,-0.122,15.089
-la_paz,2026-06-15,Compuesto,0.996,0.797,3.635
-la_paz,2026-06-15,Congelados,0.554,0.554,3.322
-la_paz,2026-06-15,Cuidado Personal,0.258,-0.209,1.014
-la_paz,2026-06-15,Cuidado del Bebé,0.392,-1.606,2.214
-la_paz,2026-06-15,Cuidado del Hogar,-0.071,-0.071,1.214
-la_paz,2026-06-15,Fiambres,,0.233,16.119
-la_paz,2026-06-15,Frutas y Verduras,6.895,6.895,7.227
-la_paz,2026-06-15,Granos y Hortalizas,0.526,0.526,2.290
-la_paz,2026-06-15,Lácteos y Derivados,0.894,0.894,6.475
-la_paz,2026-06-15,Panadería,0.423,0.423,0.717
-la_paz,2026-06-15,Pastelería y Masas Típicas,0.692,0.566,0.704
-santa_cruz,2026-06-15,Abarrotes,0.272,0.272,0.973
-santa_cruz,2026-06-15,Bazar,0.830,0.830,4.183
-santa_cruz,2026-06-15,Bebidas,-0.064,-0.064,0.183
+cochabamba,2026-06-15,Granos y Hortalizas,0.150,0.150,1.024
+cochabamba,2026-06-15,Lácteos y Derivados,-0.472,-0.472,0.171
+cochabamba,2026-06-15,Panadería,0.258,0.258,0.321
+cochabamba,2026-06-15,Pastelería y Masas Típicas,0.418,0.418,1.015
+la_paz,2026-06-15,Abarrotes,0.520,0.520,0.747
+la_paz,2026-06-15,Bazar,0.431,0.431,2.721
+la_paz,2026-06-15,Bebidas,0.413,0.413,0.487
+la_paz,2026-06-15,Carnes,,-0.083,5.152
+la_paz,2026-06-15,Compuesto,0.996,0.837,2.048
+la_paz,2026-06-15,Congelados,0.554,0.554,2.644
+la_paz,2026-06-15,Cuidado Personal,0.258,0.258,0.689
+la_paz,2026-06-15,Cuidado del Bebé,0.392,-0.683,1.364
+la_paz,2026-06-15,Cuidado del Hogar,-0.071,-0.071,0.678
+la_paz,2026-06-15,Fiambres,,0.233,3.532
+la_paz,2026-06-15,Frutas y Verduras,6.895,6.895,7.057
+la_paz,2026-06-15,Granos y Hortalizas,0.526,0.526,0.531
+la_paz,2026-06-15,Lácteos y Derivados,0.894,0.894,4.861
+la_paz,2026-06-15,Panadería,0.423,0.423,0.423
+la_paz,2026-06-15,Pastelería y Masas Típicas,0.692,0.617,0.699
+santa_cruz,2026-06-15,Abarrotes,0.272,0.272,0.709
+santa_cruz,2026-06-15,Bazar,0.830,0.830,2.806
+santa_cruz,2026-06-15,Bebidas,-0.064,-0.064,0.114
 santa_cruz,2026-06-15,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-15,Carnes,-2.414,-2.890,-2.067
-santa_cruz,2026-06-15,Compuesto,0.305,0.275,1.144
-santa_cruz,2026-06-15,Congelados,0.599,0.599,0.742
-santa_cruz,2026-06-15,Cuidado Personal,0.149,0.103,1.193
-santa_cruz,2026-06-15,Cuidado del Bebé,0.530,0.303,1.480
-santa_cruz,2026-06-15,Cuidado del Hogar,-0.100,-0.183,1.180
+santa_cruz,2026-06-15,Compuesto,0.305,0.283,0.835
+santa_cruz,2026-06-15,Congelados,0.599,0.599,0.673
+santa_cruz,2026-06-15,Cuidado Personal,0.149,0.119,0.823
+santa_cruz,2026-06-15,Cuidado del Bebé,0.530,0.388,1.122
+santa_cruz,2026-06-15,Cuidado del Hogar,-0.100,-0.149,0.661
 santa_cruz,2026-06-15,Farmacia Otc,0.000,,
-santa_cruz,2026-06-15,Fiambres,0.133,0.133,1.705
-santa_cruz,2026-06-15,Frutas y Verduras,1.523,1.523,1.590
-santa_cruz,2026-06-15,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-15,Lácteos y Derivados,0.373,0.373,1.871
+santa_cruz,2026-06-15,Fiambres,0.133,0.133,0.873
+santa_cruz,2026-06-15,Frutas y Verduras,1.523,1.506,1.580
+santa_cruz,2026-06-15,Granos y Hortalizas,0.063,0.063,0.248
+santa_cruz,2026-06-15,Lácteos y Derivados,0.373,0.373,1.525
 santa_cruz,2026-06-15,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-15,Pastelería y Masas Típicas,0.555,0.549,0.555
-cochabamba,2026-06-16,Abarrotes,0.341,0.341,1.157
-cochabamba,2026-06-16,Bazar,0.430,0.430,2.454
-cochabamba,2026-06-16,Bebidas,0.258,0.258,0.656
-cochabamba,2026-06-16,Carnes,7.031,5.575,9.647
-cochabamba,2026-06-16,Compuesto,0.634,0.510,1.970
-cochabamba,2026-06-16,Congelados,0.651,0.651,0.863
-cochabamba,2026-06-16,Cuidado Personal,0.086,-0.102,1.205
-cochabamba,2026-06-16,Cuidado del Bebé,0.241,-1.966,3.102
-cochabamba,2026-06-16,Cuidado del Hogar,-0.105,-0.105,0.651
-cochabamba,2026-06-16,Fiambres,,0.302,3.003
+santa_cruz,2026-06-15,Pastelería y Masas Típicas,0.555,0.551,0.555
+cochabamba,2026-06-16,Abarrotes,0.341,0.341,0.881
+cochabamba,2026-06-16,Bazar,0.430,0.430,1.884
+cochabamba,2026-06-16,Bebidas,0.258,0.258,0.518
+cochabamba,2026-06-16,Carnes,7.031,5.728,9.368
+cochabamba,2026-06-16,Compuesto,0.634,0.530,1.421
+cochabamba,2026-06-16,Congelados,0.651,0.651,0.787
+cochabamba,2026-06-16,Cuidado Personal,0.086,-0.033,0.796
+cochabamba,2026-06-16,Cuidado del Bebé,0.241,-1.315,2.244
+cochabamba,2026-06-16,Cuidado del Hogar,-0.105,-0.105,0.391
+cochabamba,2026-06-16,Fiambres,,0.302,1.746
 cochabamba,2026-06-16,Frutas y Verduras,16.797,,
-cochabamba,2026-06-16,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-16,Lácteos y Derivados,-0.518,-0.518,1.017
-cochabamba,2026-06-16,Panadería,0.258,0.258,0.365
-cochabamba,2026-06-16,Pastelería y Masas Típicas,0.418,0.418,1.264
-la_paz,2026-06-16,Abarrotes,0.502,0.737,0.623
-la_paz,2026-06-16,Bazar,0.443,0.443,3.833
-la_paz,2026-06-16,Bebidas,0.415,0.415,0.501
-la_paz,2026-06-16,Carnes,1.213,-0.346,15.361
-la_paz,2026-06-16,Compuesto,0.628,0.436,3.341
-la_paz,2026-06-16,Congelados,0.703,0.703,3.494
-la_paz,2026-06-16,Cuidado Personal,-0.058,-0.541,0.726
-la_paz,2026-06-16,Cuidado del Bebé,-0.070,-2.059,1.743
-la_paz,2026-06-16,Cuidado del Hogar,-0.918,-0.918,0.374
-la_paz,2026-06-16,Fiambres,,0.233,16.507
-la_paz,2026-06-16,Frutas y Verduras,3.402,3.402,3.720
-la_paz,2026-06-16,Granos y Hortalizas,0.526,0.526,2.155
-la_paz,2026-06-16,Lácteos y Derivados,0.864,0.864,6.664
-la_paz,2026-06-16,Panadería,0.423,0.423,0.725
-la_paz,2026-06-16,Pastelería y Masas Típicas,0.692,0.566,0.704
-santa_cruz,2026-06-16,Abarrotes,0.233,0.233,0.955
-santa_cruz,2026-06-16,Bazar,0.830,0.830,4.233
-santa_cruz,2026-06-16,Bebidas,-0.066,-0.066,0.194
+cochabamba,2026-06-16,Granos y Hortalizas,0.150,0.150,1.082
+cochabamba,2026-06-16,Lácteos y Derivados,-0.518,-0.518,0.176
+cochabamba,2026-06-16,Panadería,0.258,0.258,0.325
+cochabamba,2026-06-16,Pastelería y Masas Típicas,0.418,0.418,1.055
+la_paz,2026-06-16,Abarrotes,0.502,0.502,0.755
+la_paz,2026-06-16,Bazar,0.443,0.443,2.914
+la_paz,2026-06-16,Bebidas,0.415,0.415,0.497
+la_paz,2026-06-16,Carnes,1.213,-0.383,5.295
+la_paz,2026-06-16,Compuesto,0.628,0.471,1.772
+la_paz,2026-06-16,Congelados,0.703,0.703,2.938
+la_paz,2026-06-16,Cuidado Personal,-0.058,-0.058,0.422
+la_paz,2026-06-16,Cuidado del Bebé,-0.070,-1.212,0.962
+la_paz,2026-06-16,Cuidado del Hogar,-0.918,-0.918,-0.122
+la_paz,2026-06-16,Fiambres,,0.233,3.779
+la_paz,2026-06-16,Frutas y Verduras,3.402,3.402,3.568
+la_paz,2026-06-16,Granos y Hortalizas,0.526,0.526,0.538
+la_paz,2026-06-16,Lácteos y Derivados,0.864,0.864,5.123
+la_paz,2026-06-16,Panadería,0.423,0.423,0.423
+la_paz,2026-06-16,Pastelería y Masas Típicas,0.692,0.614,0.699
+santa_cruz,2026-06-16,Abarrotes,0.233,0.233,0.707
+santa_cruz,2026-06-16,Bazar,0.830,0.830,2.940
+santa_cruz,2026-06-16,Bebidas,-0.066,-0.066,0.131
 santa_cruz,2026-06-16,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-16,Carnes,-2.187,-2.719,-1.798
-santa_cruz,2026-06-16,Compuesto,0.277,0.245,1.142
-santa_cruz,2026-06-16,Congelados,0.599,0.599,0.742
-santa_cruz,2026-06-16,Cuidado Personal,0.151,0.103,1.231
-santa_cruz,2026-06-16,Cuidado del Bebé,0.530,0.299,1.497
-santa_cruz,2026-06-16,Cuidado del Hogar,-0.111,-0.196,1.195
+santa_cruz,2026-06-16,Compuesto,0.277,0.253,0.848
+santa_cruz,2026-06-16,Congelados,0.599,0.599,0.679
+santa_cruz,2026-06-16,Cuidado Personal,0.151,0.119,0.877
+santa_cruz,2026-06-16,Cuidado del Bebé,0.530,0.378,1.166
+santa_cruz,2026-06-16,Cuidado del Hogar,-0.111,-0.164,0.708
 santa_cruz,2026-06-16,Farmacia Otc,0.000,,
-santa_cruz,2026-06-16,Fiambres,0.133,0.133,1.744
-santa_cruz,2026-06-16,Frutas y Verduras,1.523,1.523,1.595
-santa_cruz,2026-06-16,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-16,Lácteos y Derivados,0.171,0.171,1.750
+santa_cruz,2026-06-16,Fiambres,0.133,0.133,0.927
+santa_cruz,2026-06-16,Frutas y Verduras,1.523,1.505,1.584
+santa_cruz,2026-06-16,Granos y Hortalizas,0.063,0.063,0.261
+santa_cruz,2026-06-16,Lácteos y Derivados,0.171,0.171,1.419
 santa_cruz,2026-06-16,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-16,Pastelería y Masas Típicas,0.555,0.556,0.555
-cochabamba,2026-06-17,Abarrotes,0.391,0.391,1.234
-cochabamba,2026-06-17,Bazar,0.430,0.430,2.605
-cochabamba,2026-06-17,Bebidas,0.245,0.245,0.651
-cochabamba,2026-06-17,Carnes,7.087,5.522,9.905
-cochabamba,2026-06-17,Compuesto,0.433,0.330,1.862
-cochabamba,2026-06-17,Congelados,0.710,0.710,0.927
-cochabamba,2026-06-17,Cuidado Personal,0.086,-0.105,1.226
-cochabamba,2026-06-17,Cuidado del Bebé,0.241,-2.036,3.196
-cochabamba,2026-06-17,Cuidado del Hogar,-0.105,-0.105,0.671
-cochabamba,2026-06-17,Fiambres,0.340,0.340,3.248
+santa_cruz,2026-06-16,Pastelería y Masas Típicas,0.555,0.555,0.557
+cochabamba,2026-06-17,Abarrotes,0.391,0.391,0.977
+cochabamba,2026-06-17,Bazar,0.430,0.430,2.054
+cochabamba,2026-06-17,Bebidas,0.245,0.245,0.521
+cochabamba,2026-06-17,Carnes,7.087,5.673,9.627
+cochabamba,2026-06-17,Compuesto,0.433,0.350,1.314
+cochabamba,2026-06-17,Congelados,0.710,0.710,0.856
+cochabamba,2026-06-17,Cuidado Personal,0.086,-0.042,0.849
+cochabamba,2026-06-17,Cuidado del Bebé,0.241,-1.429,2.392
+cochabamba,2026-06-17,Cuidado del Hogar,-0.105,-0.105,0.432
+cochabamba,2026-06-17,Fiambres,0.340,0.340,1.921
 cochabamba,2026-06-17,Frutas y Verduras,8.276,,
-cochabamba,2026-06-17,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-17,Lácteos y Derivados,-0.519,-0.519,1.064
-cochabamba,2026-06-17,Panadería,0.258,0.258,0.367
-cochabamba,2026-06-17,Pastelería y Masas Típicas,0.418,0.418,1.289
-la_paz,2026-06-17,Abarrotes,0.583,0.824,0.740
-la_paz,2026-06-17,Bazar,0.443,0.443,3.953
-la_paz,2026-06-17,Bebidas,0.409,0.409,0.506
-la_paz,2026-06-17,Carnes,1.213,-0.395,15.837
-la_paz,2026-06-17,Compuesto,0.451,0.269,3.245
-la_paz,2026-06-17,Congelados,0.741,0.741,3.553
-la_paz,2026-06-17,Cuidado Personal,-0.058,-0.560,0.756
-la_paz,2026-06-17,Cuidado del Bebé,-0.070,-2.059,1.743
-la_paz,2026-06-17,Cuidado del Hogar,-0.918,-0.918,0.390
-la_paz,2026-06-17,Fiambres,0.522,0.522,17.221
-la_paz,2026-06-17,Frutas y Verduras,1.010,1.010,1.318
-la_paz,2026-06-17,Granos y Hortalizas,0.526,0.526,2.020
-la_paz,2026-06-17,Lácteos y Derivados,0.287,0.287,6.272
-la_paz,2026-06-17,Panadería,0.423,0.423,0.733
-la_paz,2026-06-17,Pastelería y Masas Típicas,0.692,0.565,0.704
-santa_cruz,2026-06-17,Abarrotes,0.230,0.230,0.974
-santa_cruz,2026-06-17,Bazar,0.830,0.830,4.283
-santa_cruz,2026-06-17,Bebidas,-0.074,-0.074,0.200
+cochabamba,2026-06-17,Granos y Hortalizas,0.150,0.150,1.141
+cochabamba,2026-06-17,Lácteos y Derivados,-0.519,-0.519,0.228
+cochabamba,2026-06-17,Panadería,0.258,0.258,0.329
+cochabamba,2026-06-17,Pastelería y Masas Típicas,0.418,0.418,1.095
+la_paz,2026-06-17,Abarrotes,0.583,0.583,0.865
+la_paz,2026-06-17,Bazar,0.443,0.443,3.096
+la_paz,2026-06-17,Bebidas,0.409,0.409,0.499
+la_paz,2026-06-17,Carnes,1.213,-0.508,5.624
+la_paz,2026-06-17,Compuesto,0.451,0.296,1.691
+la_paz,2026-06-17,Congelados,0.741,0.741,3.120
+la_paz,2026-06-17,Cuidado Personal,-0.058,-0.058,0.471
+la_paz,2026-06-17,Cuidado del Bebé,-0.070,-1.283,1.026
+la_paz,2026-06-17,Cuidado del Hogar,-0.918,-0.918,-0.069
+la_paz,2026-06-17,Fiambres,0.522,0.522,4.327
+la_paz,2026-06-17,Frutas y Verduras,1.010,1.010,1.183
+la_paz,2026-06-17,Granos y Hortalizas,0.526,0.526,0.545
+la_paz,2026-06-17,Lácteos y Derivados,0.287,0.287,4.814
+la_paz,2026-06-17,Panadería,0.423,0.423,0.423
+la_paz,2026-06-17,Pastelería y Masas Típicas,0.692,0.611,0.700
+santa_cruz,2026-06-17,Abarrotes,0.230,0.230,0.742
+santa_cruz,2026-06-17,Bazar,0.830,0.830,3.074
+santa_cruz,2026-06-17,Bebidas,-0.074,-0.074,0.142
 santa_cruz,2026-06-17,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-17,Carnes,-2.420,-3.006,-1.991
-santa_cruz,2026-06-17,Compuesto,0.270,0.237,1.167
-santa_cruz,2026-06-17,Congelados,0.551,0.551,0.697
-santa_cruz,2026-06-17,Cuidado Personal,0.151,0.101,1.268
-santa_cruz,2026-06-17,Cuidado del Bebé,0.530,0.293,1.522
-santa_cruz,2026-06-17,Cuidado del Hogar,-0.111,-0.198,1.228
+santa_cruz,2026-06-17,Compuesto,0.270,0.244,0.889
+santa_cruz,2026-06-17,Congelados,0.551,0.551,0.638
+santa_cruz,2026-06-17,Cuidado Personal,0.151,0.116,0.931
+santa_cruz,2026-06-17,Cuidado del Bebé,0.530,0.366,1.217
+santa_cruz,2026-06-17,Cuidado del Hogar,-0.111,-0.168,0.775
 santa_cruz,2026-06-17,Farmacia Otc,0.000,,
-santa_cruz,2026-06-17,Fiambres,0.208,0.208,1.896
-santa_cruz,2026-06-17,Frutas y Verduras,1.523,1.523,1.599
-santa_cruz,2026-06-17,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-17,Lácteos y Derivados,0.146,0.146,1.821
+santa_cruz,2026-06-17,Fiambres,0.208,0.208,1.089
+santa_cruz,2026-06-17,Frutas y Verduras,1.523,1.504,1.588
+santa_cruz,2026-06-17,Granos y Hortalizas,0.063,0.063,0.273
+santa_cruz,2026-06-17,Lácteos y Derivados,0.146,0.146,1.508
 santa_cruz,2026-06-17,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-17,Pastelería y Masas Típicas,0.557,0.560,0.562
-cochabamba,2026-06-18,Abarrotes,0.342,0.342,1.210
-cochabamba,2026-06-18,Bazar,0.430,0.430,2.756
-cochabamba,2026-06-18,Bebidas,0.270,0.270,0.687
-cochabamba,2026-06-18,Carnes,5.975,4.319,8.962
-cochabamba,2026-06-18,Compuesto,0.406,0.298,1.904
-cochabamba,2026-06-18,Congelados,0.781,0.781,1.003
-cochabamba,2026-06-18,Cuidado Personal,0.086,-0.109,1.247
-cochabamba,2026-06-18,Cuidado del Bebé,0.241,-2.107,3.290
-cochabamba,2026-06-18,Cuidado del Hogar,-0.105,-0.105,0.690
-cochabamba,2026-06-18,Fiambres,0.384,0.384,3.502
+santa_cruz,2026-06-17,Pastelería y Masas Típicas,0.557,0.557,0.565
+cochabamba,2026-06-18,Abarrotes,0.342,0.342,0.974
+cochabamba,2026-06-18,Bazar,0.430,0.430,2.225
+cochabamba,2026-06-18,Bebidas,0.270,0.270,0.565
+cochabamba,2026-06-18,Carnes,5.975,4.467,8.689
+cochabamba,2026-06-18,Compuesto,0.406,0.317,1.356
+cochabamba,2026-06-18,Congelados,0.781,0.781,0.938
+cochabamba,2026-06-18,Cuidado Personal,0.086,-0.051,0.901
+cochabamba,2026-06-18,Cuidado del Bebé,0.241,-1.541,2.541
+cochabamba,2026-06-18,Cuidado del Hogar,-0.105,-0.105,0.472
+cochabamba,2026-06-18,Fiambres,0.384,0.384,2.103
 cochabamba,2026-06-18,Frutas y Verduras,8.276,,
-cochabamba,2026-06-18,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-18,Lácteos y Derivados,-0.581,-0.581,1.049
-cochabamba,2026-06-18,Panadería,0.258,0.258,0.368
-cochabamba,2026-06-18,Pastelería y Masas Típicas,0.418,0.418,1.315
-la_paz,2026-06-18,Abarrotes,0.523,0.768,0.716
-la_paz,2026-06-18,Bazar,0.443,0.443,4.074
-la_paz,2026-06-18,Bebidas,0.409,0.409,0.517
-la_paz,2026-06-18,Carnes,0.581,-1.065,15.589
-la_paz,2026-06-18,Compuesto,0.181,-0.005,3.041
-la_paz,2026-06-18,Congelados,0.741,0.741,3.572
-la_paz,2026-06-18,Cuidado Personal,-0.058,-0.579,0.788
-la_paz,2026-06-18,Cuidado del Bebé,-0.070,-2.064,1.747
-la_paz,2026-06-18,Cuidado del Hogar,-0.940,-0.940,0.385
-la_paz,2026-06-18,Fiambres,0.522,0.522,17.601
-la_paz,2026-06-18,Frutas y Verduras,-2.028,-2.028,-1.733
-la_paz,2026-06-18,Granos y Hortalizas,0.526,0.526,1.886
-la_paz,2026-06-18,Lácteos y Derivados,0.224,0.224,6.423
-la_paz,2026-06-18,Panadería,0.426,0.426,0.744
-la_paz,2026-06-18,Pastelería y Masas Típicas,0.692,0.565,0.704
-santa_cruz,2026-06-18,Abarrotes,0.228,0.228,0.995
-santa_cruz,2026-06-18,Bazar,0.830,0.830,4.346
-santa_cruz,2026-06-18,Bebidas,0.065,0.065,0.355
+cochabamba,2026-06-18,Granos y Hortalizas,0.150,0.150,1.199
+cochabamba,2026-06-18,Lácteos y Derivados,-0.581,-0.581,0.219
+cochabamba,2026-06-18,Panadería,0.258,0.258,0.333
+cochabamba,2026-06-18,Pastelería y Masas Típicas,0.418,0.418,1.136
+la_paz,2026-06-18,Abarrotes,0.523,0.523,0.834
+la_paz,2026-06-18,Bazar,0.443,0.443,3.278
+la_paz,2026-06-18,Bebidas,0.409,0.409,0.508
+la_paz,2026-06-18,Carnes,0.581,-1.253,5.292
+la_paz,2026-06-18,Compuesto,0.181,0.017,1.503
+la_paz,2026-06-18,Congelados,0.741,0.741,3.263
+la_paz,2026-06-18,Cuidado Personal,-0.058,-0.058,0.522
+la_paz,2026-06-18,Cuidado del Bebé,-0.070,-1.358,1.096
+la_paz,2026-06-18,Cuidado del Hogar,-0.940,-0.940,-0.036
+la_paz,2026-06-18,Fiambres,0.522,0.522,4.577
+la_paz,2026-06-18,Frutas y Verduras,-2.028,-2.028,-1.851
+la_paz,2026-06-18,Granos y Hortalizas,0.526,0.526,0.552
+la_paz,2026-06-18,Lácteos y Derivados,0.224,0.224,5.041
+la_paz,2026-06-18,Panadería,0.426,0.426,0.426
+la_paz,2026-06-18,Pastelería y Masas Típicas,0.692,0.607,0.700
+santa_cruz,2026-06-18,Abarrotes,0.228,0.228,0.778
+santa_cruz,2026-06-18,Bazar,0.830,0.830,3.221
+santa_cruz,2026-06-18,Bebidas,0.065,0.065,0.301
 santa_cruz,2026-06-18,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-18,Carnes,-2.420,-3.062,-1.950
-santa_cruz,2026-06-18,Compuesto,0.277,0.242,1.207
-santa_cruz,2026-06-18,Congelados,0.551,0.551,0.699
-santa_cruz,2026-06-18,Cuidado Personal,0.159,0.108,1.312
-santa_cruz,2026-06-18,Cuidado del Bebé,0.459,0.217,1.476
-santa_cruz,2026-06-18,Cuidado del Hogar,-0.118,-0.207,1.256
+santa_cruz,2026-06-18,Compuesto,0.277,0.248,0.945
+santa_cruz,2026-06-18,Congelados,0.551,0.551,0.645
+santa_cruz,2026-06-18,Cuidado Personal,0.159,0.122,0.994
+santa_cruz,2026-06-18,Cuidado del Bebé,0.459,0.283,1.197
+santa_cruz,2026-06-18,Cuidado del Hogar,-0.118,-0.180,0.836
 santa_cruz,2026-06-18,Farmacia Otc,0.000,,
-santa_cruz,2026-06-18,Fiambres,0.208,0.208,1.972
-santa_cruz,2026-06-18,Frutas y Verduras,1.523,1.523,1.603
-santa_cruz,2026-06-18,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-18,Lácteos y Derivados,0.151,0.151,1.922
+santa_cruz,2026-06-18,Fiambres,0.208,0.208,1.174
+santa_cruz,2026-06-18,Frutas y Verduras,1.523,1.502,1.591
+santa_cruz,2026-06-18,Granos y Hortalizas,0.063,0.063,0.285
+santa_cruz,2026-06-18,Lácteos y Derivados,0.151,0.151,1.627
 santa_cruz,2026-06-18,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-18,Pastelería y Masas Típicas,0.557,0.560,0.568
-cochabamba,2026-06-19,Abarrotes,0.354,0.354,1.247
-cochabamba,2026-06-19,Bazar,0.430,0.430,2.884
-cochabamba,2026-06-19,Bebidas,0.252,0.252,0.679
-cochabamba,2026-06-19,Carnes,5.733,3.976,8.903
-cochabamba,2026-06-19,Compuesto,0.018,-0.094,1.578
-cochabamba,2026-06-19,Congelados,0.781,0.781,1.009
-cochabamba,2026-06-19,Cuidado Personal,0.080,-0.118,1.262
-cochabamba,2026-06-19,Cuidado del Bebé,0.241,-2.172,3.378
-cochabamba,2026-06-19,Cuidado del Hogar,-0.105,-0.105,0.710
-cochabamba,2026-06-19,Fiambres,0.390,0.390,3.712
+santa_cruz,2026-06-18,Pastelería y Masas Típicas,0.557,0.557,0.571
+cochabamba,2026-06-19,Abarrotes,0.354,0.354,1.032
+cochabamba,2026-06-19,Bazar,0.430,0.430,2.396
+cochabamba,2026-06-19,Bebidas,0.252,0.252,0.566
+cochabamba,2026-06-19,Carnes,5.733,4.119,8.640
+cochabamba,2026-06-19,Compuesto,0.018,-0.077,1.033
+cochabamba,2026-06-19,Congelados,0.781,0.781,0.950
+cochabamba,2026-06-19,Cuidado Personal,0.080,-0.066,0.949
+cochabamba,2026-06-19,Cuidado del Bebé,0.241,-1.654,2.690
+cochabamba,2026-06-19,Cuidado del Hogar,-0.105,-0.105,0.512
+cochabamba,2026-06-19,Fiambres,0.390,0.390,2.246
 cochabamba,2026-06-19,Frutas y Verduras,3.219,,
-cochabamba,2026-06-19,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-19,Lácteos y Derivados,-2.080,-2.080,-0.426
-cochabamba,2026-06-19,Panadería,0.258,0.258,0.369
-cochabamba,2026-06-19,Pastelería y Masas Típicas,0.416,0.416,1.339
-la_paz,2026-06-19,Abarrotes,0.527,0.773,0.760
-la_paz,2026-06-19,Bazar,0.443,0.443,4.195
-la_paz,2026-06-19,Bebidas,0.355,0.355,0.475
-la_paz,2026-06-19,Carnes,0.664,-1.032,16.161
-la_paz,2026-06-19,Compuesto,0.078,-0.112,3.005
-la_paz,2026-06-19,Congelados,0.741,0.741,3.590
-la_paz,2026-06-19,Cuidado Personal,-0.058,-0.598,0.819
-la_paz,2026-06-19,Cuidado del Bebé,-0.070,-2.069,1.752
-la_paz,2026-06-19,Cuidado del Hogar,-1.036,-1.036,0.305
-la_paz,2026-06-19,Fiambres,0.522,0.522,17.957
-la_paz,2026-06-19,Frutas y Verduras,-3.505,-3.505,-3.216
-la_paz,2026-06-19,Granos y Hortalizas,1.216,1.216,2.451
-la_paz,2026-06-19,Lácteos y Derivados,0.224,0.224,6.604
-la_paz,2026-06-19,Panadería,0.426,0.426,0.751
-la_paz,2026-06-19,Pastelería y Masas Típicas,0.692,0.565,0.704
-santa_cruz,2026-06-19,Abarrotes,0.277,0.277,1.068
-santa_cruz,2026-06-19,Bazar,0.830,0.830,4.409
-santa_cruz,2026-06-19,Bebidas,0.080,0.080,0.385
+cochabamba,2026-06-19,Granos y Hortalizas,0.150,0.150,1.258
+cochabamba,2026-06-19,Lácteos y Derivados,-2.080,-2.080,-1.239
+cochabamba,2026-06-19,Panadería,0.258,0.258,0.337
+cochabamba,2026-06-19,Pastelería y Masas Típicas,0.416,0.416,1.175
+la_paz,2026-06-19,Abarrotes,0.527,0.527,0.871
+la_paz,2026-06-19,Bazar,0.443,0.443,3.461
+la_paz,2026-06-19,Bebidas,0.355,0.355,0.463
+la_paz,2026-06-19,Carnes,0.664,-1.295,5.708
+la_paz,2026-06-19,Compuesto,0.078,-0.097,1.484
+la_paz,2026-06-19,Congelados,0.741,0.741,3.406
+la_paz,2026-06-19,Cuidado Personal,-0.058,-0.058,0.573
+la_paz,2026-06-19,Cuidado del Bebé,-0.070,-1.434,1.165
+la_paz,2026-06-19,Cuidado del Hogar,-1.036,-1.036,-0.077
+la_paz,2026-06-19,Fiambres,0.522,0.522,4.827
+la_paz,2026-06-19,Frutas y Verduras,-3.505,-3.505,-3.320
+la_paz,2026-06-19,Granos y Hortalizas,1.216,1.216,1.249
+la_paz,2026-06-19,Lácteos y Derivados,0.224,0.224,5.336
+la_paz,2026-06-19,Panadería,0.426,0.426,0.426
+la_paz,2026-06-19,Pastelería y Masas Típicas,0.692,0.604,0.700
+santa_cruz,2026-06-19,Abarrotes,0.277,0.277,0.867
+santa_cruz,2026-06-19,Bazar,0.830,0.830,3.369
+santa_cruz,2026-06-19,Bebidas,0.080,0.080,0.336
 santa_cruz,2026-06-19,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-19,Carnes,-1.760,-2.462,-1.246
-santa_cruz,2026-06-19,Compuesto,0.329,0.293,1.293
-santa_cruz,2026-06-19,Congelados,0.544,0.544,0.694
-santa_cruz,2026-06-19,Cuidado Personal,0.125,0.072,1.312
-santa_cruz,2026-06-19,Cuidado del Bebé,0.483,0.235,1.528
-santa_cruz,2026-06-19,Cuidado del Hogar,-0.118,-0.209,1.291
+santa_cruz,2026-06-19,Compuesto,0.329,0.298,1.046
+santa_cruz,2026-06-19,Congelados,0.544,0.544,0.645
+santa_cruz,2026-06-19,Cuidado Personal,0.125,0.086,1.014
+santa_cruz,2026-06-19,Cuidado del Bebé,0.483,0.295,1.275
+santa_cruz,2026-06-19,Cuidado del Hogar,-0.118,-0.184,0.905
 santa_cruz,2026-06-19,Farmacia Otc,0.000,,
-santa_cruz,2026-06-19,Fiambres,0.208,0.208,2.046
-santa_cruz,2026-06-19,Frutas y Verduras,2.852,2.852,2.937
-santa_cruz,2026-06-19,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-19,Lácteos y Derivados,0.148,0.148,2.013
+santa_cruz,2026-06-19,Fiambres,0.208,0.208,1.261
+santa_cruz,2026-06-19,Frutas y Verduras,2.852,2.830,2.925
+santa_cruz,2026-06-19,Granos y Hortalizas,0.063,0.063,0.298
+santa_cruz,2026-06-19,Lácteos y Derivados,0.148,0.148,1.738
 santa_cruz,2026-06-19,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-19,Pastelería y Masas Típicas,0.557,0.560,0.574
-cochabamba,2026-06-20,Abarrotes,0.367,0.367,1.286
-cochabamba,2026-06-20,Bazar,0.430,0.430,3.036
-cochabamba,2026-06-20,Bebidas,0.252,0.252,0.689
-cochabamba,2026-06-20,Carnes,5.695,3.836,9.056
-cochabamba,2026-06-20,Compuesto,0.019,-0.098,1.652
-cochabamba,2026-06-20,Congelados,0.781,0.781,1.014
-cochabamba,2026-06-20,Cuidado Personal,0.080,-0.122,1.284
-cochabamba,2026-06-20,Cuidado del Bebé,0.241,-2.238,3.465
-cochabamba,2026-06-20,Cuidado del Hogar,-0.105,-0.105,0.731
-cochabamba,2026-06-20,Fiambres,0.390,0.390,3.950
+santa_cruz,2026-06-19,Pastelería y Masas Típicas,0.557,0.557,0.578
+cochabamba,2026-06-20,Abarrotes,0.367,0.367,1.092
+cochabamba,2026-06-20,Bazar,0.430,0.430,2.591
+cochabamba,2026-06-20,Bebidas,0.252,0.252,0.584
+cochabamba,2026-06-20,Carnes,5.695,3.974,8.801
+cochabamba,2026-06-20,Compuesto,0.019,-0.083,1.108
+cochabamba,2026-06-20,Congelados,0.781,0.781,0.960
+cochabamba,2026-06-20,Cuidado Personal,0.080,-0.075,1.004
+cochabamba,2026-06-20,Cuidado del Bebé,0.241,-1.767,2.839
+cochabamba,2026-06-20,Cuidado del Hogar,-0.105,-0.105,0.553
+cochabamba,2026-06-20,Fiambres,0.390,0.390,2.410
 cochabamba,2026-06-20,Frutas y Verduras,3.219,,
-cochabamba,2026-06-20,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-20,Lácteos y Derivados,-2.080,-2.080,-0.378
-cochabamba,2026-06-20,Panadería,0.258,0.258,0.370
-cochabamba,2026-06-20,Pastelería y Masas Típicas,0.416,0.416,1.364
-la_paz,2026-06-20,Abarrotes,0.540,0.787,0.814
-la_paz,2026-06-20,Bazar,0.443,0.443,4.337
-la_paz,2026-06-20,Bebidas,0.354,0.354,0.487
-la_paz,2026-06-20,Carnes,0.664,-1.080,16.640
-la_paz,2026-06-20,Compuesto,-0.151,-0.345,2.842
-la_paz,2026-06-20,Congelados,0.741,0.741,3.608
-la_paz,2026-06-20,Cuidado Personal,-0.058,-0.618,0.852
-la_paz,2026-06-20,Cuidado del Bebé,-0.070,-2.074,1.756
-la_paz,2026-06-20,Cuidado del Hogar,-1.036,-1.036,0.327
-la_paz,2026-06-20,Fiambres,0.522,0.522,18.316
-la_paz,2026-06-20,Frutas y Verduras,-6.600,-6.600,-6.324
-la_paz,2026-06-20,Granos y Hortalizas,1.216,1.216,2.316
-la_paz,2026-06-20,Lácteos y Derivados,0.224,0.224,6.785
-la_paz,2026-06-20,Panadería,0.426,0.426,0.762
-la_paz,2026-06-20,Pastelería y Masas Típicas,0.692,0.565,0.704
-santa_cruz,2026-06-20,Abarrotes,0.379,0.379,1.195
-santa_cruz,2026-06-20,Bazar,0.830,0.830,4.473
-santa_cruz,2026-06-20,Bebidas,0.080,0.080,0.400
+cochabamba,2026-06-20,Granos y Hortalizas,0.150,0.150,1.317
+cochabamba,2026-06-20,Lácteos y Derivados,-2.080,-2.080,-1.186
+cochabamba,2026-06-20,Panadería,0.258,0.258,0.341
+cochabamba,2026-06-20,Pastelería y Masas Típicas,0.416,0.416,1.215
+la_paz,2026-06-20,Abarrotes,0.540,0.540,0.917
+la_paz,2026-06-20,Bazar,0.443,0.443,3.664
+la_paz,2026-06-20,Bebidas,0.354,0.354,0.473
+la_paz,2026-06-20,Carnes,0.664,-1.418,6.038
+la_paz,2026-06-20,Compuesto,-0.151,-0.336,1.340
+la_paz,2026-06-20,Congelados,0.741,0.741,3.550
+la_paz,2026-06-20,Cuidado Personal,-0.058,-0.058,0.626
+la_paz,2026-06-20,Cuidado del Bebé,-0.070,-1.510,1.235
+la_paz,2026-06-20,Cuidado del Hogar,-1.036,-1.036,-0.016
+la_paz,2026-06-20,Fiambres,0.522,0.522,5.078
+la_paz,2026-06-20,Frutas y Verduras,-6.600,-6.600,-6.412
+la_paz,2026-06-20,Granos y Hortalizas,1.216,1.216,1.256
+la_paz,2026-06-20,Lácteos y Derivados,0.224,0.224,5.633
+la_paz,2026-06-20,Panadería,0.426,0.426,0.426
+la_paz,2026-06-20,Pastelería y Masas Típicas,0.692,0.600,0.701
+santa_cruz,2026-06-20,Abarrotes,0.379,0.379,1.009
+santa_cruz,2026-06-20,Bazar,0.830,0.830,3.517
+santa_cruz,2026-06-20,Bebidas,0.080,0.080,0.357
 santa_cruz,2026-06-20,CUDADOS OTC,0.000,,
 santa_cruz,2026-06-20,Carnes,-2.303,-3.056,-1.751
-santa_cruz,2026-06-20,Compuesto,0.336,0.297,1.335
-santa_cruz,2026-06-20,Congelados,0.544,0.544,0.697
-santa_cruz,2026-06-20,Cuidado Personal,0.141,0.087,1.363
-santa_cruz,2026-06-20,Cuidado del Bebé,0.485,0.230,1.558
-santa_cruz,2026-06-20,Cuidado del Hogar,-0.118,-0.212,1.335
+santa_cruz,2026-06-20,Compuesto,0.336,0.303,1.105
+santa_cruz,2026-06-20,Congelados,0.544,0.544,0.653
+santa_cruz,2026-06-20,Cuidado Personal,0.141,0.099,1.084
+santa_cruz,2026-06-20,Cuidado del Bebé,0.485,0.284,1.330
+santa_cruz,2026-06-20,Cuidado del Hogar,-0.118,-0.190,0.983
 santa_cruz,2026-06-20,Farmacia Otc,0.000,,
-santa_cruz,2026-06-20,Fiambres,0.208,0.208,2.127
-santa_cruz,2026-06-20,Frutas y Verduras,2.952,2.952,3.041
-santa_cruz,2026-06-20,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-20,Lácteos y Derivados,0.150,0.150,2.118
+santa_cruz,2026-06-20,Fiambres,0.208,0.208,1.352
+santa_cruz,2026-06-20,Frutas y Verduras,2.952,2.928,3.029
+santa_cruz,2026-06-20,Granos y Hortalizas,0.063,0.063,0.310
+santa_cruz,2026-06-20,Lácteos y Derivados,0.150,0.150,1.864
 santa_cruz,2026-06-20,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-20,Pastelería y Masas Típicas,0.557,0.560,0.580
-cochabamba,2026-06-21,Abarrotes,0.339,0.339,1.284
-cochabamba,2026-06-21,Bazar,0.430,0.430,3.188
-cochabamba,2026-06-21,Bebidas,-0.052,-0.052,0.391
-cochabamba,2026-06-21,Carnes,5.695,3.745,9.224
-cochabamba,2026-06-21,Compuesto,0.020,-0.101,1.729
-cochabamba,2026-06-21,Congelados,0.781,0.781,1.026
-cochabamba,2026-06-21,Cuidado Personal,0.083,-0.122,1.307
-cochabamba,2026-06-21,Cuidado del Bebé,0.241,-2.291,3.537
-cochabamba,2026-06-21,Cuidado del Hogar,-0.105,-0.105,0.754
-cochabamba,2026-06-21,Fiambres,0.382,0.382,4.176
+santa_cruz,2026-06-20,Pastelería y Masas Típicas,0.557,0.557,0.584
+cochabamba,2026-06-21,Abarrotes,0.339,0.339,1.113
+cochabamba,2026-06-21,Bazar,0.430,0.430,2.786
+cochabamba,2026-06-21,Bebidas,-0.052,-0.052,0.297
+cochabamba,2026-06-21,Carnes,5.695,3.865,9.002
+cochabamba,2026-06-21,Compuesto,0.020,-0.087,1.188
+cochabamba,2026-06-21,Congelados,0.781,0.781,0.975
+cochabamba,2026-06-21,Cuidado Personal,0.083,-0.081,1.062
+cochabamba,2026-06-21,Cuidado del Bebé,0.241,-1.879,2.988
+cochabamba,2026-06-21,Cuidado del Hogar,-0.105,-0.105,0.598
+cochabamba,2026-06-21,Fiambres,0.382,0.382,2.567
 cochabamba,2026-06-21,Frutas y Verduras,4.385,,
-cochabamba,2026-06-21,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-21,Lácteos y Derivados,-2.080,-2.080,-0.327
-cochabamba,2026-06-21,Panadería,0.258,0.258,0.371
-cochabamba,2026-06-21,Pastelería y Masas Típicas,0.416,0.416,1.399
-la_paz,2026-06-21,Abarrotes,0.504,0.749,0.823
-la_paz,2026-06-21,Bazar,0.443,0.443,4.460
-la_paz,2026-06-21,Bebidas,0.126,0.126,0.271
-la_paz,2026-06-21,Carnes,0.664,-1.128,17.124
-la_paz,2026-06-21,Compuesto,-0.214,-0.413,2.847
-la_paz,2026-06-21,Congelados,0.741,0.741,3.627
-la_paz,2026-06-21,Cuidado Personal,-0.052,-0.631,0.890
-la_paz,2026-06-21,Cuidado del Bebé,-0.070,-2.083,1.764
-la_paz,2026-06-21,Cuidado del Hogar,-1.036,-1.036,0.349
-la_paz,2026-06-21,Fiambres,0.522,0.522,18.655
-la_paz,2026-06-21,Frutas y Verduras,-7.530,-7.530,-7.259
-la_paz,2026-06-21,Granos y Hortalizas,1.216,1.216,2.181
-la_paz,2026-06-21,Lácteos y Derivados,0.690,0.690,7.438
-la_paz,2026-06-21,Panadería,0.426,0.426,0.772
-la_paz,2026-06-21,Pastelería y Masas Típicas,0.803,0.677,0.815
-santa_cruz,2026-06-21,Abarrotes,0.379,0.379,1.213
-santa_cruz,2026-06-21,Bazar,0.830,0.830,4.512
-santa_cruz,2026-06-21,Bebidas,0.089,0.089,0.424
+cochabamba,2026-06-21,Granos y Hortalizas,0.150,0.150,1.375
+cochabamba,2026-06-21,Lácteos y Derivados,-2.080,-2.080,-1.131
+cochabamba,2026-06-21,Panadería,0.258,0.258,0.346
+cochabamba,2026-06-21,Pastelería y Masas Típicas,0.416,0.416,1.265
+la_paz,2026-06-21,Abarrotes,0.504,0.504,0.918
+la_paz,2026-06-21,Bazar,0.443,0.443,3.869
+la_paz,2026-06-21,Bebidas,0.126,0.126,0.255
+la_paz,2026-06-21,Carnes,0.664,-1.541,6.368
+la_paz,2026-06-21,Compuesto,-0.214,-0.409,1.365
+la_paz,2026-06-21,Congelados,0.741,0.741,3.694
+la_paz,2026-06-21,Cuidado Personal,-0.052,-0.052,0.684
+la_paz,2026-06-21,Cuidado del Bebé,-0.070,-1.589,1.308
+la_paz,2026-06-21,Cuidado del Hogar,-1.036,-1.036,0.047
+la_paz,2026-06-21,Fiambres,0.522,0.522,5.330
+la_paz,2026-06-21,Frutas y Verduras,-7.530,-7.530,-7.334
+la_paz,2026-06-21,Granos y Hortalizas,1.216,1.216,1.263
+la_paz,2026-06-21,Lácteos y Derivados,0.690,0.690,6.423
+la_paz,2026-06-21,Panadería,0.426,0.426,0.426
+la_paz,2026-06-21,Pastelería y Masas Típicas,0.803,0.708,0.812
+santa_cruz,2026-06-21,Abarrotes,0.379,0.379,1.049
+santa_cruz,2026-06-21,Bazar,0.830,0.830,3.664
+santa_cruz,2026-06-21,Bebidas,0.089,0.089,0.386
 santa_cruz,2026-06-21,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-21,Carnes,-2.303,-3.111,-1.710
-santa_cruz,2026-06-21,Compuesto,0.332,0.292,1.363
-santa_cruz,2026-06-21,Congelados,0.544,0.544,0.700
-santa_cruz,2026-06-21,Cuidado Personal,0.145,0.090,1.392
-santa_cruz,2026-06-21,Cuidado del Bebé,0.506,0.243,1.612
-santa_cruz,2026-06-21,Cuidado del Hogar,-0.126,-0.223,1.364
+santa_cruz,2026-06-21,Compuesto,0.332,0.297,1.155
+santa_cruz,2026-06-21,Congelados,0.544,0.544,0.661
+santa_cruz,2026-06-21,Cuidado Personal,0.145,0.101,1.143
+santa_cruz,2026-06-21,Cuidado del Bebé,0.506,0.291,1.412
+santa_cruz,2026-06-21,Cuidado del Hogar,-0.126,-0.203,1.054
 santa_cruz,2026-06-21,Farmacia Otc,0.000,,
-santa_cruz,2026-06-21,Fiambres,0.208,0.208,2.199
-santa_cruz,2026-06-21,Frutas y Verduras,2.799,2.799,2.893
-santa_cruz,2026-06-21,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-21,Lácteos y Derivados,0.148,0.148,2.215
+santa_cruz,2026-06-21,Fiambres,0.208,0.208,1.446
+santa_cruz,2026-06-21,Frutas y Verduras,2.799,2.774,2.879
+santa_cruz,2026-06-21,Granos y Hortalizas,0.063,0.063,0.323
+santa_cruz,2026-06-21,Lácteos y Derivados,0.148,0.148,1.989
 santa_cruz,2026-06-21,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-21,Pastelería y Masas Típicas,0.557,0.560,0.586
-cochabamba,2026-06-22,Abarrotes,0.339,0.339,1.314
-cochabamba,2026-06-22,Bazar,0.430,0.430,3.340
-cochabamba,2026-06-22,Bebidas,-0.059,-0.059,0.393
-cochabamba,2026-06-22,Carnes,5.695,3.652,9.398
-cochabamba,2026-06-22,Compuesto,-0.058,-0.183,1.731
-cochabamba,2026-06-22,Congelados,0.781,0.781,1.046
-cochabamba,2026-06-22,Cuidado Personal,0.083,-0.126,1.332
-cochabamba,2026-06-22,Cuidado del Bebé,0.241,-2.344,3.608
-cochabamba,2026-06-22,Cuidado del Hogar,-0.105,-0.105,0.779
-cochabamba,2026-06-22,Fiambres,0.382,0.382,4.418
+santa_cruz,2026-06-21,Pastelería y Masas Típicas,0.557,0.557,0.590
+cochabamba,2026-06-22,Abarrotes,0.339,0.339,1.166
+cochabamba,2026-06-22,Bazar,0.430,0.430,2.981
+cochabamba,2026-06-22,Bebidas,-0.059,-0.059,0.310
+cochabamba,2026-06-22,Carnes,5.695,3.757,9.203
+cochabamba,2026-06-22,Compuesto,-0.058,-0.171,1.192
+cochabamba,2026-06-22,Congelados,0.781,0.781,0.997
+cochabamba,2026-06-22,Cuidado Personal,0.083,-0.091,1.121
+cochabamba,2026-06-22,Cuidado del Bebé,0.241,-1.992,3.137
+cochabamba,2026-06-22,Cuidado del Hogar,-0.105,-0.105,0.644
+cochabamba,2026-06-22,Fiambres,0.382,0.382,2.739
 cochabamba,2026-06-22,Frutas y Verduras,1.357,,
-cochabamba,2026-06-22,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-22,Lácteos y Derivados,-2.080,-2.080,-0.264
-cochabamba,2026-06-22,Panadería,0.258,0.258,0.375
-cochabamba,2026-06-22,Pastelería y Masas Típicas,0.416,0.416,1.434
-la_paz,2026-06-22,Abarrotes,0.504,0.747,0.875
-la_paz,2026-06-22,Bazar,0.443,0.443,4.591
-la_paz,2026-06-22,Bebidas,0.126,0.126,0.285
-la_paz,2026-06-22,Carnes,0.012,-1.817,16.848
-la_paz,2026-06-22,Compuesto,-0.255,-0.460,2.876
-la_paz,2026-06-22,Congelados,0.741,0.741,3.649
-la_paz,2026-06-22,Cuidado Personal,-0.052,-0.653,0.925
-la_paz,2026-06-22,Cuidado del Bebé,-0.070,-2.108,1.788
-la_paz,2026-06-22,Cuidado del Hogar,-1.036,-1.036,0.371
-la_paz,2026-06-22,Fiambres,0.500,0.500,18.963
-la_paz,2026-06-22,Frutas y Verduras,-7.530,-7.530,-7.262
-la_paz,2026-06-22,Granos y Hortalizas,1.216,1.216,2.046
-la_paz,2026-06-22,Lácteos y Derivados,0.690,0.690,7.595
-la_paz,2026-06-22,Panadería,0.426,0.426,0.783
-la_paz,2026-06-22,Pastelería y Masas Típicas,0.803,0.677,0.815
-santa_cruz,2026-06-22,Abarrotes,0.379,0.379,1.236
-santa_cruz,2026-06-22,Bazar,0.830,0.830,4.544
-santa_cruz,2026-06-22,Bebidas,0.036,0.036,0.387
+cochabamba,2026-06-22,Granos y Hortalizas,0.150,0.150,1.434
+cochabamba,2026-06-22,Lácteos y Derivados,-2.080,-2.080,-1.069
+cochabamba,2026-06-22,Panadería,0.258,0.258,0.353
+cochabamba,2026-06-22,Pastelería y Masas Típicas,0.416,0.416,1.315
+la_paz,2026-06-22,Abarrotes,0.504,0.504,0.961
+la_paz,2026-06-22,Bazar,0.443,0.443,4.081
+la_paz,2026-06-22,Bebidas,0.126,0.126,0.266
+la_paz,2026-06-22,Carnes,0.012,-2.301,6.009
+la_paz,2026-06-22,Compuesto,-0.255,-0.462,1.414
+la_paz,2026-06-22,Congelados,0.741,0.741,3.838
+la_paz,2026-06-22,Cuidado Personal,-0.052,-0.052,0.740
+la_paz,2026-06-22,Cuidado del Bebé,-0.070,-1.685,1.396
+la_paz,2026-06-22,Cuidado del Hogar,-1.036,-1.036,0.110
+la_paz,2026-06-22,Fiambres,0.500,0.500,5.560
+la_paz,2026-06-22,Frutas y Verduras,-7.530,-7.530,-7.324
+la_paz,2026-06-22,Granos y Hortalizas,1.216,1.216,1.270
+la_paz,2026-06-22,Lácteos y Derivados,0.690,0.690,6.729
+la_paz,2026-06-22,Panadería,0.426,0.426,0.426
+la_paz,2026-06-22,Pastelería y Masas Típicas,0.803,0.705,0.813
+santa_cruz,2026-06-22,Abarrotes,0.379,0.379,1.094
+santa_cruz,2026-06-22,Bazar,0.830,0.830,3.812
+santa_cruz,2026-06-22,Bebidas,0.036,0.036,0.354
 santa_cruz,2026-06-22,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-22,Carnes,-0.290,-1.172,0.356
-santa_cruz,2026-06-22,Compuesto,0.365,0.324,1.430
-santa_cruz,2026-06-22,Congelados,0.571,0.571,0.735
-santa_cruz,2026-06-22,Cuidado Personal,0.145,0.088,1.419
-santa_cruz,2026-06-22,Cuidado del Bebé,0.506,0.236,1.644
-santa_cruz,2026-06-22,Cuidado del Hogar,-0.126,-0.225,1.403
+santa_cruz,2026-06-22,Compuesto,0.365,0.327,1.243
+santa_cruz,2026-06-22,Congelados,0.571,0.571,0.702
+santa_cruz,2026-06-22,Cuidado Personal,0.145,0.098,1.203
+santa_cruz,2026-06-22,Cuidado del Bebé,0.506,0.276,1.472
+santa_cruz,2026-06-22,Cuidado del Hogar,-0.126,-0.208,1.136
 santa_cruz,2026-06-22,Farmacia Otc,0.000,,
-santa_cruz,2026-06-22,Fiambres,0.208,0.208,2.281
-santa_cruz,2026-06-22,Frutas y Verduras,2.799,2.799,2.897
-santa_cruz,2026-06-22,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-22,Lácteos y Derivados,0.148,0.148,2.312
+santa_cruz,2026-06-22,Fiambres,0.208,0.208,1.547
+santa_cruz,2026-06-22,Frutas y Verduras,2.799,2.773,2.883
+santa_cruz,2026-06-22,Granos y Hortalizas,0.063,0.063,0.335
+santa_cruz,2026-06-22,Lácteos y Derivados,0.148,0.148,2.118
 santa_cruz,2026-06-22,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-22,Pastelería y Masas Típicas,0.557,0.560,0.593
-cochabamba,2026-06-23,Abarrotes,0.339,0.339,1.344
-cochabamba,2026-06-23,Bazar,0.430,0.430,3.476
-cochabamba,2026-06-23,Bebidas,-0.059,-0.059,0.403
-cochabamba,2026-06-23,Carnes,5.293,3.165,9.155
-cochabamba,2026-06-23,Compuesto,-0.070,-0.199,1.799
-cochabamba,2026-06-23,Congelados,0.782,0.782,1.066
-cochabamba,2026-06-23,Cuidado Personal,0.083,-0.130,1.356
-cochabamba,2026-06-23,Cuidado del Bebé,0.241,-2.398,3.680
-cochabamba,2026-06-23,Cuidado del Hogar,-0.121,-0.121,0.787
-cochabamba,2026-06-23,Fiambres,0.393,0.393,4.671
+santa_cruz,2026-06-22,Pastelería y Masas Típicas,0.557,0.557,0.596
+cochabamba,2026-06-23,Abarrotes,0.339,0.339,1.219
+cochabamba,2026-06-23,Bazar,0.430,0.430,3.177
+cochabamba,2026-06-23,Bebidas,-0.059,-0.059,0.330
+cochabamba,2026-06-23,Carnes,5.293,3.255,8.988
+cochabamba,2026-06-23,Compuesto,-0.070,-0.189,1.263
+cochabamba,2026-06-23,Congelados,0.782,0.782,1.020
+cochabamba,2026-06-23,Cuidado Personal,0.083,-0.101,1.179
+cochabamba,2026-06-23,Cuidado del Bebé,0.241,-2.104,3.287
+cochabamba,2026-06-23,Cuidado del Hogar,-0.121,-0.121,0.674
+cochabamba,2026-06-23,Fiambres,0.393,0.393,2.923
 cochabamba,2026-06-23,Frutas y Verduras,1.357,,
-cochabamba,2026-06-23,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-23,Lácteos y Derivados,-2.080,-2.080,-0.208
-cochabamba,2026-06-23,Panadería,0.258,0.258,0.379
-cochabamba,2026-06-23,Pastelería y Masas Típicas,0.416,0.416,1.469
-la_paz,2026-06-23,Abarrotes,0.503,0.742,0.926
-la_paz,2026-06-23,Bazar,0.443,0.443,4.722
-la_paz,2026-06-23,Bebidas,0.127,0.127,0.299
-la_paz,2026-06-23,Carnes,0.012,-1.865,17.333
-la_paz,2026-06-23,Compuesto,-0.286,-0.497,2.915
-la_paz,2026-06-23,Congelados,0.741,0.741,3.671
-la_paz,2026-06-23,Cuidado Personal,-0.052,-0.675,0.961
-la_paz,2026-06-23,Cuidado del Bebé,-0.070,-2.133,1.811
-la_paz,2026-06-23,Cuidado del Hogar,-1.036,-1.036,0.392
-la_paz,2026-06-23,Fiambres,0.500,0.500,19.280
-la_paz,2026-06-23,Frutas y Verduras,-7.901,-7.901,-7.637
-la_paz,2026-06-23,Granos y Hortalizas,1.216,1.216,1.912
-la_paz,2026-06-23,Lácteos y Derivados,0.641,0.641,7.681
-la_paz,2026-06-23,Panadería,0.426,0.426,0.794
-la_paz,2026-06-23,Pastelería y Masas Típicas,0.803,0.678,0.815
-santa_cruz,2026-06-23,Abarrotes,0.396,0.396,1.275
-santa_cruz,2026-06-23,Bazar,0.933,0.933,4.683
-santa_cruz,2026-06-23,Bebidas,0.080,0.080,0.447
+cochabamba,2026-06-23,Granos y Hortalizas,0.150,0.150,1.493
+cochabamba,2026-06-23,Lácteos y Derivados,-2.080,-2.080,-1.007
+cochabamba,2026-06-23,Panadería,0.258,0.258,0.359
+cochabamba,2026-06-23,Pastelería y Masas Típicas,0.416,0.416,1.366
+la_paz,2026-06-23,Abarrotes,0.503,0.503,1.003
+la_paz,2026-06-23,Bazar,0.443,0.443,4.293
+la_paz,2026-06-23,Bebidas,0.127,0.127,0.278
+la_paz,2026-06-23,Carnes,0.012,-2.424,6.340
+la_paz,2026-06-23,Compuesto,-0.286,-0.503,1.474
+la_paz,2026-06-23,Congelados,0.741,0.741,3.982
+la_paz,2026-06-23,Cuidado Personal,-0.052,-0.052,0.797
+la_paz,2026-06-23,Cuidado del Bebé,-0.070,-1.781,1.484
+la_paz,2026-06-23,Cuidado del Hogar,-1.036,-1.036,0.174
+la_paz,2026-06-23,Fiambres,0.500,0.500,5.813
+la_paz,2026-06-23,Frutas y Verduras,-7.901,-7.901,-7.688
+la_paz,2026-06-23,Granos y Hortalizas,1.216,1.216,1.277
+la_paz,2026-06-23,Lácteos y Derivados,0.641,0.641,6.983
+la_paz,2026-06-23,Panadería,0.426,0.426,0.426
+la_paz,2026-06-23,Pastelería y Masas Típicas,0.803,0.701,0.813
+santa_cruz,2026-06-23,Abarrotes,0.396,0.396,1.157
+santa_cruz,2026-06-23,Bazar,0.933,0.933,4.067
+santa_cruz,2026-06-23,Bebidas,0.080,0.080,0.419
 santa_cruz,2026-06-23,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-23,Carnes,-0.290,-1.229,0.398
-santa_cruz,2026-06-23,Compuesto,0.370,0.327,1.467
-santa_cruz,2026-06-23,Congelados,0.571,0.571,0.743
-santa_cruz,2026-06-23,Cuidado Personal,0.246,0.188,1.546
-santa_cruz,2026-06-23,Cuidado del Bebé,0.515,0.236,1.684
-santa_cruz,2026-06-23,Cuidado del Hogar,-0.244,-0.345,1.322
+santa_cruz,2026-06-23,Compuesto,0.370,0.330,1.304
+santa_cruz,2026-06-23,Congelados,0.571,0.571,0.715
+santa_cruz,2026-06-23,Cuidado Personal,0.246,0.196,1.364
+santa_cruz,2026-06-23,Cuidado del Bebé,0.515,0.270,1.540
+santa_cruz,2026-06-23,Cuidado del Hogar,-0.244,-0.331,1.100
 santa_cruz,2026-06-23,Farmacia Otc,0.000,,
-santa_cruz,2026-06-23,Fiambres,0.208,0.208,2.363
-santa_cruz,2026-06-23,Frutas y Verduras,2.799,2.799,2.901
-santa_cruz,2026-06-23,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-23,Lácteos y Derivados,0.148,0.148,2.406
+santa_cruz,2026-06-23,Fiambres,0.208,0.208,1.648
+santa_cruz,2026-06-23,Frutas y Verduras,2.799,2.772,2.887
+santa_cruz,2026-06-23,Granos y Hortalizas,0.063,0.063,0.347
+santa_cruz,2026-06-23,Lácteos y Derivados,0.148,0.148,2.247
 santa_cruz,2026-06-23,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-23,Pastelería y Masas Típicas,0.557,0.560,0.599
-cochabamba,2026-06-24,Abarrotes,0.494,0.494,1.536
-cochabamba,2026-06-24,Bazar,0.430,0.430,3.622
-cochabamba,2026-06-24,Bebidas,-0.058,-0.058,0.413
-cochabamba,2026-06-24,Carnes,6.312,4.071,10.386
-cochabamba,2026-06-24,Compuesto,-0.021,-0.155,1.932
-cochabamba,2026-06-24,Congelados,0.782,0.782,1.092
-cochabamba,2026-06-24,Cuidado Personal,0.083,-0.135,1.385
-cochabamba,2026-06-24,Cuidado del Bebé,0.241,-2.451,3.751
-cochabamba,2026-06-24,Cuidado del Hogar,-0.121,-0.121,0.815
-cochabamba,2026-06-24,Fiambres,0.393,0.393,4.911
+santa_cruz,2026-06-23,Pastelería y Masas Típicas,0.557,0.557,0.602
+cochabamba,2026-06-24,Abarrotes,0.494,0.494,1.435
+cochabamba,2026-06-24,Bazar,0.430,0.430,3.382
+cochabamba,2026-06-24,Bebidas,-0.058,-0.058,0.352
+cochabamba,2026-06-24,Carnes,6.312,4.146,10.246
+cochabamba,2026-06-24,Compuesto,-0.021,-0.147,1.400
+cochabamba,2026-06-24,Congelados,0.782,0.782,1.047
+cochabamba,2026-06-24,Cuidado Personal,0.083,-0.112,1.243
+cochabamba,2026-06-24,Cuidado del Bebé,0.241,-2.216,3.437
+cochabamba,2026-06-24,Cuidado del Hogar,-0.121,-0.121,0.724
+cochabamba,2026-06-24,Fiambres,0.393,0.393,3.099
 cochabamba,2026-06-24,Frutas y Verduras,1.357,,
-cochabamba,2026-06-24,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-24,Lácteos y Derivados,-2.091,-2.091,-0.162
-cochabamba,2026-06-24,Panadería,0.258,0.258,0.383
-cochabamba,2026-06-24,Pastelería y Masas Típicas,0.416,0.416,1.508
-la_paz,2026-06-24,Abarrotes,0.690,0.923,1.167
-la_paz,2026-06-24,Bazar,0.443,0.443,4.853
-la_paz,2026-06-24,Bebidas,0.129,0.129,0.317
-la_paz,2026-06-24,Carnes,0.012,-1.913,17.819
-la_paz,2026-06-24,Compuesto,-0.425,-0.641,2.833
-la_paz,2026-06-24,Congelados,0.740,0.740,3.687
-la_paz,2026-06-24,Cuidado Personal,-0.052,-0.697,0.997
-la_paz,2026-06-24,Cuidado del Bebé,-0.070,-2.158,1.834
-la_paz,2026-06-24,Cuidado del Hogar,-1.036,-1.036,0.415
-la_paz,2026-06-24,Fiambres,0.500,0.500,19.445
-la_paz,2026-06-24,Frutas y Verduras,-9.971,-9.971,-9.715
-la_paz,2026-06-24,Granos y Hortalizas,0.943,0.943,1.478
-la_paz,2026-06-24,Lácteos y Derivados,0.641,0.641,7.797
-la_paz,2026-06-24,Panadería,0.426,0.426,0.807
-la_paz,2026-06-24,Pastelería y Masas Típicas,0.803,0.684,0.815
-santa_cruz,2026-06-24,Abarrotes,0.401,0.401,1.302
-santa_cruz,2026-06-24,Bazar,1.164,1.164,4.954
-santa_cruz,2026-06-24,Bebidas,0.122,0.122,0.504
+cochabamba,2026-06-24,Granos y Hortalizas,0.150,0.150,1.552
+cochabamba,2026-06-24,Lácteos y Derivados,-2.091,-2.091,-0.955
+cochabamba,2026-06-24,Panadería,0.258,0.258,0.367
+cochabamba,2026-06-24,Pastelería y Masas Típicas,0.416,0.416,1.420
+la_paz,2026-06-24,Abarrotes,0.690,0.690,1.234
+la_paz,2026-06-24,Bazar,0.443,0.443,4.507
+la_paz,2026-06-24,Bebidas,0.129,0.129,0.293
+la_paz,2026-06-24,Carnes,0.012,-2.546,6.672
+la_paz,2026-06-24,Compuesto,-0.425,-0.653,1.424
+la_paz,2026-06-24,Congelados,0.740,0.740,4.125
+la_paz,2026-06-24,Cuidado Personal,-0.052,-0.052,0.853
+la_paz,2026-06-24,Cuidado del Bebé,-0.070,-1.876,1.573
+la_paz,2026-06-24,Cuidado del Hogar,-1.036,-1.036,0.240
+la_paz,2026-06-24,Fiambres,0.500,0.500,6.066
+la_paz,2026-06-24,Frutas y Verduras,-9.971,-9.971,-9.753
+la_paz,2026-06-24,Granos y Hortalizas,0.943,0.943,1.010
+la_paz,2026-06-24,Lácteos y Derivados,0.641,0.641,7.304
+la_paz,2026-06-24,Panadería,0.426,0.426,0.426
+la_paz,2026-06-24,Pastelería y Masas Típicas,0.803,0.703,0.813
+santa_cruz,2026-06-24,Abarrotes,0.401,0.401,1.206
+santa_cruz,2026-06-24,Bazar,1.164,1.164,4.455
+santa_cruz,2026-06-24,Bebidas,0.122,0.122,0.482
 santa_cruz,2026-06-24,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-24,Carnes,4.384,3.343,5.149
-santa_cruz,2026-06-24,Compuesto,0.452,0.407,1.583
-santa_cruz,2026-06-24,Congelados,0.571,0.571,0.751
-santa_cruz,2026-06-24,Cuidado Personal,0.265,0.206,1.591
-santa_cruz,2026-06-24,Cuidado del Bebé,0.515,0.229,1.716
-santa_cruz,2026-06-24,Cuidado del Hogar,-0.244,-0.348,1.363
+santa_cruz,2026-06-24,Compuesto,0.452,0.409,1.443
+santa_cruz,2026-06-24,Congelados,0.571,0.571,0.728
+santa_cruz,2026-06-24,Cuidado Personal,0.265,0.212,1.443
+santa_cruz,2026-06-24,Cuidado del Bebé,0.515,0.256,1.600
+santa_cruz,2026-06-24,Cuidado del Hogar,-0.244,-0.337,1.185
 santa_cruz,2026-06-24,Farmacia Otc,0.000,,
-santa_cruz,2026-06-24,Fiambres,0.208,0.208,2.446
-santa_cruz,2026-06-24,Frutas y Verduras,2.799,2.799,2.906
-santa_cruz,2026-06-24,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-24,Lácteos y Derivados,0.075,0.075,2.429
+santa_cruz,2026-06-24,Fiambres,0.208,0.208,1.751
+santa_cruz,2026-06-24,Frutas y Verduras,2.799,2.771,2.891
+santa_cruz,2026-06-24,Granos y Hortalizas,0.063,0.063,0.360
+santa_cruz,2026-06-24,Lácteos y Derivados,0.075,0.075,2.305
 santa_cruz,2026-06-24,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-24,Pastelería y Masas Típicas,0.557,0.560,0.615
-cochabamba,2026-06-25,Abarrotes,0.560,0.560,1.641
-cochabamba,2026-06-25,Bazar,0.430,0.430,3.768
-cochabamba,2026-06-25,Bebidas,-0.050,-0.050,0.432
-cochabamba,2026-06-25,Carnes,4.527,2.231,8.705
-cochabamba,2026-06-25,Compuesto,-0.199,-0.336,1.836
-cochabamba,2026-06-25,Congelados,0.782,0.782,1.123
-cochabamba,2026-06-25,Cuidado Personal,0.077,-0.145,1.408
-cochabamba,2026-06-25,Cuidado del Bebé,0.241,-2.505,3.824
-cochabamba,2026-06-25,Cuidado del Hogar,-0.121,-0.121,0.843
-cochabamba,2026-06-25,Fiambres,0.393,0.393,5.146
+santa_cruz,2026-06-24,Pastelería y Masas Típicas,0.557,0.557,0.619
+cochabamba,2026-06-25,Abarrotes,0.560,0.560,1.564
+cochabamba,2026-06-25,Bazar,0.430,0.430,3.588
+cochabamba,2026-06-25,Bebidas,-0.050,-0.050,0.382
+cochabamba,2026-06-25,Carnes,4.527,2.290,8.594
+cochabamba,2026-06-25,Compuesto,-0.199,-0.330,1.309
+cochabamba,2026-06-25,Congelados,0.782,0.782,1.075
+cochabamba,2026-06-25,Cuidado Personal,0.077,-0.127,1.301
+cochabamba,2026-06-25,Cuidado del Bebé,0.241,-2.329,3.588
+cochabamba,2026-06-25,Cuidado del Hogar,-0.121,-0.121,0.774
+cochabamba,2026-06-25,Fiambres,0.393,0.393,3.275
 cochabamba,2026-06-25,Frutas y Verduras,-8.406,,
-cochabamba,2026-06-25,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-25,Lácteos y Derivados,-1.632,-1.632,0.373
-cochabamba,2026-06-25,Panadería,0.258,0.258,0.387
-cochabamba,2026-06-25,Pastelería y Masas Típicas,1.031,1.031,2.167
-la_paz,2026-06-25,Abarrotes,0.676,0.903,1.210
-la_paz,2026-06-25,Bazar,0.443,0.443,4.981
-la_paz,2026-06-25,Bebidas,0.143,0.143,0.346
-la_paz,2026-06-25,Carnes,0.012,-1.961,18.308
-la_paz,2026-06-25,Compuesto,-0.576,-0.796,2.738
-la_paz,2026-06-25,Congelados,0.740,0.740,3.703
-la_paz,2026-06-25,Cuidado Personal,-0.055,-0.723,1.030
-la_paz,2026-06-25,Cuidado del Bebé,-0.070,-2.183,1.857
-la_paz,2026-06-25,Cuidado del Hogar,-1.036,-1.036,0.440
-la_paz,2026-06-25,Fiambres,0.500,0.500,19.621
-la_paz,2026-06-25,Frutas y Verduras,-11.898,-11.898,-11.649
-la_paz,2026-06-25,Granos y Hortalizas,0.943,0.943,1.320
-la_paz,2026-06-25,Lácteos y Derivados,0.679,0.679,7.917
-la_paz,2026-06-25,Panadería,0.426,0.426,0.826
-la_paz,2026-06-25,Pastelería y Masas Típicas,0.803,0.694,0.814
-santa_cruz,2026-06-25,Abarrotes,0.395,0.395,1.321
-santa_cruz,2026-06-25,Bazar,1.164,1.164,4.985
-santa_cruz,2026-06-25,Bebidas,0.056,0.056,0.453
+cochabamba,2026-06-25,Granos y Hortalizas,0.150,0.150,1.610
+cochabamba,2026-06-25,Lácteos y Derivados,-1.632,-1.632,-0.421
+cochabamba,2026-06-25,Panadería,0.258,0.258,0.376
+cochabamba,2026-06-25,Pastelería y Masas Típicas,1.031,1.031,2.095
+la_paz,2026-06-25,Abarrotes,0.676,0.676,1.268
+la_paz,2026-06-25,Bazar,0.443,0.443,4.717
+la_paz,2026-06-25,Bebidas,0.143,0.143,0.320
+la_paz,2026-06-25,Carnes,0.012,-2.668,7.005
+la_paz,2026-06-25,Compuesto,-0.576,-0.813,1.364
+la_paz,2026-06-25,Congelados,0.740,0.740,4.269
+la_paz,2026-06-25,Cuidado Personal,-0.055,-0.055,0.907
+la_paz,2026-06-25,Cuidado del Bebé,-0.070,-1.972,1.661
+la_paz,2026-06-25,Cuidado del Hogar,-1.036,-1.036,0.308
+la_paz,2026-06-25,Fiambres,0.500,0.500,6.325
+la_paz,2026-06-25,Frutas y Verduras,-11.898,-11.898,-11.676
+la_paz,2026-06-25,Granos y Hortalizas,0.943,0.943,1.017
+la_paz,2026-06-25,Lácteos y Derivados,0.679,0.679,7.667
+la_paz,2026-06-25,Panadería,0.426,0.426,0.426
+la_paz,2026-06-25,Pastelería y Masas Típicas,0.803,0.709,0.812
+santa_cruz,2026-06-25,Abarrotes,0.395,0.395,1.248
+santa_cruz,2026-06-25,Bazar,1.164,1.164,4.604
+santa_cruz,2026-06-25,Bebidas,0.056,0.056,0.437
 santa_cruz,2026-06-25,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-25,Carnes,4.470,3.369,5.279
-santa_cruz,2026-06-25,Compuesto,0.455,0.408,1.621
-santa_cruz,2026-06-25,Congelados,0.642,0.642,0.829
-santa_cruz,2026-06-25,Cuidado Personal,0.265,0.205,1.614
-santa_cruz,2026-06-25,Cuidado del Bebé,0.515,0.221,1.749
-santa_cruz,2026-06-25,Cuidado del Hogar,-0.251,-0.358,1.400
+santa_cruz,2026-06-25,Compuesto,0.455,0.409,1.505
+santa_cruz,2026-06-25,Congelados,0.642,0.642,0.812
+santa_cruz,2026-06-25,Cuidado Personal,0.265,0.210,1.502
+santa_cruz,2026-06-25,Cuidado del Bebé,0.515,0.242,1.661
+santa_cruz,2026-06-25,Cuidado del Hogar,-0.251,-0.349,1.265
 santa_cruz,2026-06-25,Farmacia Otc,0.000,,
-santa_cruz,2026-06-25,Fiambres,0.208,0.208,2.548
-santa_cruz,2026-06-25,Frutas y Verduras,2.799,2.799,2.910
-santa_cruz,2026-06-25,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-25,Lácteos y Derivados,0.078,0.078,2.526
+santa_cruz,2026-06-25,Fiambres,0.208,0.208,1.867
+santa_cruz,2026-06-25,Frutas y Verduras,2.799,2.770,2.895
+santa_cruz,2026-06-25,Granos y Hortalizas,0.063,0.063,0.372
+santa_cruz,2026-06-25,Lácteos y Derivados,0.078,0.078,2.443
 santa_cruz,2026-06-25,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-25,Pastelería y Masas Típicas,0.557,0.561,0.632
-cochabamba,2026-06-26,Abarrotes,0.560,0.560,1.682
-cochabamba,2026-06-26,Bazar,0.430,0.430,3.915
-cochabamba,2026-06-26,Bebidas,-0.050,-0.050,0.444
-cochabamba,2026-06-26,Carnes,3.507,1.146,7.807
-cochabamba,2026-06-26,Compuesto,-0.201,-0.343,1.920
-cochabamba,2026-06-26,Congelados,0.782,0.782,1.156
-cochabamba,2026-06-26,Cuidado Personal,0.080,-0.147,1.441
-cochabamba,2026-06-26,Cuidado del Bebé,0.241,-2.559,3.898
-cochabamba,2026-06-26,Cuidado del Hogar,-0.127,-0.127,0.864
-cochabamba,2026-06-26,Fiambres,0.393,0.393,5.381
+santa_cruz,2026-06-25,Pastelería y Masas Típicas,0.557,0.557,0.635
+cochabamba,2026-06-26,Abarrotes,0.560,0.560,1.630
+cochabamba,2026-06-26,Bazar,0.430,0.430,3.794
+cochabamba,2026-06-26,Bebidas,-0.050,-0.050,0.405
+cochabamba,2026-06-26,Carnes,3.507,1.186,7.732
+cochabamba,2026-06-26,Compuesto,-0.201,-0.339,1.397
+cochabamba,2026-06-26,Congelados,0.782,0.782,1.103
+cochabamba,2026-06-26,Cuidado Personal,0.080,-0.135,1.369
+cochabamba,2026-06-26,Cuidado del Bebé,0.241,-2.442,3.740
+cochabamba,2026-06-26,Cuidado del Hogar,-0.127,-0.127,0.817
+cochabamba,2026-06-26,Fiambres,0.393,0.393,3.451
 cochabamba,2026-06-26,Frutas y Verduras,-8.406,,
-cochabamba,2026-06-26,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-26,Lácteos y Derivados,-1.445,-1.445,0.632
-cochabamba,2026-06-26,Panadería,0.258,0.258,0.393
-cochabamba,2026-06-26,Pastelería y Masas Típicas,1.031,1.031,2.205
-la_paz,2026-06-26,Abarrotes,0.675,0.897,1.269
-la_paz,2026-06-26,Bazar,0.443,0.443,5.110
-la_paz,2026-06-26,Bebidas,0.143,0.143,0.361
-la_paz,2026-06-26,Carnes,0.012,-2.009,18.798
-la_paz,2026-06-26,Compuesto,-0.775,-0.999,2.593
-la_paz,2026-06-26,Congelados,0.741,0.741,3.720
-la_paz,2026-06-26,Cuidado Personal,-0.055,-0.745,1.067
-la_paz,2026-06-26,Cuidado del Bebé,-0.070,-2.208,1.881
-la_paz,2026-06-26,Cuidado del Hogar,-1.042,-1.042,0.459
-la_paz,2026-06-26,Fiambres,0.500,0.500,19.780
-la_paz,2026-06-26,Frutas y Verduras,-14.373,-14.373,-14.131
-la_paz,2026-06-26,Granos y Hortalizas,0.943,0.943,1.163
-la_paz,2026-06-26,Lácteos y Derivados,0.733,0.733,8.052
-la_paz,2026-06-26,Panadería,0.426,0.426,0.853
-la_paz,2026-06-26,Pastelería y Masas Típicas,0.803,0.705,0.813
-santa_cruz,2026-06-26,Abarrotes,0.377,0.377,1.331
-santa_cruz,2026-06-26,Bazar,1.164,1.164,5.017
-santa_cruz,2026-06-26,Bebidas,0.056,0.056,0.469
+cochabamba,2026-06-26,Granos y Hortalizas,0.150,0.150,1.669
+cochabamba,2026-06-26,Lácteos y Derivados,-1.445,-1.445,-0.164
+cochabamba,2026-06-26,Panadería,0.258,0.258,0.385
+cochabamba,2026-06-26,Pastelería y Masas Típicas,1.031,1.031,2.149
+la_paz,2026-06-26,Abarrotes,0.675,0.675,1.316
+la_paz,2026-06-26,Bazar,0.443,0.443,4.928
+la_paz,2026-06-26,Bebidas,0.143,0.143,0.333
+la_paz,2026-06-26,Carnes,0.012,-2.789,7.338
+la_paz,2026-06-26,Compuesto,-0.775,-1.020,1.255
+la_paz,2026-06-26,Congelados,0.741,0.741,4.413
+la_paz,2026-06-26,Cuidado Personal,-0.055,-0.055,0.964
+la_paz,2026-06-26,Cuidado del Bebé,-0.070,-2.067,1.750
+la_paz,2026-06-26,Cuidado del Hogar,-1.042,-1.042,0.370
+la_paz,2026-06-26,Fiambres,0.500,0.500,6.585
+la_paz,2026-06-26,Frutas y Verduras,-14.373,-14.373,-14.149
+la_paz,2026-06-26,Granos y Hortalizas,0.943,0.943,1.024
+la_paz,2026-06-26,Lácteos y Derivados,0.733,0.733,8.049
+la_paz,2026-06-26,Panadería,0.426,0.426,0.426
+la_paz,2026-06-26,Pastelería y Masas Típicas,0.803,0.714,0.812
+santa_cruz,2026-06-26,Abarrotes,0.377,0.377,1.282
+santa_cruz,2026-06-26,Bazar,1.164,1.164,4.753
+santa_cruz,2026-06-26,Bebidas,0.056,0.056,0.458
 santa_cruz,2026-06-26,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-26,Carnes,5.119,3.951,5.977
-santa_cruz,2026-06-26,Compuesto,0.430,0.382,1.632
-santa_cruz,2026-06-26,Congelados,0.662,0.662,0.860
-santa_cruz,2026-06-26,Cuidado Personal,0.265,0.204,1.638
-santa_cruz,2026-06-26,Cuidado del Bebé,0.515,0.212,1.787
-santa_cruz,2026-06-26,Cuidado del Hogar,-0.249,-0.359,1.445
+santa_cruz,2026-06-26,Compuesto,0.430,0.382,1.541
+santa_cruz,2026-06-26,Congelados,0.662,0.662,0.848
+santa_cruz,2026-06-26,Cuidado Personal,0.265,0.207,1.562
+santa_cruz,2026-06-26,Cuidado del Bebé,0.515,0.226,1.727
+santa_cruz,2026-06-26,Cuidado del Hogar,-0.249,-0.353,1.354
 santa_cruz,2026-06-26,Farmacia Otc,0.000,,
-santa_cruz,2026-06-26,Fiambres,0.208,0.208,2.653
-santa_cruz,2026-06-26,Frutas y Verduras,1.893,1.893,2.007
-santa_cruz,2026-06-26,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-26,Lácteos y Derivados,0.003,0.003,2.543
+santa_cruz,2026-06-26,Fiambres,0.208,0.208,1.985
+santa_cruz,2026-06-26,Frutas y Verduras,1.893,1.863,1.992
+santa_cruz,2026-06-26,Granos y Hortalizas,0.063,0.063,0.384
+santa_cruz,2026-06-26,Lácteos y Derivados,0.003,0.003,2.508
 santa_cruz,2026-06-26,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-26,Pastelería y Masas Típicas,0.557,0.561,0.648
-cochabamba,2026-06-27,Abarrotes,0.554,0.554,1.719
-cochabamba,2026-06-27,Bazar,0.430,0.430,4.061
-cochabamba,2026-06-27,Bebidas,-0.050,-0.050,0.455
-cochabamba,2026-06-27,Carnes,3.386,0.941,7.846
-cochabamba,2026-06-27,Compuesto,-0.219,-0.366,1.990
-cochabamba,2026-06-27,Congelados,0.775,0.775,1.183
-cochabamba,2026-06-27,Cuidado Personal,0.055,-0.177,1.446
-cochabamba,2026-06-27,Cuidado del Bebé,0.241,-2.614,3.971
-cochabamba,2026-06-27,Cuidado del Hogar,-0.380,-0.380,0.637
-cochabamba,2026-06-27,Fiambres,0.393,0.393,5.616
+santa_cruz,2026-06-26,Pastelería y Masas Típicas,0.557,0.557,0.652
+cochabamba,2026-06-27,Abarrotes,0.554,0.554,1.692
+cochabamba,2026-06-27,Bazar,0.430,0.430,4.001
+cochabamba,2026-06-27,Bebidas,-0.050,-0.050,0.428
+cochabamba,2026-06-27,Carnes,3.386,0.963,7.805
+cochabamba,2026-06-27,Compuesto,-0.219,-0.364,1.470
+cochabamba,2026-06-27,Congelados,0.775,0.775,1.125
+cochabamba,2026-06-27,Cuidado Personal,0.055,-0.171,1.408
+cochabamba,2026-06-27,Cuidado del Bebé,0.241,-2.555,3.892
+cochabamba,2026-06-27,Cuidado del Hogar,-0.380,-0.380,0.613
+cochabamba,2026-06-27,Fiambres,0.393,0.393,3.627
 cochabamba,2026-06-27,Frutas y Verduras,-8.451,,
-cochabamba,2026-06-27,Granos y Hortalizas,0.150,0.150,1.787
-cochabamba,2026-06-27,Lácteos y Derivados,-1.419,-1.419,0.741
-cochabamba,2026-06-27,Panadería,0.258,0.258,0.401
-cochabamba,2026-06-27,Pastelería y Masas Típicas,1.031,1.031,2.246
-la_paz,2026-06-27,Abarrotes,0.663,0.878,1.318
-la_paz,2026-06-27,Bazar,0.443,0.443,5.238
-la_paz,2026-06-27,Bebidas,0.123,0.123,0.356
-la_paz,2026-06-27,Carnes,0.055,-2.015,19.342
-la_paz,2026-06-27,Compuesto,-0.910,-1.139,2.514
-la_paz,2026-06-27,Congelados,0.741,0.741,3.736
-la_paz,2026-06-27,Cuidado Personal,-0.082,-0.793,1.077
-la_paz,2026-06-27,Cuidado del Bebé,-0.070,-2.232,1.904
-la_paz,2026-06-27,Cuidado del Hogar,-1.215,-1.215,0.310
-la_paz,2026-06-27,Fiambres,0.500,0.500,19.940
-la_paz,2026-06-27,Frutas y Verduras,-15.524,-15.524,-15.286
-la_paz,2026-06-27,Granos y Hortalizas,0.181,0.181,0.243
-la_paz,2026-06-27,Lácteos y Derivados,0.600,0.600,7.988
-la_paz,2026-06-27,Panadería,0.426,0.426,0.882
-la_paz,2026-06-27,Pastelería y Masas Típicas,0.803,0.715,0.811
-santa_cruz,2026-06-27,Abarrotes,0.372,0.372,1.354
-santa_cruz,2026-06-27,Bazar,1.164,1.164,5.035
-santa_cruz,2026-06-27,Bebidas,0.075,0.075,0.504
+cochabamba,2026-06-27,Granos y Hortalizas,0.150,0.150,1.728
+cochabamba,2026-06-27,Lácteos y Derivados,-1.419,-1.419,-0.061
+cochabamba,2026-06-27,Panadería,0.258,0.258,0.397
+cochabamba,2026-06-27,Pastelería y Masas Típicas,1.031,1.031,2.207
+la_paz,2026-06-27,Abarrotes,0.663,0.663,1.355
+la_paz,2026-06-27,Bazar,0.443,0.443,5.139
+la_paz,2026-06-27,Bebidas,0.123,0.123,0.326
+la_paz,2026-06-27,Carnes,0.055,-2.869,7.720
+la_paz,2026-06-27,Compuesto,-0.910,-1.165,1.210
+la_paz,2026-06-27,Congelados,0.741,0.741,4.558
+la_paz,2026-06-27,Cuidado Personal,-0.082,-0.082,0.996
+la_paz,2026-06-27,Cuidado del Bebé,-0.070,-2.162,1.838
+la_paz,2026-06-27,Cuidado del Hogar,-1.215,-1.215,0.264
+la_paz,2026-06-27,Fiambres,0.500,0.500,6.845
+la_paz,2026-06-27,Frutas y Verduras,-15.524,-15.524,-15.294
+la_paz,2026-06-27,Granos y Hortalizas,0.181,0.181,0.268
+la_paz,2026-06-27,Lácteos y Derivados,0.600,0.600,8.233
+la_paz,2026-06-27,Panadería,0.426,0.426,0.426
+la_paz,2026-06-27,Pastelería y Masas Típicas,0.803,0.720,0.811
+santa_cruz,2026-06-27,Abarrotes,0.372,0.372,1.329
+santa_cruz,2026-06-27,Bazar,1.164,1.164,4.903
+santa_cruz,2026-06-27,Bebidas,0.075,0.075,0.498
 santa_cruz,2026-06-27,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-27,Carnes,5.734,4.500,6.641
-santa_cruz,2026-06-27,Compuesto,0.455,0.405,1.694
-santa_cruz,2026-06-27,Congelados,0.662,0.662,0.869
-santa_cruz,2026-06-27,Cuidado Personal,0.296,0.234,1.695
-santa_cruz,2026-06-27,Cuidado del Bebé,0.515,0.203,1.826
-santa_cruz,2026-06-27,Cuidado del Hogar,-0.281,-0.394,1.458
+santa_cruz,2026-06-27,Compuesto,0.455,0.405,1.628
+santa_cruz,2026-06-27,Congelados,0.662,0.662,0.864
+santa_cruz,2026-06-27,Cuidado Personal,0.296,0.235,1.656
+santa_cruz,2026-06-27,Cuidado del Bebé,0.515,0.210,1.794
+santa_cruz,2026-06-27,Cuidado del Hogar,-0.281,-0.391,1.411
 santa_cruz,2026-06-27,Farmacia Otc,0.000,,
-santa_cruz,2026-06-27,Fiambres,0.208,0.208,2.758
-santa_cruz,2026-06-27,Frutas y Verduras,2.460,2.460,2.580
-santa_cruz,2026-06-27,Granos y Hortalizas,0.063,0.063,0.409
-santa_cruz,2026-06-27,Lácteos y Derivados,0.003,0.003,2.638
+santa_cruz,2026-06-27,Fiambres,0.208,0.208,2.104
+santa_cruz,2026-06-27,Frutas y Verduras,2.460,2.429,2.564
+santa_cruz,2026-06-27,Granos y Hortalizas,0.063,0.063,0.397
+santa_cruz,2026-06-27,Lácteos y Derivados,0.003,0.003,2.651
 santa_cruz,2026-06-27,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-27,Pastelería y Masas Típicas,0.557,0.561,0.665
-cochabamba,2026-06-28,Abarrotes,0.549,0.549,1.759
+santa_cruz,2026-06-27,Pastelería y Masas Típicas,0.557,0.557,0.668
+cochabamba,2026-06-28,Abarrotes,0.549,0.549,1.756
 cochabamba,2026-06-28,Bazar,0.430,0.430,4.208
-cochabamba,2026-06-28,Bebidas,-0.050,-0.050,0.465
+cochabamba,2026-06-28,Bebidas,-0.050,-0.050,0.451
 cochabamba,2026-06-28,Carnes,3.319,0.792,7.934
-cochabamba,2026-06-28,Compuesto,-0.376,-0.527,1.915
-cochabamba,2026-06-28,Congelados,0.687,0.687,1.131
+cochabamba,2026-06-28,Compuesto,-0.376,-0.527,1.408
+cochabamba,2026-06-28,Congelados,0.687,0.687,1.066
 cochabamba,2026-06-28,Cuidado Personal,-0.132,-0.369,1.283
 cochabamba,2026-06-28,Cuidado del Bebé,-0.433,-3.322,3.345
 cochabamba,2026-06-28,Cuidado del Hogar,-1.005,-1.005,0.033
-cochabamba,2026-06-28,Fiambres,0.393,0.393,5.826
+cochabamba,2026-06-28,Fiambres,0.393,0.393,3.813
 cochabamba,2026-06-28,Frutas y Verduras,-8.439,,
 cochabamba,2026-06-28,Granos y Hortalizas,0.150,0.150,1.810
-cochabamba,2026-06-28,Lácteos y Derivados,-1.494,-1.494,0.753
+cochabamba,2026-06-28,Lácteos y Derivados,-1.494,-1.494,-0.047
 cochabamba,2026-06-28,Panadería,0.241,0.241,0.393
 cochabamba,2026-06-28,Pastelería y Masas Típicas,0.416,0.416,1.652
-la_paz,2026-06-28,Abarrotes,0.659,0.867,1.376
+la_paz,2026-06-28,Abarrotes,0.659,0.659,1.403
 la_paz,2026-06-28,Bazar,0.443,0.443,5.351
-la_paz,2026-06-28,Bebidas,0.123,0.123,0.371
-la_paz,2026-06-28,Carnes,0.179,-1.935,19.915
-la_paz,2026-06-28,Compuesto,-1.124,-1.356,2.353
-la_paz,2026-06-28,Congelados,0.670,0.670,3.676
-la_paz,2026-06-28,Cuidado Personal,-0.258,-0.990,0.934
+la_paz,2026-06-28,Bebidas,0.123,0.123,0.341
+la_paz,2026-06-28,Carnes,0.179,-2.871,8.189
+la_paz,2026-06-28,Compuesto,-1.124,-1.387,1.087
+la_paz,2026-06-28,Congelados,0.670,0.670,4.629
+la_paz,2026-06-28,Cuidado Personal,-0.258,-0.258,0.877
 la_paz,2026-06-28,Cuidado del Bebé,-0.797,-2.969,1.186
 la_paz,2026-06-28,Cuidado del Hogar,-1.740,-1.740,-0.199
-la_paz,2026-06-28,Fiambres,0.131,0.131,19.638
+la_paz,2026-06-28,Fiambres,0.131,0.131,6.712
 la_paz,2026-06-28,Frutas y Verduras,-16.829,-16.829,-16.577
 la_paz,2026-06-28,Granos y Hortalizas,0.181,0.181,0.275
-la_paz,2026-06-28,Lácteos y Derivados,0.514,0.514,7.970
-la_paz,2026-06-28,Panadería,0.422,0.422,0.908
+la_paz,2026-06-28,Lácteos y Derivados,0.514,0.514,8.473
+la_paz,2026-06-28,Panadería,0.422,0.422,0.422
 la_paz,2026-06-28,Pastelería y Masas Típicas,0.803,0.726,0.810
 santa_cruz,2026-06-28,Abarrotes,0.345,0.345,1.356
 santa_cruz,2026-06-28,Bazar,1.164,1.164,5.053
 santa_cruz,2026-06-28,Bebidas,0.063,0.063,0.508
 santa_cruz,2026-06-28,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-28,Carnes,2.832,1.574,3.757
-santa_cruz,2026-06-28,Compuesto,0.390,0.338,1.663
+santa_cruz,2026-06-28,Compuesto,0.390,0.337,1.625
 santa_cruz,2026-06-28,Congelados,0.615,0.615,0.832
 santa_cruz,2026-06-28,Cuidado Personal,0.288,0.224,1.714
 santa_cruz,2026-06-28,Cuidado del Bebé,0.515,0.192,1.874
 santa_cruz,2026-06-28,Cuidado del Hogar,-0.281,-0.397,1.503
 santa_cruz,2026-06-28,Farmacia Otc,0.000,,
-santa_cruz,2026-06-28,Fiambres,0.208,0.208,2.868
-santa_cruz,2026-06-28,Frutas y Verduras,2.460,2.460,2.580
-santa_cruz,2026-06-28,Granos y Hortalizas,0.063,0.063,0.412
-santa_cruz,2026-06-28,Lácteos y Derivados,-0.077,-0.077,2.646
+santa_cruz,2026-06-28,Fiambres,0.208,0.208,2.227
+santa_cruz,2026-06-28,Frutas y Verduras,2.460,2.428,2.567
+santa_cruz,2026-06-28,Granos y Hortalizas,0.063,0.063,0.409
+santa_cruz,2026-06-28,Lácteos y Derivados,-0.077,-0.077,2.713
 santa_cruz,2026-06-28,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-28,Pastelería y Masas Típicas,0.557,0.561,0.684
-cochabamba,2026-06-29,Abarrotes,0.556,0.556,1.810
+santa_cruz,2026-06-28,Pastelería y Masas Típicas,0.557,0.557,0.687
+cochabamba,2026-06-29,Abarrotes,0.556,0.556,1.807
 cochabamba,2026-06-29,Bazar,0.430,0.430,4.327
-cochabamba,2026-06-29,Bebidas,-0.050,-0.050,0.475
+cochabamba,2026-06-29,Bebidas,-0.050,-0.050,0.459
 cochabamba,2026-06-29,Carnes,1.761,-0.811,6.462
-cochabamba,2026-06-29,Compuesto,-0.399,-0.553,1.983
-cochabamba,2026-06-29,Congelados,0.689,0.689,1.179
+cochabamba,2026-06-29,Compuesto,-0.399,-0.553,1.451
+cochabamba,2026-06-29,Congelados,0.689,0.689,1.092
 cochabamba,2026-06-29,Cuidado Personal,-0.129,-0.371,1.316
 cochabamba,2026-06-29,Cuidado del Bebé,-0.433,-3.375,3.418
 cochabamba,2026-06-29,Cuidado del Hogar,-1.005,-1.005,0.063
-cochabamba,2026-06-29,Fiambres,0.393,0.393,6.031
+cochabamba,2026-06-29,Fiambres,0.393,0.393,3.939
 cochabamba,2026-06-29,Frutas y Verduras,-8.281,,
 cochabamba,2026-06-29,Granos y Hortalizas,0.150,0.150,1.833
-cochabamba,2026-06-29,Lácteos y Derivados,-1.357,-1.357,0.999
+cochabamba,2026-06-29,Lácteos y Derivados,-1.357,-1.357,0.159
 cochabamba,2026-06-29,Panadería,0.241,0.241,0.406
 cochabamba,2026-06-29,Pastelería y Masas Típicas,0.416,0.416,1.688
-la_paz,2026-06-29,Abarrotes,0.656,0.854,1.435
+la_paz,2026-06-29,Abarrotes,0.656,0.656,1.446
 la_paz,2026-06-29,Bazar,0.443,0.443,5.463
-la_paz,2026-06-29,Bebidas,0.123,0.123,0.383
-la_paz,2026-06-29,Carnes,0.179,-1.977,20.342
-la_paz,2026-06-29,Compuesto,-1.104,-1.340,2.439
-la_paz,2026-06-29,Congelados,0.661,0.661,3.684
-la_paz,2026-06-29,Cuidado Personal,-0.258,-1.011,0.969
+la_paz,2026-06-29,Bebidas,0.123,0.123,0.351
+la_paz,2026-06-29,Carnes,0.179,-2.950,8.410
+la_paz,2026-06-29,Compuesto,-1.104,-1.370,1.151
+la_paz,2026-06-29,Congelados,0.661,0.661,4.629
+la_paz,2026-06-29,Cuidado Personal,-0.258,-0.258,0.910
 la_paz,2026-06-29,Cuidado del Bebé,-0.797,-2.990,1.205
 la_paz,2026-06-29,Cuidado del Hogar,-1.740,-1.740,-0.171
-la_paz,2026-06-29,Fiambres,0.124,0.124,19.853
+la_paz,2026-06-29,Fiambres,0.124,0.124,6.791
 la_paz,2026-06-29,Frutas y Verduras,-16.579,-16.579,-16.314
-la_paz,2026-06-29,Granos y Hortalizas,0.181,0.181,0.307
-la_paz,2026-06-29,Lácteos y Derivados,0.509,0.509,8.069
-la_paz,2026-06-29,Panadería,0.422,0.422,0.949
+la_paz,2026-06-29,Granos y Hortalizas,0.181,0.206,0.282
+la_paz,2026-06-29,Lácteos y Derivados,0.509,0.509,8.575
+la_paz,2026-06-29,Panadería,0.422,0.422,0.422
 la_paz,2026-06-29,Pastelería y Masas Típicas,0.803,0.740,0.809
 santa_cruz,2026-06-29,Abarrotes,0.345,0.345,1.384
 santa_cruz,2026-06-29,Bazar,1.164,1.164,5.073
 santa_cruz,2026-06-29,Bebidas,0.063,0.063,0.523
 santa_cruz,2026-06-29,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-29,Carnes,0.881,-0.411,1.831
-santa_cruz,2026-06-29,Compuesto,0.358,0.304,1.669
+santa_cruz,2026-06-29,Compuesto,0.358,0.303,1.628
 santa_cruz,2026-06-29,Congelados,0.615,0.615,0.842
 santa_cruz,2026-06-29,Cuidado Personal,0.288,0.223,1.744
 santa_cruz,2026-06-29,Cuidado del Bebé,0.515,0.179,1.928
 santa_cruz,2026-06-29,Cuidado del Hogar,-0.281,-0.400,1.551
 santa_cruz,2026-06-29,Farmacia Otc,0.000,,
-santa_cruz,2026-06-29,Fiambres,0.208,0.208,2.978
-santa_cruz,2026-06-29,Frutas y Verduras,2.460,2.460,2.580
-santa_cruz,2026-06-29,Granos y Hortalizas,0.063,0.063,0.415
-santa_cruz,2026-06-29,Lácteos y Derivados,-0.080,-0.080,2.737
+santa_cruz,2026-06-29,Fiambres,0.208,0.208,2.310
+santa_cruz,2026-06-29,Frutas y Verduras,2.460,2.428,2.567
+santa_cruz,2026-06-29,Granos y Hortalizas,0.063,0.063,0.409
+santa_cruz,2026-06-29,Lácteos y Derivados,-0.080,-0.080,2.806
 santa_cruz,2026-06-29,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-29,Pastelería y Masas Típicas,0.557,0.561,0.703
-cochabamba,2026-06-30,Abarrotes,0.269,0.269,1.564
+santa_cruz,2026-06-29,Pastelería y Masas Típicas,0.557,0.557,0.707
+cochabamba,2026-06-30,Abarrotes,0.269,0.269,1.562
 cochabamba,2026-06-30,Bazar,0.035,0.035,4.036
-cochabamba,2026-06-30,Bebidas,-0.263,-0.263,0.271
+cochabamba,2026-06-30,Bebidas,-0.263,-0.263,0.253
 cochabamba,2026-06-30,Carnes,1.609,-1.042,6.459
-cochabamba,2026-06-30,Compuesto,-0.488,-0.646,1.989
-cochabamba,2026-06-30,Congelados,0.689,0.689,1.226
+cochabamba,2026-06-30,Compuesto,-0.488,-0.646,1.429
+cochabamba,2026-06-30,Congelados,0.689,0.689,1.116
 cochabamba,2026-06-30,Cuidado Personal,-0.333,-0.580,1.144
 cochabamba,2026-06-30,Cuidado del Bebé,-0.499,-3.494,3.422
 cochabamba,2026-06-30,Cuidado del Hogar,-0.959,-0.959,0.140
-cochabamba,2026-06-30,Fiambres,0.393,0.393,6.241
+cochabamba,2026-06-30,Fiambres,0.393,0.393,4.067
 cochabamba,2026-06-30,Frutas y Verduras,-8.665,,
 cochabamba,2026-06-30,Granos y Hortalizas,0.150,0.150,1.857
-cochabamba,2026-06-30,Lácteos y Derivados,-1.357,-1.357,1.126
+cochabamba,2026-06-30,Lácteos y Derivados,-1.357,-1.357,0.232
 cochabamba,2026-06-30,Panadería,0.241,0.241,0.420
 cochabamba,2026-06-30,Pastelería y Masas Típicas,0.416,0.416,1.727
-la_paz,2026-06-30,Abarrotes,0.404,0.593,1.248
+la_paz,2026-06-30,Abarrotes,0.404,0.404,1.241
 la_paz,2026-06-30,Bazar,-0.017,-0.017,5.047
-la_paz,2026-06-30,Bebidas,-0.073,-0.073,0.202
-la_paz,2026-06-30,Carnes,0.179,-2.020,20.793
-la_paz,2026-06-30,Compuesto,-1.284,-1.521,2.321
-la_paz,2026-06-30,Congelados,0.661,0.661,3.701
-la_paz,2026-06-30,Cuidado Personal,-0.849,-1.620,0.407
+la_paz,2026-06-30,Bebidas,-0.073,-0.073,0.166
+la_paz,2026-06-30,Carnes,0.179,-3.029,8.631
+la_paz,2026-06-30,Compuesto,-1.284,-1.549,1.010
+la_paz,2026-06-30,Congelados,0.661,0.661,4.639
+la_paz,2026-06-30,Cuidado Personal,-0.849,-0.849,0.346
 la_paz,2026-06-30,Cuidado del Bebé,-0.781,-2.995,1.241
 la_paz,2026-06-30,Cuidado del Hogar,-1.732,-1.732,-0.135
-la_paz,2026-06-30,Fiambres,0.124,0.124,20.086
-la_paz,2026-06-30,Frutas y Verduras,-17.146,-17.146,-16.836
-la_paz,2026-06-30,Granos y Hortalizas,0.181,0.181,0.339
-la_paz,2026-06-30,Lácteos y Derivados,0.509,0.509,8.177
-la_paz,2026-06-30,Panadería,0.422,0.422,0.990
+la_paz,2026-06-30,Fiambres,0.124,0.124,6.881
+la_paz,2026-06-30,Frutas y Verduras,-17.146,-17.146,-16.871
+la_paz,2026-06-30,Granos y Hortalizas,0.181,0.231,0.288
+la_paz,2026-06-30,Lácteos y Derivados,0.509,0.509,8.686
+la_paz,2026-06-30,Panadería,0.422,0.422,0.422
 la_paz,2026-06-30,Pastelería y Masas Típicas,0.803,0.771,0.806
 santa_cruz,2026-06-30,Abarrotes,0.345,0.345,1.415
 santa_cruz,2026-06-30,Bazar,1.164,1.164,5.093
 santa_cruz,2026-06-30,Bebidas,0.062,0.062,0.537
 santa_cruz,2026-06-30,CUDADOS OTC,-0.860,,
 santa_cruz,2026-06-30,Carnes,0.693,-0.653,1.683
-santa_cruz,2026-06-30,Compuesto,0.304,0.248,1.655
+santa_cruz,2026-06-30,Compuesto,0.304,0.247,1.612
 santa_cruz,2026-06-30,Congelados,0.538,0.538,0.769
 santa_cruz,2026-06-30,Cuidado Personal,0.254,0.188,1.741
 santa_cruz,2026-06-30,Cuidado del Bebé,-0.373,-0.719,1.082
 santa_cruz,2026-06-30,Cuidado del Hogar,-0.281,-0.403,1.602
 santa_cruz,2026-06-30,Farmacia Otc,0.000,,
-santa_cruz,2026-06-30,Fiambres,0.208,0.208,3.111
-santa_cruz,2026-06-30,Frutas y Verduras,2.460,2.460,2.580
-santa_cruz,2026-06-30,Granos y Hortalizas,0.063,0.063,0.431
-santa_cruz,2026-06-30,Lácteos y Derivados,-0.089,-0.089,2.823
+santa_cruz,2026-06-30,Fiambres,0.208,0.208,2.411
+santa_cruz,2026-06-30,Frutas y Verduras,2.460,2.428,2.567
+santa_cruz,2026-06-30,Granos y Hortalizas,0.063,0.063,0.409
+santa_cruz,2026-06-30,Lácteos y Derivados,-0.089,-0.089,2.894
 santa_cruz,2026-06-30,Panadería,0.255,0.255,0.255
-santa_cruz,2026-06-30,Pastelería y Masas Típicas,0.559,0.564,0.748
+santa_cruz,2026-06-30,Pastelería y Masas Típicas,0.559,0.560,0.751
+cochabamba,2026-07-01,Abarrotes,0.235,0.235,1.573
+cochabamba,2026-07-01,Bazar,0.257,0.257,4.386
+cochabamba,2026-07-01,Bebidas,-0.253,-0.253,0.272
+cochabamba,2026-07-01,Carnes,0.980,-1.736,5.956
+cochabamba,2026-07-01,Compuesto,-0.483,-0.645,1.505
+cochabamba,2026-07-01,Congelados,0.705,0.705,1.159
+cochabamba,2026-07-01,Cuidado Personal,-0.333,-0.586,1.179
+cochabamba,2026-07-01,Cuidado del Bebé,-0.499,-3.551,3.500
+cochabamba,2026-07-01,Cuidado del Hogar,-0.960,-0.960,0.172
+cochabamba,2026-07-01,Fiambres,0.449,0.449,4.252
+cochabamba,2026-07-01,Frutas y Verduras,-8.665,,
+cochabamba,2026-07-01,Granos y Hortalizas,0.150,0.150,1.880
+cochabamba,2026-07-01,Lácteos y Derivados,-1.314,-1.314,0.355
+cochabamba,2026-07-01,Panadería,0.241,0.241,0.436
+cochabamba,2026-07-01,Pastelería y Masas Típicas,0.416,0.416,1.771
+la_paz,2026-07-01,Abarrotes,0.286,0.286,1.172
+la_paz,2026-07-01,Bazar,0.266,0.266,5.411
+la_paz,2026-07-01,Bebidas,-0.081,-0.081,0.169
+la_paz,2026-07-01,Carnes,-1.384,-4.620,7.154
+la_paz,2026-07-01,Compuesto,-1.306,-1.571,1.031
+la_paz,2026-07-01,Congelados,0.661,0.661,4.649
+la_paz,2026-07-01,Cuidado Personal,-0.834,-0.834,0.397
+la_paz,2026-07-01,Cuidado del Bebé,-0.736,-2.972,1.307
+la_paz,2026-07-01,Cuidado del Hogar,-1.679,-1.679,-0.048
+la_paz,2026-07-01,Fiambres,0.174,0.174,7.023
+la_paz,2026-07-01,Frutas y Verduras,-16.382,-16.382,-16.092
+la_paz,2026-07-01,Granos y Hortalizas,0.181,0.257,0.312
+la_paz,2026-07-01,Lácteos y Derivados,0.545,0.545,8.841
+la_paz,2026-07-01,Panadería,0.422,0.422,0.422
+la_paz,2026-07-01,Pastelería y Masas Típicas,0.803,0.802,0.803
+santa_cruz,2026-07-01,Abarrotes,0.306,0.306,1.408
+santa_cruz,2026-07-01,Bazar,0.262,0.262,4.175
+santa_cruz,2026-07-01,Bebidas,0.093,0.093,0.585
+santa_cruz,2026-07-01,CUDADOS OTC,-0.860,,
+santa_cruz,2026-07-01,Carnes,0.693,-0.710,1.725
+santa_cruz,2026-07-01,Compuesto,0.307,0.248,1.655
+santa_cruz,2026-07-01,Congelados,0.538,0.538,0.766
+santa_cruz,2026-07-01,Cuidado Personal,0.266,0.199,1.785
+santa_cruz,2026-07-01,Cuidado del Bebé,-0.152,-0.511,1.361
+santa_cruz,2026-07-01,Cuidado del Hogar,0.046,-0.080,1.996
+santa_cruz,2026-07-01,Farmacia Otc,0.000,,
+santa_cruz,2026-07-01,Fiambres,0.208,0.208,2.512
+santa_cruz,2026-07-01,Frutas y Verduras,2.508,2.475,2.615
+santa_cruz,2026-07-01,Granos y Hortalizas,0.063,0.063,0.426
+santa_cruz,2026-07-01,Lácteos y Derivados,-0.093,-0.093,2.998
+santa_cruz,2026-07-01,Panadería,0.255,0.255,0.255
+santa_cruz,2026-07-01,Pastelería y Masas Típicas,0.520,0.520,0.754
