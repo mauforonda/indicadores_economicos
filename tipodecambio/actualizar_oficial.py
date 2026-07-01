@@ -45,7 +45,8 @@ def do_process(req):
 
     df = pd.read_html(
         io.StringIO(table_html),
-        decimal=',', thousands='.'
+        decimal=',', thousands='.',
+        flavor='bs4',
     )
     assert len(df) > 0
     df = df[0]
