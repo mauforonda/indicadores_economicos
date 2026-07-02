@@ -26,7 +26,6 @@ s = (
     .loc['2016':]
     .resample('D').mean()
 )
-s = s[s.index.dayofweek < 5]
 
 t = (
     df
@@ -34,7 +33,6 @@ t = (
     .loc['2016':]
     .resample('D').mean()
 )
-t = t[t.index.dayofweek < 5]
 
 
 # fix ts
