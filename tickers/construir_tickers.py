@@ -142,7 +142,7 @@ def construir_dolar_usdt_compra() -> ResultadoTicker:
 def construir_dolar_referencial_compra() -> ResultadoTicker:
     """Construye el ticker de dolar referencial compra."""
 
-    filas = leer_filas_csv("tipodecambio/datos/referencial_bcb_compra.csv")
+    filas = leer_filas_csv("tipodecambio/datos/oficial_bcb.csv")
     ultima = filas[-1]
     comparacion, periodos = obtener_fila_anterior_disponible(
         filas=filas,
