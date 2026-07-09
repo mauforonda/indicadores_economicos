@@ -3,24 +3,22 @@ producto_id,producto,unidad,cantidad
 2,arroz de primera,kilo(s),1.0
 3,azucar granulada,kilo(s),1.0
 4,café instantaneo nescafé (tradición tapa café),gramo(s),200.0
-5,café instantaneo nescafé tradición tapa roja,gramo(s),200.0
-6,carne de pollo (entero),kilo(s),1.0
-7,carne de res pulpa especial,kilo(s),1.0
-8,cebolla cortada/cabeza/solo cabezas,kilo(s),1.0
-9,chuleta de cerdo,kilo(s),1.0
-10,chuleta de res,kilo(s),1.0
-11,costilla de cerdo,kilo(s),1.0
-12,costilla de res,kilo(s),1.0
-13,fideo corto,kilo(s),1.0
-14,harina de trigo,kilo(s),1.0
-15,huevos de gallina (maple de 30 huevos),unidad(es),30.0
-16,jabón de tocador/jaboncillo dove,gramo(s),90.0
-17,jabón de tocador/jaboncillo lux 120-125,gramo(s),125.0
-18,leche pasteurizada (pil),litro(s),900.0
-19,molida corriente,kilo(s),1.0
-20,papa imilla,kilo(s),1.0
-21,pasta dental colgate,gramo(s),180.0
-22,pasta dentalcolgate,gramo(s),90.0
-23,"pañales desechables para bebe ""g""",unidad(es),50.0
-24,shampoo en frasco,mililitro(s),340.0
-25,tomate tipo perita/llocallito/ovalado,kilo(s),1.0
+5,carne de pollo (entero),kilo(s),1.0
+6,carne de res pulpa especial,kilo(s),1.0
+7,cebolla cortada/cabeza/solo cabezas,kilo(s),1.0
+8,chuleta de cerdo,kilo(s),1.0
+9,chuleta de res,kilo(s),1.0
+10,costilla de res,kilo(s),1.0
+11,fideo corto,kilo(s),1.0
+12,harina de trigo,kilo(s),1.0
+13,huevos de gallina (maple de 30 huevos),unidad(es),30.0
+14,jabón de tocador/jaboncillo dove,gramo(s),90.0
+15,jabón de tocador/jaboncillo lux 120-125,gramo(s),125.0
+16,leche pasteurizada (pil),litro(s),900.0
+17,molida corriente,kilo(s),1.0
+18,papa imilla,kilo(s),1.0
+19,pasta dental colgate,gramo(s),180.0
+20,pasta dentalcolgate,gramo(s),90.0
+21,"pañales desechables para bebe ""g""",unidad(es),50.0
+22,shampoo en frasco,mililitro(s),340.0
+23,tomate tipo perita/llocallito/ovalado,kilo(s),1.0
