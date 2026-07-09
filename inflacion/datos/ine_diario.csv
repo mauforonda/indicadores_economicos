@@ -11530,7 +11530,7 @@ fecha,departamento,id_producto,precio
 2026-07-02,Santa Cruz,5,83.330
 2026-07-02,Santa Cruz,6,13.330
 2026-07-02,Santa Cruz,7,68.670
-2026-07-02,Santa Cruz,8,2.230
+2026-07-02,Santa Cruz,8,6.330
 2026-07-02,Santa Cruz,9,30.670
 2026-07-02,Santa Cruz,10,55.330
 2026-07-02,Santa Cruz,12,49.330
@@ -11696,6 +11696,11 @@ fecha,departamento,id_producto,precio
 2026-07-07,La Paz,23,2.960
 2026-07-07,La Paz,24,27.670
 2026-07-07,La Paz,25,6.980
+2026-07-08,Cochabamba,1,18.670
+2026-07-08,Cochabamba,7,70.670
+2026-07-08,Cochabamba,10,59.330
+2026-07-08,Cochabamba,12,48.670
+2026-07-08,Cochabamba,19,56.000
 2026-07-08,La Paz,1,20.000
 2026-07-08,La Paz,6,16.270
 2026-07-08,La Paz,7,82.670
