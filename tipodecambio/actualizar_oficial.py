@@ -75,18 +75,26 @@ def do_merge(new, storage_path, mkeys):
 
     old = pd.read_csv(storage_path)
     old['fecha'] = pd.to_datetime(old['fecha'])
+    old_fm = old['fecha'].max()
 
-    if old['fecha'].max() >= new['fecha'].max():
+    on = pd.concat([old, new])
+
+    if (
+        (old_fm >= new['fecha'].max()) |
+        (on[on['fecha'] >= old_fm].drop(columns='fecha').duplicated().sum() == new.shape[0])
+    ):
         return
 
-    pd.concat([
-        old, new
-    ]).sort_values(mkeys).to_csv(storage_path, **_extra_opts)
+    on.sort_values(mkeys).to_csv(storage_path, **_extra_opts)
 
 if __name__ == '__main__':
     req = requests.get(BASE_URL)
     df = do_process(req)
 
-    df_mask = (df['banco'] == 'total_bancos') | (df['banco'] == 'bancos')
-    do_merge(df[df_mask].drop(columns='banco'), OUT_S, ['fecha'])
+    df_mask = (
+        (df['banco'] == 'total_bancos') |
+        (df['banco'] == 'bancos') |
+        (df['banco'] == 'totales')
+    )
+    do_merge(df[df_mask].ffill().iloc[[-1]].drop(columns='banco'), OUT_S, ['fecha'])
     do_merge(df[~df_mask].assign(banco=df.loc[~df_mask, 'banco'].map(MAPEO_BANCOS)), OUT_D, ['fecha', 'banco'])
