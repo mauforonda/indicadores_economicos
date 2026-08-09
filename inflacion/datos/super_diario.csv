@@ -31425,16 +31425,16 @@ la_paz,2026-07-01,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-01,Lácteos y Derivados,0.545,0.545,0.554
 la_paz,2026-07-01,Panadería,0.422,0.422,0.422
 la_paz,2026-07-01,Pastelería y Masas Típicas,0.803,0.803,0.815
-santa_cruz,2026-07-01,Abarrotes,0.306,0.306,0.336
+santa_cruz,2026-07-01,Abarrotes,0.306,0.306,0.331
 santa_cruz,2026-07-01,Bazar,0.262,0.262,0.390
-santa_cruz,2026-07-01,Bebidas,0.093,0.093,0.107
+santa_cruz,2026-07-01,Bebidas,0.093,0.093,0.103
 santa_cruz,2026-07-01,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-01,Carnes,0.693,0.635,0.735
-santa_cruz,2026-07-01,Compuesto,0.307,0.305,0.335
+santa_cruz,2026-07-01,Compuesto,0.307,0.305,0.333
 santa_cruz,2026-07-01,Congelados,0.538,0.538,0.544
-santa_cruz,2026-07-01,Cuidado Personal,0.266,0.255,0.310
+santa_cruz,2026-07-01,Cuidado Personal,0.266,0.266,0.304
 santa_cruz,2026-07-01,Cuidado del Bebé,-0.152,-0.164,-0.101
-santa_cruz,2026-07-01,Cuidado del Hogar,0.046,0.046,0.087
+santa_cruz,2026-07-01,Cuidado del Hogar,0.046,0.046,0.086
 santa_cruz,2026-07-01,Farmacia Otc,0.000,,
 santa_cruz,2026-07-01,Fiambres,0.208,0.208,0.240
 santa_cruz,2026-07-01,Frutas y Verduras,2.508,2.475,2.615
@@ -31472,16 +31472,16 @@ la_paz,2026-07-02,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-02,Lácteos y Derivados,0.483,0.483,0.500
 la_paz,2026-07-02,Panadería,0.422,0.422,0.422
 la_paz,2026-07-02,Pastelería y Masas Típicas,0.628,0.628,0.653
-santa_cruz,2026-07-02,Abarrotes,0.308,0.308,0.368
+santa_cruz,2026-07-02,Abarrotes,0.308,0.308,0.358
 santa_cruz,2026-07-02,Bazar,0.106,0.106,0.361
-santa_cruz,2026-07-02,Bebidas,0.101,0.101,0.128
+santa_cruz,2026-07-02,Bebidas,0.101,0.101,0.121
 santa_cruz,2026-07-02,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-02,Carnes,-0.523,-0.636,-0.440
-santa_cruz,2026-07-02,Compuesto,0.473,0.468,0.529
+santa_cruz,2026-07-02,Compuesto,0.473,0.470,0.526
 santa_cruz,2026-07-02,Congelados,0.624,0.624,0.635
-santa_cruz,2026-07-02,Cuidado Personal,0.822,0.799,0.912
+santa_cruz,2026-07-02,Cuidado Personal,0.822,0.822,0.900
 santa_cruz,2026-07-02,Cuidado del Bebé,1.183,1.158,1.286
-santa_cruz,2026-07-02,Cuidado del Hogar,0.586,0.586,0.668
+santa_cruz,2026-07-02,Cuidado del Hogar,0.586,0.586,0.665
 santa_cruz,2026-07-02,Farmacia Otc,0.000,,
 santa_cruz,2026-07-02,Fiambres,0.253,0.253,0.316
 santa_cruz,2026-07-02,Frutas y Verduras,2.508,2.475,2.615
@@ -31519,19 +31519,19 @@ la_paz,2026-07-03,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-03,Lácteos y Derivados,0.462,0.462,0.488
 la_paz,2026-07-03,Panadería,0.422,0.422,0.422
 la_paz,2026-07-03,Pastelería y Masas Típicas,0.628,0.628,0.665
-santa_cruz,2026-07-03,Abarrotes,0.299,0.299,0.390
+santa_cruz,2026-07-03,Abarrotes,0.299,0.299,0.374
 santa_cruz,2026-07-03,Bazar,0.206,0.206,0.590
-santa_cruz,2026-07-03,Bebidas,0.101,0.101,0.141
+santa_cruz,2026-07-03,Bebidas,0.101,0.101,0.131
 santa_cruz,2026-07-03,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-03,Carnes,-0.523,-0.693,-0.399
-santa_cruz,2026-07-03,Compuesto,0.487,0.480,0.578
+santa_cruz,2026-07-03,Compuesto,0.487,0.483,0.574
 santa_cruz,2026-07-03,Congelados,0.624,0.624,0.700
-santa_cruz,2026-07-03,Cuidado Personal,0.665,0.630,0.801
+santa_cruz,2026-07-03,Cuidado Personal,0.665,0.665,0.782
 santa_cruz,2026-07-03,Cuidado del Bebé,0.936,0.899,1.091
-santa_cruz,2026-07-03,Cuidado del Hogar,0.612,0.612,0.736
+santa_cruz,2026-07-03,Cuidado del Hogar,0.612,0.612,0.732
 santa_cruz,2026-07-03,Farmacia Otc,0.000,,
 santa_cruz,2026-07-03,Fiambres,0.253,0.253,0.349
-santa_cruz,2026-07-03,Frutas y Verduras,2.508,2.507,2.512
+santa_cruz,2026-07-03,Frutas y Verduras,2.508,2.507,2.511
 santa_cruz,2026-07-03,Granos y Hortalizas,0.063,0.063,0.063
 santa_cruz,2026-07-03,Lácteos y Derivados,0.301,0.301,0.402
 santa_cruz,2026-07-03,Panadería,0.256,0.256,0.256
@@ -31566,19 +31566,19 @@ la_paz,2026-07-04,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-04,Lácteos y Derivados,0.392,0.392,0.426
 la_paz,2026-07-04,Panadería,0.422,0.422,0.422
 la_paz,2026-07-04,Pastelería y Masas Típicas,0.628,0.628,0.678
-santa_cruz,2026-07-04,Abarrotes,0.299,0.299,0.420
+santa_cruz,2026-07-04,Abarrotes,0.299,0.299,0.400
 santa_cruz,2026-07-04,Bazar,0.206,0.206,0.718
-santa_cruz,2026-07-04,Bebidas,0.093,0.093,0.146
+santa_cruz,2026-07-04,Bebidas,0.093,0.093,0.133
 santa_cruz,2026-07-04,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-04,Carnes,-1.315,-1.540,-1.150
-santa_cruz,2026-07-04,Compuesto,0.431,0.422,0.557
+santa_cruz,2026-07-04,Compuesto,0.431,0.425,0.551
 santa_cruz,2026-07-04,Congelados,0.614,0.614,0.754
-santa_cruz,2026-07-04,Cuidado Personal,0.411,0.365,0.594
+santa_cruz,2026-07-04,Cuidado Personal,0.411,0.411,0.569
 santa_cruz,2026-07-04,Cuidado del Bebé,0.494,0.445,0.699
-santa_cruz,2026-07-04,Cuidado del Hogar,0.640,0.640,0.805
+santa_cruz,2026-07-04,Cuidado del Hogar,0.640,0.640,0.799
 santa_cruz,2026-07-04,Farmacia Otc,0.000,,
 santa_cruz,2026-07-04,Fiambres,0.253,0.253,0.383
-santa_cruz,2026-07-04,Frutas y Verduras,2.508,2.505,2.515
+santa_cruz,2026-07-04,Frutas y Verduras,2.508,2.505,2.514
 santa_cruz,2026-07-04,Granos y Hortalizas,0.063,0.063,0.063
 santa_cruz,2026-07-04,Lácteos y Derivados,0.301,0.301,0.439
 santa_cruz,2026-07-04,Panadería,0.078,0.078,0.078
@@ -31613,19 +31613,19 @@ la_paz,2026-07-05,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-05,Lácteos y Derivados,0.389,0.389,0.432
 la_paz,2026-07-05,Panadería,0.422,0.422,0.422
 la_paz,2026-07-05,Pastelería y Masas Típicas,0.628,0.628,0.690
-santa_cruz,2026-07-05,Abarrotes,0.296,0.296,0.448
+santa_cruz,2026-07-05,Abarrotes,0.296,0.296,0.423
 santa_cruz,2026-07-05,Bazar,0.206,0.206,0.847
-santa_cruz,2026-07-05,Bebidas,0.076,0.076,0.143
+santa_cruz,2026-07-05,Bebidas,0.076,0.076,0.125
 santa_cruz,2026-07-05,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-05,Carnes,-1.268,-1.550,-1.063
-santa_cruz,2026-07-05,Compuesto,0.437,0.424,0.597
+santa_cruz,2026-07-05,Compuesto,0.437,0.429,0.590
 santa_cruz,2026-07-05,Congelados,0.596,0.596,0.800
-santa_cruz,2026-07-05,Cuidado Personal,0.411,0.354,0.640
+santa_cruz,2026-07-05,Cuidado Personal,0.411,0.411,0.608
 santa_cruz,2026-07-05,Cuidado del Bebé,0.503,0.441,0.759
-santa_cruz,2026-07-05,Cuidado del Hogar,0.658,0.658,0.865
+santa_cruz,2026-07-05,Cuidado del Hogar,0.658,0.658,0.858
 santa_cruz,2026-07-05,Farmacia Otc,0.000,,
 santa_cruz,2026-07-05,Fiambres,0.202,0.202,0.365
-santa_cruz,2026-07-05,Frutas y Verduras,2.508,2.504,2.519
+santa_cruz,2026-07-05,Frutas y Verduras,2.508,2.504,2.518
 santa_cruz,2026-07-05,Granos y Hortalizas,0.063,0.063,0.063
 santa_cruz,2026-07-05,Lácteos y Derivados,0.367,0.367,0.541
 santa_cruz,2026-07-05,Panadería,0.106,0.106,0.106
@@ -31660,19 +31660,19 @@ la_paz,2026-07-06,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-06,Lácteos y Derivados,0.389,0.389,0.441
 la_paz,2026-07-06,Panadería,0.422,0.422,0.422
 la_paz,2026-07-06,Pastelería y Masas Típicas,0.628,0.628,0.703
-santa_cruz,2026-07-06,Abarrotes,0.296,0.296,0.479
+santa_cruz,2026-07-06,Abarrotes,0.296,0.296,0.449
 santa_cruz,2026-07-06,Bazar,0.206,0.206,0.976
-santa_cruz,2026-07-06,Bebidas,0.070,0.070,0.153
+santa_cruz,2026-07-06,Bebidas,0.070,0.070,0.132
 santa_cruz,2026-07-06,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-06,Carnes,-1.315,-1.652,-1.068
-santa_cruz,2026-07-06,Compuesto,0.435,0.420,0.631
+santa_cruz,2026-07-06,Compuesto,0.435,0.425,0.622
 santa_cruz,2026-07-06,Congelados,0.596,0.596,0.865
-santa_cruz,2026-07-06,Cuidado Personal,0.401,0.331,0.681
+santa_cruz,2026-07-06,Cuidado Personal,0.401,0.401,0.642
 santa_cruz,2026-07-06,Cuidado del Bebé,0.503,0.426,0.822
-santa_cruz,2026-07-06,Cuidado del Hogar,0.658,0.658,0.906
+santa_cruz,2026-07-06,Cuidado del Hogar,0.658,0.658,0.898
 santa_cruz,2026-07-06,Farmacia Otc,0.000,,
 santa_cruz,2026-07-06,Fiambres,0.202,0.202,0.399
-santa_cruz,2026-07-06,Frutas y Verduras,2.508,2.503,2.523
+santa_cruz,2026-07-06,Frutas y Verduras,2.508,2.503,2.521
 santa_cruz,2026-07-06,Granos y Hortalizas,0.063,0.063,0.063
 santa_cruz,2026-07-06,Lácteos y Derivados,0.367,0.367,0.578
 santa_cruz,2026-07-06,Panadería,0.106,0.106,0.106
@@ -31707,19 +31707,19 @@ la_paz,2026-07-07,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-07,Lácteos y Derivados,0.387,0.387,0.448
 la_paz,2026-07-07,Panadería,0.363,0.363,0.363
 la_paz,2026-07-07,Pastelería y Masas Típicas,0.520,0.520,0.608
-santa_cruz,2026-07-07,Abarrotes,0.319,0.319,0.533
+santa_cruz,2026-07-07,Abarrotes,0.319,0.319,0.497
 santa_cruz,2026-07-07,Bazar,0.345,0.345,1.245
-santa_cruz,2026-07-07,Bebidas,0.065,0.065,0.164
+santa_cruz,2026-07-07,Bebidas,0.065,0.065,0.138
 santa_cruz,2026-07-07,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-07,Carnes,-1.315,-1.709,-1.027
-santa_cruz,2026-07-07,Compuesto,0.451,0.434,0.683
+santa_cruz,2026-07-07,Compuesto,0.451,0.440,0.673
 santa_cruz,2026-07-07,Congelados,0.586,0.586,0.920
-santa_cruz,2026-07-07,Cuidado Personal,0.397,0.314,0.728
+santa_cruz,2026-07-07,Cuidado Personal,0.397,0.397,0.682
 santa_cruz,2026-07-07,Cuidado del Bebé,0.536,0.445,0.918
-santa_cruz,2026-07-07,Cuidado del Hogar,0.655,0.655,0.945
+santa_cruz,2026-07-07,Cuidado del Hogar,0.655,0.655,0.936
 santa_cruz,2026-07-07,Farmacia Otc,0.000,,
 santa_cruz,2026-07-07,Fiambres,0.202,0.202,0.433
-santa_cruz,2026-07-07,Frutas y Verduras,2.508,2.502,2.526
+santa_cruz,2026-07-07,Frutas y Verduras,2.508,2.502,2.524
 santa_cruz,2026-07-07,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-07,Lácteos y Derivados,0.411,0.411,0.659
 santa_cruz,2026-07-07,Panadería,0.195,0.195,0.195
@@ -31754,19 +31754,19 @@ la_paz,2026-07-08,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-08,Lácteos y Derivados,0.553,0.553,0.622
 la_paz,2026-07-08,Panadería,0.314,0.314,0.314
 la_paz,2026-07-08,Pastelería y Masas Típicas,0.520,0.520,0.620
-santa_cruz,2026-07-08,Abarrotes,0.316,0.316,0.561
+santa_cruz,2026-07-08,Abarrotes,0.316,0.316,0.520
 santa_cruz,2026-07-08,Bazar,0.345,0.345,1.374
-santa_cruz,2026-07-08,Bebidas,-0.085,-0.085,0.029
+santa_cruz,2026-07-08,Bebidas,-0.085,-0.085,-0.000
 santa_cruz,2026-07-08,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-08,Carnes,-1.378,-1.828,-1.049
-santa_cruz,2026-07-08,Compuesto,0.505,0.485,0.774
+santa_cruz,2026-07-08,Compuesto,0.505,0.492,0.761
 santa_cruz,2026-07-08,Congelados,0.479,0.479,0.877
-santa_cruz,2026-07-08,Cuidado Personal,0.296,0.200,0.678
+santa_cruz,2026-07-08,Cuidado Personal,0.296,0.296,0.625
 santa_cruz,2026-07-08,Cuidado del Bebé,0.536,0.430,0.980
-santa_cruz,2026-07-08,Cuidado del Hogar,1.028,1.028,1.364
+santa_cruz,2026-07-08,Cuidado del Hogar,1.028,1.028,1.353
 santa_cruz,2026-07-08,Farmacia Otc,0.000,,
 santa_cruz,2026-07-08,Fiambres,0.274,0.274,0.539
-santa_cruz,2026-07-08,Frutas y Verduras,2.508,2.500,2.530
+santa_cruz,2026-07-08,Frutas y Verduras,2.508,2.500,2.528
 santa_cruz,2026-07-08,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-08,Lácteos y Derivados,0.710,0.710,0.995
 santa_cruz,2026-07-08,Panadería,0.195,0.195,0.195
@@ -31801,19 +31801,19 @@ la_paz,2026-07-09,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-09,Lácteos y Derivados,0.644,0.644,0.721
 la_paz,2026-07-09,Panadería,0.314,0.314,0.314
 la_paz,2026-07-09,Pastelería y Masas Típicas,0.517,0.517,0.636
-santa_cruz,2026-07-09,Abarrotes,0.376,0.376,0.654
+santa_cruz,2026-07-09,Abarrotes,0.376,0.376,0.608
 santa_cruz,2026-07-09,Bazar,0.345,0.345,1.503
-santa_cruz,2026-07-09,Bebidas,0.235,0.235,0.366
+santa_cruz,2026-07-09,Bebidas,0.235,0.235,0.332
 santa_cruz,2026-07-09,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-09,Carnes,-0.716,-1.225,-0.344
-santa_cruz,2026-07-09,Compuesto,0.541,0.518,0.847
+santa_cruz,2026-07-09,Compuesto,0.541,0.527,0.833
 santa_cruz,2026-07-09,Congelados,0.461,0.461,0.927
-santa_cruz,2026-07-09,Cuidado Personal,0.286,0.176,0.719
+santa_cruz,2026-07-09,Cuidado Personal,0.286,0.286,0.658
 santa_cruz,2026-07-09,Cuidado del Bebé,0.536,0.415,1.043
-santa_cruz,2026-07-09,Cuidado del Hogar,1.062,1.062,1.443
+santa_cruz,2026-07-09,Cuidado del Hogar,1.062,1.062,1.431
 santa_cruz,2026-07-09,Farmacia Otc,0.000,,
 santa_cruz,2026-07-09,Fiambres,0.183,0.183,0.481
-santa_cruz,2026-07-09,Frutas y Verduras,2.508,2.499,2.534
+santa_cruz,2026-07-09,Frutas y Verduras,2.508,2.499,2.531
 santa_cruz,2026-07-09,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-09,Lácteos y Derivados,0.730,0.730,1.052
 santa_cruz,2026-07-09,Panadería,0.195,0.195,0.195
@@ -31848,19 +31848,19 @@ la_paz,2026-07-10,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-10,Lácteos y Derivados,0.669,0.669,0.754
 la_paz,2026-07-10,Panadería,0.316,0.316,0.316
 la_paz,2026-07-10,Pastelería y Masas Típicas,0.517,0.517,0.655
-santa_cruz,2026-07-10,Abarrotes,0.408,0.408,0.723
+santa_cruz,2026-07-10,Abarrotes,0.408,0.408,0.670
 santa_cruz,2026-07-10,Bazar,0.345,0.345,1.633
-santa_cruz,2026-07-10,Bebidas,0.224,0.224,0.371
+santa_cruz,2026-07-10,Bebidas,0.224,0.224,0.333
 santa_cruz,2026-07-10,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-10,Carnes,-0.715,-1.280,-0.301
-santa_cruz,2026-07-10,Compuesto,0.566,0.540,0.909
+santa_cruz,2026-07-10,Compuesto,0.566,0.550,0.894
 santa_cruz,2026-07-10,Congelados,0.462,0.462,0.997
-santa_cruz,2026-07-10,Cuidado Personal,0.308,0.186,0.794
+santa_cruz,2026-07-10,Cuidado Personal,0.308,0.308,0.725
 santa_cruz,2026-07-10,Cuidado del Bebé,0.673,0.536,1.243
-santa_cruz,2026-07-10,Cuidado del Hogar,1.212,1.212,1.638
+santa_cruz,2026-07-10,Cuidado del Hogar,1.212,1.212,1.625
 santa_cruz,2026-07-10,Farmacia Otc,0.000,,
 santa_cruz,2026-07-10,Fiambres,0.181,0.181,0.512
-santa_cruz,2026-07-10,Frutas y Verduras,2.508,2.498,2.537
+santa_cruz,2026-07-10,Frutas y Verduras,2.508,2.498,2.534
 santa_cruz,2026-07-10,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-10,Lácteos y Derivados,0.714,0.714,1.073
 santa_cruz,2026-07-10,Panadería,0.195,0.195,0.195
@@ -31895,19 +31895,19 @@ la_paz,2026-07-11,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-11,Lácteos y Derivados,0.669,0.669,0.762
 la_paz,2026-07-11,Panadería,0.316,0.316,0.316
 la_paz,2026-07-11,Pastelería y Masas Típicas,0.517,0.517,0.674
-santa_cruz,2026-07-11,Abarrotes,0.396,0.396,0.747
+santa_cruz,2026-07-11,Abarrotes,0.396,0.396,0.688
 santa_cruz,2026-07-11,Bazar,0.345,0.345,1.763
-santa_cruz,2026-07-11,Bebidas,0.224,0.224,0.388
+santa_cruz,2026-07-11,Bebidas,0.224,0.224,0.346
 santa_cruz,2026-07-11,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-11,Carnes,-0.072,-0.699,0.386
-santa_cruz,2026-07-11,Compuesto,0.587,0.559,0.968
+santa_cruz,2026-07-11,Compuesto,0.587,0.570,0.951
 santa_cruz,2026-07-11,Congelados,0.462,0.462,1.066
-santa_cruz,2026-07-11,Cuidado Personal,0.307,0.172,0.845
+santa_cruz,2026-07-11,Cuidado Personal,0.307,0.307,0.769
 santa_cruz,2026-07-11,Cuidado del Bebé,0.673,0.521,1.306
-santa_cruz,2026-07-11,Cuidado del Hogar,1.191,1.191,1.662
+santa_cruz,2026-07-11,Cuidado del Hogar,1.191,1.191,1.647
 santa_cruz,2026-07-11,Farmacia Otc,0.000,,
 santa_cruz,2026-07-11,Fiambres,0.181,0.181,0.546
-santa_cruz,2026-07-11,Frutas y Verduras,2.884,2.873,2.917
+santa_cruz,2026-07-11,Frutas y Verduras,2.884,2.873,2.914
 santa_cruz,2026-07-11,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-11,Lácteos y Derivados,0.745,0.745,1.141
 santa_cruz,2026-07-11,Panadería,0.195,0.195,0.195
@@ -31942,19 +31942,19 @@ la_paz,2026-07-12,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-12,Lácteos y Derivados,0.669,0.669,0.770
 la_paz,2026-07-12,Panadería,0.316,0.316,0.316
 la_paz,2026-07-12,Pastelería y Masas Típicas,0.517,0.517,0.694
-santa_cruz,2026-07-12,Abarrotes,0.396,0.396,0.783
+santa_cruz,2026-07-12,Abarrotes,0.396,0.396,0.718
 santa_cruz,2026-07-12,Bazar,0.345,0.345,1.892
-santa_cruz,2026-07-12,Bebidas,0.224,0.224,0.405
+santa_cruz,2026-07-12,Bebidas,0.224,0.224,0.358
 santa_cruz,2026-07-12,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-12,Carnes,-0.072,-0.755,0.427
-santa_cruz,2026-07-12,Compuesto,0.587,0.556,1.006
+santa_cruz,2026-07-12,Compuesto,0.587,0.568,0.987
 santa_cruz,2026-07-12,Congelados,0.462,0.462,1.135
-santa_cruz,2026-07-12,Cuidado Personal,0.307,0.158,0.898
+santa_cruz,2026-07-12,Cuidado Personal,0.307,0.307,0.815
 santa_cruz,2026-07-12,Cuidado del Bebé,0.673,0.506,1.369
-santa_cruz,2026-07-12,Cuidado del Hogar,1.191,1.191,1.707
+santa_cruz,2026-07-12,Cuidado del Hogar,1.191,1.191,1.691
 santa_cruz,2026-07-12,Farmacia Otc,0.000,,
 santa_cruz,2026-07-12,Fiambres,0.181,0.181,0.579
-santa_cruz,2026-07-12,Frutas y Verduras,2.884,2.872,2.921
+santa_cruz,2026-07-12,Frutas y Verduras,2.884,2.872,2.917
 santa_cruz,2026-07-12,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-12,Lácteos y Derivados,0.745,0.745,1.178
 santa_cruz,2026-07-12,Panadería,0.195,0.195,0.195
@@ -31989,19 +31989,19 @@ la_paz,2026-07-13,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-13,Lácteos y Derivados,0.679,0.679,0.787
 la_paz,2026-07-13,Panadería,0.316,0.316,0.316
 la_paz,2026-07-13,Pastelería y Masas Típicas,0.517,0.517,0.718
-santa_cruz,2026-07-13,Abarrotes,0.294,0.294,0.720
+santa_cruz,2026-07-13,Abarrotes,0.294,0.294,0.648
 santa_cruz,2026-07-13,Bazar,0.345,0.345,2.022
-santa_cruz,2026-07-13,Bebidas,0.224,0.224,0.422
+santa_cruz,2026-07-13,Bebidas,0.224,0.224,0.370
 santa_cruz,2026-07-13,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-13,Carnes,1.321,0.571,1.870
-santa_cruz,2026-07-13,Compuesto,0.599,0.565,1.056
+santa_cruz,2026-07-13,Compuesto,0.599,0.578,1.035
 santa_cruz,2026-07-13,Congelados,0.462,0.462,1.205
-santa_cruz,2026-07-13,Cuidado Personal,0.307,0.145,0.950
+santa_cruz,2026-07-13,Cuidado Personal,0.307,0.307,0.860
 santa_cruz,2026-07-13,Cuidado del Bebé,0.673,0.491,1.432
-santa_cruz,2026-07-13,Cuidado del Hogar,1.191,1.191,1.752
+santa_cruz,2026-07-13,Cuidado del Hogar,1.191,1.191,1.734
 santa_cruz,2026-07-13,Farmacia Otc,,,
 santa_cruz,2026-07-13,Fiambres,0.181,0.181,0.613
-santa_cruz,2026-07-13,Frutas y Verduras,2.884,2.871,2.925
+santa_cruz,2026-07-13,Frutas y Verduras,2.884,2.871,2.920
 santa_cruz,2026-07-13,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-13,Lácteos y Derivados,0.745,0.745,1.215
 santa_cruz,2026-07-13,Panadería,0.195,0.195,0.195
@@ -32036,19 +32036,19 @@ la_paz,2026-07-14,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-14,Lácteos y Derivados,0.632,0.632,0.749
 la_paz,2026-07-14,Panadería,0.316,0.316,0.316
 la_paz,2026-07-14,Pastelería y Masas Típicas,0.517,0.517,0.747
-santa_cruz,2026-07-14,Abarrotes,0.337,0.337,0.801
+santa_cruz,2026-07-14,Abarrotes,0.337,0.337,0.723
 santa_cruz,2026-07-14,Bazar,0.345,0.345,2.153
-santa_cruz,2026-07-14,Bebidas,0.226,0.226,0.440
+santa_cruz,2026-07-14,Bebidas,0.226,0.226,0.385
 santa_cruz,2026-07-14,CUDADOS OTC,-0.860,,
 santa_cruz,2026-07-14,Carnes,2.673,1.854,3.272
-santa_cruz,2026-07-14,Compuesto,0.631,0.594,1.126
+santa_cruz,2026-07-14,Compuesto,0.631,0.608,1.104
 santa_cruz,2026-07-14,Congelados,0.462,0.462,1.274
-santa_cruz,2026-07-14,Cuidado Personal,0.305,0.131,1.001
+santa_cruz,2026-07-14,Cuidado Personal,0.305,0.305,0.903
 santa_cruz,2026-07-14,Cuidado del Bebé,0.673,0.473,1.510
-santa_cruz,2026-07-14,Cuidado del Hogar,1.202,1.202,1.809
+santa_cruz,2026-07-14,Cuidado del Hogar,1.202,1.202,1.789
 santa_cruz,2026-07-14,Farmacia Otc,,,
 santa_cruz,2026-07-14,Fiambres,0.181,0.181,0.647
-santa_cruz,2026-07-14,Frutas y Verduras,2.884,2.869,2.929
+santa_cruz,2026-07-14,Frutas y Verduras,2.884,2.869,2.924
 santa_cruz,2026-07-14,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-14,Lácteos y Derivados,0.774,0.774,1.281
 santa_cruz,2026-07-14,Panadería,0.195,0.195,0.195
@@ -32083,19 +32083,19 @@ la_paz,2026-07-15,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-15,Lácteos y Derivados,1.095,1.095,1.220
 la_paz,2026-07-15,Panadería,0.316,0.316,0.316
 la_paz,2026-07-15,Pastelería y Masas Típicas,0.517,0.517,0.781
-santa_cruz,2026-07-15,Abarrotes,0.229,0.229,0.731
+santa_cruz,2026-07-15,Abarrotes,0.229,0.229,0.647
 santa_cruz,2026-07-15,Bazar,0.345,0.345,2.282
-santa_cruz,2026-07-15,Bebidas,0.058,0.058,0.289
+santa_cruz,2026-07-15,Bebidas,0.058,0.058,0.228
 santa_cruz,2026-07-15,CUDADOS OTC,-2.344,,
 santa_cruz,2026-07-15,Carnes,2.673,1.796,3.315
-santa_cruz,2026-07-15,Compuesto,0.620,0.580,1.154
+santa_cruz,2026-07-15,Compuesto,0.620,0.595,1.130
 santa_cruz,2026-07-15,Congelados,0.582,0.582,1.465
-santa_cruz,2026-07-15,Cuidado Personal,0.305,0.117,1.053
+santa_cruz,2026-07-15,Cuidado Personal,0.305,0.305,0.948
 santa_cruz,2026-07-15,Cuidado del Bebé,0.673,0.453,1.594
-santa_cruz,2026-07-15,Cuidado del Hogar,1.202,1.202,1.854
+santa_cruz,2026-07-15,Cuidado del Hogar,1.202,1.202,1.833
 santa_cruz,2026-07-15,Farmacia Otc,,,
 santa_cruz,2026-07-15,Fiambres,0.192,0.192,0.692
-santa_cruz,2026-07-15,Frutas y Verduras,2.884,2.868,2.932
+santa_cruz,2026-07-15,Frutas y Verduras,2.884,2.868,2.927
 santa_cruz,2026-07-15,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-15,Lácteos y Derivados,0.773,0.773,1.318
 santa_cruz,2026-07-15,Panadería,0.195,0.195,0.195
@@ -32130,19 +32130,19 @@ la_paz,2026-07-16,Granos y Hortalizas,0.181,0.181,0.181
 la_paz,2026-07-16,Lácteos y Derivados,1.103,1.103,1.236
 la_paz,2026-07-16,Panadería,0.316,0.316,0.316
 la_paz,2026-07-16,Pastelería y Masas Típicas,0.517,0.517,0.815
-santa_cruz,2026-07-16,Abarrotes,0.298,0.298,0.840
+santa_cruz,2026-07-16,Abarrotes,0.298,0.298,0.749
 santa_cruz,2026-07-16,Bazar,0.345,0.345,2.412
-santa_cruz,2026-07-16,Bebidas,0.123,0.123,0.370
+santa_cruz,2026-07-16,Bebidas,0.123,0.123,0.306
 santa_cruz,2026-07-16,CUDADOS OTC,-2.344,,
 santa_cruz,2026-07-16,Carnes,2.673,1.738,3.358
-santa_cruz,2026-07-16,Compuesto,0.633,0.591,1.206
+santa_cruz,2026-07-16,Compuesto,0.633,0.606,1.180
 santa_cruz,2026-07-16,Congelados,0.581,0.581,1.533
-santa_cruz,2026-07-16,Cuidado Personal,0.293,0.092,1.094
+santa_cruz,2026-07-16,Cuidado Personal,0.293,0.293,0.982
 santa_cruz,2026-07-16,Cuidado del Bebé,0.743,0.502,1.753
-santa_cruz,2026-07-16,Cuidado del Hogar,1.202,1.202,1.901
+santa_cruz,2026-07-16,Cuidado del Hogar,1.202,1.202,1.878
 santa_cruz,2026-07-16,Farmacia Otc,,,
 santa_cruz,2026-07-16,Fiambres,0.185,0.185,0.718
-santa_cruz,2026-07-16,Frutas y Verduras,2.884,2.867,2.936
+santa_cruz,2026-07-16,Frutas y Verduras,2.884,2.867,2.930
 santa_cruz,2026-07-16,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-16,Lácteos y Derivados,0.768,0.768,1.350
 santa_cruz,2026-07-16,Panadería,0.195,0.195,0.195
@@ -32177,19 +32177,19 @@ la_paz,2026-07-17,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-17,Lácteos y Derivados,1.033,1.033,1.174
 la_paz,2026-07-17,Panadería,0.316,0.316,0.316
 la_paz,2026-07-17,Pastelería y Masas Típicas,0.517,0.517,0.848
-santa_cruz,2026-07-17,Abarrotes,0.305,0.305,0.885
+santa_cruz,2026-07-17,Abarrotes,0.305,0.305,0.788
 santa_cruz,2026-07-17,Bazar,0.345,0.345,2.542
-santa_cruz,2026-07-17,Bebidas,0.101,0.101,0.365
+santa_cruz,2026-07-17,Bebidas,0.101,0.101,0.296
 santa_cruz,2026-07-17,CUDADOS OTC,-2.344,,
 santa_cruz,2026-07-17,Carnes,2.034,1.047,2.757
-santa_cruz,2026-07-17,Compuesto,0.578,0.533,1.191
+santa_cruz,2026-07-17,Compuesto,0.578,0.550,1.163
 santa_cruz,2026-07-17,Congelados,0.585,0.585,1.608
-santa_cruz,2026-07-17,Cuidado Personal,0.298,0.083,1.152
+santa_cruz,2026-07-17,Cuidado Personal,0.298,0.298,1.032
 santa_cruz,2026-07-17,Cuidado del Bebé,0.590,0.329,1.688
-santa_cruz,2026-07-17,Cuidado del Hogar,1.202,1.202,1.950
+santa_cruz,2026-07-17,Cuidado del Hogar,1.202,1.202,1.926
 santa_cruz,2026-07-17,Farmacia Otc,,,
 santa_cruz,2026-07-17,Fiambres,0.185,0.185,0.752
-santa_cruz,2026-07-17,Frutas y Verduras,1.555,1.536,1.610
+santa_cruz,2026-07-17,Frutas y Verduras,1.555,1.536,1.604
 santa_cruz,2026-07-17,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-17,Lácteos y Derivados,0.768,0.768,1.387
 santa_cruz,2026-07-17,Panadería,0.195,0.195,0.195
@@ -32224,19 +32224,19 @@ la_paz,2026-07-18,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-18,Lácteos y Derivados,1.033,1.033,1.182
 la_paz,2026-07-18,Panadería,0.316,0.316,0.316
 la_paz,2026-07-18,Pastelería y Masas Típicas,0.517,0.517,0.882
-santa_cruz,2026-07-18,Abarrotes,0.293,0.293,0.913
+santa_cruz,2026-07-18,Abarrotes,0.293,0.293,0.809
 santa_cruz,2026-07-18,Bazar,0.345,0.345,2.672
-santa_cruz,2026-07-18,Bebidas,0.101,0.101,0.382
+santa_cruz,2026-07-18,Bebidas,0.101,0.101,0.308
 santa_cruz,2026-07-18,CUDADOS OTC,-2.344,,
 santa_cruz,2026-07-18,Carnes,2.034,0.989,2.800
-santa_cruz,2026-07-18,Compuesto,0.577,0.529,1.229
+santa_cruz,2026-07-18,Compuesto,0.577,0.547,1.200
 santa_cruz,2026-07-18,Congelados,0.585,0.585,1.677
-santa_cruz,2026-07-18,Cuidado Personal,0.314,0.087,1.222
+santa_cruz,2026-07-18,Cuidado Personal,0.314,0.314,1.095
 santa_cruz,2026-07-18,Cuidado del Bebé,0.588,0.306,1.775
-santa_cruz,2026-07-18,Cuidado del Hogar,1.215,1.215,2.014
+santa_cruz,2026-07-18,Cuidado del Hogar,1.215,1.215,1.988
 santa_cruz,2026-07-18,Farmacia Otc,,,
 santa_cruz,2026-07-18,Fiambres,0.185,0.185,0.786
-santa_cruz,2026-07-18,Frutas y Verduras,1.457,1.437,1.515
+santa_cruz,2026-07-18,Frutas y Verduras,1.457,1.437,1.509
 santa_cruz,2026-07-18,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-18,Lácteos y Derivados,0.767,0.767,1.423
 santa_cruz,2026-07-18,Panadería,0.195,0.195,0.195
@@ -32271,19 +32271,19 @@ la_paz,2026-07-19,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-19,Lácteos y Derivados,0.563,0.563,0.719
 la_paz,2026-07-19,Panadería,0.316,0.316,0.316
 la_paz,2026-07-19,Pastelería y Masas Típicas,0.406,0.406,0.805
-santa_cruz,2026-07-19,Abarrotes,0.238,0.238,0.896
+santa_cruz,2026-07-19,Abarrotes,0.238,0.238,0.785
 santa_cruz,2026-07-19,Bazar,0.345,0.345,2.803
-santa_cruz,2026-07-19,Bebidas,-0.006,-0.006,0.294
+santa_cruz,2026-07-19,Bebidas,-0.006,-0.006,0.216
 santa_cruz,2026-07-19,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-19,Carnes,2.071,0.968,2.880
-santa_cruz,2026-07-19,Compuesto,0.565,0.514,1.257
+santa_cruz,2026-07-19,Compuesto,0.565,0.533,1.226
 santa_cruz,2026-07-19,Congelados,0.585,0.585,1.747
-santa_cruz,2026-07-19,Cuidado Personal,0.310,0.069,1.271
+santa_cruz,2026-07-19,Cuidado Personal,0.310,0.310,1.136
 santa_cruz,2026-07-19,Cuidado del Bebé,0.594,0.291,1.869
-santa_cruz,2026-07-19,Cuidado del Hogar,1.223,1.223,2.073
+santa_cruz,2026-07-19,Cuidado del Hogar,1.223,1.223,2.046
 santa_cruz,2026-07-19,Farmacia Otc,,,
 santa_cruz,2026-07-19,Fiambres,0.185,0.185,0.821
-santa_cruz,2026-07-19,Frutas y Verduras,1.457,1.436,1.518
+santa_cruz,2026-07-19,Frutas y Verduras,1.457,1.436,1.512
 santa_cruz,2026-07-19,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-19,Lácteos y Derivados,0.768,0.768,1.461
 santa_cruz,2026-07-19,Panadería,0.195,0.195,0.195
@@ -32318,19 +32318,19 @@ la_paz,2026-07-20,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-20,Lácteos y Derivados,0.563,0.563,0.727
 la_paz,2026-07-20,Panadería,0.316,0.316,0.316
 la_paz,2026-07-20,Pastelería y Masas Típicas,0.406,0.406,0.839
-santa_cruz,2026-07-20,Abarrotes,0.238,0.238,0.934
+santa_cruz,2026-07-20,Abarrotes,0.238,0.238,0.818
 santa_cruz,2026-07-20,Bazar,0.345,0.345,2.936
-santa_cruz,2026-07-20,Bebidas,-0.006,-0.006,0.312
+santa_cruz,2026-07-20,Bebidas,-0.006,-0.006,0.229
 santa_cruz,2026-07-20,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-20,Carnes,0.736,-0.408,1.577
-santa_cruz,2026-07-20,Compuesto,0.539,0.485,1.273
+santa_cruz,2026-07-20,Compuesto,0.539,0.505,1.239
 santa_cruz,2026-07-20,Congelados,0.558,0.558,1.791
-santa_cruz,2026-07-20,Cuidado Personal,0.310,0.055,1.326
+santa_cruz,2026-07-20,Cuidado Personal,0.310,0.310,1.183
 santa_cruz,2026-07-20,Cuidado del Bebé,0.594,0.270,1.958
-santa_cruz,2026-07-20,Cuidado del Hogar,1.223,1.223,2.126
+santa_cruz,2026-07-20,Cuidado del Hogar,1.223,1.223,2.097
 santa_cruz,2026-07-20,Farmacia Otc,,,
 santa_cruz,2026-07-20,Fiambres,0.185,0.185,0.856
-santa_cruz,2026-07-20,Frutas y Verduras,1.457,1.435,1.522
+santa_cruz,2026-07-20,Frutas y Verduras,1.457,1.434,1.515
 santa_cruz,2026-07-20,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-20,Lácteos y Derivados,0.768,0.768,1.502
 santa_cruz,2026-07-20,Panadería,0.195,0.195,0.195
@@ -32365,19 +32365,19 @@ la_paz,2026-07-21,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-21,Lácteos y Derivados,0.563,0.563,0.735
 la_paz,2026-07-21,Panadería,0.316,0.316,0.316
 la_paz,2026-07-21,Pastelería y Masas Típicas,0.406,0.406,0.873
-santa_cruz,2026-07-21,Abarrotes,0.238,0.238,0.973
+santa_cruz,2026-07-21,Abarrotes,0.238,0.238,0.850
 santa_cruz,2026-07-21,Bazar,0.345,0.345,3.069
-santa_cruz,2026-07-21,Bebidas,-0.006,-0.006,0.331
+santa_cruz,2026-07-21,Bebidas,-0.006,-0.006,0.243
 santa_cruz,2026-07-21,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-21,Carnes,0.736,-0.465,1.620
-santa_cruz,2026-07-21,Compuesto,0.539,0.482,1.314
+santa_cruz,2026-07-21,Compuesto,0.539,0.503,1.279
 santa_cruz,2026-07-21,Congelados,0.558,0.558,1.864
-santa_cruz,2026-07-21,Cuidado Personal,0.310,0.041,1.381
+santa_cruz,2026-07-21,Cuidado Personal,0.310,0.310,1.230
 santa_cruz,2026-07-21,Cuidado del Bebé,0.594,0.248,2.050
-santa_cruz,2026-07-21,Cuidado del Hogar,1.223,1.223,2.179
+santa_cruz,2026-07-21,Cuidado del Hogar,1.223,1.223,2.148
 santa_cruz,2026-07-21,Farmacia Otc,,,
 santa_cruz,2026-07-21,Fiambres,0.185,0.185,0.892
-santa_cruz,2026-07-21,Frutas y Verduras,1.457,1.433,1.526
+santa_cruz,2026-07-21,Frutas y Verduras,1.457,1.433,1.518
 santa_cruz,2026-07-21,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-21,Lácteos y Derivados,0.768,0.768,1.543
 santa_cruz,2026-07-21,Panadería,0.195,0.195,0.195
@@ -32412,19 +32412,19 @@ la_paz,2026-07-22,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-22,Lácteos y Derivados,0.563,0.563,0.742
 la_paz,2026-07-22,Panadería,0.316,0.316,0.316
 la_paz,2026-07-22,Pastelería y Masas Típicas,0.406,0.406,0.906
-santa_cruz,2026-07-22,Abarrotes,0.232,0.232,1.007
+santa_cruz,2026-07-22,Abarrotes,0.232,0.232,0.877
 santa_cruz,2026-07-22,Bazar,0.345,0.345,3.203
-santa_cruz,2026-07-22,Bebidas,-0.008,-0.008,0.347
+santa_cruz,2026-07-22,Bebidas,-0.008,-0.008,0.254
 santa_cruz,2026-07-22,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-22,Carnes,-1.456,-2.687,-0.551
-santa_cruz,2026-07-22,Compuesto,0.499,0.439,1.315
+santa_cruz,2026-07-22,Compuesto,0.499,0.462,1.278
 santa_cruz,2026-07-22,Congelados,0.559,0.559,1.938
-santa_cruz,2026-07-22,Cuidado Personal,0.293,0.011,1.418
+santa_cruz,2026-07-22,Cuidado Personal,0.293,0.293,1.260
 santa_cruz,2026-07-22,Cuidado del Bebé,0.560,0.193,2.108
-santa_cruz,2026-07-22,Cuidado del Hogar,1.223,1.223,2.232
+santa_cruz,2026-07-22,Cuidado del Hogar,1.223,1.223,2.200
 santa_cruz,2026-07-22,Farmacia Otc,,,
 santa_cruz,2026-07-22,Fiambres,0.204,0.204,0.946
-santa_cruz,2026-07-22,Frutas y Verduras,1.425,1.400,1.497
+santa_cruz,2026-07-22,Frutas y Verduras,1.425,1.400,1.490
 santa_cruz,2026-07-22,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-22,Lácteos y Derivados,0.768,0.768,1.583
 santa_cruz,2026-07-22,Panadería,0.195,0.195,0.195
@@ -32459,19 +32459,19 @@ la_paz,2026-07-23,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-23,Lácteos y Derivados,0.519,0.519,0.707
 la_paz,2026-07-23,Panadería,0.316,0.316,0.316
 la_paz,2026-07-23,Pastelería y Masas Típicas,0.406,0.406,0.940
-santa_cruz,2026-07-23,Abarrotes,0.237,0.237,1.051
+santa_cruz,2026-07-23,Abarrotes,0.237,0.237,0.914
 santa_cruz,2026-07-23,Bazar,0.345,0.345,3.336
-santa_cruz,2026-07-23,Bebidas,0.070,0.070,0.444
+santa_cruz,2026-07-23,Bebidas,0.070,0.070,0.347
 santa_cruz,2026-07-23,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-23,Carnes,-0.902,-2.196,0.050
-santa_cruz,2026-07-23,Compuesto,0.509,0.446,1.367
+santa_cruz,2026-07-23,Compuesto,0.509,0.469,1.328
 santa_cruz,2026-07-23,Congelados,0.513,0.513,1.965
-santa_cruz,2026-07-23,Cuidado Personal,0.293,-0.004,1.476
+santa_cruz,2026-07-23,Cuidado Personal,0.293,0.293,1.309
 santa_cruz,2026-07-23,Cuidado del Bebé,0.560,0.171,2.199
-santa_cruz,2026-07-23,Cuidado del Hogar,1.215,1.215,2.277
+santa_cruz,2026-07-23,Cuidado del Hogar,1.215,1.215,2.243
 santa_cruz,2026-07-23,Farmacia Otc,,,
 santa_cruz,2026-07-23,Fiambres,0.204,0.204,0.982
-santa_cruz,2026-07-23,Frutas y Verduras,1.425,1.399,1.501
+santa_cruz,2026-07-23,Frutas y Verduras,1.425,1.399,1.493
 santa_cruz,2026-07-23,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-23,Lácteos y Derivados,0.767,0.767,1.624
 santa_cruz,2026-07-23,Panadería,0.195,0.195,0.195
@@ -32506,19 +32506,19 @@ la_paz,2026-07-24,Granos y Hortalizas,-0.367,-0.367,-0.367
 la_paz,2026-07-24,Lácteos y Derivados,0.466,0.466,0.661
 la_paz,2026-07-24,Panadería,0.316,0.316,0.316
 la_paz,2026-07-24,Pastelería y Masas Típicas,0.406,0.406,0.974
-santa_cruz,2026-07-24,Abarrotes,0.254,0.254,1.110
+santa_cruz,2026-07-24,Abarrotes,0.254,0.254,0.967
 santa_cruz,2026-07-24,Bazar,0.345,0.345,3.470
-santa_cruz,2026-07-24,Bebidas,0.070,0.070,0.464
+santa_cruz,2026-07-24,Bebidas,0.070,0.070,0.361
 santa_cruz,2026-07-24,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-24,Carnes,-0.902,-2.252,0.092
-santa_cruz,2026-07-24,Compuesto,0.509,0.442,1.409
+santa_cruz,2026-07-24,Compuesto,0.509,0.467,1.368
 santa_cruz,2026-07-24,Congelados,0.513,0.513,2.039
-santa_cruz,2026-07-24,Cuidado Personal,0.289,-0.022,1.533
+santa_cruz,2026-07-24,Cuidado Personal,0.289,0.289,1.358
 santa_cruz,2026-07-24,Cuidado del Bebé,0.529,0.118,2.261
-santa_cruz,2026-07-24,Cuidado del Hogar,1.213,1.213,2.331
+santa_cruz,2026-07-24,Cuidado del Hogar,1.213,1.213,2.295
 santa_cruz,2026-07-24,Farmacia Otc,,,
 santa_cruz,2026-07-24,Fiambres,0.204,0.204,1.017
-santa_cruz,2026-07-24,Frutas y Verduras,1.425,1.398,1.505
+santa_cruz,2026-07-24,Frutas y Verduras,1.425,1.398,1.496
 santa_cruz,2026-07-24,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-24,Lácteos y Derivados,0.763,0.763,1.661
 santa_cruz,2026-07-24,Panadería,0.195,0.195,0.195
@@ -32553,19 +32553,19 @@ la_paz,2026-07-25,Granos y Hortalizas,0.391,0.391,0.391
 la_paz,2026-07-25,Lácteos y Derivados,0.523,0.523,0.727
 la_paz,2026-07-25,Panadería,0.316,0.316,0.316
 la_paz,2026-07-25,Pastelería y Masas Típicas,0.406,0.406,1.008
-santa_cruz,2026-07-25,Abarrotes,0.261,0.261,1.160
+santa_cruz,2026-07-25,Abarrotes,0.261,0.261,1.009
 santa_cruz,2026-07-25,Bazar,0.345,0.345,3.604
-santa_cruz,2026-07-25,Bebidas,0.006,0.006,0.418
+santa_cruz,2026-07-25,Bebidas,0.006,0.006,0.311
 santa_cruz,2026-07-25,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-25,Carnes,-0.412,-1.825,0.628
-santa_cruz,2026-07-25,Compuesto,0.497,0.428,1.441
+santa_cruz,2026-07-25,Compuesto,0.497,0.454,1.398
 santa_cruz,2026-07-25,Congelados,0.513,0.513,2.113
-santa_cruz,2026-07-25,Cuidado Personal,0.289,-0.037,1.594
+santa_cruz,2026-07-25,Cuidado Personal,0.289,0.289,1.410
 santa_cruz,2026-07-25,Cuidado del Bebé,0.529,0.096,2.355
-santa_cruz,2026-07-25,Cuidado del Hogar,1.213,1.213,2.387
+santa_cruz,2026-07-25,Cuidado del Hogar,1.213,1.213,2.349
 santa_cruz,2026-07-25,Farmacia Otc,,,
 santa_cruz,2026-07-25,Fiambres,0.204,0.204,1.058
-santa_cruz,2026-07-25,Frutas y Verduras,0.863,0.835,0.946
+santa_cruz,2026-07-25,Frutas y Verduras,0.863,0.835,0.937
 santa_cruz,2026-07-25,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-25,Lácteos y Derivados,0.763,0.763,1.702
 santa_cruz,2026-07-25,Panadería,0.195,0.195,0.195
@@ -32600,19 +32600,19 @@ la_paz,2026-07-26,Granos y Hortalizas,0.111,0.111,0.111
 la_paz,2026-07-26,Lácteos y Derivados,0.529,0.529,0.740
 la_paz,2026-07-26,Panadería,0.316,0.316,0.316
 la_paz,2026-07-26,Pastelería y Masas Típicas,0.406,0.406,1.042
-santa_cruz,2026-07-26,Abarrotes,0.249,0.249,1.190
+santa_cruz,2026-07-26,Abarrotes,0.249,0.249,1.032
 santa_cruz,2026-07-26,Bazar,0.345,0.345,3.738
-santa_cruz,2026-07-26,Bebidas,0.030,0.030,0.465
+santa_cruz,2026-07-26,Bebidas,0.030,0.030,0.351
 santa_cruz,2026-07-26,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-26,Carnes,3.456,1.930,4.580
-santa_cruz,2026-07-26,Compuesto,0.561,0.488,1.550
+santa_cruz,2026-07-26,Compuesto,0.561,0.515,1.505
 santa_cruz,2026-07-26,Congelados,0.513,0.513,2.187
-santa_cruz,2026-07-26,Cuidado Personal,0.289,-0.053,1.658
+santa_cruz,2026-07-26,Cuidado Personal,0.289,0.289,1.465
 santa_cruz,2026-07-26,Cuidado del Bebé,0.529,0.074,2.449
-santa_cruz,2026-07-26,Cuidado del Hogar,1.213,1.213,2.445
+santa_cruz,2026-07-26,Cuidado del Hogar,1.213,1.213,2.405
 santa_cruz,2026-07-26,Farmacia Otc,,,
 santa_cruz,2026-07-26,Fiambres,0.204,0.204,1.098
-santa_cruz,2026-07-26,Frutas y Verduras,0.863,0.827,0.971
+santa_cruz,2026-07-26,Frutas y Verduras,0.863,0.827,0.960
 santa_cruz,2026-07-26,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-26,Lácteos y Derivados,0.764,0.764,1.744
 santa_cruz,2026-07-26,Panadería,0.195,0.195,0.195
@@ -32647,19 +32647,19 @@ la_paz,2026-07-27,Granos y Hortalizas,0.111,0.111,0.111
 la_paz,2026-07-27,Lácteos y Derivados,0.534,0.534,0.754
 la_paz,2026-07-27,Panadería,0.316,0.316,0.316
 la_paz,2026-07-27,Pastelería y Masas Típicas,0.406,0.406,1.076
-santa_cruz,2026-07-27,Abarrotes,0.249,0.249,1.232
+santa_cruz,2026-07-27,Abarrotes,0.249,0.249,1.067
 santa_cruz,2026-07-27,Bazar,0.345,0.345,3.872
-santa_cruz,2026-07-27,Bebidas,0.074,0.074,0.530
+santa_cruz,2026-07-27,Bebidas,0.074,0.074,0.411
 santa_cruz,2026-07-27,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-27,Carnes,5.457,3.842,6.647
-santa_cruz,2026-07-27,Compuesto,0.596,0.520,1.630
+santa_cruz,2026-07-27,Compuesto,0.596,0.548,1.583
 santa_cruz,2026-07-27,Congelados,0.513,0.513,2.262
-santa_cruz,2026-07-27,Cuidado Personal,0.289,-0.069,1.724
+santa_cruz,2026-07-27,Cuidado Personal,0.289,0.289,1.522
 santa_cruz,2026-07-27,Cuidado del Bebé,0.529,0.052,2.544
-santa_cruz,2026-07-27,Cuidado del Hogar,1.213,1.213,2.504
+santa_cruz,2026-07-27,Cuidado del Hogar,1.213,1.213,2.462
 santa_cruz,2026-07-27,Farmacia Otc,,,
 santa_cruz,2026-07-27,Fiambres,0.204,0.204,1.139
-santa_cruz,2026-07-27,Frutas y Verduras,0.863,0.818,0.996
+santa_cruz,2026-07-27,Frutas y Verduras,0.863,0.818,0.982
 santa_cruz,2026-07-27,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-27,Lácteos y Derivados,0.768,0.768,1.788
 santa_cruz,2026-07-27,Panadería,0.195,0.195,0.195
@@ -32694,19 +32694,19 @@ la_paz,2026-07-28,Granos y Hortalizas,0.111,0.111,0.111
 la_paz,2026-07-28,Lácteos y Derivados,0.534,0.534,0.762
 la_paz,2026-07-28,Panadería,0.316,0.316,0.316
 la_paz,2026-07-28,Pastelería y Masas Típicas,0.406,0.406,1.110
-santa_cruz,2026-07-28,Abarrotes,0.249,0.249,1.275
+santa_cruz,2026-07-28,Abarrotes,0.249,0.249,1.103
 santa_cruz,2026-07-28,Bazar,0.345,0.345,4.007
-santa_cruz,2026-07-28,Bebidas,0.074,0.074,0.552
+santa_cruz,2026-07-28,Bebidas,0.074,0.074,0.427
 santa_cruz,2026-07-28,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-28,Carnes,5.457,3.783,6.692
-santa_cruz,2026-07-28,Compuesto,0.596,0.516,1.676
+santa_cruz,2026-07-28,Compuesto,0.596,0.546,1.626
 santa_cruz,2026-07-28,Congelados,0.513,0.513,2.337
-santa_cruz,2026-07-28,Cuidado Personal,0.289,-0.087,1.796
+santa_cruz,2026-07-28,Cuidado Personal,0.289,0.289,1.582
 santa_cruz,2026-07-28,Cuidado del Bebé,0.529,0.030,2.638
-santa_cruz,2026-07-28,Cuidado del Hogar,1.213,1.213,2.563
+santa_cruz,2026-07-28,Cuidado del Hogar,1.213,1.213,2.520
 santa_cruz,2026-07-28,Farmacia Otc,,,
 santa_cruz,2026-07-28,Fiambres,0.204,0.204,1.179
-santa_cruz,2026-07-28,Frutas y Verduras,0.863,0.810,1.021
+santa_cruz,2026-07-28,Frutas y Verduras,0.863,0.810,1.004
 santa_cruz,2026-07-28,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-28,Lácteos y Derivados,0.768,0.768,1.829
 santa_cruz,2026-07-28,Panadería,0.195,0.195,0.195
@@ -32741,19 +32741,19 @@ la_paz,2026-07-29,Granos y Hortalizas,0.111,0.111,0.140
 la_paz,2026-07-29,Lácteos y Derivados,0.498,0.498,0.727
 la_paz,2026-07-29,Panadería,0.316,0.316,0.316
 la_paz,2026-07-29,Pastelería y Masas Típicas,0.406,0.406,1.131
-santa_cruz,2026-07-29,Abarrotes,0.289,0.289,1.327
+santa_cruz,2026-07-29,Abarrotes,0.289,0.289,1.153
 santa_cruz,2026-07-29,Bazar,0.345,0.345,4.009
-santa_cruz,2026-07-29,Bebidas,0.072,0.072,0.558
+santa_cruz,2026-07-29,Bebidas,0.072,0.072,0.431
 santa_cruz,2026-07-29,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-29,Carnes,6.606,4.914,7.854
-santa_cruz,2026-07-29,Compuesto,0.584,0.503,1.681
+santa_cruz,2026-07-29,Compuesto,0.584,0.533,1.630
 santa_cruz,2026-07-29,Congelados,0.529,0.529,2.422
-santa_cruz,2026-07-29,Cuidado Personal,0.285,-0.098,1.820
+santa_cruz,2026-07-29,Cuidado Personal,0.285,0.285,1.600
 santa_cruz,2026-07-29,Cuidado del Bebé,0.529,0.020,2.680
-santa_cruz,2026-07-29,Cuidado del Hogar,0.892,0.892,2.255
+santa_cruz,2026-07-29,Cuidado del Hogar,0.892,0.892,2.211
 santa_cruz,2026-07-29,Farmacia Otc,,,
 santa_cruz,2026-07-29,Fiambres,0.204,0.204,1.188
-santa_cruz,2026-07-29,Frutas y Verduras,0.816,0.755,0.999
+santa_cruz,2026-07-29,Frutas y Verduras,0.816,0.755,0.979
 santa_cruz,2026-07-29,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-29,Lácteos y Derivados,0.767,0.767,1.838
 santa_cruz,2026-07-29,Panadería,0.195,0.195,0.195
@@ -32788,19 +32788,19 @@ la_paz,2026-07-30,Granos y Hortalizas,0.111,0.111,0.144
 la_paz,2026-07-30,Lácteos y Derivados,0.523,0.523,0.753
 la_paz,2026-07-30,Panadería,0.316,0.316,0.316
 la_paz,2026-07-30,Pastelería y Masas Típicas,0.406,0.406,1.171
-santa_cruz,2026-07-30,Abarrotes,0.308,0.308,1.364
+santa_cruz,2026-07-30,Abarrotes,0.308,0.308,1.187
 santa_cruz,2026-07-30,Bazar,0.879,0.879,4.564
-santa_cruz,2026-07-30,Bebidas,0.064,0.064,0.559
+santa_cruz,2026-07-30,Bebidas,0.064,0.064,0.430
 santa_cruz,2026-07-30,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-30,Carnes,7.909,6.196,9.172
-santa_cruz,2026-07-30,Compuesto,0.452,0.370,1.566
+santa_cruz,2026-07-30,Compuesto,0.452,0.401,1.514
 santa_cruz,2026-07-30,Congelados,0.441,0.441,2.401
-santa_cruz,2026-07-30,Cuidado Personal,-0.260,-0.648,1.294
+santa_cruz,2026-07-30,Cuidado Personal,-0.260,-0.260,1.069
 santa_cruz,2026-07-30,Cuidado del Bebé,-0.578,-1.091,1.591
-santa_cruz,2026-07-30,Cuidado del Hogar,0.351,0.351,1.724
+santa_cruz,2026-07-30,Cuidado del Hogar,0.351,0.351,1.680
 santa_cruz,2026-07-30,Farmacia Otc,,,
 santa_cruz,2026-07-30,Fiambres,0.160,0.160,1.152
-santa_cruz,2026-07-30,Frutas y Verduras,0.816,0.747,1.021
+santa_cruz,2026-07-30,Frutas y Verduras,0.816,0.747,0.999
 santa_cruz,2026-07-30,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-30,Lácteos y Derivados,0.649,0.649,1.727
 santa_cruz,2026-07-30,Panadería,0.195,0.195,0.195
@@ -32835,19 +32835,19 @@ la_paz,2026-07-31,Granos y Hortalizas,0.111,0.111,0.147
 la_paz,2026-07-31,Lácteos y Derivados,0.565,0.565,0.795
 la_paz,2026-07-31,Panadería,0.316,0.316,0.316
 la_paz,2026-07-31,Pastelería y Masas Típicas,0.406,0.406,1.212
-santa_cruz,2026-07-31,Abarrotes,0.355,0.355,1.429
+santa_cruz,2026-07-31,Abarrotes,0.355,0.355,1.249
 santa_cruz,2026-07-31,Bazar,0.779,0.779,4.462
-santa_cruz,2026-07-31,Bebidas,0.064,0.064,0.568
+santa_cruz,2026-07-31,Bebidas,0.064,0.064,0.436
 santa_cruz,2026-07-31,CUDADOS OTC,-1.497,,
 santa_cruz,2026-07-31,Carnes,9.852,8.109,11.139
-santa_cruz,2026-07-31,Compuesto,0.566,0.482,1.692
+santa_cruz,2026-07-31,Compuesto,0.566,0.514,1.639
 santa_cruz,2026-07-31,Congelados,0.441,0.441,2.411
-santa_cruz,2026-07-31,Cuidado Personal,0.482,0.084,2.077
+santa_cruz,2026-07-31,Cuidado Personal,0.482,0.482,1.843
 santa_cruz,2026-07-31,Cuidado del Bebé,0.631,0.100,2.876
-santa_cruz,2026-07-31,Cuidado del Hogar,0.367,0.367,1.758
+santa_cruz,2026-07-31,Cuidado del Hogar,0.367,0.367,1.713
 santa_cruz,2026-07-31,Farmacia Otc,,,
 santa_cruz,2026-07-31,Fiambres,0.160,0.160,1.159
-santa_cruz,2026-07-31,Frutas y Verduras,0.816,0.741,1.040
+santa_cruz,2026-07-31,Frutas y Verduras,0.816,0.741,1.016
 santa_cruz,2026-07-31,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-07-31,Lácteos y Derivados,0.412,0.412,1.491
 santa_cruz,2026-07-31,Panadería,0.195,0.195,0.195
@@ -32882,19 +32882,19 @@ la_paz,2026-08-01,Granos y Hortalizas,0.111,-0.064,0.111
 la_paz,2026-08-01,Lácteos y Derivados,0.599,0.599,0.827
 la_paz,2026-08-01,Panadería,0.316,0.316,0.316
 la_paz,2026-08-01,Pastelería y Masas Típicas,0.406,0.406,1.252
-santa_cruz,2026-08-01,Abarrotes,0.421,0.421,1.513
+santa_cruz,2026-08-01,Abarrotes,0.421,0.421,1.330
 santa_cruz,2026-08-01,Bazar,0.779,0.779,4.464
-santa_cruz,2026-08-01,Bebidas,0.143,0.143,0.655
+santa_cruz,2026-08-01,Bebidas,0.143,0.143,0.521
 santa_cruz,2026-08-01,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-01,Carnes,11.697,9.924,13.004
-santa_cruz,2026-08-01,Compuesto,0.814,0.729,1.956
+santa_cruz,2026-08-01,Compuesto,0.814,0.761,1.902
 santa_cruz,2026-08-01,Congelados,0.451,0.451,2.431
-santa_cruz,2026-08-01,Cuidado Personal,1.099,0.691,2.732
+santa_cruz,2026-08-01,Cuidado Personal,1.099,1.099,2.490
 santa_cruz,2026-08-01,Cuidado del Bebé,1.074,0.530,3.379
-santa_cruz,2026-08-01,Cuidado del Hogar,1.621,1.621,3.049
+santa_cruz,2026-08-01,Cuidado del Hogar,1.621,1.621,3.003
 santa_cruz,2026-08-01,Farmacia Otc,,,
 santa_cruz,2026-08-01,Fiambres,0.160,0.160,1.167
-santa_cruz,2026-08-01,Frutas y Verduras,0.816,0.735,1.059
+santa_cruz,2026-08-01,Frutas y Verduras,0.816,0.735,1.032
 santa_cruz,2026-08-01,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-01,Lácteos y Derivados,0.412,0.412,1.502
 santa_cruz,2026-08-01,Panadería,0.373,0.373,0.373
@@ -32929,19 +32929,19 @@ la_paz,2026-08-02,Granos y Hortalizas,0.111,-0.275,0.111
 la_paz,2026-08-02,Lácteos y Derivados,0.599,0.599,0.823
 la_paz,2026-08-02,Panadería,0.316,0.316,0.316
 la_paz,2026-08-02,Pastelería y Masas Típicas,0.406,0.406,1.297
-santa_cruz,2026-08-02,Abarrotes,0.431,0.431,1.543
+santa_cruz,2026-08-02,Abarrotes,0.431,0.431,1.356
 santa_cruz,2026-08-02,Bazar,0.779,0.779,4.466
-santa_cruz,2026-08-02,Bebidas,0.197,0.197,0.720
+santa_cruz,2026-08-02,Bebidas,0.197,0.197,0.583
 santa_cruz,2026-08-02,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-02,Carnes,13.132,11.336,14.457
-santa_cruz,2026-08-02,Compuesto,0.894,0.807,2.050
+santa_cruz,2026-08-02,Compuesto,0.894,0.840,1.995
 santa_cruz,2026-08-02,Congelados,0.677,0.677,2.670
-santa_cruz,2026-08-02,Cuidado Personal,1.707,1.288,3.382
+santa_cruz,2026-08-02,Cuidado Personal,1.707,1.707,3.130
 santa_cruz,2026-08-02,Cuidado del Bebé,1.197,0.641,3.554
-santa_cruz,2026-08-02,Cuidado del Hogar,1.419,1.419,2.863
+santa_cruz,2026-08-02,Cuidado del Hogar,1.419,1.419,2.817
 santa_cruz,2026-08-02,Farmacia Otc,,,
 santa_cruz,2026-08-02,Fiambres,0.160,0.160,1.176
-santa_cruz,2026-08-02,Frutas y Verduras,0.769,0.681,1.031
+santa_cruz,2026-08-02,Frutas y Verduras,0.769,0.681,1.002
 santa_cruz,2026-08-02,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-02,Lácteos y Derivados,0.421,0.421,1.523
 santa_cruz,2026-08-02,Panadería,0.373,0.373,0.373
@@ -32976,19 +32976,19 @@ la_paz,2026-08-03,Granos y Hortalizas,0.111,-0.485,0.111
 la_paz,2026-08-03,Lácteos y Derivados,0.317,0.317,0.538
 la_paz,2026-08-03,Panadería,0.316,0.316,0.316
 la_paz,2026-08-03,Pastelería y Masas Típicas,0.406,0.406,1.342
-santa_cruz,2026-08-03,Abarrotes,0.431,0.431,1.563
+santa_cruz,2026-08-03,Abarrotes,0.431,0.431,1.373
 santa_cruz,2026-08-03,Bazar,0.779,0.779,4.468
-santa_cruz,2026-08-03,Bebidas,0.203,0.203,0.733
+santa_cruz,2026-08-03,Bebidas,0.203,0.203,0.594
 santa_cruz,2026-08-03,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-03,Carnes,14.097,12.286,15.433
-santa_cruz,2026-08-03,Compuesto,0.877,0.790,2.047
+santa_cruz,2026-08-03,Compuesto,0.877,0.823,1.990
 santa_cruz,2026-08-03,Congelados,0.374,0.374,2.370
-santa_cruz,2026-08-03,Cuidado Personal,1.717,1.292,3.421
+santa_cruz,2026-08-03,Cuidado Personal,1.717,1.717,3.161
 santa_cruz,2026-08-03,Cuidado del Bebé,1.197,0.631,3.596
-santa_cruz,2026-08-03,Cuidado del Hogar,1.422,1.422,2.886
+santa_cruz,2026-08-03,Cuidado del Hogar,1.422,1.422,2.839
 santa_cruz,2026-08-03,Farmacia Otc,,,
 santa_cruz,2026-08-03,Fiambres,0.160,0.160,1.184
-santa_cruz,2026-08-03,Frutas y Verduras,0.769,0.675,1.050
+santa_cruz,2026-08-03,Frutas y Verduras,0.769,0.675,1.018
 santa_cruz,2026-08-03,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-03,Lácteos y Derivados,0.407,0.407,1.526
 santa_cruz,2026-08-03,Panadería,0.373,0.373,0.373
@@ -33023,19 +33023,19 @@ la_paz,2026-08-04,Granos y Hortalizas,0.111,-0.694,0.111
 la_paz,2026-08-04,Lácteos y Derivados,0.317,0.317,0.539
 la_paz,2026-08-04,Panadería,0.316,0.316,0.316
 la_paz,2026-08-04,Pastelería y Masas Típicas,0.406,0.406,1.387
-santa_cruz,2026-08-04,Abarrotes,0.425,0.425,1.579
+santa_cruz,2026-08-04,Abarrotes,0.425,0.425,1.385
 santa_cruz,2026-08-04,Bazar,0.779,0.779,4.470
-santa_cruz,2026-08-04,Bebidas,0.203,0.203,0.741
+santa_cruz,2026-08-04,Bebidas,0.203,0.203,0.601
 santa_cruz,2026-08-04,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-04,Carnes,14.097,12.286,15.433
-santa_cruz,2026-08-04,Compuesto,0.870,0.782,2.056
+santa_cruz,2026-08-04,Compuesto,0.870,0.816,1.997
 santa_cruz,2026-08-04,Congelados,0.377,0.377,2.385
-santa_cruz,2026-08-04,Cuidado Personal,1.721,1.288,3.455
+santa_cruz,2026-08-04,Cuidado Personal,1.721,1.721,3.185
 santa_cruz,2026-08-04,Cuidado del Bebé,1.168,0.592,3.607
-santa_cruz,2026-08-04,Cuidado del Hogar,1.422,1.422,2.907
+santa_cruz,2026-08-04,Cuidado del Hogar,1.422,1.422,2.859
 santa_cruz,2026-08-04,Farmacia Otc,,,
 santa_cruz,2026-08-04,Fiambres,0.160,0.160,1.193
-santa_cruz,2026-08-04,Frutas y Verduras,0.769,0.665,1.079
+santa_cruz,2026-08-04,Frutas y Verduras,0.769,0.669,1.035
 santa_cruz,2026-08-04,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-04,Lácteos y Derivados,0.364,0.364,1.509
 santa_cruz,2026-08-04,Panadería,0.373,0.373,0.373
@@ -33070,19 +33070,19 @@ la_paz,2026-08-05,Granos y Hortalizas,0.111,-0.903,0.111
 la_paz,2026-08-05,Lácteos y Derivados,-0.084,-0.084,0.141
 la_paz,2026-08-05,Panadería,0.315,0.315,0.315
 la_paz,2026-08-05,Pastelería y Masas Típicas,0.405,0.405,1.436
-santa_cruz,2026-08-05,Abarrotes,0.407,0.407,1.582
+santa_cruz,2026-08-05,Abarrotes,0.407,0.407,1.385
 santa_cruz,2026-08-05,Bazar,0.936,0.936,4.635
-santa_cruz,2026-08-05,Bebidas,0.354,0.354,0.907
+santa_cruz,2026-08-05,Bebidas,0.354,0.354,0.762
 santa_cruz,2026-08-05,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-05,Carnes,15.568,13.734,16.921
-santa_cruz,2026-08-05,Compuesto,0.883,0.793,2.088
+santa_cruz,2026-08-05,Compuesto,0.883,0.828,2.028
 santa_cruz,2026-08-05,Congelados,0.512,0.512,2.535
-santa_cruz,2026-08-05,Cuidado Personal,1.515,1.075,3.277
+santa_cruz,2026-08-05,Cuidado Personal,1.515,1.515,2.999
 santa_cruz,2026-08-05,Cuidado del Bebé,0.979,0.394,3.455
-santa_cruz,2026-08-05,Cuidado del Hogar,1.446,1.446,2.951
+santa_cruz,2026-08-05,Cuidado del Hogar,1.446,1.446,2.903
 santa_cruz,2026-08-05,Farmacia Otc,,,
 santa_cruz,2026-08-05,Fiambres,0.079,0.079,1.120
-santa_cruz,2026-08-05,Frutas y Verduras,0.769,0.655,1.108
+santa_cruz,2026-08-05,Frutas y Verduras,0.769,0.662,1.052
 santa_cruz,2026-08-05,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-05,Lácteos y Derivados,0.293,0.293,1.486
 santa_cruz,2026-08-05,Panadería,0.373,0.373,0.373
@@ -33117,19 +33117,19 @@ la_paz,2026-08-06,Granos y Hortalizas,0.111,-1.112,0.111
 la_paz,2026-08-06,Lácteos y Derivados,-0.178,-0.178,0.051
 la_paz,2026-08-06,Panadería,0.340,0.340,0.340
 la_paz,2026-08-06,Pastelería y Masas Típicas,0.409,0.409,1.486
-santa_cruz,2026-08-06,Abarrotes,0.430,0.430,1.629
+santa_cruz,2026-08-06,Abarrotes,0.430,0.430,1.427
 santa_cruz,2026-08-06,Bazar,0.936,0.936,4.637
-santa_cruz,2026-08-06,Bebidas,0.346,0.346,0.912
+santa_cruz,2026-08-06,Bebidas,0.346,0.346,0.764
 santa_cruz,2026-08-06,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-06,Carnes,16.652,14.800,18.017
-santa_cruz,2026-08-06,Compuesto,0.845,0.754,2.071
+santa_cruz,2026-08-06,Compuesto,0.845,0.789,2.009
 santa_cruz,2026-08-06,Congelados,0.336,0.336,2.362
-santa_cruz,2026-08-06,Cuidado Personal,1.520,1.072,3.316
+santa_cruz,2026-08-06,Cuidado Personal,1.520,1.520,3.028
 santa_cruz,2026-08-06,Cuidado del Bebé,1.167,0.571,3.693
-santa_cruz,2026-08-06,Cuidado del Hogar,1.375,1.375,2.899
+santa_cruz,2026-08-06,Cuidado del Hogar,1.375,1.375,2.850
 santa_cruz,2026-08-06,Farmacia Otc,,,
 santa_cruz,2026-08-06,Fiambres,0.233,0.233,1.284
-santa_cruz,2026-08-06,Frutas y Verduras,0.769,0.646,1.137
+santa_cruz,2026-08-06,Frutas y Verduras,0.769,0.656,1.068
 santa_cruz,2026-08-06,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-06,Lácteos y Derivados,-0.093,-0.093,1.164
 santa_cruz,2026-08-06,Panadería,0.373,0.373,0.373
@@ -33164,19 +33164,19 @@ la_paz,2026-08-07,Granos y Hortalizas,0.111,-1.320,0.111
 la_paz,2026-08-07,Lácteos y Derivados,-0.151,-0.151,0.085
 la_paz,2026-08-07,Panadería,0.339,0.339,0.339
 la_paz,2026-08-07,Pastelería y Masas Típicas,0.409,0.409,1.538
-santa_cruz,2026-08-07,Abarrotes,0.587,0.587,1.811
+santa_cruz,2026-08-07,Abarrotes,0.587,0.587,1.605
 santa_cruz,2026-08-07,Bazar,0.936,0.936,4.639
-santa_cruz,2026-08-07,Bebidas,0.290,0.290,0.869
+santa_cruz,2026-08-07,Bebidas,0.290,0.290,0.718
 santa_cruz,2026-08-07,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-07,Carnes,16.652,14.800,18.017
-santa_cruz,2026-08-07,Compuesto,0.892,0.799,2.143
+santa_cruz,2026-08-07,Compuesto,0.892,0.836,2.079
 santa_cruz,2026-08-07,Congelados,0.335,0.335,2.371
-santa_cruz,2026-08-07,Cuidado Personal,1.666,1.208,3.501
+santa_cruz,2026-08-07,Cuidado Personal,1.666,1.666,3.203
 santa_cruz,2026-08-07,Cuidado del Bebé,1.265,0.658,3.837
-santa_cruz,2026-08-07,Cuidado del Hogar,1.520,1.520,3.069
+santa_cruz,2026-08-07,Cuidado del Hogar,1.520,1.520,3.019
 santa_cruz,2026-08-07,Farmacia Otc,,,
 santa_cruz,2026-08-07,Fiambres,0.233,0.233,1.311
-santa_cruz,2026-08-07,Frutas y Verduras,0.769,0.636,1.166
+santa_cruz,2026-08-07,Frutas y Verduras,0.769,0.650,1.085
 santa_cruz,2026-08-07,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-07,Lácteos y Derivados,-0.079,-0.079,1.253
 santa_cruz,2026-08-07,Panadería,0.373,0.373,0.373
@@ -33211,20 +33211,67 @@ la_paz,2026-08-08,Granos y Hortalizas,0.111,-1.528,0.111
 la_paz,2026-08-08,Lácteos y Derivados,-0.151,-0.151,0.097
 la_paz,2026-08-08,Panadería,0.339,0.339,0.339
 la_paz,2026-08-08,Pastelería y Masas Típicas,0.409,0.409,1.594
-santa_cruz,2026-08-08,Abarrotes,0.599,0.599,1.847
+santa_cruz,2026-08-08,Abarrotes,0.599,0.599,1.637
 santa_cruz,2026-08-08,Bazar,0.936,0.936,4.641
-santa_cruz,2026-08-08,Bebidas,0.290,0.290,0.882
+santa_cruz,2026-08-08,Bebidas,0.290,0.290,0.728
 santa_cruz,2026-08-08,CUDADOS OTC,-1.497,,
 santa_cruz,2026-08-08,Carnes,15.902,14.062,17.259
-santa_cruz,2026-08-08,Compuesto,0.871,0.776,2.149
+santa_cruz,2026-08-08,Compuesto,0.871,0.813,2.083
 santa_cruz,2026-08-08,Congelados,0.335,0.335,2.385
-santa_cruz,2026-08-08,Cuidado Personal,1.667,1.200,3.541
+santa_cruz,2026-08-08,Cuidado Personal,1.667,1.667,3.232
 santa_cruz,2026-08-08,Cuidado del Bebé,1.265,0.647,3.882
-santa_cruz,2026-08-08,Cuidado del Hogar,1.541,1.541,3.115
+santa_cruz,2026-08-08,Cuidado del Hogar,1.541,1.541,3.065
 santa_cruz,2026-08-08,Farmacia Otc,,,
 santa_cruz,2026-08-08,Fiambres,0.233,0.233,1.337
-santa_cruz,2026-08-08,Frutas y Verduras,0.401,0.255,0.834
+santa_cruz,2026-08-08,Frutas y Verduras,0.401,0.275,0.732
 santa_cruz,2026-08-08,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-08-08,Lácteos y Derivados,-0.109,-0.109,1.312
 santa_cruz,2026-08-08,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-08,Pastelería y Masas Típicas,0.482,0.483,0.561
+cochabamba,2026-08-09,Abarrotes,0.075,0.075,0.920
+cochabamba,2026-08-09,Bazar,0.438,0.438,2.789
+cochabamba,2026-08-09,Bebidas,-0.275,-0.275,0.338
+cochabamba,2026-08-09,Carnes,12.856,9.609,18.819
+cochabamba,2026-08-09,Compuesto,0.545,0.265,2.202
+cochabamba,2026-08-09,Congelados,0.641,0.641,0.898
+cochabamba,2026-08-09,Cuidado Personal,0.595,0.397,1.925
+cochabamba,2026-08-09,Cuidado del Bebé,1.135,-1.561,6.097
+cochabamba,2026-08-09,Cuidado del Hogar,-0.766,-0.766,0.341
+cochabamba,2026-08-09,Fiambres,0.100,0.100,3.196
+cochabamba,2026-08-09,Frutas y Verduras,1.851,-2.921,10.757
+cochabamba,2026-08-09,Granos y Hortalizas,,,
+cochabamba,2026-08-09,Lácteos y Derivados,0.860,0.860,1.792
+cochabamba,2026-08-09,Panadería,0.253,0.253,0.303
+cochabamba,2026-08-09,Pastelería y Masas Típicas,0.359,0.363,0.425
+la_paz,2026-08-09,Abarrotes,-0.006,-0.006,0.443
+la_paz,2026-08-09,Bazar,0.419,0.419,6.517
+la_paz,2026-08-09,Bebidas,0.164,0.164,0.319
+la_paz,2026-08-09,Carnes,16.415,12.834,25.350
+la_paz,2026-08-09,Compuesto,0.945,0.606,2.712
+la_paz,2026-08-09,Congelados,0.197,0.197,0.609
+la_paz,2026-08-09,Cuidado Personal,0.354,-0.249,2.472
+la_paz,2026-08-09,Cuidado del Bebé,-0.264,-2.514,1.098
+la_paz,2026-08-09,Cuidado del Hogar,-0.837,-0.837,1.137
+la_paz,2026-08-09,Fiambres,-0.060,-0.060,2.773
+la_paz,2026-08-09,Frutas y Verduras,-1.188,-1.106,-0.672
+la_paz,2026-08-09,Granos y Hortalizas,0.111,-1.736,0.111
+la_paz,2026-08-09,Lácteos y Derivados,-0.151,-0.151,0.129
+la_paz,2026-08-09,Panadería,0.339,0.339,0.339
+la_paz,2026-08-09,Pastelería y Masas Típicas,0.409,0.409,1.654
+santa_cruz,2026-08-09,Abarrotes,0.599,0.599,1.656
+santa_cruz,2026-08-09,Bazar,0.936,0.936,4.656
+santa_cruz,2026-08-09,Bebidas,0.290,0.290,0.739
+santa_cruz,2026-08-09,CUDADOS OTC,-1.497,,
+santa_cruz,2026-08-09,Carnes,15.902,14.062,17.259
+santa_cruz,2026-08-09,Compuesto,0.871,0.813,2.111
+santa_cruz,2026-08-09,Congelados,0.335,0.335,2.404
+santa_cruz,2026-08-09,Cuidado Personal,1.667,1.667,3.265
+santa_cruz,2026-08-09,Cuidado del Bebé,1.265,0.637,3.927
+santa_cruz,2026-08-09,Cuidado del Hogar,1.541,1.541,3.090
+santa_cruz,2026-08-09,Farmacia Otc,,,
+santa_cruz,2026-08-09,Fiambres,0.233,0.233,1.372
+santa_cruz,2026-08-09,Frutas y Verduras,0.401,0.269,0.748
+santa_cruz,2026-08-09,Granos y Hortalizas,0.072,0.072,0.072
+santa_cruz,2026-08-09,Lácteos y Derivados,-0.109,-0.109,1.411
+santa_cruz,2026-08-09,Panadería,0.373,0.373,0.373
+santa_cruz,2026-08-09,Pastelería y Masas Típicas,0.482,0.484,0.567
