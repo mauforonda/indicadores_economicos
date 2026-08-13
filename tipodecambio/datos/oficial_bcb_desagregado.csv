@@ -8,13 +8,13 @@ fecha,banco,valor,monto
 2026-06-29,Banco Solidario,9.63,105300.0
 2026-06-29,Banco Unión,9.05,650.0
 2026-06-29,Banco de Crédito,9.46,21481.0
-2026-06-29,Banco de la Nación Argentina,9.70,7425.0
+2026-06-29,Banco de la Nación Argentina,9.7,7425.0
 2026-06-30,Banco BISA,9.73,2707410.0
 2026-06-30,Banco Económico,9.79,418104.0
 2026-06-30,Banco FIE,9.73,105419.0
 2026-06-30,Banco Fortaleza,9.73,123435.0
-2026-06-30,Banco Ganadero,9.70,1721370.0
-2026-06-30,Banco Mercantil Santa Cruz,9.80,9831975.0
+2026-06-30,Banco Ganadero,9.7,1721370.0
+2026-06-30,Banco Mercantil Santa Cruz,9.8,9831975.0
 2026-06-30,Banco Nacional de Bolivia,9.59,1421597.0
 2026-06-30,Banco PYME Ecofuturo,9.73,730.0
 2026-06-30,Banco PYME de la Comunidad,9.73,7544.0
@@ -67,32 +67,32 @@ fecha,banco,valor,monto
 2026-07-03,Banco de la Nación Argentina,9.77,27711.0
 2026-07-04,Banco BISA,9.84,2150476.0
 2026-07-04,Banco Económico,9.89,1754919.0
-2026-07-04,Banco FIE,9.70,761.0
+2026-07-04,Banco FIE,9.7,761.0
 2026-07-04,Banco Fortaleza,9.81,1133622.0
 2026-07-04,Banco Ganadero,9.81,8446426.0
 2026-07-04,Banco Mercantil Santa Cruz,9.84,3817857.0
-2026-07-04,Banco Nacional de Bolivia,9.80,2165993.0
-2026-07-04,Banco PYME Ecofuturo,9.40,3815.0
-2026-07-04,Banco PYME de la Comunidad,9.80,64.0
-2026-07-04,Banco Prodem,9.70,18491.0
+2026-07-04,Banco Nacional de Bolivia,9.8,2165993.0
+2026-07-04,Banco PYME Ecofuturo,9.4,3815.0
+2026-07-04,Banco PYME de la Comunidad,9.8,64.0
+2026-07-04,Banco Prodem,9.7,18491.0
 2026-07-04,Banco Solidario,9.85,802413.0
-2026-07-04,Banco Unión,9.80,318733.0
+2026-07-04,Banco Unión,9.8,318733.0
 2026-07-04,Banco de Crédito,9.88,1465788.0
-2026-07-04,Banco de la Nación Argentina,9.70,11336.0
+2026-07-04,Banco de la Nación Argentina,9.7,11336.0
 2026-07-07,Banco BISA,9.88,3646488.0
 2026-07-07,Banco Económico,9.89,1198507.0
 2026-07-07,Banco FIE,9.73,15603.0
 2026-07-07,Banco Fortaleza,9.76,13299.0
 2026-07-07,Banco Ganadero,9.71,1696172.0
-2026-07-07,Banco Mercantil Santa Cruz,10.00,2540863.0
-2026-07-07,Banco Nacional de Bolivia,9.80,153596.0
+2026-07-07,Banco Mercantil Santa Cruz,10.0,2540863.0
+2026-07-07,Banco Nacional de Bolivia,9.8,153596.0
 2026-07-07,Banco PYME Ecofuturo,9.43,47414.0
 2026-07-07,Banco PYME de la Comunidad,9.83,7049.0
 2026-07-07,Banco Prodem,9.73,4406.0
-2026-07-07,Banco Solidario,9.90,962170.0
+2026-07-07,Banco Solidario,9.9,962170.0
 2026-07-07,Banco Unión,9.83,180125.0
 2026-07-07,Banco de Crédito,9.93,1393544.0
-2026-07-07,Banco de la Nación Argentina,9.80,17609.0
+2026-07-07,Banco de la Nación Argentina,9.8,17609.0
 2026-07-08,Banco BISA,9.97,5791895.0
 2026-07-08,Banco Económico,9.99,1336920.0
 2026-07-08,Banco FIE,9.79,14763.0
@@ -123,23 +123,23 @@ fecha,banco,valor,monto
 2026-07-09,Banco de la Nación Argentina,9.86,3320.0
 2026-07-10,Banco BISA,10.23,3902015.0
 2026-07-10,Banco Económico,10.24,724752.0
-2026-07-10,Banco FIE,10.00,31651.0
-2026-07-10,Banco Fortaleza,7.50,1814.0
+2026-07-10,Banco FIE,10.0,31651.0
+2026-07-10,Banco Fortaleza,7.5,1814.0
 2026-07-10,Banco Ganadero,10.13,4104284.0
 2026-07-10,Banco Mercantil Santa Cruz,10.28,9884451.0
 2026-07-10,Banco Nacional de Bolivia,10.14,3667634.0
-2026-07-10,Banco PYME Ecofuturo,9.70,10.0
-2026-07-10,Banco PYME de la Comunidad,10.10,570.0
-2026-07-10,Banco Prodem,10.00,70219.0
+2026-07-10,Banco PYME Ecofuturo,9.7,10.0
+2026-07-10,Banco PYME de la Comunidad,10.1,570.0
+2026-07-10,Banco Prodem,10.0,70219.0
 2026-07-10,Banco Solidario,10.38,2131145.0
-2026-07-10,Banco Unión,10.10,59816.0
+2026-07-10,Banco Unión,10.1,59816.0
 2026-07-10,Banco de Crédito,10.26,5187313.0
-2026-07-10,Banco de la Nación Argentina,10.00,2932.0
+2026-07-10,Banco de la Nación Argentina,10.0,2932.0
 2026-07-11,Banco BISA,10.38,8250425.0
 2026-07-11,Banco Económico,10.54,3806369.0
 2026-07-11,Banco FIE,10.19,4985.0
 2026-07-11,Banco Fortaleza,10.27,48871.0
-2026-07-11,Banco Ganadero,10.30,3484965.0
+2026-07-11,Banco Ganadero,10.3,3484965.0
 2026-07-11,Banco Mercantil Santa Cruz,10.33,800634.0
 2026-07-11,Banco Nacional de Bolivia,10.24,10288924.0
 2026-07-11,Banco PYME Ecofuturo,9.84,112.0
@@ -152,49 +152,49 @@ fecha,banco,valor,monto
 2026-07-14,Banco BISA,10.53,2289085.0
 2026-07-14,Banco Económico,10.53,432291.0
 2026-07-14,Banco FIE,10.49,398680.0
-2026-07-14,Banco Fortaleza,10.40,70.0
+2026-07-14,Banco Fortaleza,10.4,70.0
 2026-07-14,Banco Ganadero,10.11,1560817.0
 2026-07-14,Banco Mercantil Santa Cruz,10.66,3619878.0
 2026-07-14,Banco Nacional de Bolivia,10.34,442571.0
-2026-07-14,Banco PYME Ecofuturo,10.00,99.0
-2026-07-14,Banco PYME de la Comunidad,10.40,252.0
-2026-07-14,Banco Prodem,10.30,19587.0
+2026-07-14,Banco PYME Ecofuturo,10.0,99.0
+2026-07-14,Banco PYME de la Comunidad,10.4,252.0
+2026-07-14,Banco Prodem,10.3,19587.0
 2026-07-14,Banco Solidario,10.55,2250803.0
-2026-07-14,Banco Unión,10.40,254558.0
+2026-07-14,Banco Unión,10.4,254558.0
 2026-07-14,Banco de Crédito,10.38,256829.0
 2026-07-14,Banco de la Nación Argentina,10.35,2526.0
 2026-07-15,Banco BISA,10.59,11966870.0
 2026-07-15,Banco Económico,10.72,2962605.0
-2026-07-15,Banco FIE,10.80,2222232.0
-2026-07-15,Banco Fortaleza,10.70,50545.0
+2026-07-15,Banco FIE,10.8,2222232.0
+2026-07-15,Banco Fortaleza,10.7,50545.0
 2026-07-15,Banco Ganadero,10.58,5196937.0
 2026-07-15,Banco Mercantil Santa Cruz,10.81,14928796.0
-2026-07-15,Banco Nacional de Bolivia,10.40,392776.0
-2026-07-15,Banco PYME Ecofuturo,10.10,1146.0
-2026-07-15,Banco PYME de la Comunidad,10.50,2129.0
-2026-07-15,Banco Prodem,10.40,11639.0
+2026-07-15,Banco Nacional de Bolivia,10.4,392776.0
+2026-07-15,Banco PYME Ecofuturo,10.1,1146.0
+2026-07-15,Banco PYME de la Comunidad,10.5,2129.0
+2026-07-15,Banco Prodem,10.4,11639.0
 2026-07-15,Banco Solidario,10.52,316661.0
-2026-07-15,Banco Unión,10.50,104882.0
+2026-07-15,Banco Unión,10.5,104882.0
 2026-07-15,Banco de Crédito,10.73,4822134.0
 2026-07-15,Banco de la Nación Argentina,10.43,9320.0
 2026-07-17,Banco BISA,10.71,302164.0
 2026-07-17,Banco Económico,10.67,457222.0
-2026-07-17,Banco FIE,10.60,4732.0
+2026-07-17,Banco FIE,10.6,4732.0
 2026-07-17,Banco Fortaleza,10.77,654089.0
 2026-07-17,Banco Ganadero,10.69,7088776.0
 2026-07-17,Banco Mercantil Santa Cruz,10.69,934189.0
 2026-07-17,Banco Nacional de Bolivia,10.75,2835854.0
-2026-07-17,Banco PYME Ecofuturo,10.30,600.0
-2026-07-17,Banco PYME de la Comunidad,10.70,1074.0
-2026-07-17,Banco Prodem,10.60,13772.0
-2026-07-17,Banco Solidario,10.90,2004616.0
-2026-07-17,Banco Unión,10.70,543561.0
+2026-07-17,Banco PYME Ecofuturo,10.3,600.0
+2026-07-17,Banco PYME de la Comunidad,10.7,1074.0
+2026-07-17,Banco Prodem,10.6,13772.0
+2026-07-17,Banco Solidario,10.9,2004616.0
+2026-07-17,Banco Unión,10.7,543561.0
 2026-07-17,Banco de Crédito,10.84,3198820.0
 2026-07-17,Banco de la Nación Argentina,10.69,89048.0
 2026-07-18,Banco BISA,10.93,8439237.0
 2026-07-18,Banco Económico,10.75,39890.0
 2026-07-18,Banco FIE,10.65,5701.0
-2026-07-18,Banco Fortaleza,10.80,812621.0
+2026-07-18,Banco Fortaleza,10.8,812621.0
 2026-07-18,Banco Ganadero,10.88,10013630.0
 2026-07-18,Banco Mercantil Santa Cruz,10.82,6464449.0
 2026-07-18,Banco Nacional de Bolivia,10.75,7903358.0
@@ -216,35 +216,35 @@ fecha,banco,valor,monto
 2026-07-21,Banco PYME de la Comunidad,10.85,457.0
 2026-07-21,Banco Prodem,10.75,3923.0
 2026-07-21,Banco Solidario,11.01,695397.0
-2026-07-21,Banco Unión,10.90,838491.0
-2026-07-21,Banco de Crédito,10.90,1724580.0
+2026-07-21,Banco Unión,10.9,838491.0
+2026-07-21,Banco de Crédito,10.9,1724580.0
 2026-07-21,Banco de la Nación Argentina,10.76,2739.0
-2026-07-22,Banco BISA,11.00,8519844.0
-2026-07-22,Banco Económico,10.80,10840.0
-2026-07-22,Banco FIE,10.90,427580.0
+2026-07-22,Banco BISA,11.0,8519844.0
+2026-07-22,Banco Económico,10.8,10840.0
+2026-07-22,Banco FIE,10.9,427580.0
 2026-07-22,Banco Fortaleza,10.96,101420.0
 2026-07-22,Banco Ganadero,10.98,4328290.0
 2026-07-22,Banco Mercantil Santa Cruz,10.91,664484.0
 2026-07-22,Banco Nacional de Bolivia,10.91,1157721.0
-2026-07-22,Banco PYME Ecofuturo,10.90,200187.0
-2026-07-22,Banco PYME de la Comunidad,10.90,1676.0
-2026-07-22,Banco Prodem,10.80,6503.0
+2026-07-22,Banco PYME Ecofuturo,10.9,200187.0
+2026-07-22,Banco PYME de la Comunidad,10.9,1676.0
+2026-07-22,Banco Prodem,10.8,6503.0
 2026-07-22,Banco Solidario,11.06,7887965.0
-2026-07-22,Banco Unión,10.90,619773.0
+2026-07-22,Banco Unión,10.9,619773.0
 2026-07-22,Banco de Crédito,11.06,840759.0
 2026-07-22,Banco de la Nación Argentina,10.96,55805.0
-2026-07-23,Banco BISA,11.00,8519844.0
-2026-07-23,Banco Económico,10.80,10840.0
-2026-07-23,Banco FIE,10.90,427580.0
+2026-07-23,Banco BISA,11.0,8519844.0
+2026-07-23,Banco Económico,10.8,10840.0
+2026-07-23,Banco FIE,10.9,427580.0
 2026-07-23,Banco Fortaleza,10.96,101420.0
 2026-07-23,Banco Ganadero,10.98,4328290.0
 2026-07-23,Banco Mercantil Santa Cruz,10.91,664484.0
 2026-07-23,Banco Nacional de Bolivia,10.91,1157721.0
-2026-07-23,Banco PYME Ecofuturo,10.90,200187.0
-2026-07-23,Banco PYME de la Comunidad,10.90,1676.0
-2026-07-23,Banco Prodem,10.80,6503.0
+2026-07-23,Banco PYME Ecofuturo,10.9,200187.0
+2026-07-23,Banco PYME de la Comunidad,10.9,1676.0
+2026-07-23,Banco Prodem,10.8,6503.0
 2026-07-23,Banco Solidario,11.06,7887965.0
-2026-07-23,Banco Unión,10.90,619773.0
+2026-07-23,Banco Unión,10.9,619773.0
 2026-07-23,Banco de Crédito,11.06,840759.0
 2026-07-23,Banco de la Nación Argentina,10.96,55805.0
 2026-07-24,Banco BISA,11.22,10524285.0
@@ -262,7 +262,7 @@ fecha,banco,valor,monto
 2026-07-24,Banco de Crédito,11.18,556143.0
 2026-07-24,Banco de la Nación Argentina,11.03,20972.0
 2026-07-25,Banco BISA,11.38,12716265.0
-2026-07-25,Banco Económico,11.50,1922257.0
+2026-07-25,Banco Económico,11.5,1922257.0
 2026-07-25,Banco FIE,11.11,3355.0
 2026-07-25,Banco Fortaleza,11.33,986507.0
 2026-07-25,Banco Ganadero,11.38,9615144.0
@@ -305,16 +305,16 @@ fecha,banco,valor,monto
 2026-07-29,Banco de la Nación Argentina,11.51,24807.0
 2026-07-30,Banco BISA,12.01,8978675.0
 2026-07-30,Banco Económico,11.96,1308703.0
-2026-07-30,Banco FIE,11.70,3769.0
+2026-07-30,Banco FIE,11.7,3769.0
 2026-07-30,Banco Fortaleza,11.82,329802.0
 2026-07-30,Banco Ganadero,11.82,3801257.0
 2026-07-30,Banco Mercantil Santa Cruz,11.92,3788154.0
 2026-07-30,Banco Nacional de Bolivia,11.77,12769237.0
-2026-07-30,Banco PYME Ecofuturo,11.40,102330.0
-2026-07-30,Banco PYME de la Comunidad,11.80,6397.0
-2026-07-30,Banco Prodem,11.70,25950.0
+2026-07-30,Banco PYME Ecofuturo,11.4,102330.0
+2026-07-30,Banco PYME de la Comunidad,11.8,6397.0
+2026-07-30,Banco Prodem,11.7,25950.0
 2026-07-30,Banco Solidario,11.96,1091580.0
-2026-07-30,Banco Unión,11.80,113341.0
+2026-07-30,Banco Unión,11.8,113341.0
 2026-07-30,Banco de Crédito,11.93,9214129.0
 2026-07-30,Banco de la Nación Argentina,11.92,126013.0
 2026-07-31,Banco BISA,12.16,13240160.0
@@ -322,7 +322,7 @@ fecha,banco,valor,monto
 2026-07-31,Banco FIE,12.04,525380.0
 2026-07-31,Banco Fortaleza,12.33,1244318.0
 2026-07-31,Banco Ganadero,12.15,11208390.0
-2026-07-31,Banco Mercantil Santa Cruz,12.00,2275041.0
+2026-07-31,Banco Mercantil Santa Cruz,12.0,2275041.0
 2026-07-31,Banco Nacional de Bolivia,11.95,1483401.0
 2026-07-31,Banco PYME Ecofuturo,11.49,660.0
 2026-07-31,Banco PYME de la Comunidad,11.89,5585.0
@@ -330,7 +330,7 @@ fecha,banco,valor,monto
 2026-07-31,Banco Solidario,12.07,556276.0
 2026-07-31,Banco Unión,12.09,913229.0
 2026-07-31,Banco de Crédito,12.24,7088267.0
-2026-07-31,Banco de la Nación Argentina,11.80,17861.0
+2026-07-31,Banco de la Nación Argentina,11.8,17861.0
 2026-08-01,Banco BISA,12.19,-
 2026-08-01,Banco Económico,12.05,-
 2026-08-01,Banco FIE,12.19,-
@@ -338,7 +338,7 @@ fecha,banco,valor,monto
 2026-08-01,Banco Ganadero,12.08,-
 2026-08-01,Banco Mercantil Santa Cruz,12.13,-
 2026-08-01,Banco Nacional de Bolivia,12.17,-
-2026-08-01,Banco PYME Ecofuturo,12.10,-
+2026-08-01,Banco PYME Ecofuturo,12.1,-
 2026-08-01,Banco PYME de la Comunidad,12.15,-
 2026-08-01,Banco Prodem,12.05,-
 2026-08-01,Banco Solidario,12.04,-
@@ -352,7 +352,7 @@ fecha,banco,valor,monto
 2026-08-02,Banco Ganadero,12.08,9927452.0
 2026-08-02,Banco Mercantil Santa Cruz,12.13,5698732.0
 2026-08-02,Banco Nacional de Bolivia,12.17,6795664.0
-2026-08-02,Banco PYME Ecofuturo,12.10,220289.0
+2026-08-02,Banco PYME Ecofuturo,12.1,220289.0
 2026-08-02,Banco PYME de la Comunidad,12.15,26442.0
 2026-08-02,Banco Prodem,12.05,76628.0
 2026-08-02,Banco Solidario,12.04,3173792.0
@@ -366,7 +366,7 @@ fecha,banco,valor,monto
 2026-08-03,Banco Ganadero,12.08,9927452.0
 2026-08-03,Banco Mercantil Santa Cruz,12.13,5698732.0
 2026-08-03,Banco Nacional de Bolivia,12.17,6795664.0
-2026-08-03,Banco PYME Ecofuturo,12.10,220289.0
+2026-08-03,Banco PYME Ecofuturo,12.1,220289.0
 2026-08-03,Banco PYME de la Comunidad,12.15,26442.0
 2026-08-03,Banco Prodem,12.05,76628.0
 2026-08-03,Banco Solidario,12.04,3173792.0
@@ -385,7 +385,7 @@ fecha,banco,valor,monto
 2026-08-04,Banco Prodem,12.03,43765.0
 2026-08-04,Banco Solidario,12.14,1577317.0
 2026-08-04,Banco Unión,12.14,5433130.0
-2026-08-04,Banco de Crédito,12.10,1976995.0
+2026-08-04,Banco de Crédito,12.1,1976995.0
 2026-08-04,Banco de la Nación Argentina,12.12,103665.0
 2026-08-05,Banco BISA,12.03,106804901.0
 2026-08-05,Banco Económico,11.92,4143980.0
@@ -397,10 +397,10 @@ fecha,banco,valor,monto
 2026-08-05,Banco PYME Ecofuturo,11.68,14353.0
 2026-08-05,Banco PYME de la Comunidad,12.08,26452.0
 2026-08-05,Banco Prodem,11.98,160064.0
-2026-08-05,Banco Solidario,12.00,3326125.0
+2026-08-05,Banco Solidario,12.0,3326125.0
 2026-08-05,Banco Unión,12.09,8717523.0
 2026-08-05,Banco de Crédito,11.97,1990108.0
-2026-08-05,Banco de la Nación Argentina,11.90,2533.0
+2026-08-05,Banco de la Nación Argentina,11.9,2533.0
 2026-08-06,Banco BISA,11.86,30301395.0
 2026-08-06,Banco Económico,11.88,1960611.0
 2026-08-06,Banco FIE,12.05,213463.0
@@ -413,7 +413,7 @@ fecha,banco,valor,monto
 2026-08-06,Banco Prodem,11.82,288044.0
 2026-08-06,Banco Solidario,11.85,1143658.0
 2026-08-06,Banco Unión,11.92,889618.0
-2026-08-06,Banco de Crédito,11.80,1650749.0
+2026-08-06,Banco de Crédito,11.8,1650749.0
 2026-08-06,Banco de la Nación Argentina,11.82,13769.0
 2026-08-07,Banco BISA,11.86,30301395.0
 2026-08-07,Banco Económico,11.88,1960611.0
@@ -427,7 +427,7 @@ fecha,banco,valor,monto
 2026-08-07,Banco Prodem,11.82,288044.0
 2026-08-07,Banco Solidario,11.85,1143658.0
 2026-08-07,Banco Unión,11.92,889618.0
-2026-08-07,Banco de Crédito,11.80,1650749.0
+2026-08-07,Banco de Crédito,11.8,1650749.0
 2026-08-07,Banco de la Nación Argentina,11.82,13769.0
 2026-08-08,Banco BISA,11.86,30301395.0
 2026-08-08,Banco Económico,11.88,1960611.0
@@ -441,7 +441,7 @@ fecha,banco,valor,monto
 2026-08-08,Banco Prodem,11.82,288044.0
 2026-08-08,Banco Solidario,11.85,1143658.0
 2026-08-08,Banco Unión,11.92,889618.0
-2026-08-08,Banco de Crédito,11.80,1650749.0
+2026-08-08,Banco de Crédito,11.8,1650749.0
 2026-08-08,Banco de la Nación Argentina,11.82,13769.0
 2026-08-09,Banco BISA,11.86,30301395.0
 2026-08-09,Banco Económico,11.88,1960611.0
@@ -455,7 +455,7 @@ fecha,banco,valor,monto
 2026-08-09,Banco Prodem,11.82,288044.0
 2026-08-09,Banco Solidario,11.85,1143658.0
 2026-08-09,Banco Unión,11.92,889618.0
-2026-08-09,Banco de Crédito,11.80,1650749.0
+2026-08-09,Banco de Crédito,11.8,1650749.0
 2026-08-09,Banco de la Nación Argentina,11.82,13769.0
 2026-08-10,Banco BISA,11.86,30301395.0
 2026-08-10,Banco Económico,11.88,1960611.0
@@ -469,10 +469,10 @@ fecha,banco,valor,monto
 2026-08-10,Banco Prodem,11.82,288044.0
 2026-08-10,Banco Solidario,11.85,1143658.0
 2026-08-10,Banco Unión,11.92,889618.0
-2026-08-10,Banco de Crédito,11.80,1650749.0
+2026-08-10,Banco de Crédito,11.8,1650749.0
 2026-08-10,Banco de la Nación Argentina,11.82,13769.0
 2026-08-11,Banco BISA,11.76,19752071.0
-2026-08-11,Banco Económico,11.10,48413.0
+2026-08-11,Banco Económico,11.1,48413.0
 2026-08-11,Banco FIE,11.76,347302.0
 2026-08-11,Banco Fortaleza,11.74,30067.0
 2026-08-11,Banco Ganadero,11.82,26287525.0
@@ -488,7 +488,7 @@ fecha,banco,valor,monto
 2026-08-12,Banco BISA,11.73,72570741.0
 2026-08-12,Banco Económico,11.65,718615.0
 2026-08-12,Banco FIE,11.71,909124.0
-2026-08-12,Banco Fortaleza,11.60,148428.0
+2026-08-12,Banco Fortaleza,11.6,148428.0
 2026-08-12,Banco Ganadero,11.69,11845324.0
 2026-08-12,Banco Mercantil Santa Cruz,11.54,1133686.0
 2026-08-12,Banco Nacional de Bolivia,11.41,910171.0
@@ -497,5 +497,19 @@ fecha,banco,valor,monto
 2026-08-12,Banco Prodem,11.57,409921.0
 2026-08-12,Banco Solidario,11.76,5907069.0
 2026-08-12,Banco Unión,10.73,665315.0
-2026-08-12,Banco de Crédito,11.60,1028144.0
+2026-08-12,Banco de Crédito,11.6,1028144.0
 2026-08-12,Banco de la Nación Argentina,11.27,580.0
+2026-08-13,Banco BISA,11.69,12318126
+2026-08-13,Banco Económico,11.50,531240
+2026-08-13,Banco FIE,11.67,187612
+2026-08-13,Banco Fortaleza,11.61,2471870
+2026-08-13,Banco Ganadero,11.63,8382354
+2026-08-13,Banco Mercantil Santa Cruz,11.71,5048105
+2026-08-13,Banco Nacional de Bolivia,11.56,3082805
+2026-08-13,Banco PYME Ecofuturo,-,-
+2026-08-13,Banco PYME de la Comunidad,11.47,8462
+2026-08-13,Banco Prodem,11.41,271193
+2026-08-13,Banco Solidario,11.61,647140
+2026-08-13,Banco Unión,10.67,51181
+2026-08-13,Banco de Crédito,11.69,5910414
+2026-08-13,Banco de la Nación Argentina,11.21,1350
