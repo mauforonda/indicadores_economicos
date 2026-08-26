@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 NOW = pd.to_datetime('now').normalize()
-BASE_URL = 'https://www.bcb.gob.bo/tco_reporte_ultima_cotizacion.php'
+BASE_URL = 'https://www.bcb.gob.bo/bcb_tco_publico_ultima_cotizacion.php'
 MAPEO_BANCOS = {
     "banco_bisa": "Banco BISA",
     "banco_de_credito": "Banco de Crédito",
