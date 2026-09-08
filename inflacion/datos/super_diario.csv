@@ -32854,7 +32854,7 @@ santa_cruz,2026-07-31,Panadería,0.195,0.195,0.195
 santa_cruz,2026-07-31,Pastelería y Masas Típicas,0.487,0.483,0.487
 cochabamba,2026-08-01,Abarrotes,0.067,0.067,0.091
 cochabamba,2026-08-01,Bazar,0.231,0.231,0.310
-cochabamba,2026-08-01,Bebidas,0.388,0.388,0.410
+cochabamba,2026-08-01,Bebidas,0.388,0.388,0.400
 cochabamba,2026-08-01,Carnes,3.287,3.180,3.477
 cochabamba,2026-08-01,Compuesto,0.527,0.514,0.585
 cochabamba,2026-08-01,Congelados,0.757,0.757,0.765
@@ -32869,7 +32869,7 @@ cochabamba,2026-08-01,Panadería,0.255,0.255,0.255
 cochabamba,2026-08-01,Pastelería y Masas Típicas,0.577,0.577,0.577
 la_paz,2026-08-01,Abarrotes,-0.056,-0.056,-0.052
 la_paz,2026-08-01,Bazar,0.234,0.234,0.320
-la_paz,2026-08-01,Bebidas,0.343,0.343,0.345
+la_paz,2026-08-01,Bebidas,0.343,0.343,0.346
 la_paz,2026-08-01,Carnes,5.447,5.372,5.598
 la_paz,2026-08-01,Compuesto,0.443,0.433,0.478
 la_paz,2026-08-01,Congelados,0.384,0.384,0.394
@@ -32901,9 +32901,9 @@ santa_cruz,2026-08-01,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-01,Pastelería y Masas Típicas,0.487,0.487,0.487
 cochabamba,2026-08-02,Abarrotes,0.053,0.053,0.100
 cochabamba,2026-08-02,Bazar,0.438,0.438,0.598
-cochabamba,2026-08-02,Bebidas,0.333,0.333,0.377
+cochabamba,2026-08-02,Bebidas,0.333,0.333,0.359
 cochabamba,2026-08-02,Carnes,9.072,8.845,9.473
-cochabamba,2026-08-02,Compuesto,0.709,0.682,0.826
+cochabamba,2026-08-02,Compuesto,0.709,0.682,0.824
 cochabamba,2026-08-02,Congelados,0.783,0.783,0.802
 cochabamba,2026-08-02,Cuidado Personal,0.578,0.563,0.664
 cochabamba,2026-08-02,Cuidado del Bebé,-1.426,-1.481,-1.271
@@ -32916,7 +32916,7 @@ cochabamba,2026-08-02,Panadería,0.255,0.255,0.255
 cochabamba,2026-08-02,Pastelería y Masas Típicas,0.577,0.577,0.577
 la_paz,2026-08-02,Abarrotes,-0.033,-0.033,-0.025
 la_paz,2026-08-02,Bazar,0.419,0.419,0.591
-la_paz,2026-08-02,Bebidas,0.386,0.386,0.390
+la_paz,2026-08-02,Bebidas,0.386,0.386,0.392
 la_paz,2026-08-02,Carnes,5.447,5.298,5.749
 la_paz,2026-08-02,Compuesto,0.405,0.386,0.476
 la_paz,2026-08-02,Congelados,0.427,0.427,0.446
@@ -32948,9 +32948,9 @@ santa_cruz,2026-08-02,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-02,Pastelería y Masas Típicas,0.487,0.487,0.487
 cochabamba,2026-08-03,Abarrotes,-0.107,-0.107,-0.037
 cochabamba,2026-08-03,Bazar,0.438,0.438,0.678
-cochabamba,2026-08-03,Bebidas,-0.218,-0.218,-0.152
+cochabamba,2026-08-03,Bebidas,-0.218,-0.218,-0.180
 cochabamba,2026-08-03,Carnes,9.257,8.916,9.860
-cochabamba,2026-08-03,Compuesto,0.607,0.567,0.783
+cochabamba,2026-08-03,Compuesto,0.607,0.567,0.781
 cochabamba,2026-08-03,Congelados,0.750,0.750,0.779
 cochabamba,2026-08-03,Cuidado Personal,0.836,0.813,0.965
 cochabamba,2026-08-03,Cuidado del Bebé,-1.478,-1.561,-1.245
@@ -32963,7 +32963,7 @@ cochabamba,2026-08-03,Panadería,0.255,0.255,0.255
 cochabamba,2026-08-03,Pastelería y Masas Típicas,0.577,0.576,0.577
 la_paz,2026-08-03,Abarrotes,-0.227,-0.227,-0.215
 la_paz,2026-08-03,Bazar,0.419,0.419,0.677
-la_paz,2026-08-03,Bebidas,0.069,0.069,0.075
+la_paz,2026-08-03,Bebidas,0.069,0.069,0.078
 la_paz,2026-08-03,Carnes,6.205,5.981,6.663
 la_paz,2026-08-03,Compuesto,0.287,0.258,0.394
 la_paz,2026-08-03,Congelados,0.187,0.187,0.216
@@ -32995,9 +32995,9 @@ santa_cruz,2026-08-03,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-03,Pastelería y Masas Típicas,0.487,0.487,0.487
 cochabamba,2026-08-04,Abarrotes,-0.107,-0.107,-0.014
 cochabamba,2026-08-04,Bazar,0.438,0.438,0.758
-cochabamba,2026-08-04,Bebidas,-0.216,-0.216,-0.128
+cochabamba,2026-08-04,Bebidas,-0.216,-0.216,-0.165
 cochabamba,2026-08-04,Carnes,9.257,8.803,10.062
-cochabamba,2026-08-04,Compuesto,0.607,0.554,0.842
+cochabamba,2026-08-04,Compuesto,0.607,0.554,0.840
 cochabamba,2026-08-04,Congelados,0.750,0.750,0.790
 cochabamba,2026-08-04,Cuidado Personal,0.836,0.806,1.008
 cochabamba,2026-08-04,Cuidado del Bebé,-1.478,-1.589,-1.167
@@ -33010,7 +33010,7 @@ cochabamba,2026-08-04,Panadería,0.255,0.255,0.255
 cochabamba,2026-08-04,Pastelería y Masas Típicas,0.577,0.576,0.577
 la_paz,2026-08-04,Abarrotes,-0.227,-0.227,-0.210
 la_paz,2026-08-04,Bazar,0.419,0.419,0.764
-la_paz,2026-08-04,Bebidas,0.069,0.069,0.078
+la_paz,2026-08-04,Bebidas,0.069,0.069,0.081
 la_paz,2026-08-04,Carnes,6.205,5.906,6.815
 la_paz,2026-08-04,Compuesto,0.287,0.249,0.430
 la_paz,2026-08-04,Congelados,0.187,0.187,0.226
@@ -33042,9 +33042,9 @@ santa_cruz,2026-08-04,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-04,Pastelería y Masas Típicas,0.487,0.486,0.487
 cochabamba,2026-08-05,Abarrotes,0.058,0.058,0.175
 cochabamba,2026-08-05,Bazar,0.438,0.438,0.838
-cochabamba,2026-08-05,Bebidas,-0.238,-0.238,-0.128
+cochabamba,2026-08-05,Bebidas,-0.238,-0.238,-0.175
 cochabamba,2026-08-05,Carnes,11.807,11.227,12.839
-cochabamba,2026-08-05,Compuesto,0.676,0.609,0.971
+cochabamba,2026-08-05,Compuesto,0.676,0.609,0.967
 cochabamba,2026-08-05,Congelados,0.635,0.635,0.688
 cochabamba,2026-08-05,Cuidado Personal,0.698,0.660,0.915
 cochabamba,2026-08-05,Cuidado del Bebé,1.106,0.962,1.506
@@ -33057,9 +33057,9 @@ cochabamba,2026-08-05,Panadería,0.253,0.253,0.253
 cochabamba,2026-08-05,Pastelería y Masas Típicas,0.518,0.516,0.518
 la_paz,2026-08-05,Abarrotes,-0.053,-0.053,-0.031
 la_paz,2026-08-05,Bazar,0.419,0.419,0.850
-la_paz,2026-08-05,Bebidas,0.146,0.146,0.158
+la_paz,2026-08-05,Bebidas,0.146,0.146,0.162
 la_paz,2026-08-05,Carnes,9.863,9.475,10.652
-la_paz,2026-08-05,Compuesto,0.533,0.485,0.712
+la_paz,2026-08-05,Compuesto,0.533,0.485,0.713
 la_paz,2026-08-05,Congelados,0.113,0.113,0.161
 la_paz,2026-08-05,Cuidado Personal,0.545,0.444,0.804
 la_paz,2026-08-05,Cuidado del Bebé,-1.114,-1.511,-0.752
@@ -33089,9 +33089,9 @@ santa_cruz,2026-08-05,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-05,Pastelería y Masas Típicas,0.482,0.481,0.482
 cochabamba,2026-08-06,Abarrotes,0.058,0.058,0.199
 cochabamba,2026-08-06,Bazar,0.438,0.438,0.918
-cochabamba,2026-08-06,Bebidas,-0.268,-0.268,-0.134
+cochabamba,2026-08-06,Bebidas,-0.268,-0.268,-0.191
 cochabamba,2026-08-06,Carnes,12.939,12.235,14.190
-cochabamba,2026-08-06,Compuesto,0.566,0.486,0.921
+cochabamba,2026-08-06,Compuesto,0.566,0.486,0.917
 cochabamba,2026-08-06,Congelados,0.636,0.636,0.701
 cochabamba,2026-08-06,Cuidado Personal,0.593,0.547,0.856
 cochabamba,2026-08-06,Cuidado del Bebé,1.106,0.933,1.588
@@ -33104,7 +33104,7 @@ cochabamba,2026-08-06,Panadería,0.253,0.253,0.253
 cochabamba,2026-08-06,Pastelería y Masas Típicas,0.358,0.355,0.358
 la_paz,2026-08-06,Abarrotes,-0.050,-0.050,-0.021
 la_paz,2026-08-06,Bazar,0.419,0.419,0.937
-la_paz,2026-08-06,Bebidas,0.143,0.143,0.157
+la_paz,2026-08-06,Bebidas,0.143,0.143,0.162
 la_paz,2026-08-06,Carnes,15.882,15.392,16.882
 la_paz,2026-08-06,Compuesto,0.916,0.858,1.133
 la_paz,2026-08-06,Congelados,0.197,0.197,0.255
@@ -33136,9 +33136,9 @@ santa_cruz,2026-08-06,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-06,Pastelería y Masas Típicas,0.482,0.481,0.482
 cochabamba,2026-08-07,Abarrotes,0.053,0.053,0.218
 cochabamba,2026-08-07,Bazar,0.438,0.438,0.998
-cochabamba,2026-08-07,Bebidas,-0.268,-0.268,-0.112
+cochabamba,2026-08-07,Bebidas,-0.268,-0.268,-0.178
 cochabamba,2026-08-07,Carnes,13.553,12.729,15.023
-cochabamba,2026-08-07,Compuesto,0.562,0.469,0.977
+cochabamba,2026-08-07,Compuesto,0.562,0.469,0.972
 cochabamba,2026-08-07,Congelados,0.637,0.637,0.715
 cochabamba,2026-08-07,Cuidado Personal,0.590,0.536,0.899
 cochabamba,2026-08-07,Cuidado del Bebé,1.135,0.933,1.700
@@ -33151,7 +33151,7 @@ cochabamba,2026-08-07,Panadería,0.253,0.253,0.253
 cochabamba,2026-08-07,Pastelería y Masas Típicas,0.359,0.356,0.359
 la_paz,2026-08-07,Abarrotes,-0.050,-0.050,-0.015
 la_paz,2026-08-07,Bazar,0.419,0.419,1.023
-la_paz,2026-08-07,Bebidas,0.162,0.162,0.179
+la_paz,2026-08-07,Bebidas,0.162,0.162,0.184
 la_paz,2026-08-07,Carnes,16.384,15.810,17.556
 la_paz,2026-08-07,Compuesto,0.937,0.869,1.191
 la_paz,2026-08-07,Congelados,0.197,0.197,0.266
@@ -33183,9 +33183,9 @@ santa_cruz,2026-08-07,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-07,Pastelería y Masas Típicas,0.482,0.481,0.482
 cochabamba,2026-08-08,Abarrotes,0.075,0.075,0.265
 cochabamba,2026-08-08,Bazar,0.438,0.438,1.078
-cochabamba,2026-08-08,Bebidas,-0.275,-0.275,-0.097
+cochabamba,2026-08-08,Bebidas,-0.275,-0.275,-0.172
 cochabamba,2026-08-08,Carnes,12.856,11.919,14.526
-cochabamba,2026-08-08,Compuesto,0.545,0.438,1.019
+cochabamba,2026-08-08,Compuesto,0.545,0.438,1.013
 cochabamba,2026-08-08,Congelados,0.641,0.641,0.731
 cochabamba,2026-08-08,Cuidado Personal,0.595,0.533,0.950
 cochabamba,2026-08-08,Cuidado del Bebé,1.135,0.903,1.783
@@ -33198,9 +33198,9 @@ cochabamba,2026-08-08,Panadería,0.253,0.253,0.253
 cochabamba,2026-08-08,Pastelería y Masas Típicas,0.359,0.356,0.359
 la_paz,2026-08-08,Abarrotes,-0.006,-0.006,0.036
 la_paz,2026-08-08,Bazar,0.419,0.419,1.110
-la_paz,2026-08-08,Bebidas,0.164,0.164,0.183
+la_paz,2026-08-08,Bebidas,0.164,0.164,0.190
 la_paz,2026-08-08,Carnes,16.415,15.759,17.756
-la_paz,2026-08-08,Compuesto,0.945,0.868,1.236
+la_paz,2026-08-08,Compuesto,0.945,0.868,1.237
 la_paz,2026-08-08,Congelados,0.197,0.197,0.276
 la_paz,2026-08-08,Cuidado Personal,0.354,0.191,0.772
 la_paz,2026-08-08,Cuidado del Bebé,-0.264,-0.904,0.321
@@ -33230,9 +33230,9 @@ santa_cruz,2026-08-08,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-08,Pastelería y Masas Típicas,0.482,0.481,0.482
 cochabamba,2026-08-09,Abarrotes,0.075,0.075,0.291
 cochabamba,2026-08-09,Bazar,0.438,0.438,1.158
-cochabamba,2026-08-09,Bebidas,-0.275,-0.275,-0.075
+cochabamba,2026-08-09,Bebidas,-0.275,-0.275,-0.159
 cochabamba,2026-08-09,Carnes,12.856,11.803,14.737
-cochabamba,2026-08-09,Compuesto,0.545,0.425,1.080
+cochabamba,2026-08-09,Compuesto,0.545,0.425,1.073
 cochabamba,2026-08-09,Congelados,0.641,0.641,0.744
 cochabamba,2026-08-09,Cuidado Personal,0.595,0.525,0.997
 cochabamba,2026-08-09,Cuidado del Bebé,1.135,0.874,1.865
@@ -33245,9 +33245,9 @@ cochabamba,2026-08-09,Panadería,0.253,0.253,0.253
 cochabamba,2026-08-09,Pastelería y Masas Típicas,0.359,0.355,0.359
 la_paz,2026-08-09,Abarrotes,-0.006,-0.006,0.044
 la_paz,2026-08-09,Bazar,0.419,0.419,1.197
-la_paz,2026-08-09,Bebidas,0.164,0.164,0.187
+la_paz,2026-08-09,Bebidas,0.164,0.164,0.195
 la_paz,2026-08-09,Carnes,16.415,15.677,17.925
-la_paz,2026-08-09,Compuesto,0.945,0.858,1.274
+la_paz,2026-08-09,Compuesto,0.945,0.858,1.275
 la_paz,2026-08-09,Congelados,0.197,0.197,0.286
 la_paz,2026-08-09,Cuidado Personal,0.354,0.170,0.825
 la_paz,2026-08-09,Cuidado del Bebé,-0.264,-0.984,0.394
@@ -33277,9 +33277,9 @@ santa_cruz,2026-08-09,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-09,Pastelería y Masas Típicas,0.482,0.481,0.482
 cochabamba,2026-08-10,Abarrotes,0.164,0.164,0.407
 cochabamba,2026-08-10,Bazar,0.438,0.438,1.238
-cochabamba,2026-08-10,Bebidas,-0.171,-0.171,0.052
+cochabamba,2026-08-10,Bebidas,-0.171,-0.171,-0.042
 cochabamba,2026-08-10,Carnes,12.856,11.687,14.948
-cochabamba,2026-08-10,Compuesto,0.510,0.376,1.105
+cochabamba,2026-08-10,Compuesto,0.510,0.376,1.097
 cochabamba,2026-08-10,Congelados,0.642,0.642,0.758
 cochabamba,2026-08-10,Cuidado Personal,0.598,0.519,1.049
 cochabamba,2026-08-10,Cuidado del Bebé,1.559,1.267,2.375
@@ -33292,9 +33292,9 @@ cochabamba,2026-08-10,Panadería,0.253,0.253,0.253
 cochabamba,2026-08-10,Pastelería y Masas Típicas,0.359,0.355,0.359
 la_paz,2026-08-10,Abarrotes,0.044,0.044,0.102
 la_paz,2026-08-10,Bazar,0.419,0.419,1.284
-la_paz,2026-08-10,Bebidas,0.237,0.237,0.263
+la_paz,2026-08-10,Bebidas,0.237,0.237,0.272
 la_paz,2026-08-10,Carnes,15.842,15.027,17.512
-la_paz,2026-08-10,Compuesto,0.965,0.869,1.332
+la_paz,2026-08-10,Compuesto,0.965,0.869,1.333
 la_paz,2026-08-10,Congelados,0.203,0.203,0.303
 la_paz,2026-08-10,Cuidado Personal,0.371,0.166,0.896
 la_paz,2026-08-10,Cuidado del Bebé,0.066,-0.736,0.800
@@ -33324,9 +33324,9 @@ santa_cruz,2026-08-10,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-10,Pastelería y Masas Típicas,0.482,0.481,0.482
 cochabamba,2026-08-11,Abarrotes,0.164,0.164,0.435
 cochabamba,2026-08-11,Bazar,0.438,0.438,1.319
-cochabamba,2026-08-11,Bebidas,-0.171,-0.171,0.075
+cochabamba,2026-08-11,Bebidas,-0.171,-0.171,-0.029
 cochabamba,2026-08-11,Carnes,12.856,11.570,15.159
-cochabamba,2026-08-11,Compuesto,0.479,0.332,1.135
+cochabamba,2026-08-11,Compuesto,0.479,0.332,1.127
 cochabamba,2026-08-11,Congelados,0.642,0.642,0.771
 cochabamba,2026-08-11,Cuidado Personal,0.598,0.511,1.097
 cochabamba,2026-08-11,Cuidado del Bebé,1.559,1.234,2.465
@@ -33339,9 +33339,9 @@ cochabamba,2026-08-11,Panadería,0.253,0.252,0.253
 cochabamba,2026-08-11,Pastelería y Masas Típicas,0.359,0.355,0.359
 la_paz,2026-08-11,Abarrotes,0.044,0.044,0.111
 la_paz,2026-08-11,Bazar,0.419,0.419,1.371
-la_paz,2026-08-11,Bebidas,0.237,0.237,0.267
+la_paz,2026-08-11,Bebidas,0.237,0.237,0.277
 la_paz,2026-08-11,Carnes,15.842,14.945,17.681
-la_paz,2026-08-11,Compuesto,0.991,0.885,1.395
+la_paz,2026-08-11,Compuesto,0.991,0.885,1.396
 la_paz,2026-08-11,Congelados,0.203,0.203,0.313
 la_paz,2026-08-11,Cuidado Personal,0.371,0.145,0.950
 la_paz,2026-08-11,Cuidado del Bebé,0.066,-0.816,0.874
@@ -33371,9 +33371,9 @@ santa_cruz,2026-08-11,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-11,Pastelería y Masas Típicas,0.482,0.481,0.482
 cochabamba,2026-08-12,Abarrotes,0.159,0.159,0.459
 cochabamba,2026-08-12,Bazar,0.439,0.439,1.400
-cochabamba,2026-08-12,Bebidas,-0.194,-0.194,0.076
+cochabamba,2026-08-12,Bebidas,-0.194,-0.194,-0.038
 cochabamba,2026-08-12,Carnes,12.239,10.846,14.741
-cochabamba,2026-08-12,Compuesto,0.394,0.234,1.110
+cochabamba,2026-08-12,Compuesto,0.394,0.234,1.101
 cochabamba,2026-08-12,Congelados,0.552,0.552,0.693
 cochabamba,2026-08-12,Cuidado Personal,0.643,0.547,1.191
 cochabamba,2026-08-12,Cuidado del Bebé,1.559,1.202,2.556
@@ -33386,9 +33386,9 @@ cochabamba,2026-08-12,Panadería,0.253,0.252,0.253
 cochabamba,2026-08-12,Pastelería y Masas Típicas,0.359,0.354,0.359
 la_paz,2026-08-12,Abarrotes,0.064,0.064,0.139
 la_paz,2026-08-12,Bazar,0.422,0.422,1.461
-la_paz,2026-08-12,Bebidas,0.237,0.237,0.269
+la_paz,2026-08-12,Bebidas,0.237,0.237,0.281
 la_paz,2026-08-12,Carnes,15.851,14.874,17.859
-la_paz,2026-08-12,Compuesto,1.029,0.913,1.471
+la_paz,2026-08-12,Compuesto,1.029,0.913,1.472
 la_paz,2026-08-12,Congelados,0.204,0.204,0.324
 la_paz,2026-08-12,Cuidado Personal,0.394,0.147,1.027
 la_paz,2026-08-12,Cuidado del Bebé,0.066,-0.896,0.947
@@ -33418,9 +33418,9 @@ santa_cruz,2026-08-12,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-12,Pastelería y Masas Típicas,0.477,0.475,0.477
 cochabamba,2026-08-13,Abarrotes,0.447,0.447,0.776
 cochabamba,2026-08-13,Bazar,0.439,0.439,1.480
-cochabamba,2026-08-13,Bebidas,-0.180,-0.180,0.113
+cochabamba,2026-08-13,Bebidas,-0.180,-0.180,-0.011
 cochabamba,2026-08-13,Carnes,8.592,7.132,11.216
-cochabamba,2026-08-13,Compuesto,0.413,0.240,1.191
+cochabamba,2026-08-13,Compuesto,0.413,0.240,1.181
 cochabamba,2026-08-13,Congelados,0.529,0.529,0.683
 cochabamba,2026-08-13,Cuidado Personal,0.674,0.569,1.271
 cochabamba,2026-08-13,Cuidado del Bebé,1.439,1.051,2.526
@@ -33433,9 +33433,9 @@ cochabamba,2026-08-13,Panadería,0.253,0.252,0.253
 cochabamba,2026-08-13,Pastelería y Masas Típicas,0.359,0.354,0.359
 la_paz,2026-08-13,Abarrotes,0.316,0.316,0.404
 la_paz,2026-08-13,Bazar,0.422,0.422,1.548
-la_paz,2026-08-13,Bebidas,0.238,0.238,0.274
+la_paz,2026-08-13,Bebidas,0.238,0.238,0.287
 la_paz,2026-08-13,Carnes,12.232,11.206,14.341
-la_paz,2026-08-13,Compuesto,1.011,0.885,1.491
+la_paz,2026-08-13,Compuesto,1.011,0.885,1.493
 la_paz,2026-08-13,Congelados,0.204,0.204,0.335
 la_paz,2026-08-13,Cuidado Personal,0.495,0.227,1.183
 la_paz,2026-08-13,Cuidado del Bebé,0.280,-0.764,1.237
@@ -33465,9 +33465,9 @@ santa_cruz,2026-08-13,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-13,Pastelería y Masas Típicas,0.477,0.475,0.477
 cochabamba,2026-08-14,Abarrotes,0.550,0.550,0.911
 cochabamba,2026-08-14,Bazar,0.439,0.439,1.561
-cochabamba,2026-08-14,Bebidas,-0.185,-0.185,0.130
+cochabamba,2026-08-14,Bebidas,-0.185,-0.185,-0.003
 cochabamba,2026-08-14,Carnes,5.623,4.094,8.374
-cochabamba,2026-08-14,Compuesto,0.293,0.111,1.136
+cochabamba,2026-08-14,Compuesto,0.293,0.111,1.125
 cochabamba,2026-08-14,Congelados,0.529,0.529,0.696
 cochabamba,2026-08-14,Cuidado Personal,0.670,0.556,1.317
 cochabamba,2026-08-14,Cuidado del Bebé,1.489,1.068,2.666
@@ -33480,9 +33480,9 @@ cochabamba,2026-08-14,Panadería,0.253,0.252,0.253
 cochabamba,2026-08-14,Pastelería y Masas Típicas,0.359,0.353,0.359
 la_paz,2026-08-14,Abarrotes,0.385,0.385,0.485
 la_paz,2026-08-14,Bazar,0.422,0.422,1.635
-la_paz,2026-08-14,Bebidas,0.238,0.238,0.277
+la_paz,2026-08-14,Bebidas,0.238,0.238,0.291
 la_paz,2026-08-14,Carnes,9.546,8.469,11.765
-la_paz,2026-08-14,Compuesto,0.880,0.745,1.399
+la_paz,2026-08-14,Compuesto,0.880,0.745,1.400
 la_paz,2026-08-14,Congelados,0.208,0.208,0.350
 la_paz,2026-08-14,Cuidado Personal,0.489,0.200,1.233
 la_paz,2026-08-14,Cuidado del Bebé,0.280,-0.844,1.311
@@ -33512,9 +33512,9 @@ santa_cruz,2026-08-14,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-14,Pastelería y Masas Típicas,0.477,0.475,0.477
 cochabamba,2026-08-15,Abarrotes,0.571,0.571,0.964
 cochabamba,2026-08-15,Bazar,0.439,0.439,1.636
-cochabamba,2026-08-15,Bebidas,-0.185,-0.185,0.153
+cochabamba,2026-08-15,Bebidas,-0.185,-0.185,0.010
 cochabamba,2026-08-15,Carnes,4.788,3.164,7.716
-cochabamba,2026-08-15,Compuesto,0.261,0.066,1.165
+cochabamba,2026-08-15,Compuesto,0.261,0.066,1.154
 cochabamba,2026-08-15,Congelados,0.522,0.522,0.702
 cochabamba,2026-08-15,Cuidado Personal,0.635,0.513,1.333
 cochabamba,2026-08-15,Cuidado del Bebé,1.152,0.701,2.417
@@ -33527,9 +33527,9 @@ cochabamba,2026-08-15,Panadería,0.262,0.261,0.262
 cochabamba,2026-08-15,Pastelería y Masas Típicas,0.359,0.353,0.359
 la_paz,2026-08-15,Abarrotes,0.385,0.385,0.498
 la_paz,2026-08-15,Bazar,0.422,0.422,1.723
-la_paz,2026-08-15,Bebidas,0.251,0.251,0.294
+la_paz,2026-08-15,Bebidas,0.251,0.251,0.309
 la_paz,2026-08-15,Carnes,9.281,8.129,11.653
-la_paz,2026-08-15,Compuesto,0.858,0.713,1.414
+la_paz,2026-08-15,Compuesto,0.858,0.713,1.416
 la_paz,2026-08-15,Congelados,0.208,0.208,0.361
 la_paz,2026-08-15,Cuidado Personal,0.483,0.172,1.284
 la_paz,2026-08-15,Cuidado del Bebé,-0.003,-1.203,1.099
@@ -33559,9 +33559,9 @@ santa_cruz,2026-08-15,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-15,Pastelería y Masas Típicas,0.477,0.475,0.477
 cochabamba,2026-08-16,Abarrotes,1.057,1.057,1.484
 cochabamba,2026-08-16,Bazar,0.439,0.439,1.728
-cochabamba,2026-08-16,Bebidas,-0.082,-0.082,0.280
+cochabamba,2026-08-16,Bebidas,-0.082,-0.082,0.127
 cochabamba,2026-08-16,Carnes,4.850,3.118,7.978
-cochabamba,2026-08-16,Compuesto,0.335,0.127,1.302
+cochabamba,2026-08-16,Compuesto,0.335,0.127,1.290
 cochabamba,2026-08-16,Congelados,0.565,0.565,0.758
 cochabamba,2026-08-16,Cuidado Personal,0.633,0.502,1.381
 cochabamba,2026-08-16,Cuidado del Bebé,1.470,0.985,2.829
@@ -33574,9 +33574,9 @@ cochabamba,2026-08-16,Panadería,0.262,0.260,0.262
 cochabamba,2026-08-16,Pastelería y Masas Típicas,0.359,0.353,0.359
 la_paz,2026-08-16,Abarrotes,0.601,0.601,0.729
 la_paz,2026-08-16,Bazar,0.422,0.422,1.810
-la_paz,2026-08-16,Bebidas,0.378,0.378,0.424
+la_paz,2026-08-16,Bebidas,0.378,0.378,0.440
 la_paz,2026-08-16,Carnes,7.908,6.696,10.409
-la_paz,2026-08-16,Compuesto,0.952,0.798,1.548
+la_paz,2026-08-16,Compuesto,0.952,0.798,1.550
 la_paz,2026-08-16,Congelados,0.117,0.117,0.280
 la_paz,2026-08-16,Cuidado Personal,0.537,0.204,1.393
 la_paz,2026-08-16,Cuidado del Bebé,1.046,-0.247,2.234
@@ -33606,9 +33606,9 @@ santa_cruz,2026-08-16,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-16,Pastelería y Masas Típicas,0.477,0.475,0.477
 cochabamba,2026-08-17,Abarrotes,0.934,0.934,1.392
 cochabamba,2026-08-17,Bazar,0.439,0.439,1.820
-cochabamba,2026-08-17,Bebidas,-0.077,-0.077,0.309
+cochabamba,2026-08-17,Bebidas,-0.077,-0.077,0.146
 cochabamba,2026-08-17,Carnes,4.850,3.011,8.177
-cochabamba,2026-08-17,Compuesto,0.323,0.101,1.353
+cochabamba,2026-08-17,Compuesto,0.323,0.101,1.340
 cochabamba,2026-08-17,Congelados,0.565,0.565,0.770
 cochabamba,2026-08-17,Cuidado Personal,0.633,0.493,1.431
 cochabamba,2026-08-17,Cuidado del Bebé,1.569,1.051,3.021
@@ -33621,9 +33621,9 @@ cochabamba,2026-08-17,Panadería,0.262,0.260,0.262
 cochabamba,2026-08-17,Pastelería y Masas Típicas,0.359,0.352,0.359
 la_paz,2026-08-17,Abarrotes,0.601,0.601,0.742
 la_paz,2026-08-17,Bazar,0.422,0.422,1.897
-la_paz,2026-08-17,Bebidas,0.378,0.378,0.427
+la_paz,2026-08-17,Bebidas,0.378,0.378,0.445
 la_paz,2026-08-17,Carnes,4.639,3.391,7.218
-la_paz,2026-08-17,Compuesto,0.755,0.591,1.388
+la_paz,2026-08-17,Compuesto,0.755,0.591,1.391
 la_paz,2026-08-17,Congelados,0.117,0.117,0.291
 la_paz,2026-08-17,Cuidado Personal,0.518,0.163,1.430
 la_paz,2026-08-17,Cuidado del Bebé,1.046,-0.327,2.309
@@ -33653,9 +33653,9 @@ santa_cruz,2026-08-17,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-17,Pastelería y Masas Típicas,0.506,0.504,0.506
 cochabamba,2026-08-18,Abarrotes,0.934,0.934,1.426
 cochabamba,2026-08-18,Bazar,0.439,0.439,1.940
-cochabamba,2026-08-18,Bebidas,-0.077,-0.077,0.332
+cochabamba,2026-08-18,Bebidas,-0.077,-0.077,0.159
 cochabamba,2026-08-18,Carnes,4.850,2.904,8.375
-cochabamba,2026-08-18,Compuesto,0.287,0.053,1.382
+cochabamba,2026-08-18,Compuesto,0.287,0.053,1.368
 cochabamba,2026-08-18,Congelados,0.565,0.565,0.783
 cochabamba,2026-08-18,Cuidado Personal,0.633,0.485,1.482
 cochabamba,2026-08-18,Cuidado del Bebé,1.569,1.018,3.116
@@ -33668,9 +33668,9 @@ cochabamba,2026-08-18,Panadería,0.262,0.259,0.262
 cochabamba,2026-08-18,Pastelería y Masas Típicas,0.359,0.352,0.359
 la_paz,2026-08-18,Abarrotes,0.601,0.601,0.755
 la_paz,2026-08-18,Bazar,0.422,0.422,1.985
-la_paz,2026-08-18,Bebidas,0.378,0.378,0.431
+la_paz,2026-08-18,Bebidas,0.378,0.378,0.449
 la_paz,2026-08-18,Carnes,4.639,3.318,7.372
-la_paz,2026-08-18,Compuesto,0.820,0.646,1.492
+la_paz,2026-08-18,Compuesto,0.820,0.646,1.495
 la_paz,2026-08-18,Congelados,0.117,0.117,0.302
 la_paz,2026-08-18,Cuidado Personal,0.518,0.141,1.487
 la_paz,2026-08-18,Cuidado del Bebé,1.046,-0.407,2.384
@@ -33700,9 +33700,9 @@ santa_cruz,2026-08-18,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-18,Pastelería y Masas Típicas,0.506,0.504,0.506
 cochabamba,2026-08-19,Abarrotes,0.921,0.921,1.446
 cochabamba,2026-08-19,Bazar,0.458,0.458,2.079
-cochabamba,2026-08-19,Bebidas,-0.081,-0.081,0.351
+cochabamba,2026-08-19,Bebidas,-0.081,-0.081,0.168
 cochabamba,2026-08-19,Carnes,3.044,1.025,6.704
-cochabamba,2026-08-19,Compuesto,0.193,-0.054,1.351
+cochabamba,2026-08-19,Compuesto,0.193,-0.054,1.337
 cochabamba,2026-08-19,Congelados,0.565,0.565,0.796
 cochabamba,2026-08-19,Cuidado Personal,0.634,0.477,1.534
 cochabamba,2026-08-19,Cuidado del Bebé,1.569,0.984,3.211
@@ -33715,9 +33715,9 @@ cochabamba,2026-08-19,Panadería,0.261,0.258,0.261
 cochabamba,2026-08-19,Pastelería y Masas Típicas,0.359,0.351,0.359
 la_paz,2026-08-19,Abarrotes,0.595,0.595,0.762
 la_paz,2026-08-19,Bazar,0.443,0.443,2.093
-la_paz,2026-08-19,Bebidas,0.380,0.380,0.436
+la_paz,2026-08-19,Bebidas,0.380,0.380,0.456
 la_paz,2026-08-19,Carnes,2.712,1.343,5.545
-la_paz,2026-08-19,Compuesto,0.681,0.498,1.392
+la_paz,2026-08-19,Compuesto,0.681,0.498,1.394
 la_paz,2026-08-19,Congelados,0.117,0.117,0.313
 la_paz,2026-08-19,Cuidado Personal,0.518,0.119,1.545
 la_paz,2026-08-19,Cuidado del Bebé,1.046,-0.488,2.459
@@ -33747,9 +33747,9 @@ santa_cruz,2026-08-19,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-19,Pastelería y Masas Típicas,0.509,0.506,0.509
 cochabamba,2026-08-20,Abarrotes,0.924,0.924,1.483
 cochabamba,2026-08-20,Bazar,0.458,0.458,2.200
-cochabamba,2026-08-20,Bebidas,-0.081,-0.081,0.375
+cochabamba,2026-08-20,Bebidas,-0.081,-0.081,0.182
 cochabamba,2026-08-20,Carnes,2.660,0.545,6.502
-cochabamba,2026-08-20,Compuesto,0.179,-0.082,1.402
+cochabamba,2026-08-20,Compuesto,0.179,-0.082,1.387
 cochabamba,2026-08-20,Congelados,0.573,0.573,0.818
 cochabamba,2026-08-20,Cuidado Personal,0.636,0.470,1.587
 cochabamba,2026-08-20,Cuidado del Bebé,1.569,0.950,3.310
@@ -33762,9 +33762,9 @@ cochabamba,2026-08-20,Panadería,0.261,0.257,0.261
 cochabamba,2026-08-20,Pastelería y Masas Típicas,0.359,0.351,0.359
 la_paz,2026-08-20,Abarrotes,0.599,0.599,0.790
 la_paz,2026-08-20,Bazar,0.443,0.443,2.206
-la_paz,2026-08-20,Bebidas,0.380,0.380,0.443
+la_paz,2026-08-20,Bebidas,0.380,0.380,0.464
 la_paz,2026-08-20,Carnes,2.712,1.272,5.696
-la_paz,2026-08-20,Compuesto,0.739,0.545,1.494
+la_paz,2026-08-20,Compuesto,0.739,0.545,1.496
 la_paz,2026-08-20,Congelados,0.117,0.117,0.324
 la_paz,2026-08-20,Cuidado Personal,0.517,0.096,1.603
 la_paz,2026-08-20,Cuidado del Bebé,1.046,-0.604,2.568
@@ -33794,9 +33794,9 @@ santa_cruz,2026-08-20,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-20,Pastelería y Masas Típicas,0.509,0.506,0.509
 cochabamba,2026-08-21,Abarrotes,0.943,0.943,1.536
 cochabamba,2026-08-21,Bazar,1.074,1.074,2.947
-cochabamba,2026-08-21,Bebidas,-0.083,-0.083,0.397
+cochabamba,2026-08-21,Bebidas,-0.083,-0.083,0.194
 cochabamba,2026-08-21,Carnes,2.951,0.724,7.000
-cochabamba,2026-08-21,Compuesto,0.183,-0.091,1.471
+cochabamba,2026-08-21,Compuesto,0.183,-0.091,1.455
 cochabamba,2026-08-21,Congelados,0.531,0.531,0.788
 cochabamba,2026-08-21,Cuidado Personal,0.634,0.459,1.636
 cochabamba,2026-08-21,Cuidado del Bebé,1.569,0.915,3.409
@@ -33809,9 +33809,9 @@ cochabamba,2026-08-21,Panadería,0.261,0.257,0.261
 cochabamba,2026-08-21,Pastelería y Masas Típicas,0.359,0.351,0.359
 la_paz,2026-08-21,Abarrotes,0.640,0.640,0.856
 la_paz,2026-08-21,Bazar,1.214,1.214,3.106
-la_paz,2026-08-21,Bebidas,0.385,0.385,0.454
+la_paz,2026-08-21,Bebidas,0.385,0.385,0.477
 la_paz,2026-08-21,Carnes,-0.288,-1.756,2.756
-la_paz,2026-08-21,Compuesto,0.606,0.401,1.403
+la_paz,2026-08-21,Compuesto,0.606,0.401,1.406
 la_paz,2026-08-21,Congelados,0.117,0.117,0.335
 la_paz,2026-08-21,Cuidado Personal,0.517,0.073,1.662
 la_paz,2026-08-21,Cuidado del Bebé,1.046,-0.721,2.677
@@ -33841,9 +33841,9 @@ santa_cruz,2026-08-21,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-21,Pastelería y Masas Típicas,0.509,0.506,0.509
 cochabamba,2026-08-22,Abarrotes,0.958,0.958,1.586
 cochabamba,2026-08-22,Bazar,1.074,1.074,3.069
-cochabamba,2026-08-22,Bebidas,-0.016,-0.016,0.489
+cochabamba,2026-08-22,Bebidas,-0.016,-0.016,0.275
 cochabamba,2026-08-22,Carnes,2.951,0.620,7.197
-cochabamba,2026-08-22,Compuesto,0.218,-0.070,1.572
+cochabamba,2026-08-22,Compuesto,0.218,-0.070,1.555
 cochabamba,2026-08-22,Congelados,0.524,0.524,0.795
 cochabamba,2026-08-22,Cuidado Personal,0.654,0.470,1.708
 cochabamba,2026-08-22,Cuidado del Bebé,1.569,0.878,3.514
@@ -33856,9 +33856,9 @@ cochabamba,2026-08-22,Panadería,0.261,0.256,0.261
 cochabamba,2026-08-22,Pastelería y Masas Típicas,0.359,0.350,0.359
 la_paz,2026-08-22,Abarrotes,0.672,0.672,0.914
 la_paz,2026-08-22,Bazar,1.214,1.214,3.221
-la_paz,2026-08-22,Bebidas,0.385,0.385,0.460
+la_paz,2026-08-22,Bebidas,0.385,0.385,0.486
 la_paz,2026-08-22,Carnes,0.172,-1.372,3.378
-la_paz,2026-08-22,Compuesto,0.651,0.436,1.492
+la_paz,2026-08-22,Compuesto,0.651,0.436,1.495
 la_paz,2026-08-22,Congelados,0.117,0.117,0.346
 la_paz,2026-08-22,Cuidado Personal,0.517,0.050,1.721
 la_paz,2026-08-22,Cuidado del Bebé,1.046,-0.838,2.787
@@ -33888,9 +33888,9 @@ santa_cruz,2026-08-22,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-22,Pastelería y Masas Típicas,0.509,0.506,0.509
 cochabamba,2026-08-23,Abarrotes,1.255,1.255,1.922
 cochabamba,2026-08-23,Bazar,1.074,1.074,3.190
-cochabamba,2026-08-23,Bebidas,-0.011,-0.011,0.519
+cochabamba,2026-08-23,Bebidas,-0.011,-0.011,0.295
 cochabamba,2026-08-23,Carnes,3.518,1.069,7.986
-cochabamba,2026-08-23,Compuesto,0.271,-0.029,1.692
+cochabamba,2026-08-23,Compuesto,0.271,-0.029,1.675
 cochabamba,2026-08-23,Congelados,0.524,0.524,0.808
 cochabamba,2026-08-23,Cuidado Personal,0.661,0.468,1.766
 cochabamba,2026-08-23,Cuidado del Bebé,1.569,0.841,3.619
@@ -33903,9 +33903,9 @@ cochabamba,2026-08-23,Panadería,0.261,0.257,0.261
 cochabamba,2026-08-23,Pastelería y Masas Típicas,0.359,0.350,0.359
 la_paz,2026-08-23,Abarrotes,0.900,0.900,1.169
 la_paz,2026-08-23,Bazar,1.214,1.214,3.357
-la_paz,2026-08-23,Bebidas,0.299,0.299,0.381
+la_paz,2026-08-23,Bebidas,0.299,0.299,0.409
 la_paz,2026-08-23,Carnes,-0.144,-1.753,3.199
-la_paz,2026-08-23,Compuesto,0.489,0.263,1.373
+la_paz,2026-08-23,Compuesto,0.489,0.263,1.376
 la_paz,2026-08-23,Congelados,0.117,0.117,0.357
 la_paz,2026-08-23,Cuidado Personal,0.516,0.026,1.780
 la_paz,2026-08-23,Cuidado del Bebé,1.229,-0.775,3.083
@@ -33935,9 +33935,9 @@ santa_cruz,2026-08-23,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-23,Pastelería y Masas Típicas,0.509,0.506,0.509
 cochabamba,2026-08-24,Abarrotes,1.274,1.274,1.977
 cochabamba,2026-08-24,Bazar,1.074,1.074,3.312
-cochabamba,2026-08-24,Bebidas,-0.011,-0.011,0.545
+cochabamba,2026-08-24,Bebidas,-0.011,-0.011,0.309
 cochabamba,2026-08-24,Carnes,3.518,0.964,8.184
-cochabamba,2026-08-24,Compuesto,0.281,-0.032,1.769
+cochabamba,2026-08-24,Compuesto,0.281,-0.032,1.751
 cochabamba,2026-08-24,Congelados,0.524,0.524,0.821
 cochabamba,2026-08-24,Cuidado Personal,0.663,0.461,1.821
 cochabamba,2026-08-24,Cuidado del Bebé,1.569,0.804,3.724
@@ -33950,9 +33950,9 @@ cochabamba,2026-08-24,Panadería,0.261,0.257,0.261
 cochabamba,2026-08-24,Pastelería y Masas Típicas,0.359,0.349,0.359
 la_paz,2026-08-24,Abarrotes,0.864,0.864,1.158
 la_paz,2026-08-24,Bazar,1.214,1.214,3.493
-la_paz,2026-08-24,Bebidas,0.299,0.299,0.387
+la_paz,2026-08-24,Bebidas,0.299,0.299,0.417
 la_paz,2026-08-24,Carnes,-0.144,-1.822,3.347
-la_paz,2026-08-24,Compuesto,0.484,0.247,1.413
+la_paz,2026-08-24,Compuesto,0.484,0.247,1.416
 la_paz,2026-08-24,Congelados,0.117,0.117,0.367
 la_paz,2026-08-24,Cuidado Personal,0.516,0.003,1.841
 la_paz,2026-08-24,Cuidado del Bebé,1.229,-0.891,3.193
@@ -33982,9 +33982,9 @@ santa_cruz,2026-08-24,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-24,Pastelería y Masas Típicas,0.509,0.506,0.509
 cochabamba,2026-08-25,Abarrotes,1.274,1.274,2.013
 cochabamba,2026-08-25,Bazar,1.074,1.074,3.434
-cochabamba,2026-08-25,Bebidas,-0.011,-0.011,0.570
+cochabamba,2026-08-25,Bebidas,-0.011,-0.011,0.324
 cochabamba,2026-08-25,Carnes,2.251,-0.376,7.056
-cochabamba,2026-08-25,Compuesto,0.239,-0.087,1.793
+cochabamba,2026-08-25,Compuesto,0.239,-0.087,1.774
 cochabamba,2026-08-25,Congelados,0.524,0.524,0.833
 cochabamba,2026-08-25,Cuidado Personal,0.663,0.451,1.875
 cochabamba,2026-08-25,Cuidado del Bebé,1.569,0.767,3.830
@@ -33997,9 +33997,9 @@ cochabamba,2026-08-25,Panadería,0.261,0.258,0.261
 cochabamba,2026-08-25,Pastelería y Masas Típicas,0.359,0.349,0.359
 la_paz,2026-08-25,Abarrotes,0.864,0.864,1.184
 la_paz,2026-08-25,Bazar,1.214,1.214,3.630
-la_paz,2026-08-25,Bebidas,0.299,0.299,0.394
+la_paz,2026-08-25,Bebidas,0.299,0.299,0.426
 la_paz,2026-08-25,Carnes,-0.319,-2.063,3.315
-la_paz,2026-08-25,Compuesto,0.473,0.225,1.447
+la_paz,2026-08-25,Compuesto,0.473,0.225,1.451
 la_paz,2026-08-25,Congelados,0.117,0.117,0.379
 la_paz,2026-08-25,Cuidado Personal,0.516,-0.021,1.902
 la_paz,2026-08-25,Cuidado del Bebé,1.229,-1.008,3.303
@@ -34029,9 +34029,9 @@ santa_cruz,2026-08-25,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-25,Pastelería y Masas Típicas,0.509,0.506,0.509
 cochabamba,2026-08-26,Abarrotes,1.385,1.385,2.161
 cochabamba,2026-08-26,Bazar,1.074,1.074,3.556
-cochabamba,2026-08-26,Bebidas,0.011,0.011,0.618
+cochabamba,2026-08-26,Bebidas,0.011,0.011,0.361
 cochabamba,2026-08-26,Carnes,1.498,-1.213,6.463
-cochabamba,2026-08-26,Compuesto,0.340,0.001,1.963
+cochabamba,2026-08-26,Compuesto,0.340,0.001,1.943
 cochabamba,2026-08-26,Congelados,0.524,0.524,0.846
 cochabamba,2026-08-26,Cuidado Personal,0.663,0.442,1.929
 cochabamba,2026-08-26,Cuidado del Bebé,1.569,0.730,3.935
@@ -34044,9 +34044,9 @@ cochabamba,2026-08-26,Panadería,0.261,0.259,0.261
 cochabamba,2026-08-26,Pastelería y Masas Típicas,0.359,0.349,0.359
 la_paz,2026-08-26,Abarrotes,0.955,0.955,1.302
 la_paz,2026-08-26,Bazar,1.214,1.214,3.766
-la_paz,2026-08-26,Bebidas,0.297,0.297,0.398
+la_paz,2026-08-26,Bebidas,0.297,0.297,0.432
 la_paz,2026-08-26,Carnes,1.731,-0.120,5.590
-la_paz,2026-08-26,Compuesto,0.646,0.387,1.668
+la_paz,2026-08-26,Compuesto,0.646,0.387,1.672
 la_paz,2026-08-26,Congelados,0.117,0.117,0.392
 la_paz,2026-08-26,Cuidado Personal,0.516,-0.044,1.963
 la_paz,2026-08-26,Cuidado del Bebé,1.229,-1.126,3.415
@@ -34076,9 +34076,9 @@ santa_cruz,2026-08-26,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-26,Pastelería y Masas Típicas,0.509,0.508,0.509
 cochabamba,2026-08-27,Abarrotes,1.417,1.417,2.232
 cochabamba,2026-08-27,Bazar,1.074,1.074,3.681
-cochabamba,2026-08-27,Bebidas,0.242,0.242,0.877
+cochabamba,2026-08-27,Bebidas,0.242,0.242,0.608
 cochabamba,2026-08-27,Carnes,-0.393,-3.154,4.672
-cochabamba,2026-08-27,Compuesto,0.327,-0.024,2.018
+cochabamba,2026-08-27,Compuesto,0.327,-0.024,1.998
 cochabamba,2026-08-27,Congelados,0.525,0.525,0.860
 cochabamba,2026-08-27,Cuidado Personal,0.685,0.455,2.006
 cochabamba,2026-08-27,Cuidado del Bebé,1.689,0.812,4.163
@@ -34091,9 +34091,9 @@ cochabamba,2026-08-27,Panadería,0.261,0.261,0.262
 cochabamba,2026-08-27,Pastelería y Masas Típicas,0.359,0.348,0.359
 la_paz,2026-08-27,Abarrotes,1.041,1.041,1.414
 la_paz,2026-08-27,Bazar,1.344,1.344,4.036
-la_paz,2026-08-27,Bebidas,0.295,0.295,0.404
+la_paz,2026-08-27,Bebidas,0.295,0.295,0.441
 la_paz,2026-08-27,Carnes,0.106,-1.784,4.052
-la_paz,2026-08-27,Compuesto,0.649,0.379,1.717
+la_paz,2026-08-27,Compuesto,0.649,0.379,1.721
 la_paz,2026-08-27,Congelados,0.117,0.117,0.404
 la_paz,2026-08-27,Cuidado Personal,0.574,-0.010,2.084
 la_paz,2026-08-27,Cuidado del Bebé,1.418,-1.060,3.721
@@ -34123,9 +34123,9 @@ santa_cruz,2026-08-27,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-27,Pastelería y Masas Típicas,0.508,0.508,0.510
 cochabamba,2026-08-28,Abarrotes,1.386,1.386,2.238
 cochabamba,2026-08-28,Bazar,1.074,1.074,3.807
-cochabamba,2026-08-28,Bebidas,0.265,0.265,0.926
+cochabamba,2026-08-28,Bebidas,0.265,0.265,0.646
 cochabamba,2026-08-28,Carnes,-0.393,-3.255,4.865
-cochabamba,2026-08-28,Compuesto,0.325,-0.040,2.086
+cochabamba,2026-08-28,Compuesto,0.325,-0.040,2.064
 cochabamba,2026-08-28,Congelados,0.525,0.525,0.873
 cochabamba,2026-08-28,Cuidado Personal,0.685,0.446,2.061
 cochabamba,2026-08-28,Cuidado del Bebé,1.689,0.775,4.269
@@ -34138,9 +34138,9 @@ cochabamba,2026-08-28,Panadería,0.261,0.261,0.265
 cochabamba,2026-08-28,Pastelería y Masas Típicas,0.359,0.347,0.359
 la_paz,2026-08-28,Abarrotes,1.025,1.025,1.425
 la_paz,2026-08-28,Bazar,1.344,1.344,4.172
-la_paz,2026-08-28,Bebidas,0.305,0.305,0.422
+la_paz,2026-08-28,Bebidas,0.305,0.305,0.461
 la_paz,2026-08-28,Carnes,-0.790,-2.732,3.269
-la_paz,2026-08-28,Compuesto,0.580,0.300,1.693
+la_paz,2026-08-28,Compuesto,0.580,0.300,1.698
 la_paz,2026-08-28,Congelados,0.117,0.117,0.417
 la_paz,2026-08-28,Cuidado Personal,0.574,-0.034,2.145
 la_paz,2026-08-28,Cuidado del Bebé,1.418,-1.179,3.834
@@ -34170,9 +34170,9 @@ santa_cruz,2026-08-28,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-28,Pastelería y Masas Típicas,0.508,0.508,0.513
 cochabamba,2026-08-29,Abarrotes,1.369,1.369,2.235
 cochabamba,2026-08-29,Bazar,1.074,1.074,3.850
-cochabamba,2026-08-29,Bebidas,0.256,0.256,0.920
+cochabamba,2026-08-29,Bebidas,0.256,0.256,0.639
 cochabamba,2026-08-29,Carnes,-0.651,-3.505,4.593
-cochabamba,2026-08-29,Compuesto,0.309,-0.056,2.080
+cochabamba,2026-08-29,Compuesto,0.309,-0.056,2.058
 cochabamba,2026-08-29,Congelados,0.525,0.525,0.879
 cochabamba,2026-08-29,Cuidado Personal,0.670,0.428,2.056
 cochabamba,2026-08-29,Cuidado del Bebé,1.539,0.618,4.139
@@ -34185,9 +34185,9 @@ cochabamba,2026-08-29,Panadería,0.261,0.261,0.268
 cochabamba,2026-08-29,Pastelería y Masas Típicas,0.359,0.347,0.359
 la_paz,2026-08-29,Abarrotes,1.062,1.062,1.485
 la_paz,2026-08-29,Bazar,1.344,1.344,4.220
-la_paz,2026-08-29,Bebidas,0.286,0.286,0.408
+la_paz,2026-08-29,Bebidas,0.286,0.286,0.449
 la_paz,2026-08-29,Carnes,-1.888,-3.809,2.126
-la_paz,2026-08-29,Compuesto,0.507,0.228,1.630
+la_paz,2026-08-29,Compuesto,0.507,0.228,1.635
 la_paz,2026-08-29,Congelados,0.117,0.117,0.419
 la_paz,2026-08-29,Cuidado Personal,0.529,-0.083,2.110
 la_paz,2026-08-29,Cuidado del Bebé,1.295,-1.337,3.746
@@ -34217,9 +34217,9 @@ santa_cruz,2026-08-29,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-29,Pastelería y Masas Típicas,0.508,0.508,0.516
 cochabamba,2026-08-30,Abarrotes,1.383,1.383,2.264
 cochabamba,2026-08-30,Bazar,0.865,0.865,3.679
-cochabamba,2026-08-30,Bebidas,0.290,0.290,0.959
+cochabamba,2026-08-30,Bebidas,0.290,0.290,0.675
 cochabamba,2026-08-30,Carnes,-6.550,-9.235,-1.618
-cochabamba,2026-08-30,Compuesto,0.103,-0.262,1.881
+cochabamba,2026-08-30,Compuesto,0.103,-0.262,1.859
 cochabamba,2026-08-30,Congelados,0.498,0.498,0.855
 cochabamba,2026-08-30,Cuidado Personal,0.518,0.275,1.915
 cochabamba,2026-08-30,Cuidado del Bebé,1.611,0.681,4.237
@@ -34232,9 +34232,9 @@ cochabamba,2026-08-30,Panadería,0.261,0.261,0.273
 cochabamba,2026-08-30,Pastelería y Masas Típicas,0.359,0.347,0.359
 la_paz,2026-08-30,Abarrotes,1.039,1.039,1.484
 la_paz,2026-08-30,Bazar,1.158,1.158,4.075
-la_paz,2026-08-30,Bebidas,0.243,0.243,0.371
+la_paz,2026-08-30,Bebidas,0.243,0.243,0.414
 la_paz,2026-08-30,Carnes,-1.888,-3.809,2.126
-la_paz,2026-08-30,Compuesto,0.546,0.266,1.681
+la_paz,2026-08-30,Compuesto,0.546,0.266,1.686
 la_paz,2026-08-30,Congelados,0.074,0.074,0.378
 la_paz,2026-08-30,Cuidado Personal,0.539,-0.077,2.131
 la_paz,2026-08-30,Cuidado del Bebé,1.295,-1.375,3.783
@@ -34264,9 +34264,9 @@ santa_cruz,2026-08-30,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-30,Pastelería y Masas Típicas,0.508,0.508,0.526
 cochabamba,2026-08-31,Abarrotes,1.539,1.539,2.435
 cochabamba,2026-08-31,Bazar,0.865,0.865,3.765
-cochabamba,2026-08-31,Bebidas,0.457,0.457,1.133
+cochabamba,2026-08-31,Bebidas,0.457,0.457,0.847
 cochabamba,2026-08-31,Carnes,-6.550,-9.235,-1.618
-cochabamba,2026-08-31,Compuesto,0.189,-0.176,1.981
+cochabamba,2026-08-31,Compuesto,0.189,-0.176,1.959
 cochabamba,2026-08-31,Congelados,0.534,0.534,0.894
 cochabamba,2026-08-31,Cuidado Personal,0.346,0.102,1.752
 cochabamba,2026-08-31,Cuidado del Bebé,1.664,0.726,4.316
@@ -34279,9 +34279,9 @@ cochabamba,2026-08-31,Panadería,0.261,0.261,0.278
 cochabamba,2026-08-31,Pastelería y Masas Típicas,0.359,0.347,0.359
 la_paz,2026-08-31,Abarrotes,1.253,1.253,1.721
 la_paz,2026-08-31,Bazar,1.187,1.187,4.153
-la_paz,2026-08-31,Bebidas,0.434,0.434,0.568
+la_paz,2026-08-31,Bebidas,0.434,0.434,0.613
 la_paz,2026-08-31,Carnes,-1.516,-3.444,2.513
-la_paz,2026-08-31,Compuesto,0.743,0.463,1.891
+la_paz,2026-08-31,Compuesto,0.743,0.463,1.897
 la_paz,2026-08-31,Congelados,0.365,0.365,0.673
 la_paz,2026-08-31,Cuidado Personal,0.120,-0.497,1.715
 la_paz,2026-08-31,Cuidado del Bebé,1.340,-1.370,3.866
@@ -34311,9 +34311,9 @@ santa_cruz,2026-08-31,Panadería,0.373,0.373,0.373
 santa_cruz,2026-08-31,Pastelería y Masas Típicas,0.585,0.586,0.614
 cochabamba,2026-09-01,Abarrotes,1.539,1.539,2.449
 cochabamba,2026-09-01,Bazar,0.865,0.865,3.852
-cochabamba,2026-09-01,Bebidas,0.455,0.455,1.137
+cochabamba,2026-09-01,Bebidas,0.455,0.455,0.848
 cochabamba,2026-09-01,Carnes,-6.550,-9.235,-1.618
-cochabamba,2026-09-01,Compuesto,0.189,-0.176,1.994
+cochabamba,2026-09-01,Compuesto,0.189,-0.176,1.971
 cochabamba,2026-09-01,Congelados,0.534,0.534,0.896
 cochabamba,2026-09-01,Cuidado Personal,0.346,0.100,1.763
 cochabamba,2026-09-01,Cuidado del Bebé,1.664,0.718,4.340
@@ -34326,9 +34326,9 @@ cochabamba,2026-09-01,Panadería,0.261,0.261,0.283
 cochabamba,2026-09-01,Pastelería y Masas Típicas,0.359,0.347,0.359
 la_paz,2026-09-01,Abarrotes,1.253,1.253,1.743
 la_paz,2026-09-01,Bazar,1.187,1.187,4.200
-la_paz,2026-09-01,Bebidas,0.434,0.434,0.574
+la_paz,2026-09-01,Bebidas,0.434,0.434,0.621
 la_paz,2026-09-01,Carnes,-1.516,-3.444,2.513
-la_paz,2026-09-01,Compuesto,0.743,0.463,1.903
+la_paz,2026-09-01,Compuesto,0.743,0.463,1.909
 la_paz,2026-09-01,Congelados,0.365,0.365,0.676
 la_paz,2026-09-01,Cuidado Personal,0.120,-0.501,1.725
 la_paz,2026-09-01,Cuidado del Bebé,1.340,-1.409,3.903
@@ -34358,9 +34358,9 @@ santa_cruz,2026-09-01,Panadería,0.373,0.373,0.373
 santa_cruz,2026-09-01,Pastelería y Masas Típicas,0.585,0.586,0.625
 cochabamba,2026-09-02,Abarrotes,2.113,2.113,3.042
 cochabamba,2026-09-02,Bazar,0.865,0.865,3.939
-cochabamba,2026-09-02,Bebidas,0.820,0.820,1.510
+cochabamba,2026-09-02,Bebidas,0.820,0.820,1.217
 cochabamba,2026-09-02,Carnes,-8.869,-11.487,-4.059
-cochabamba,2026-09-02,Compuesto,0.265,-0.101,2.085
+cochabamba,2026-09-02,Compuesto,0.265,-0.101,2.062
 cochabamba,2026-09-02,Congelados,0.568,0.568,0.930
 cochabamba,2026-09-02,Cuidado Personal,0.589,0.340,2.020
 cochabamba,2026-09-02,Cuidado del Bebé,0.347,-0.595,3.009
@@ -34373,9 +34373,9 @@ cochabamba,2026-09-02,Panadería,0.270,0.270,0.298
 cochabamba,2026-09-02,Pastelería y Masas Típicas,0.418,0.406,0.418
 la_paz,2026-09-02,Abarrotes,2.105,2.105,2.622
 la_paz,2026-09-02,Bazar,1.187,1.187,4.247
-la_paz,2026-09-02,Bebidas,0.690,0.690,0.837
+la_paz,2026-09-02,Bebidas,0.690,0.690,0.885
 la_paz,2026-09-02,Carnes,-4.515,-6.384,-0.609
-la_paz,2026-09-02,Compuesto,0.836,0.556,2.010
+la_paz,2026-09-02,Compuesto,0.836,0.556,2.016
 la_paz,2026-09-02,Congelados,0.499,0.499,0.815
 la_paz,2026-09-02,Cuidado Personal,0.417,-0.209,2.035
 la_paz,2026-09-02,Cuidado del Bebé,0.219,-2.538,2.790
@@ -34405,9 +34405,9 @@ santa_cruz,2026-09-02,Panadería,0.373,0.373,0.373
 santa_cruz,2026-09-02,Pastelería y Masas Típicas,0.590,0.591,0.648
 cochabamba,2026-09-03,Abarrotes,2.152,2.152,3.096
 cochabamba,2026-09-03,Bazar,0.865,0.865,4.030
-cochabamba,2026-09-03,Bebidas,0.823,0.823,1.521
+cochabamba,2026-09-03,Bebidas,0.823,0.823,1.224
 cochabamba,2026-09-03,Carnes,-8.869,-11.487,-4.059
-cochabamba,2026-09-03,Compuesto,0.236,-0.130,2.068
+cochabamba,2026-09-03,Compuesto,0.236,-0.130,2.045
 cochabamba,2026-09-03,Congelados,0.568,0.568,0.930
 cochabamba,2026-09-03,Cuidado Personal,0.748,0.496,2.190
 cochabamba,2026-09-03,Cuidado del Bebé,0.636,-0.317,3.331
@@ -34420,9 +34420,9 @@ cochabamba,2026-09-03,Panadería,0.270,0.270,0.304
 cochabamba,2026-09-03,Pastelería y Masas Típicas,0.418,0.413,0.418
 la_paz,2026-09-03,Abarrotes,2.064,2.064,2.602
 la_paz,2026-09-03,Bazar,1.187,1.187,4.295
-la_paz,2026-09-03,Bebidas,0.692,0.692,0.844
+la_paz,2026-09-03,Bebidas,0.692,0.692,0.894
 la_paz,2026-09-03,Carnes,-10.016,-11.777,-6.334
-la_paz,2026-09-03,Compuesto,0.445,0.168,1.626
+la_paz,2026-09-03,Compuesto,0.445,0.168,1.632
 la_paz,2026-09-03,Congelados,0.499,0.499,0.819
 la_paz,2026-09-03,Cuidado Personal,0.586,-0.045,2.220
 la_paz,2026-09-03,Cuidado del Bebé,0.494,-2.309,3.108
@@ -34452,9 +34452,9 @@ santa_cruz,2026-09-03,Panadería,0.373,0.373,0.373
 santa_cruz,2026-09-03,Pastelería y Masas Típicas,1.041,1.042,1.118
 cochabamba,2026-09-04,Abarrotes,2.148,2.148,3.107
 cochabamba,2026-09-04,Bazar,0.865,0.865,4.121
-cochabamba,2026-09-04,Bebidas,0.845,0.845,1.550
+cochabamba,2026-09-04,Bebidas,0.845,0.845,1.250
 cochabamba,2026-09-04,Carnes,-9.362,-11.966,-4.578
-cochabamba,2026-09-04,Compuesto,0.243,-0.122,2.091
+cochabamba,2026-09-04,Compuesto,0.243,-0.122,2.067
 cochabamba,2026-09-04,Congelados,0.568,0.568,0.930
 cochabamba,2026-09-04,Cuidado Personal,0.751,0.498,2.203
 cochabamba,2026-09-04,Cuidado del Bebé,0.607,-0.356,3.330
@@ -34467,9 +34467,9 @@ cochabamba,2026-09-04,Panadería,0.270,0.270,0.312
 cochabamba,2026-09-04,Pastelería y Masas Típicas,0.418,0.420,0.418
 la_paz,2026-09-04,Abarrotes,2.055,2.055,2.614
 la_paz,2026-09-04,Bazar,1.187,1.187,4.342
-la_paz,2026-09-04,Bebidas,0.684,0.684,0.842
+la_paz,2026-09-04,Bebidas,0.684,0.684,0.894
 la_paz,2026-09-04,Carnes,-10.231,-11.988,-6.559
-la_paz,2026-09-04,Compuesto,0.435,0.161,1.628
+la_paz,2026-09-04,Compuesto,0.435,0.161,1.635
 la_paz,2026-09-04,Congelados,0.499,0.499,0.824
 la_paz,2026-09-04,Cuidado Personal,0.599,-0.038,2.247
 la_paz,2026-09-04,Cuidado del Bebé,0.494,-2.348,3.145
@@ -34499,9 +34499,9 @@ santa_cruz,2026-09-04,Panadería,0.373,0.373,0.373
 santa_cruz,2026-09-04,Pastelería y Masas Típicas,1.041,1.042,1.148
 cochabamba,2026-09-05,Abarrotes,2.151,2.151,3.123
 cochabamba,2026-09-05,Bazar,0.967,0.967,4.317
-cochabamba,2026-09-05,Bebidas,0.832,0.832,1.545
+cochabamba,2026-09-05,Bebidas,0.832,0.832,1.242
 cochabamba,2026-09-05,Carnes,-9.362,-11.966,-4.578
-cochabamba,2026-09-05,Compuesto,0.272,-0.093,2.137
+cochabamba,2026-09-05,Compuesto,0.272,-0.093,2.114
 cochabamba,2026-09-05,Congelados,0.568,0.568,0.931
 cochabamba,2026-09-05,Cuidado Personal,0.938,0.682,2.404
 cochabamba,2026-09-05,Cuidado del Bebé,0.607,-0.366,3.360
@@ -34514,9 +34514,9 @@ cochabamba,2026-09-05,Panadería,0.340,0.340,0.390
 cochabamba,2026-09-05,Pastelería y Masas Típicas,0.418,0.421,0.425
 la_paz,2026-09-05,Abarrotes,2.057,2.057,2.638
 la_paz,2026-09-05,Bazar,0.876,0.876,4.068
-la_paz,2026-09-05,Bebidas,0.684,0.684,0.848
+la_paz,2026-09-05,Bebidas,0.684,0.684,0.901
 la_paz,2026-09-05,Carnes,-12.566,-14.278,-8.989
-la_paz,2026-09-05,Compuesto,0.265,-0.005,1.469
+la_paz,2026-09-05,Compuesto,0.265,-0.005,1.475
 la_paz,2026-09-05,Congelados,0.499,0.499,0.831
 la_paz,2026-09-05,Cuidado Personal,0.781,0.137,2.447
 la_paz,2026-09-05,Cuidado del Bebé,0.494,-2.389,3.184
@@ -34546,9 +34546,9 @@ santa_cruz,2026-09-05,Panadería,0.656,0.656,0.656
 santa_cruz,2026-09-05,Pastelería y Masas Típicas,1.041,1.042,1.179
 cochabamba,2026-09-06,Abarrotes,2.178,2.178,3.164
 cochabamba,2026-09-06,Bazar,0.875,0.875,4.313
-cochabamba,2026-09-06,Bebidas,0.832,0.832,1.718
+cochabamba,2026-09-06,Bebidas,0.832,0.832,1.247
 cochabamba,2026-09-06,Carnes,-10.486,-13.058,-5.761
-cochabamba,2026-09-06,Compuesto,0.425,0.059,2.324
+cochabamba,2026-09-06,Compuesto,0.425,0.059,2.287
 cochabamba,2026-09-06,Congelados,0.671,0.671,1.036
 cochabamba,2026-09-06,Cuidado Personal,0.993,0.736,2.474
 cochabamba,2026-09-06,Cuidado del Bebé,0.621,-0.364,3.409
@@ -34561,9 +34561,9 @@ cochabamba,2026-09-06,Panadería,0.340,0.340,0.399
 cochabamba,2026-09-06,Pastelería y Masas Típicas,0.418,0.421,0.434
 la_paz,2026-09-06,Abarrotes,2.114,2.114,2.717
 la_paz,2026-09-06,Bazar,0.863,0.863,4.117
-la_paz,2026-09-06,Bebidas,0.684,0.684,0.956
+la_paz,2026-09-06,Bebidas,0.684,0.684,0.909
 la_paz,2026-09-06,Carnes,-14.555,-16.227,-11.059
-la_paz,2026-09-06,Compuesto,0.136,-0.131,1.366
+la_paz,2026-09-06,Compuesto,0.136,-0.131,1.360
 la_paz,2026-09-06,Congelados,0.559,0.559,0.897
 la_paz,2026-09-06,Cuidado Personal,0.789,0.139,2.472
 la_paz,2026-09-06,Cuidado del Bebé,0.402,-2.531,3.142
@@ -34593,9 +34593,9 @@ santa_cruz,2026-09-06,Panadería,0.656,0.656,0.656
 santa_cruz,2026-09-06,Pastelería y Masas Típicas,1.041,1.042,1.209
 cochabamba,2026-09-07,Abarrotes,2.073,2.073,3.075
 cochabamba,2026-09-07,Bazar,0.875,0.875,4.430
-cochabamba,2026-09-07,Bebidas,0.698,0.698,1.757
+cochabamba,2026-09-07,Bebidas,0.698,0.698,1.118
 cochabamba,2026-09-07,Carnes,-10.486,-13.058,-5.761
-cochabamba,2026-09-07,Compuesto,0.400,0.034,2.337
+cochabamba,2026-09-07,Compuesto,0.400,0.034,2.287
 cochabamba,2026-09-07,Congelados,0.670,0.670,1.043
 cochabamba,2026-09-07,Cuidado Personal,0.989,0.728,2.485
 cochabamba,2026-09-07,Cuidado del Bebé,0.518,-0.480,3.342
@@ -34608,9 +34608,9 @@ cochabamba,2026-09-07,Panadería,0.416,0.416,0.492
 cochabamba,2026-09-07,Pastelería y Masas Típicas,0.415,0.419,0.442
 la_paz,2026-09-07,Abarrotes,2.058,2.058,2.684
 la_paz,2026-09-07,Bazar,0.863,0.863,4.180
-la_paz,2026-09-07,Bebidas,0.586,0.586,0.966
+la_paz,2026-09-07,Bebidas,0.586,0.586,0.819
 la_paz,2026-09-07,Carnes,-14.132,-15.813,-10.619
-la_paz,2026-09-07,Compuesto,0.121,-0.143,1.382
+la_paz,2026-09-07,Compuesto,0.121,-0.143,1.363
 la_paz,2026-09-07,Congelados,0.551,0.551,0.898
 la_paz,2026-09-07,Cuidado Personal,0.789,0.132,2.490
 la_paz,2026-09-07,Cuidado del Bebé,0.402,-2.585,3.193
@@ -34638,3 +34638,50 @@ santa_cruz,2026-09-07,Granos y Hortalizas,0.072,0.072,0.072
 santa_cruz,2026-09-07,Lácteos y Derivados,0.448,0.448,1.258
 santa_cruz,2026-09-07,Panadería,0.398,0.398,0.398
 santa_cruz,2026-09-07,Pastelería y Masas Típicas,1.041,1.042,1.240
+cochabamba,2026-09-08,Abarrotes,2.073,2.073,3.090
+cochabamba,2026-09-08,Bazar,0.875,0.875,4.548
+cochabamba,2026-09-08,Bebidas,0.704,0.704,1.129
+cochabamba,2026-09-08,Carnes,-10.486,-13.058,-5.761
+cochabamba,2026-09-08,Compuesto,0.401,0.034,2.314
+cochabamba,2026-09-08,Congelados,0.670,0.670,1.053
+cochabamba,2026-09-08,Cuidado Personal,0.989,0.725,2.504
+cochabamba,2026-09-08,Cuidado del Bebé,0.518,-0.490,3.373
+cochabamba,2026-09-08,Cuidado del Hogar,1.289,1.289,3.557
+cochabamba,2026-09-08,Fiambres,0.325,0.325,3.172
+cochabamba,2026-09-08,Frutas y Verduras,0.288,-8.304,17.275
+cochabamba,2026-09-08,Granos y Hortalizas,0.150,0.150,2.521
+cochabamba,2026-09-08,Lácteos y Derivados,1.761,1.761,2.483
+cochabamba,2026-09-08,Panadería,0.416,0.416,0.509
+cochabamba,2026-09-08,Pastelería y Masas Típicas,0.415,0.419,0.453
+la_paz,2026-09-08,Abarrotes,2.058,2.058,2.707
+la_paz,2026-09-08,Bazar,0.863,0.863,4.242
+la_paz,2026-09-08,Bebidas,0.586,0.586,0.827
+la_paz,2026-09-08,Carnes,-14.132,-15.813,-10.619
+la_paz,2026-09-08,Compuesto,0.121,-0.141,1.381
+la_paz,2026-09-08,Congelados,0.551,0.551,0.908
+la_paz,2026-09-08,Cuidado Personal,0.789,0.124,2.509
+la_paz,2026-09-08,Cuidado del Bebé,0.402,-2.640,3.247
+la_paz,2026-09-08,Cuidado del Hogar,2.342,2.342,4.157
+la_paz,2026-09-08,Fiambres,0.302,0.302,3.760
+la_paz,2026-09-08,Frutas y Verduras,1.869,1.827,1.870
+la_paz,2026-09-08,Granos y Hortalizas,0.254,0.256,0.254
+la_paz,2026-09-08,Lácteos y Derivados,0.657,0.657,0.854
+la_paz,2026-09-08,Panadería,0.356,0.356,0.434
+la_paz,2026-09-08,Pastelería y Masas Típicas,0.865,0.865,1.323
+santa_cruz,2026-09-08,Abarrotes,0.915,0.915,2.082
+santa_cruz,2026-09-08,Bazar,1.087,1.087,5.502
+santa_cruz,2026-09-08,Bebidas,0.354,0.354,0.862
+santa_cruz,2026-09-08,CUDADOS OTC,1.682,,
+santa_cruz,2026-09-08,Carnes,-10.496,-11.917,-9.448
+santa_cruz,2026-09-08,Compuesto,0.447,0.365,1.754
+santa_cruz,2026-09-08,Congelados,0.376,0.376,2.710
+santa_cruz,2026-09-08,Cuidado Personal,0.698,0.606,2.380
+santa_cruz,2026-09-08,Cuidado del Bebé,0.470,-0.615,3.503
+santa_cruz,2026-09-08,Cuidado del Hogar,0.965,0.963,2.540
+santa_cruz,2026-09-08,Farmacia Otc,,,
+santa_cruz,2026-09-08,Fiambres,0.214,0.214,1.630
+santa_cruz,2026-09-08,Frutas y Verduras,1.672,1.672,3.290
+santa_cruz,2026-09-08,Granos y Hortalizas,0.072,0.072,0.072
+santa_cruz,2026-09-08,Lácteos y Derivados,0.448,0.448,1.275
+santa_cruz,2026-09-08,Panadería,0.398,0.398,0.398
+santa_cruz,2026-09-08,Pastelería y Masas Típicas,1.041,1.042,1.278
