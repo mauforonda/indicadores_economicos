@@ -14570,7 +14570,7 @@ fecha,departamento,id_producto,precio
 2026-10-01,Santa Cruz,21,9.000
 2026-10-01,Santa Cruz,22,3.300
 2026-10-01,Santa Cruz,23,27.330
-2026-10-01,Santa Cruz,24,8.330
+2026-10-01,Santa Cruz,24,12.000
 2026-10-02,Cochabamba,1,19.670
 2026-10-02,Cochabamba,5,16.170
 2026-10-02,Cochabamba,6,68.670
@@ -14599,6 +14599,11 @@ fecha,departamento,id_producto,precio
 2026-10-02,La Paz,22,2.500
 2026-10-02,La Paz,23,27.330
 2026-10-02,La Paz,24,16.900
+2026-10-02,Santa Cruz,1,20.000
+2026-10-02,Santa Cruz,5,14.000
+2026-10-02,Santa Cruz,6,67.330
+2026-10-02,Santa Cruz,9,56.000
+2026-10-02,Santa Cruz,18,54.000
 2026-10-03,Cochabamba,1,20.000
 2026-10-03,Cochabamba,2,14.580
 2026-10-03,Cochabamba,3,8.330
@@ -14641,3 +14646,40 @@ fecha,departamento,id_producto,precio
 2026-10-03,La Paz,21,10.330
 2026-10-03,La Paz,23,25.670
 2026-10-03,La Paz,24,12.490
+2026-10-03,Santa Cruz,1,19.670
+2026-10-03,Santa Cruz,2,12.330
+2026-10-03,Santa Cruz,3,6.830
+2026-10-03,Santa Cruz,5,15.000
+2026-10-03,Santa Cruz,6,52.000
+2026-10-03,Santa Cruz,7,9.330
+2026-10-03,Santa Cruz,8,33.670
+2026-10-03,Santa Cruz,9,55.330
+2026-10-03,Santa Cruz,12,14.000
+2026-10-03,Santa Cruz,13,9.830
+2026-10-03,Santa Cruz,14,29.330
+2026-10-03,Santa Cruz,15,12.330
+2026-10-03,Santa Cruz,16,8.330
+2026-10-03,Santa Cruz,17,10.370
+2026-10-03,Santa Cruz,18,53.330
+2026-10-03,Santa Cruz,19,9.670
+2026-10-03,Santa Cruz,20,17.670
+2026-10-03,Santa Cruz,21,9.000
+2026-10-03,Santa Cruz,22,3.300
+2026-10-03,Santa Cruz,23,27.330
+2026-10-03,Santa Cruz,24,11.330
+2026-10-05,Cochabamba,1,20.000
+2026-10-05,Cochabamba,5,17.670
+2026-10-05,Cochabamba,6,69.330
+2026-10-05,Cochabamba,9,57.000
+2026-10-05,Cochabamba,11,47.000
+2026-10-05,Cochabamba,18,53.330
+2026-10-05,La Paz,1,22.000
+2026-10-05,La Paz,5,19.670
+2026-10-05,La Paz,6,80.670
+2026-10-05,La Paz,9,60.670
+2026-10-05,La Paz,18,59.330
+2026-10-05,Santa Cruz,1,19.670
+2026-10-05,Santa Cruz,5,16.000
+2026-10-05,Santa Cruz,6,68.670
+2026-10-05,Santa Cruz,9,59.330
+2026-10-05,Santa Cruz,18,49.330
